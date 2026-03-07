@@ -1,0 +1,412 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import FAQ from '../../../components/FAQ';
+import { CheckCircle, Phone, Star, Shield, Clock, Award, ArrowRight, MapPin } from 'lucide-react';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Residential Excavation",
+  "description": "Expert residential excavation for foundations, basements, pools, and ponds in Greater Cincinnati.",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Liteworks Co.",
+    "telephone": "+1-513-927-9675",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1481 SR 28, Suite 901",
+      "addressLocality": "Loveland",
+      "addressRegion": "OH",
+      "postalCode": "45140",
+      "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "47"
+    }
+  },
+  "areaServed": ["Greater Cincinnati", "Northern Kentucky", "Southeast Indiana"]
+};
+
+const faqs = [
+  { question: "How do you protect my yard during excavation?", answer: "We use tracked equipment to minimize ground pressure, protect lawn areas with equipment mats where needed, and haul spoil out in a way that avoids spreading mud across the property." },
+  { question: "What happens to the excavated dirt?", answer: "We discuss this during quoting. Options include stockpiling on your property for future use, spreading in another area you designate, or hauling it off-site completely." },
+  { question: "How long does a residential foundation excavation take?", answer: "Most residential foundation excavations are completed in one to two days. Pool and pond excavations are similar. Access and soil conditions affect timing — we'll give you a realistic timeline with your quote." },
+  { question: "Do you handle utility locating before digging?", answer: "Yes — on every project, every time. We contact OUPS (Ohio) or Kentucky 811 before any digging begins to locate all underground utilities. This protects your home, our crew, and the utility infrastructure." },
+  { question: "Can you excavate on a lot with tight access?", answer: "Absolutely. We regularly work on occupied residential properties with narrow gates, existing landscaping, and close neighbors. Our operators are experienced in tight-access residential work." }
+];
+---
+
+<Layout 
+  title="Residential Excavation Cincinnati | Free Quote | Liteworks Co."
+  description="Expert residential excavation in Greater Cincinnati. Foundations, basements, pools, ponds. Licensed & insured. Same-week scheduling. Get your free quote today."
+  schema={schema}
+>
+  <!-- Minimal Header — No nav links, just logo + phone + CTA -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-[#1a1a1a] border-b border-gray-800">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="/" class="flex items-center">
+        <img src="/images/liteworks-logo.png" alt="Liteworks Co." class="h-8" />
+      </a>
+      <div class="flex items-center gap-4">
+        <a href="tel:5139279675" class="hidden sm:flex items-center gap-2 text-white font-[Rajdhani] font-semibold text-lg hover:text-[#c4d931] transition">
+          <Phone className="w-4 h-4" />
+          (513) 927-9675
+        </a>
+        <a href="#get-quote" class="btn-primary text-sm !py-2 !px-4">
+          Get Free Quote
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-16">
+    
+    <!-- ═══════════ HERO — Benefit headline + trust signals + single CTA ═══════════ -->
+    <section class="relative overflow-hidden" style="min-height: 520px;">
+      <video
+        class="absolute inset-0 w-full h-full object-cover"
+        autoplay muted loop playsinline
+      >
+        <source src="/videos/excavator-main.mp4" type="video/mp4" />
+      </video>
+      <div class="absolute inset-0 bg-black/65"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+
+      <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 flex flex-col justify-center" style="min-height: 520px;">
+        <!-- Social proof badge -->
+        <div class="flex items-center gap-2 mb-6">
+          <div class="flex">
+            {[1,2,3,4,5].map(() => (
+              <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+            ))}
+          </div>
+          <span class="text-white text-sm font-medium">5.0 from 47+ reviews</span>
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold text-white mb-4 leading-tight max-w-3xl">
+          Precision Excavation for Your <span class="text-[#c4d931]">Cincinnati Home</span>
+        </h1>
+        <p class="text-xl text-gray-200 max-w-2xl mb-8 leading-relaxed">
+          Foundations, basements, pools, and ponds — done right the first time. Licensed, insured, and trusted by Cincinnati homeowners since 2016.
+        </p>
+
+        <!-- Trust badges row -->
+        <div class="flex flex-wrap gap-4 mb-8">
+          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded">
+            <Shield className="w-4 h-4 text-[#c4d931]" />
+            <span class="text-white text-sm font-medium">Licensed & Insured</span>
+          </div>
+          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded">
+            <Clock className="w-4 h-4 text-[#c4d931]" />
+            <span class="text-white text-sm font-medium">Same-Week Scheduling</span>
+          </div>
+          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded">
+            <Award className="w-4 h-4 text-[#c4d931]" />
+            <span class="text-white text-sm font-medium">10+ Years Experience</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#get-quote" class="btn-primary text-lg !py-4 !px-8">
+            Get Your Free Quote →
+          </a>
+          <a href="tel:5139279675" class="btn-secondary text-lg !py-4 !px-8">
+            <Phone className="w-5 h-5 mr-2" />
+            Call Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PROBLEM → SOLUTION (replaces wall of text) ═══════════ -->
+    <section class="py-16 md:py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+            Your Home Deserves a <span class="text-[#c4d931]">Solid Foundation</span>
+          </h2>
+          <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto text-lg">
+            Bad excavation work shows up years later — settling, cracking, water intrusion. We make sure that doesn't happen.
+          </p>
+
+          <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+            <!-- Problem column -->
+            <div class="bg-red-50 border border-red-100 rounded-xl p-8">
+              <h3 class="font-[Rajdhani] font-bold text-xl text-red-800 mb-6 flex items-center gap-2">
+                <span class="text-2xl">✕</span> What Goes Wrong With Bad Excavation
+              </h3>
+              <ul class="space-y-4">
+                <li class="flex items-start gap-3">
+                  <span class="text-red-400 font-bold mt-0.5">•</span>
+                  <span class="text-red-900">Uneven foundation walls that crack within 5 years</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-red-400 font-bold mt-0.5">•</span>
+                  <span class="text-red-900">Water pooling against your foundation after every rain</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-red-400 font-bold mt-0.5">•</span>
+                  <span class="text-red-900">Damaged utility lines from skipping OUPS calls</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-red-400 font-bold mt-0.5">•</span>
+                  <span class="text-red-900">Torn-up yards, mud everywhere, no cleanup</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-red-400 font-bold mt-0.5">•</span>
+                  <span class="text-red-900">$10K+ in structural repairs down the road</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Solution column -->
+            <div class="bg-green-50 border border-green-100 rounded-xl p-8">
+              <h3 class="font-[Rajdhani] font-bold text-xl text-green-800 mb-6 flex items-center gap-2">
+                <span class="text-2xl">✓</span> What You Get With Liteworks
+              </h3>
+              <ul class="space-y-4">
+                <li class="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <span class="text-green-900">Excavation to exact plan specs — depth, width, grade</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <span class="text-green-900">Clean vertical walls and level bottoms your contractor can trust</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <span class="text-green-900">OUPS/811 utility locating on every single project</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <span class="text-green-900">Yard protection — mats, tracked equipment, full cleanup</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <span class="text-green-900">Experienced with Cincinnati's clay soils and bedrock</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Mid-page CTA -->
+          <div class="text-center mt-12">
+            <a href="#get-quote" class="btn-primary text-lg !py-4 !px-8">
+              Get Your Free Quote →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SERVICES GRID — What We Excavate ═══════════ -->
+    <section class="py-16 md:py-20 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+          What We Excavate
+        </h2>
+        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          From new home foundations to backyard ponds — we handle it all
+        </p>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {[
+            { title: "Foundations", desc: "New home, garage, pole barn, and addition foundations excavated to your builder's exact specifications.", icon: "🏠" },
+            { title: "Basements", desc: "Full and partial basement excavation for new construction. Common throughout Cincinnati's suburban markets.", icon: "🔨" },
+            { title: "In-Ground Pools", desc: "Gunite, fiberglass, and vinyl liner pool excavation with proper access and minimal yard disturbance.", icon: "🏊" },
+            { title: "Ponds & Water Features", desc: "Basin shaping, depth contours, and shelf work for residential ponds on acreage properties.", icon: "💧" },
+            { title: "Crawlspaces", desc: "Crawlspace excavation for homes that don't need a full basement but need proper clearance below.", icon: "📐" },
+            { title: "Utility Trenching", desc: "Trenching for water, sewer, electric, and communications lines to your home.", icon: "⚡" }
+          ].map((service) => (
+            <div class="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#c4d931] transition">
+              <div class="text-3xl mb-3">{service.icon}</div>
+              <h3 class="font-[Rajdhani] font-bold text-xl text-[#1a1a1a] mb-2">{service.title}</h3>
+              <p class="text-gray-600 text-sm leading-relaxed">{service.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PROCESS — Visual steps ═══════════ -->
+    <section class="py-16 md:py-20 bg-[#1a1a1a]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-white mb-4">
+          Simple Process, Professional Results
+        </h2>
+        <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+          From first call to finished dig — we keep it straightforward
+        </p>
+        
+        <div class="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+          {[
+            { step: "Site Review", desc: "We review your plans, walk the property, and locate all utilities before any digging begins." },
+            { step: "Precision Dig", desc: "We excavate to the exact dimensions your plans require — clean walls, level bottom, no surprises." },
+            { step: "Material Management", desc: "Spoil is stockpiled, spread, or hauled away. Your yard stays as clean as possible." },
+            { step: "Contractor Handoff", desc: "We verify dimensions and depth, then hand off a dig your foundation crew can work with immediately." }
+          ].map((item, index) => (
+            <div class="relative">
+              <div class="text-6xl font-[Rajdhani] font-bold text-[#c4d931]/20 absolute -top-4 -left-2">
+                {String(index + 1).padStart(2, '0')}
+              </div>
+              <div class="relative pt-8">
+                <h3 class="text-xl font-[Rajdhani] font-bold text-white mb-3">{item.step}</h3>
+                <p class="text-gray-400 leading-relaxed">{item.desc}</p>
+              </div>
+              {index < 3 && (
+                <div class="hidden lg:block absolute top-12 -right-4">
+                  <ArrowRight className="w-6 h-6 text-[#c4d931]/40" />
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        <!-- Mid-section CTA -->
+        <div class="text-center mt-12">
+          <a href="#get-quote" class="btn-primary text-lg !py-4 !px-8">
+            Get Your Free Quote →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SOCIAL PROOF — Testimonials ═══════════ -->
+    <section class="py-16 md:py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-center gap-2 mb-4">
+          <div class="flex">
+            {[1,2,3,4,5].map(() => (
+              <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+            ))}
+          </div>
+          <span class="text-[#1a1a1a] font-semibold text-lg">5.0 Average Rating</span>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-12">
+          What Cincinnati Homeowners Say
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {[
+            {
+              quote: "Tight access, clay soil, and a neighbor's fence about six feet from the dig — the kind of job that makes a lot of contractors nervous. These guys showed up with the right machine and nailed it. Our GC said it was one of the cleaner excavations he'd worked with.",
+              name: "Kevin M.",
+              location: "Anderson Township, OH",
+              project: "Basement Excavation"
+            },
+            {
+              quote: "We bought a wooded lot in Milford and needed it cleared and rough-graded before our builder could start. Liteworks walked it with us, gave us a fair quote, and had a crew out within two weeks. Our builder actually commented on how well the site was prepped.",
+              name: "Rachel & Tom F.",
+              location: "Milford, OH",
+              project: "Lot Clearing + Foundation"
+            },
+            {
+              quote: "First heavy rain came through and the yard drained completely. Finally. I'd had two other companies tell me it would just 'always be wet back there.' Liteworks actually looked at the grade, figured out where the water was coming from, and fixed it in a day and a half.",
+              name: "Brian S.",
+              location: "West Chester, OH",
+              project: "Drainage + Grading"
+            }
+          ].map((testimonial) => (
+            <div class="bg-[#f5f5f0] rounded-xl p-6 border border-gray-100">
+              <div class="flex mb-3">
+                {[1,2,3,4,5].map(() => (
+                  <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+                ))}
+              </div>
+              <p class="text-gray-700 mb-4 leading-relaxed italic">"{testimonial.quote}"</p>
+              <div>
+                <p class="font-[Rajdhani] font-bold text-[#1a1a1a]">{testimonial.name}</p>
+                <p class="text-gray-500 text-sm flex items-center gap-1">
+                  <MapPin className="w-3 h-3" />
+                  {testimonial.location} — {testimonial.project}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FAQ — Objection handling ═══════════ -->
+    <section class="py-16 md:py-20 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+          Common Questions
+        </h2>
+        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          Everything you need to know before your excavation project
+        </p>
+        
+        <div class="max-w-3xl mx-auto">
+          <FAQ items={faqs} client:load />
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SERVICE AREA — Local relevance ═══════════ -->
+    <section class="py-12 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-6">
+          Serving Greater Cincinnati & Northern Kentucky
+        </h2>
+        <p class="text-center text-gray-500 max-w-3xl mx-auto text-sm leading-relaxed">
+          Loveland • Milford • Anderson Township • Mason • West Chester • Liberty Township • Lebanon • Indian Hill • Hyde Park • Madeira • Blue Ash • Montgomery • Batavia • Goshen • Bethel • Amelia • Fairfield • Hamilton • Middletown • Florence, KY • Erlanger, KY • Burlington, KY
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════ FINAL CTA — The conversion section ═══════════ -->
+    <section id="get-quote" class="py-16 md:py-20 bg-[#c4d931]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-4">
+          Get Your Free Excavation Quote
+        </h2>
+        <p class="text-xl text-[#1a1a1a]/80 mb-2 max-w-2xl mx-auto">
+          Tell us about your project and we'll get back to you within 24 hours with a detailed estimate.
+        </p>
+        <p class="text-[#1a1a1a]/60 mb-8">
+          No obligation. No pressure. Just a straight answer on what it'll take.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+          <a href="/get-a-quote" class="inline-flex items-center justify-center px-10 py-5 bg-[#1a1a1a] text-white font-[Rajdhani] font-semibold text-xl rounded hover:bg-black transition">
+            Get Your Free Quote
+          </a>
+          <a href="tel:5139279675" class="inline-flex items-center justify-center px-10 py-5 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-xl rounded hover:bg-[#1a1a1a] hover:text-white transition">
+            <Phone className="w-5 h-5 mr-2" />
+            (513) 927-9675
+          </a>
+        </div>
+
+        <!-- Final trust reinforcement -->
+        <div class="flex flex-wrap items-center justify-center gap-6 text-[#1a1a1a]/70 text-sm">
+          <span class="flex items-center gap-1"><Shield className="w-4 h-4" /> Licensed & Insured</span>
+          <span class="flex items-center gap-1"><Star className="w-4 h-4 fill-current" /> 5.0 Star Reviews</span>
+          <span class="flex items-center gap-1"><Clock className="w-4 h-4" /> Same-Week Scheduling</span>
+          <span class="flex items-center gap-1"><Award className="w-4 h-4" /> 150+ Projects Completed</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Minimal footer — no nav links, just legal -->
+  <footer class="bg-[#1a1a1a] py-6">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-gray-500 text-sm">
+        © 2026 Liteworks Co. All rights reserved. Serving Greater Cincinnati, Northern Kentucky & Southeast Indiana.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA bar -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 sm:hidden bg-[#1a1a1a] border-t border-gray-800 p-3 flex gap-2">
+    <a href="tel:5139279675" class="flex-1 flex items-center justify-center gap-2 bg-transparent border border-white text-white font-[Rajdhani] font-semibold py-3 rounded">
+      <Phone className="w-4 h-4" /> Call
+    </a>
+    <a href="#get-quote" class="flex-1 flex items-center justify-center gap-2 bg-[#c4d931] text-[#1a1a1a] font-[Rajdhani] font-semibold py-3 rounded">
+      Free Quote
+    </a>
+  </div>
+</Layout>
