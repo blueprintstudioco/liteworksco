@@ -142,6 +142,10 @@ export default function Header() {
               )}
             </div>
 
+            <a href="/portfolio" className="text-white hover:text-[#c4d931] transition font-medium">
+              Our Work
+            </a>
+
             <a href="/contact" className="text-white hover:text-[#c4d931] transition font-medium">
               Contact
             </a>
@@ -244,6 +248,10 @@ export default function Header() {
                   </div>
                 )}
               </div>
+
+              <a href="/portfolio" className="text-white hover:text-[#c4d931] transition font-medium py-2">
+                Our Work
+              </a>
 
               <a href="/contact" className="text-white hover:text-[#c4d931] transition font-medium py-2">
                 Contact
