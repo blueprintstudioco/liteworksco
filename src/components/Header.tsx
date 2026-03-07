@@ -47,7 +47,8 @@ export default function Header() {
               </button>
               
               {servicesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
+                <div className="absolute top-full left-0 pt-2 w-64">
+                <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
                   {services.map((service) => (
                     <a
                       key={service.href}
@@ -57,6 +58,7 @@ export default function Header() {
                       {service.name}
                     </a>
                   ))}
+                </div>
                 </div>
               )}
             </div>
