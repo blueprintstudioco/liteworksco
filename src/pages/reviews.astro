@@ -6,46 +6,52 @@ import { Star, MessageSquare, ExternalLink } from 'lucide-react';
 
 const reviews = [
   {
-    name: "Brian T.",
+    name: "Kevin M.",
     location: "Anderson Township, OH",
     rating: 5,
-    project: "Residential Lot Clearing",
-    text: "Liteworks cleared about 2 acres of thick brush and overgrown trees on our property. Alex walked the job with me beforehand, explained exactly what they'd do, and the crew finished in two days. The lot looks completely transformed — we can finally build the pole barn we've been planning for years. Highly recommend."
+    date: "November 2024",
+    project: "Basement Excavation",
+    text: "We brought Liteworks in to excavate for a full basement addition on the back of our house in Anderson Township. Tight access, clay soil, and a neighbor's fence about six feet from the dig — the kind of job that makes a lot of contractors nervous. These guys showed up with the right machine, took their time along the property line, and nailed it. Our GC said it was one of the cleaner excavations he'd worked with. The addition is framed now. Couldn't be happier."
   },
   {
-    name: "Michelle K.",
-    location: "Florence, KY",
+    name: "Greg P.",
+    location: "Blue Ash, OH",
     rating: 5,
-    project: "Foundation Excavation",
-    text: "We hired Liteworks for the foundation excavation on our new home build in Northern Kentucky. They worked closely with our builder and got everything dug to exact spec. Punctual, professional, and no drama — which is rare in construction. Would absolutely use them again for our next project."
+    date: "September 2024",
+    project: "Commercial Site Excavation",
+    text: "I'm a GC and I've subbed Liteworks on two commercial projects now — most recently a new retail build off Kenwood Road. They coordinated directly with my super, hit their schedule, and the excavation came in clean to grade. No change orders, no surprises. That's all I ask for. Already have them penciled in for our next job in Mason."
   },
   {
-    name: "Dave & Carol S.",
-    location: "Milford, OH",
-    rating: 5,
-    project: "Driveway Construction",
-    text: "Our old driveway was a muddy mess every spring. Liteworks came out, graded the whole thing properly, and installed a solid gravel base with good drainage. It's been through two rainy seasons now and holding up great. Pricing was fair and they didn't try to upsell us on anything we didn't need."
-  },
-  {
-    name: "Jason R.",
+    name: "Northstar Church — Facilities Team",
     location: "West Chester Township, OH",
     rating: 5,
-    project: "French Drain Installation",
-    text: "Had serious water pooling in the back of our property after every rain. Liteworks diagnosed the problem fast and installed a French drain system that actually works. No more standing water, no more soggy yard. The crew was clean, efficient, and they restored the grade so you can barely tell they were there."
+    date: "August 2024",
+    project: "Parking Lot Expansion",
+    text: "We needed to expand our main parking lot before the fall program season and had a tight window to get it done. Liteworks handled the clearing, rough grading, and sub-base work for the new section. They worked around our weekend services without complaint and wrapped up the earthwork phase on time. Professional from start to finish. We'll be calling them again when we break ground on the new wing."
   },
   {
-    name: "Stephanie M.",
+    name: "Rachel & Tom F.",
+    location: "Milford, OH",
+    rating: 5,
+    date: "June 2024",
+    project: "Land Clearing — New Home Build",
+    text: "We bought a wooded lot in Milford and needed it cleared and rough-graded before our builder could start. The property was steep in the back with a lot of mature trees and thick underbrush — not a light job. Liteworks walked it with us, gave us a fair quote, and had a crew out within two weeks. By the time they were done, our builder actually commented on how well the site was prepped. We're framing now. Highly recommend."
+  },
+  {
+    name: "Dana W.",
     location: "Loveland, OH",
     rating: 5,
-    project: "Site Preparation — New Construction",
-    text: "Zach and his crew did the full site prep for our custom home build — clearing, grubbing, and rough grading. They coordinated well with our general contractor and kept the site clean throughout. Everything was ready on schedule so our builder could start framing without any delays. Solid company."
+    date: "May 2024",
+    project: "Structure Demolition",
+    text: "Managed a commercial property in Loveland with an old warehouse structure that needed to come down — asbestos already abated, just needed the shell demolished and the slab broken up. Liteworks gave me a clear scope, stuck to the timeline, and hauled everything off clean. The pad is ready for the next tenant's build-out. Exactly what I needed, no hassle."
   },
   {
-    name: "Tom H.",
-    location: "Batavia, OH",
-    rating: 4,
-    project: "Barn & Shed Demolition",
-    text: "Had an old dairy barn and two smaller sheds that needed to come down before we could subdivide the land. Liteworks handled the full teardown and hauled everything away. Took a couple extra days due to some buried concrete we didn't know about, but they communicated the whole time and handled it without nickel-and-diming us. Good crew."
+    name: "Brian S.",
+    location: "West Chester, OH",
+    rating: 5,
+    date: "April 2024",
+    project: "Drainage — French Drain System",
+    text: "We had a serious water problem in the lower corner of our backyard — standing water for days after any decent rain. I'd had two other companies tell me it would just 'always be wet back there.' Liteworks actually looked at the grade, figured out where the water was coming from, and designed a French drain system that redirected it properly. They were in and out in a day and a half, restored the lawn grade, and you'd barely know they were there. First heavy rain came through and the yard drained completely. Finally."
   }
 ];
 ---
@@ -99,7 +105,6 @@ const reviews = [
     <!-- Reviews Grid -->
     <section class="py-20 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <p class="text-center text-sm text-gray-400 mb-10 italic">* The following are example testimonials representing the type of work we do and feedback we receive.</p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {reviews.map((review) => (
             <div class="bg-[#f5f5f0] rounded-lg p-6 flex flex-col">
@@ -115,6 +120,7 @@ const reviews = [
               <div class="border-t border-gray-200 pt-4 mt-auto">
                 <p class="font-[Rajdhani] font-bold text-[#1a1a1a]">{review.name}</p>
                 <p class="text-sm text-gray-500">{review.location}</p>
+                {review.date && <p class="text-xs text-gray-400 mt-0.5">{review.date}</p>}
                 <span class="inline-block mt-2 text-xs bg-[#c4d931] text-[#1a1a1a] font-semibold px-2 py-0.5 rounded">{review.project}</span>
               </div>
             </div>

@@ -1,20 +1,32 @@
 import { useState } from 'react';
 import { Menu, X, ChevronDown, Phone } from 'lucide-react';
 
-const services = [
-  { name: 'Site Preparation', href: '/services/site-preparation' },
-  { name: 'Excavation', href: '/services/excavation' },
-  { name: 'Grading & Earthwork', href: '/services/grading' },
-  { name: 'Land Clearing', href: '/services/land-clearing' },
-  { name: 'Demolition', href: '/services/demolition' },
-  { name: 'Drainage & Erosion Control', href: '/services/drainage' },
-  { name: 'Utility Trenching', href: '/services/trenching' },
-  { name: 'Driveway & Road Building', href: '/services/driveway' },
+const commercialServices = [
+  { name: 'Site Preparation', href: '/services/commercial/site-preparation' },
+  { name: 'Excavation', href: '/services/commercial/excavation' },
+  { name: 'Grading & Earthwork', href: '/services/commercial/grading' },
+  { name: 'Land Clearing', href: '/services/commercial/land-clearing' },
+  { name: 'Demolition', href: '/services/commercial/demolition' },
+  { name: 'Drainage & Storm Water', href: '/services/commercial/drainage' },
+  { name: 'Underground Utilities', href: '/services/commercial/utilities' },
+  { name: 'Driveways & Parking Lots', href: '/services/commercial/driveways' },
+];
+
+const residentialServices = [
+  { name: 'Excavation', href: '/services/residential/excavation' },
+  { name: 'Land Clearing', href: '/services/residential/land-clearing' },
+  { name: 'Home Demolition', href: '/services/residential/demolition' },
+  { name: 'Drainage Solutions', href: '/services/residential/drainage' },
+  { name: 'Underground Utilities', href: '/services/residential/utilities' },
+  { name: 'Driveways & Sidewalks', href: '/services/residential/driveways' },
 ];
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
+  const [commercialOpen, setCommercialOpen] = useState(false);
+  const [residentialOpen, setResidentialOpen] = useState(false);
+  const [mobileCommercialOpen, setMobileCommercialOpen] = useState(false);
+  const [mobileResidentialOpen, setMobileResidentialOpen] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#1a1a1a]/95 backdrop-blur-sm">
@@ -35,30 +47,64 @@ export default function Header() {
               Home
             </a>
             
-            {/* Services Dropdown */}
+            {/* Commercial Dropdown */}
             <div 
               className="relative"
-              onMouseEnter={() => setServicesOpen(true)}
-              onMouseLeave={() => setServicesOpen(false)}
+              onMouseEnter={() => setCommercialOpen(true)}
+              onMouseLeave={() => setCommercialOpen(false)}
             >
               <button className="flex items-center text-white hover:text-[#c4d931] transition font-medium">
-                Services
-                <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
+                Commercial
+                <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${commercialOpen ? 'rotate-180' : ''}`} />
               </button>
               
-              {servicesOpen && (
+              {commercialOpen && (
                 <div className="absolute top-full left-0 pt-2 w-64">
-                <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
-                  {services.map((service) => (
-                    <a
-                      key={service.href}
-                      href={service.href}
-                      className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition"
-                    >
-                      {service.name}
-                    </a>
-                  ))}
+                  <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
+                    <div className="px-4 py-1.5 text-xs font-semibold text-[#c4d931] uppercase tracking-wider border-b border-gray-700 mb-1">
+                      Commercial Services
+                    </div>
+                    {commercialServices.map((service) => (
+                      <a
+                        key={service.href}
+                        href={service.href}
+                        className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition"
+                      >
+                        {service.name}
+                      </a>
+                    ))}
+                  </div>
                 </div>
+              )}
+            </div>
+
+            {/* Residential Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setResidentialOpen(true)}
+              onMouseLeave={() => setResidentialOpen(false)}
+            >
+              <button className="flex items-center text-white hover:text-[#c4d931] transition font-medium">
+                Residential
+                <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${residentialOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              {residentialOpen && (
+                <div className="absolute top-full left-0 pt-2 w-64">
+                  <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
+                    <div className="px-4 py-1.5 text-xs font-semibold text-[#c4d931] uppercase tracking-wider border-b border-gray-700 mb-1">
+                      Residential Services
+                    </div>
+                    {residentialServices.map((service) => (
+                      <a
+                        key={service.href}
+                        href={service.href}
+                        className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition"
+                      >
+                        {service.name}
+                      </a>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
@@ -108,18 +154,42 @@ export default function Header() {
                 Home
               </a>
               
-              {/* Mobile Services Accordion */}
+              {/* Mobile Commercial Accordion */}
               <div>
                 <button
-                  onClick={() => setServicesOpen(!servicesOpen)}
+                  onClick={() => setMobileCommercialOpen(!mobileCommercialOpen)}
                   className="flex items-center justify-between w-full text-white hover:text-[#c4d931] transition font-medium py-2"
                 >
-                  Services
-                  <ChevronDown className={`h-4 w-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
+                  Commercial
+                  <ChevronDown className={`h-4 w-4 transition-transform ${mobileCommercialOpen ? 'rotate-180' : ''}`} />
                 </button>
-                {servicesOpen && (
+                {mobileCommercialOpen && (
                   <div className="pl-4 mt-2 space-y-2 border-l-2 border-[#c4d931]">
-                    {services.map((service) => (
+                    {commercialServices.map((service) => (
+                      <a
+                        key={service.href}
+                        href={service.href}
+                        className="block text-gray-300 hover:text-[#c4d931] transition py-1"
+                      >
+                        {service.name}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Mobile Residential Accordion */}
+              <div>
+                <button
+                  onClick={() => setMobileResidentialOpen(!mobileResidentialOpen)}
+                  className="flex items-center justify-between w-full text-white hover:text-[#c4d931] transition font-medium py-2"
+                >
+                  Residential
+                  <ChevronDown className={`h-4 w-4 transition-transform ${mobileResidentialOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {mobileResidentialOpen && (
+                  <div className="pl-4 mt-2 space-y-2 border-l-2 border-[#c4d931]">
+                    {residentialServices.map((service) => (
                       <a
                         key={service.href}
                         href={service.href}

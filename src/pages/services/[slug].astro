@@ -49,32 +49,44 @@ const schema = {
   <Header client:load />
   
   <main class="pt-20">
-    <!-- Hero Section -->
-    <section class="relative py-32 bg-[#1a1a1a]">
-      <div class="absolute inset-0">
+    <!-- Video Hero Section -->
+    <section class="relative overflow-hidden" style="height: 50vh; min-height: 340px;">
+      {service.heroVideo ? (
+        <video
+          class="absolute inset-0 w-full h-full object-cover"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source src={service.heroVideo} type="video/mp4" />
+        </video>
+      ) : (
         <img 
           src={service.image} 
           alt={service.title}
-          class="w-full h-full object-cover opacity-30"
+          class="absolute inset-0 w-full h-full object-cover"
         />
-        <div class="absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#1a1a1a]/80 to-transparent"></div>
-      </div>
-      <div class="relative container mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="text-sm mb-6">
+      )}
+      <div class="absolute inset-0 bg-black/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
+
+      <div class="relative h-full flex flex-col justify-end container mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+        <nav class="text-sm mb-4">
           <a href="/" class="text-gray-400 hover:text-[#c4d931]">Home</a>
           <span class="text-gray-600 mx-2">/</span>
           <a href="/#services" class="text-gray-400 hover:text-[#c4d931]">Services</a>
           <span class="text-gray-600 mx-2">/</span>
           <span class="text-[#c4d931]">{service.shortTitle}</span>
         </nav>
-        <h1 class="text-5xl md:text-6xl lg:text-7xl font-[Rajdhani] font-bold text-white mb-6">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold text-white mb-4 drop-shadow-lg">
           {service.title}
         </h1>
-        <p class="text-xl text-gray-300 max-w-2xl">
+        <p class="text-lg text-gray-200 max-w-2xl drop-shadow">
           {service.description}
         </p>
-        <div class="mt-8">
-          <a href="/get-a-quote" class="btn-primary text-lg">
+        <div class="mt-6">
+          <a href="/get-a-quote" class="btn-primary text-base">
             Get a Free Quote
           </a>
         </div>
