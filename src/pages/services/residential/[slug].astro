@@ -4,7 +4,7 @@ import Header from '../../../components/Header';
 import Footer from '../../../components/Footer.astro';
 import FAQ from '../../../components/FAQ';
 import { residentialServices, type ServiceData } from '../../../data/services';
-import { CheckCircle, ArrowRight } from 'lucide-react';
+import { CheckCircle, ArrowRight, Star, Shield, Clock, Award, Phone, MapPin } from 'lucide-react';
 
 export function getStaticPaths() {
   return residentialServices.map(service => ({
@@ -35,10 +35,20 @@ const schema = {
       "addressRegion": "OH",
       "postalCode": "45140",
       "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "50"
     }
   },
   "areaServed": ["Greater Cincinnati", "Northern Kentucky", "Southeast Indiana"]
 };
+
+const hasSituations = service.situations && service.situations.length > 0;
+const hasGallery = service.galleryImages && service.galleryImages.length > 0;
+const hasExpectations = service.expectations;
+const hasTestimonial = service.testimonial;
 ---
 
 <Layout 
@@ -49,15 +59,12 @@ const schema = {
   <Header client:load />
   
   <main class="pt-20">
-    <!-- Video Hero Section -->
-    <section class="relative overflow-hidden" style="height: 50vh; min-height: 340px;">
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="relative overflow-hidden" style="height: 50vh; min-height: 380px;">
       {service.heroVideo ? (
         <video
           class="absolute inset-0 w-full h-full object-cover"
-          autoplay
-          muted
-          loop
-          playsinline
+          autoplay muted loop playsinline
         >
           <source src={service.heroVideo} type="video/mp4" />
         </video>
@@ -68,20 +75,21 @@ const schema = {
           class="absolute inset-0 w-full h-full object-cover"
         />
       )}
-      <!-- Dark overlay -->
       <div class="absolute inset-0 bg-black/60"></div>
-      <!-- Gradient overlay -->
       <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
 
       <div class="relative h-full flex flex-col justify-end container mx-auto px-4 sm:px-6 lg:px-8 pb-10">
-        <nav class="text-sm mb-4">
-          <a href="/" class="text-gray-400 hover:text-[#c4d931]">Home</a>
-          <span class="text-gray-600 mx-2">/</span>
-          <span class="text-gray-400">Residential Services</span>
-          <span class="text-gray-600 mx-2">/</span>
-          <span class="text-[#c4d931]">{service.shortTitle}</span>
-        </nav>
-        <div class="inline-block bg-white/20 text-white text-xs font-[Rajdhani] font-bold uppercase tracking-widest px-3 py-1 rounded mb-3 backdrop-blur-sm">
+        <!-- Trust badges -->
+        <div class="flex items-center gap-2 mb-4">
+          <div class="flex">
+            {[1,2,3,4,5].map(() => (
+              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+            ))}
+          </div>
+          <span class="text-white text-sm font-medium">5.0 from 50+ reviews</span>
+        </div>
+
+        <div class="inline-block bg-white/20 text-white text-xs font-[Rajdhani] font-bold uppercase tracking-widest px-3 py-1 rounded mb-3 backdrop-blur-sm w-fit">
           Residential
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold text-white mb-4 drop-shadow-lg">
@@ -90,53 +98,174 @@ const schema = {
         <p class="text-lg text-gray-200 max-w-2xl drop-shadow">
           {service.description}
         </p>
-        <div class="mt-6">
+        
+        <div class="flex flex-wrap gap-3 mt-4 mb-6">
+          <div class="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded text-sm">
+            <Shield className="w-3.5 h-3.5 text-[#c4d931]" />
+            <span class="text-white">Licensed & Insured</span>
+          </div>
+          <div class="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded text-sm">
+            <Clock className="w-3.5 h-3.5 text-[#c4d931]" />
+            <span class="text-white">Same-Week Scheduling</span>
+          </div>
+          <div class="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded text-sm">
+            <Award className="w-3.5 h-3.5 text-[#c4d931]" />
+            <span class="text-white">Free Quotes</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3">
           <a href="/get-a-quote" class="btn-primary text-base">
-            Get a Free Quote
+            Get a Free Quote →
+          </a>
+          <a href="tel:5139279675" class="btn-secondary text-base">
+            <Phone className="w-4 h-4 mr-2" />
+            (513) 927-9675
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Full Description -->
-    <section class="py-20 bg-white">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
-          <div class="prose prose-lg">
-            {service.fullDescription.map((paragraph) => (
-              <p class="text-gray-600 mb-6 text-lg leading-relaxed">{paragraph}</p>
+    <!-- ═══════════ COMMON SITUATIONS — "Is this right for you?" ═══════════ -->
+    {hasSituations ? (
+      <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+            Sound Like Your Situation?
+          </h2>
+          <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+            Here are some common reasons Cincinnati homeowners call us for {service.shortTitle.toLowerCase()}
+          </p>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            {service.situations!.map((situation) => (
+              <div class="bg-[#f5f5f0] rounded-xl p-6 border border-gray-100">
+                <div class="text-3xl mb-3">{situation.icon}</div>
+                <h3 class="font-[Rajdhani] font-bold text-lg text-[#1a1a1a] mb-2">{situation.title}</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">{situation.description}</p>
+              </div>
+            ))}
+          </div>
+
+          <div class="text-center mt-10">
+            <a href="/get-a-quote" class="btn-primary text-base">
+              Get a Free Quote →
+            </a>
+          </div>
+        </div>
+      </section>
+    ) : (
+      <!-- Fallback: use fullDescription if no situations defined yet -->
+      <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-8">
+              About This Service
+            </h2>
+            <div class="prose prose-lg">
+              {service.fullDescription.slice(0, 3).map((paragraph) => (
+                <p class="text-gray-600 mb-6 text-lg leading-relaxed">{paragraph}</p>
+              ))}
+            </div>
+            <div class="text-center mt-8">
+              <a href="/get-a-quote" class="btn-primary text-base">
+                Get a Free Quote →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- ═══════════ PROJECT GALLERY ═══════════ -->
+    {hasGallery && (
+      <section class="py-16 md:py-20 bg-[#f5f5f0]">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+            Our {service.shortTitle} Work
+          </h2>
+          <p class="text-center text-gray-600 mb-10">
+            Recent projects across Greater Cincinnati
+          </p>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {service.galleryImages!.map((img, i) => (
+              <div class="rounded-lg overflow-hidden aspect-[4/3]">
+                <img 
+                  src={img} 
+                  alt={`${service.shortTitle} project ${i + 1}`}
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+          <div class="text-center mt-8">
+            <a href="/portfolio" class="text-[#1a1a1a] font-[Rajdhani] font-semibold hover:text-[#c4d931] transition underline text-lg">
+              View All Projects →
+            </a>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- ═══════════ WHAT TO EXPECT ═══════════ -->
+    {hasExpectations ? (
+      <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-12">
+            What to Expect
+          </h2>
+          
+          <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div class="text-center bg-[#f5f5f0] rounded-xl p-8">
+              <Clock className="w-8 h-8 text-[#c4d931] mx-auto mb-3" />
+              <div class="text-2xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-1">Timeline</div>
+              <p class="text-gray-600">{service.expectations!.timeline}</p>
+            </div>
+            <div class="text-center bg-[#f5f5f0] rounded-xl p-8">
+              <div class="text-3xl mb-3">💰</div>
+              <div class="text-2xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-1">Typical Cost</div>
+              <p class="text-gray-600">{service.expectations!.priceRange}</p>
+            </div>
+            <div class="text-center bg-[#f5f5f0] rounded-xl p-8">
+              <CheckCircle className="w-8 h-8 text-[#c4d931] mx-auto mb-3" />
+              <div class="text-2xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-1">Included</div>
+              <ul class="text-gray-600 text-sm text-left space-y-1">
+                {service.expectations!.details.map((detail) => (
+                  <li class="flex items-start gap-2">
+                    <span class="text-[#c4d931] mt-0.5">✓</span>
+                    <span>{detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    ) : (
+      <!-- Fallback: original "What's Included" -->
+      <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-12">
+            What's Included
+          </h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+            {service.included.map((item) => (
+              <div class="flex items-start gap-3 bg-[#f5f5f0] p-4 rounded-lg">
+                <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-0.5" />
+                <span class="text-gray-700">{item}</span>
+              </div>
             ))}
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    )}
 
-    <!-- What's Included -->
-    <section class="py-20 bg-[#f5f5f0]">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
-          What's Included
-        </h2>
-        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Every {service.shortTitle.toLowerCase()} project includes these services
-        </p>
-        
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
-          {service.included.map((item) => (
-            <div class="flex items-start gap-3 bg-white p-4 rounded-lg">
-              <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-0.5" />
-              <span class="text-gray-700">{item}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- Our Process -->
-    <section class="py-20 bg-[#1a1a1a]">
+    <!-- ═══════════ OUR PROCESS ═══════════ -->
+    <section class="py-16 md:py-20 bg-[#1a1a1a]">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-white mb-4">
-          Our Process
+          Simple Process, Professional Results
         </h2>
         <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
           How we approach every {service.shortTitle.toLowerCase()} project
@@ -150,7 +279,7 @@ const schema = {
               </div>
               <div class="relative pt-8">
                 <h3 class="text-xl font-[Rajdhani] font-bold text-white mb-3">{step.step}</h3>
-                <p class="text-gray-400">{step.description}</p>
+                <p class="text-gray-400 leading-relaxed">{step.description}</p>
               </div>
               {index < service.process.length - 1 && (
                 <div class="hidden lg:block absolute top-12 -right-4">
@@ -160,47 +289,93 @@ const schema = {
             </div>
           ))}
         </div>
+
+        <div class="text-center mt-12">
+          <a href="/get-a-quote" class="btn-primary text-base">
+            Get a Free Quote →
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- Mini FAQ -->
-    <section class="py-20 bg-white">
+    <!-- ═══════════ TESTIMONIAL ═══════════ -->
+    {hasTestimonial && (
+      <section class="py-16 md:py-20 bg-[#f5f5f0]">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl mx-auto text-center">
+            <div class="flex justify-center mb-4">
+              {[1,2,3,4,5].map(() => (
+                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+              ))}
+            </div>
+            <blockquote class="text-xl md:text-2xl text-gray-700 leading-relaxed italic mb-6">
+              "{service.testimonial!.quote}"
+            </blockquote>
+            <div>
+              <p class="font-[Rajdhani] font-bold text-[#1a1a1a] text-lg">{service.testimonial!.name}</p>
+              <p class="text-gray-500 flex items-center justify-center gap-1">
+                <MapPin className="w-4 h-4" />
+                {service.testimonial!.location} — {service.testimonial!.project}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- ═══════════ FAQ ═══════════ -->
+    <section class="py-16 md:py-20 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
           Common Questions
         </h2>
         <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Frequently asked questions about our {service.shortTitle.toLowerCase()} services
+          Everything you need to know about our {service.shortTitle.toLowerCase()} services
         </p>
         
         <div class="max-w-3xl mx-auto">
           <FAQ items={service.faqs} client:load />
         </div>
-        
-        <div class="text-center mt-10">
-          <a href="/faq" class="text-[#1a1a1a] font-semibold hover:text-[#c4d931] transition underline">
-            View All FAQs →
-          </a>
-        </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-20 bg-[#c4d931]">
+    <!-- ═══════════ SERVICE AREA ═══════════ -->
+    <section class="py-10 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+          Serving Greater Cincinnati & Northern Kentucky
+        </h2>
+        <p class="text-center text-gray-500 max-w-3xl mx-auto text-sm leading-relaxed">
+          Loveland • Milford • Anderson Township • Mason • West Chester • Liberty Township • Lebanon • Indian Hill • Hyde Park • Madeira • Blue Ash • Montgomery • Batavia • Goshen • Bethel • Amelia • Florence, KY • Erlanger, KY • Burlington, KY
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════ FINAL CTA ═══════════ -->
+    <section class="py-16 md:py-20 bg-[#c4d931]">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6">
+        <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-4">
           Ready to Get Started?
         </h2>
-        <p class="text-xl text-[#1a1a1a]/80 mb-8 max-w-2xl mx-auto">
-          Let's discuss your {service.shortTitle.toLowerCase()} project. Get a free quote today.
+        <p class="text-xl text-[#1a1a1a]/80 mb-2 max-w-2xl mx-auto">
+          Tell us about your {service.shortTitle.toLowerCase()} project. Free quote within 24 hours.
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#1a1a1a] text-white font-[Rajdhani] font-semibold text-lg rounded hover:bg-black transition">
+        <p class="text-[#1a1a1a]/60 mb-8">
+          No obligation. No pressure. Just a straight answer.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+          <a href="/get-a-quote" class="inline-flex items-center justify-center px-10 py-5 bg-[#1a1a1a] text-white font-[Rajdhani] font-semibold text-xl rounded hover:bg-black transition">
             Get Your Free Quote
           </a>
-          <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-lg rounded hover:bg-[#1a1a1a] hover:text-white transition">
-            Call (513) 927-9675
+          <a href="tel:5139279675" class="inline-flex items-center justify-center px-10 py-5 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-xl rounded hover:bg-[#1a1a1a] hover:text-white transition">
+            <Phone className="w-5 h-5 mr-2" />
+            (513) 927-9675
           </a>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-6 text-[#1a1a1a]/70 text-sm">
+          <span class="flex items-center gap-1"><Shield className="w-4 h-4" /> Licensed & Insured</span>
+          <span class="flex items-center gap-1"><Star className="w-4 h-4 fill-current" /> 50+ 5-Star Reviews</span>
+          <span class="flex items-center gap-1"><Clock className="w-4 h-4" /> Same-Week Scheduling</span>
         </div>
       </div>
     </section>

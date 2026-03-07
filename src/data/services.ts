@@ -7,6 +7,12 @@ export interface ServiceData {
   image: string;
   heroVideo?: string;
   fullDescription: string[];
+  // New fields for redesigned service pages
+  situations?: { title: string; description: string; icon: string }[];
+  galleryImages?: string[];
+  expectations?: { timeline: string; priceRange: string; details: string[] };
+  testimonial?: { quote: string; name: string; location: string; project: string };
+  // Legacy fields (still supported)
   included: string[];
   process: { step: string; description: string }[];
   faqs: { question: string; answer: string }[];
