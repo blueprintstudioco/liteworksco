@@ -4,6 +4,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer.astro';
 import FAQ from '../components/FAQ';
 import { MapPin, Shield, Users, ClipboardCheck, Wrench, CheckCircle } from 'lucide-react';
+import { AnimatedShield, AnimatedClock, AnimatedCheckCircle, AnimatedPhone, AnimatedAward } from '../components/icons/AnimatedIcons';
+import AnimateOnScroll from '../components/AnimateOnScroll';
+import CountUp from '../components/CountUp';
 
 const faqItems = [
   {
@@ -220,34 +223,40 @@ const schema = {
         
         <div class="grid md:grid-cols-3 gap-8">
           <!-- Step 1 -->
-          <div class="text-center">
-            <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
-              <ClipboardCheck className="w-10 h-10 text-[#1a1a1a]" />
+          <AnimateOnScroll client:visible delay={0}>
+            <div class="text-center">
+              <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
+                <AnimatedPhone client:visible size={40} className="text-[#1a1a1a]" />
+              </div>
+              <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 1</div>
+              <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">Request a Quote</h3>
+              <p class="text-gray-600">Tell us about your project. We'll schedule a site visit and provide a detailed estimate.</p>
             </div>
-            <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 1</div>
-            <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">Request a Quote</h3>
-            <p class="text-gray-600">Tell us about your project. We'll schedule a site visit and provide a detailed estimate.</p>
-          </div>
+          </AnimateOnScroll>
           
           <!-- Step 2 -->
-          <div class="text-center">
-            <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
-              <Wrench className="w-10 h-10 text-[#1a1a1a]" />
+          <AnimateOnScroll client:visible delay={0.15}>
+            <div class="text-center">
+              <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
+                <AnimatedShield client:visible size={40} className="text-[#1a1a1a]" />
+              </div>
+              <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 2</div>
+              <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">We Execute</h3>
+              <p class="text-gray-600">Our expert crew arrives on schedule with the right equipment to get the job done right.</p>
             </div>
-            <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 2</div>
-            <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">We Execute</h3>
-            <p class="text-gray-600">Our expert crew arrives on schedule with the right equipment to get the job done right.</p>
-          </div>
+          </AnimateOnScroll>
           
           <!-- Step 3 -->
-          <div class="text-center">
-            <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
-              <CheckCircle className="w-10 h-10 text-[#1a1a1a]" />
+          <AnimateOnScroll client:visible delay={0.3}>
+            <div class="text-center">
+              <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
+                <AnimatedCheckCircle client:visible size={40} className="text-[#1a1a1a]" />
+              </div>
+              <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 3</div>
+              <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">Project Complete</h3>
+              <p class="text-gray-600">We finish on time, clean up the site, and leave your property transformed.</p>
             </div>
-            <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 3</div>
-            <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">Project Complete</h3>
-            <p class="text-gray-600">We finish on time, clean up the site, and leave your property transformed.</p>
-          </div>
+          </AnimateOnScroll>
         </div>
       </div>
     </section>
@@ -360,22 +369,30 @@ const schema = {
     <section class="py-20 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-          <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">150+</div>
+          <AnimateOnScroll client:visible delay={0}>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">
+              <CountUp client:visible target={150} suffix="+" />
+            </div>
             <p class="text-gray-600 font-medium">Projects Completed</p>
-          </div>
-          <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">50+</div>
+          </AnimateOnScroll>
+          <AnimateOnScroll client:visible delay={0.1}>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">
+              <CountUp client:visible target={50} suffix="+" />
+            </div>
             <p class="text-gray-600 font-medium">5-Star Reviews</p>
-          </div>
-          <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">10+</div>
+          </AnimateOnScroll>
+          <AnimateOnScroll client:visible delay={0.2}>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">
+              <CountUp client:visible target={10} suffix="+" />
+            </div>
             <p class="text-gray-600 font-medium">Years Experience</p>
-          </div>
-          <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">100%</div>
+          </AnimateOnScroll>
+          <AnimateOnScroll client:visible delay={0.3}>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">
+              <CountUp client:visible target={100} suffix="%" />
+            </div>
             <p class="text-gray-600 font-medium">Client Satisfaction</p>
-          </div>
+          </AnimateOnScroll>
         </div>
       </div>
     </section>
