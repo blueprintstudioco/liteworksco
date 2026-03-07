@@ -1,0 +1,177 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Footer from '../components/Footer.astro';
+import FAQ from '../components/FAQ';
+
+const faqCategories = [
+  {
+    title: "General Questions",
+    items: [
+      {
+        question: "How do I get a quote for my project?",
+        answer: "Getting a quote is easy! Simply fill out our online quote request form or give us a call at (513) 927-9675. We'll schedule a site visit to assess your project and provide a detailed, no-obligation estimate typically within 48 hours."
+      },
+      {
+        question: "What areas do you serve?",
+        answer: "We proudly serve Greater Cincinnati, including Hamilton, Butler, Warren, and Clermont counties in Ohio, as well as Northern Kentucky and Southeast Indiana. If you're unsure if we service your area, give us a call!"
+      },
+      {
+        question: "Are you licensed and insured?",
+        answer: "Yes, Liteworks Co. is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our clients and our team on every project."
+      },
+      {
+        question: "Do you work with residential and commercial clients?",
+        answer: "Absolutely! We serve both residential homeowners and commercial property owners. Whether you need a residential driveway or commercial site prep, we have the equipment and expertise to handle your project."
+      }
+    ]
+  },
+  {
+    title: "Pricing & Payment",
+    items: [
+      {
+        question: "How is pricing determined?",
+        answer: "Pricing depends on several factors: project scope, site conditions, equipment needed, material quantities, and timeline. We provide detailed quotes after a site visit so you know exactly what to expect. No hidden fees or surprises."
+      },
+      {
+        question: "Do you require a deposit?",
+        answer: "For most projects, we require a deposit to schedule the work, with the balance due upon completion. The specific terms depend on the project size and are detailed in our written estimate."
+      },
+      {
+        question: "What payment methods do you accept?",
+        answer: "We accept checks, credit cards, and bank transfers. Payment terms are outlined in your project estimate and can be discussed to fit your needs."
+      }
+    ]
+  },
+  {
+    title: "Project Process",
+    items: [
+      {
+        question: "How long does a typical project take?",
+        answer: "Project timelines vary based on scope and complexity. A residential driveway might take 1-2 days, while a large land clearing or site prep project could take 1-2 weeks. Weather can also affect scheduling. We'll provide a detailed timeline with your quote."
+      },
+      {
+        question: "Do you handle permits?",
+        answer: "We can assist with the permitting process and advise on what permits may be required for your project. Some projects may require permits from local municipalities, and we're happy to guide you through the process."
+      },
+      {
+        question: "What happens if there's bad weather?",
+        answer: "Safety comes first. We may need to reschedule work during heavy rain, snow, or other severe weather. We'll communicate any weather-related delays and reschedule as soon as conditions allow."
+      },
+      {
+        question: "How do you handle underground utilities?",
+        answer: "Before any excavation or trenching work, we contact Ohio Utilities Protection Service (OUPS) to have all underground utilities marked. This is a critical safety step we never skip."
+      }
+    ]
+  },
+  {
+    title: "Equipment & Capabilities",
+    items: [
+      {
+        question: "What types of equipment do you use?",
+        answer: "We operate a versatile fleet of professional-grade equipment including excavators, skid steers, track loaders, forestry mulchers, and dump trucks. This allows us to handle projects of all sizes efficiently."
+      },
+      {
+        question: "Can you work on steep or difficult terrain?",
+        answer: "Yes! Our track equipment is designed to handle challenging terrain including steep slopes, soft ground, and rough conditions. We assess terrain during the site visit and bring the right equipment for the job."
+      },
+      {
+        question: "What size trees can you remove or mulch?",
+        answer: "Our forestry mulchers can handle trees up to 8-10 inches in diameter. Larger trees may need to be cut first, then the stumps and debris can be mulched. We can remove trees of any size with proper equipment."
+      }
+    ]
+  },
+  {
+    title: "Site Cleanup & Aftercare",
+    items: [
+      {
+        question: "Do you clean up after the work is done?",
+        answer: "Absolutely. We take pride in leaving your property clean and orderly. We remove debris, restore grades where equipment traveled, and ensure the site is ready for the next phase or for you to enjoy."
+      },
+      {
+        question: "What happens to excavated material or debris?",
+        answer: "Depending on the project and your preference, we can: haul material away, use it for backfilling, spread it on your property, or stockpile it for later use. We'll discuss options during the quoting process."
+      },
+      {
+        question: "Do you offer any warranties?",
+        answer: "We stand behind our work. If you experience any issues related to our workmanship, contact us and we'll make it right. Specific warranty terms depend on the type of work performed."
+      }
+    ]
+  }
+];
+
+const allFaqs = faqCategories.flatMap(cat => cat.items);
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": allFaqs.map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+};
+---
+
+<Layout 
+  title="FAQ | Liteworks Co. | Cincinnati Excavation & Sitework"
+  description="Frequently asked questions about Liteworks Co. excavation and sitework services. Learn about our process, pricing, and capabilities."
+  schema={schema}
+>
+  <Header client:load />
+  
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="py-16 bg-[#1a1a1a]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold text-white mb-4">
+          Frequently Asked <span class="text-[#c4d931]">Questions</span>
+        </h1>
+        <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+          Everything you need to know about working with Liteworks Co.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ Sections -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto space-y-12">
+          {faqCategories.map((category) => (
+            <div>
+              <h2 class="text-2xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6 pb-2 border-b-2 border-[#c4d931]">
+                {category.title}
+              </h2>
+              <FAQ items={category.items} client:load />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Still Have Questions -->
+    <section class="py-16 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-4">
+          Still Have Questions?
+        </h2>
+        <p class="text-gray-600 mb-8 max-w-xl mx-auto">
+          Can't find the answer you're looking for? We're here to help.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/contact" class="btn-primary">
+            Contact Us
+          </a>
+          <a href="tel:5139279675" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold rounded hover:bg-[#1a1a1a] hover:text-white transition">
+            Call (513) 927-9675
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

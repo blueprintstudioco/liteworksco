@@ -1,17 +1,419 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Footer from '../components/Footer.astro';
+import FAQ from '../components/FAQ';
+import { Shovel, Mountain, Trees, Building2, Droplets, Cable, Car, MapPin, Shield, Users, ClipboardCheck, Wrench, CheckCircle } from 'lucide-react';
 
+const services = [
+  {
+    title: 'Site Preparation',
+    description: 'Complete clearing, grubbing, and rough grading to prepare your land for construction.',
+    icon: 'Shovel',
+    href: '/services/site-preparation',
+    image: '/images/site-prep.png'
+  },
+  {
+    title: 'Excavation',
+    description: 'Professional excavation for foundations, basements, ponds, and pools.',
+    icon: 'Mountain',
+    href: '/services/excavation',
+    image: '/images/excavation.png'
+  },
+  {
+    title: 'Grading & Earthwork',
+    description: 'Precision finish grading, leveling, and drainage shaping for your property.',
+    icon: 'Mountain',
+    href: '/services/grading',
+    image: '/images/grading.png'
+  },
+  {
+    title: 'Land Clearing',
+    description: 'Vegetation removal and forestry mulching for overgrown properties.',
+    icon: 'Trees',
+    href: '/services/land-clearing',
+    image: '/images/land-clearing.png'
+  },
+  {
+    title: 'Demolition',
+    description: 'Safe structure teardowns, concrete removal, and debris hauling.',
+    icon: 'Building2',
+    href: '/services/demolition',
+    image: '/images/demolition.png'
+  },
+  {
+    title: 'Drainage & Erosion',
+    description: 'French drains, swales, and retention ponds to manage water flow.',
+    icon: 'Droplets',
+    href: '/services/drainage',
+    image: '/images/drainage.png'
+  },
+  {
+    title: 'Utility Trenching',
+    description: 'Professional trenching for water, sewer, electric, gas, and communications.',
+    icon: 'Cable',
+    href: '/services/trenching',
+    image: '/images/trenching.png'
+  },
+  {
+    title: 'Driveways & Roads',
+    description: 'Quality gravel driveways, access roads, and turnarounds.',
+    icon: 'Car',
+    href: '/services/driveway',
+    image: '/images/driveway.png'
+  }
+];
+
+const faqItems = [
+  {
+    question: "How do I get a quote for my project?",
+    answer: "Getting a quote is easy! Simply fill out our online quote request form or give us a call at (513) 927-9675. We'll schedule a site visit to assess your project and provide a detailed, no-obligation estimate typically within 48 hours."
+  },
+  {
+    question: "What areas do you serve?",
+    answer: "We proudly serve Greater Cincinnati, including Hamilton, Butler, Warren, and Clermont counties in Ohio, as well as Northern Kentucky and Southeast Indiana. If you're unsure if we service your area, give us a call!"
+  },
+  {
+    question: "Are you licensed and insured?",
+    answer: "Yes, Liteworks Co. is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our clients and our team on every project."
+  },
+  {
+    question: "How long does a typical project take?",
+    answer: "Project timelines vary based on scope and complexity. A residential driveway might take 1-2 days, while a large land clearing or site prep project could take 1-2 weeks. We'll provide a detailed timeline with your quote."
+  },
+  {
+    question: "Do you handle permits?",
+    answer: "We can assist with the permitting process and advise on what permits may be required for your project. Some projects may require permits from local municipalities, and we're happy to guide you through the process."
+  },
+  {
+    question: "What types of equipment do you use?",
+    answer: "We operate a versatile fleet of professional-grade equipment including excavators, skid steers, track loaders, forestry mulchers, and dump trucks. This allows us to handle projects of all sizes efficiently."
+  }
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Liteworks Co.",
+  "description": "Greater Cincinnati's trusted excavation and sitework experts. Site preparation, excavation, grading, land clearing, demolition, drainage, trenching, and driveway construction.",
+  "url": "https://liteworksco.com",
+  "telephone": "+1-513-927-9675",
+  "email": "team@liteworksco.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1481 SR 28, Suite 901",
+    "addressLocality": "Loveland",
+    "addressRegion": "OH",
+    "postalCode": "45140",
+    "addressCountry": "US"
+  },
+  "areaServed": ["Greater Cincinnati", "Northern Kentucky", "Southeast Indiana"],
+  "priceRange": "$$"
+};
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Liteworks Co. | Heavy Work. Light Touch. | Cincinnati Excavation & Sitework" schema={schema}>
+  <Header client:load />
+  
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative min-h-[90vh] flex items-center justify-center bg-[#1a1a1a]">
+      <div class="absolute inset-0">
+        <img 
+          src="/images/hero-excavator.png" 
+          alt="Excavation equipment" 
+          class="w-full h-full object-cover opacity-40"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/60 via-[#1a1a1a]/40 to-[#1a1a1a]"></div>
+      </div>
+      
+      <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-[Rajdhani] font-bold text-white mb-6">
+          Heavy Work.<br />
+          <span class="text-[#c4d931]">Light Touch.</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto">
+          Greater Cincinnati's trusted excavation and sitework experts
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/get-a-quote" class="btn-primary text-lg px-8 py-4">
+            Get a Quote
+          </a>
+          <a href="tel:5139279675" class="btn-secondary text-lg px-8 py-4">
+            Call Now: (513) 927-9675
+          </a>
+        </div>
+      </div>
+      
+      <!-- Scroll indicator -->
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <svg class="w-6 h-6 text-[#c4d931]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="bg-[#1a1a1a] py-8 border-t border-gray-800">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-[#c4d931]/20 flex items-center justify-center">
+              <Shield className="w-6 h-6 text-[#c4d931]" />
+            </div>
+            <span class="text-white font-[Rajdhani] font-semibold">Licensed & Insured</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-[#c4d931]/20 flex items-center justify-center">
+              <MapPin className="w-6 h-6 text-[#c4d931]" />
+            </div>
+            <span class="text-white font-[Rajdhani] font-semibold">Serving Greater Cincinnati</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-[#c4d931]/20 flex items-center justify-center">
+              <Users className="w-6 h-6 text-[#c4d931]" />
+            </div>
+            <span class="text-white font-[Rajdhani] font-semibold">Residential & Commercial</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem/Solution Section -->
+    <section class="py-20 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 lg:gap-20">
+          <!-- Problems -->
+          <div>
+            <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-8">
+              Sound Familiar?
+            </h2>
+            <div class="space-y-4">
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm">
+                <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span class="text-red-500 font-bold">✕</span>
+                </div>
+                <p class="text-gray-700">Your property needs serious work before you can even think about building</p>
+              </div>
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm">
+                <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span class="text-red-500 font-bold">✕</span>
+                </div>
+                <p class="text-gray-700">Water pools in your yard after every rain, threatening your foundation</p>
+              </div>
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm">
+                <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span class="text-red-500 font-bold">✕</span>
+                </div>
+                <p class="text-gray-700">Overgrown brush and vegetation have taken over your land</p>
+              </div>
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm">
+                <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span class="text-red-500 font-bold">✕</span>
+                </div>
+                <p class="text-gray-700">The terrain is just too tough for standard landscapers</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Solutions -->
+          <div>
+            <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-[#c4d931] mb-8">
+              Liteworks Delivers
+            </h2>
+            <div class="space-y-4">
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm border-l-4 border-[#c4d931]">
+                <div class="w-8 h-8 rounded-full bg-[#c4d931]/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <CheckCircle className="w-5 h-5 text-[#c4d931]" />
+                </div>
+                <p class="text-gray-700"><strong>Expert site preparation</strong> to get your land build-ready</p>
+              </div>
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm border-l-4 border-[#c4d931]">
+                <div class="w-8 h-8 rounded-full bg-[#c4d931]/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <CheckCircle className="w-5 h-5 text-[#c4d931]" />
+                </div>
+                <p class="text-gray-700"><strong>Professional drainage solutions</strong> to protect your property</p>
+              </div>
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm border-l-4 border-[#c4d931]">
+                <div class="w-8 h-8 rounded-full bg-[#c4d931]/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <CheckCircle className="w-5 h-5 text-[#c4d931]" />
+                </div>
+                <p class="text-gray-700"><strong>Full-service land clearing</strong> from brush to bare ground</p>
+              </div>
+              <div class="flex items-start gap-4 bg-white p-5 rounded-lg shadow-sm border-l-4 border-[#c4d931]">
+                <div class="w-8 h-8 rounded-full bg-[#c4d931]/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <CheckCircle className="w-5 h-5 text-[#c4d931]" />
+                </div>
+                <p class="text-gray-700"><strong>Industrial equipment</strong> to tackle any terrain</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3-Step Process -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+          How It Works
+        </h2>
+        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          From first contact to finished project, we keep it simple
+        </p>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Step 1 -->
+          <div class="text-center">
+            <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
+              <ClipboardCheck className="w-10 h-10 text-[#1a1a1a]" />
+            </div>
+            <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 1</div>
+            <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">Request a Quote</h3>
+            <p class="text-gray-600">Tell us about your project. We'll schedule a site visit and provide a detailed estimate.</p>
+          </div>
+          
+          <!-- Step 2 -->
+          <div class="text-center">
+            <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
+              <Wrench className="w-10 h-10 text-[#1a1a1a]" />
+            </div>
+            <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 2</div>
+            <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">We Execute</h3>
+            <p class="text-gray-600">Our expert crew arrives on schedule with the right equipment to get the job done right.</p>
+          </div>
+          
+          <!-- Step 3 -->
+          <div class="text-center">
+            <div class="w-20 h-20 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
+              <CheckCircle className="w-10 h-10 text-[#1a1a1a]" />
+            </div>
+            <div class="text-[#c4d931] font-[Rajdhani] font-bold text-lg mb-2">Step 3</div>
+            <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-3">Project Complete</h3>
+            <p class="text-gray-600">We finish on time, clean up the site, and leave your property transformed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-20 bg-[#1a1a1a]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-white mb-4">
+          Our Services
+        </h2>
+        <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+          From clearing brush to building roads, we've got your sitework covered
+        </p>
+        
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {services.map((service) => (
+            <a 
+              href={service.href}
+              class="group relative overflow-hidden rounded-lg aspect-[4/3] block"
+            >
+              <img 
+                src={service.image} 
+                alt={service.title}
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/50 to-transparent"></div>
+              <div class="absolute inset-0 bg-[#c4d931]/0 group-hover:bg-[#c4d931]/20 transition-colors duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-5">
+                <h3 class="text-xl font-[Rajdhani] font-bold text-white mb-1">{service.title}</h3>
+                <p class="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">{service.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+        
+        <div class="text-center mt-10">
+          <a href="/get-a-quote" class="btn-primary">
+            Get a Quote for Your Project
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+          <div>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">150+</div>
+            <p class="text-gray-600 font-medium">Projects Completed</p>
+          </div>
+          <div>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">500+</div>
+            <p class="text-gray-600 font-medium">Acres Cleared</p>
+          </div>
+          <div>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">10+</div>
+            <p class="text-gray-600 font-medium">Years Experience</p>
+          </div>
+          <div>
+            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold text-[#c4d931] mb-2">100%</div>
+            <p class="text-gray-600 font-medium">Client Satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          Got questions? We've got answers.
+        </p>
+        
+        <div class="max-w-3xl mx-auto">
+          <FAQ items={faqItems} client:load />
+        </div>
+        
+        <div class="text-center mt-10">
+          <a href="/faq" class="text-[#1a1a1a] font-semibold hover:text-[#c4d931] transition underline">
+            View All FAQs →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="py-20 bg-[#c4d931]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6">
+          Ready to Break Ground?
+        </h2>
+        <p class="text-xl text-[#1a1a1a]/80 mb-8 max-w-2xl mx-auto">
+          Let's transform your property. Get a free quote today and see why Greater Cincinnati trusts Liteworks.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#1a1a1a] text-white font-[Rajdhani] font-semibold text-lg rounded hover:bg-black transition">
+            Get Your Free Quote
+          </a>
+          <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-lg rounded hover:bg-[#1a1a1a] hover:text-white transition">
+            Call (513) 927-9675
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqItems.map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+})} />
