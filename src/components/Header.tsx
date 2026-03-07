@@ -27,6 +27,8 @@ export default function Header() {
   const [residentialOpen, setResidentialOpen] = useState(false);
   const [mobileCommercialOpen, setMobileCommercialOpen] = useState(false);
   const [mobileResidentialOpen, setMobileResidentialOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#1a1a1a]/95 backdrop-blur-sm">
@@ -109,15 +111,37 @@ export default function Header() {
               )}
             </div>
 
-            <a href="/about" className="text-white hover:text-[#c4d931] transition font-medium">
-              About
-            </a>
-            <a href="/faq" className="text-white hover:text-[#c4d931] transition font-medium">
-              FAQ
-            </a>
-            <a href="/reviews" className="text-white hover:text-[#c4d931] transition font-medium">
-              Reviews
-            </a>
+            {/* About Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setAboutOpen(true)}
+              onMouseLeave={() => setAboutOpen(false)}
+            >
+              <a href="/about" className="flex items-center text-white hover:text-[#c4d931] transition font-medium">
+                About
+                <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${aboutOpen ? 'rotate-180' : ''}`} />
+              </a>
+              
+              {aboutOpen && (
+                <div className="absolute top-full left-0 pt-2 w-48">
+                  <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
+                    <a href="/about" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">
+                      Our Story
+                    </a>
+                    <a href="/reviews" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">
+                      Reviews
+                    </a>
+                    <a href="/faq" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">
+                      FAQ
+                    </a>
+                    <a href="/careers" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">
+                      Careers
+                    </a>
+                  </div>
+                </div>
+              )}
+            </div>
+
             <a href="/contact" className="text-white hover:text-[#c4d931] transition font-medium">
               Contact
             </a>
@@ -202,15 +226,25 @@ export default function Header() {
                 )}
               </div>
 
-              <a href="/about" className="text-white hover:text-[#c4d931] transition font-medium py-2">
-                About
-              </a>
-              <a href="/faq" className="text-white hover:text-[#c4d931] transition font-medium py-2">
-                FAQ
-              </a>
-              <a href="/reviews" className="text-white hover:text-[#c4d931] transition font-medium py-2">
-                Reviews
-              </a>
+              {/* Mobile About Accordion */}
+              <div>
+                <button
+                  onClick={() => setMobileAboutOpen(!mobileAboutOpen)}
+                  className="flex items-center justify-between w-full text-white hover:text-[#c4d931] transition font-medium py-2"
+                >
+                  About
+                  <ChevronDown className={`h-4 w-4 transition-transform ${mobileAboutOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {mobileAboutOpen && (
+                  <div className="pl-4 mt-2 space-y-2 border-l-2 border-[#c4d931]">
+                    <a href="/about" className="block text-gray-300 hover:text-[#c4d931] transition py-1">Our Story</a>
+                    <a href="/reviews" className="block text-gray-300 hover:text-[#c4d931] transition py-1">Reviews</a>
+                    <a href="/faq" className="block text-gray-300 hover:text-[#c4d931] transition py-1">FAQ</a>
+                    <a href="/careers" className="block text-gray-300 hover:text-[#c4d931] transition py-1">Careers</a>
+                  </div>
+                )}
+              </div>
+
               <a href="/contact" className="text-white hover:text-[#c4d931] transition font-medium py-2">
                 Contact
               </a>
