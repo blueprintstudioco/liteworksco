@@ -5,6 +5,8 @@ import Footer from '../../../components/Footer.astro';
 import FAQ from '../../../components/FAQ';
 import { residentialServices, type ServiceData } from '../../../data/services';
 import { CheckCircle, ArrowRight, Star, Shield, Clock, Award, Phone, MapPin } from 'lucide-react';
+import SituationIcon from '../../../components/icons/SituationIcon';
+import AnimateOnScroll from '../../../components/AnimateOnScroll';
 
 export function getStaticPaths() {
   return residentialServices.map(service => ({
@@ -138,12 +140,14 @@ const hasTestimonial = service.testimonial;
           </p>
 
           <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {service.situations!.map((situation) => (
-              <div class="bg-[#f5f5f0] rounded-xl p-6 border border-gray-100">
-                <div class="text-3xl mb-3">{situation.icon}</div>
-                <h3 class="font-[Rajdhani] font-bold text-lg text-[#1a1a1a] mb-2">{situation.title}</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">{situation.description}</p>
-              </div>
+            {service.situations!.map((situation, i) => (
+              <AnimateOnScroll client:visible delay={i * 0.1}>
+                <div class="bg-[#f5f5f0] rounded-xl p-6 border border-gray-100 h-full">
+                  <SituationIcon client:visible icon={situation.icon} size={32} className="text-[#c4d931] mb-3" />
+                  <h3 class="font-[Rajdhani] font-bold text-lg text-[#1a1a1a] mb-2">{situation.title}</h3>
+                  <p class="text-gray-600 text-sm leading-relaxed">{situation.description}</p>
+                </div>
+              </AnimateOnScroll>
             ))}
           </div>
 
