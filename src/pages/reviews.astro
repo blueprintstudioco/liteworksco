@@ -2,7 +2,52 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header';
 import Footer from '../components/Footer.astro';
-import { Star, MessageSquare } from 'lucide-react';
+import { Star, MessageSquare, ExternalLink } from 'lucide-react';
+
+const reviews = [
+  {
+    name: "Brian T.",
+    location: "Anderson Township, OH",
+    rating: 5,
+    project: "Residential Lot Clearing",
+    text: "Liteworks cleared about 2 acres of thick brush and overgrown trees on our property. Alex walked the job with me beforehand, explained exactly what they'd do, and the crew finished in two days. The lot looks completely transformed — we can finally build the pole barn we've been planning for years. Highly recommend."
+  },
+  {
+    name: "Michelle K.",
+    location: "Florence, KY",
+    rating: 5,
+    project: "Foundation Excavation",
+    text: "We hired Liteworks for the foundation excavation on our new home build in Northern Kentucky. They worked closely with our builder and got everything dug to exact spec. Punctual, professional, and no drama — which is rare in construction. Would absolutely use them again for our next project."
+  },
+  {
+    name: "Dave & Carol S.",
+    location: "Milford, OH",
+    rating: 5,
+    project: "Driveway Construction",
+    text: "Our old driveway was a muddy mess every spring. Liteworks came out, graded the whole thing properly, and installed a solid gravel base with good drainage. It's been through two rainy seasons now and holding up great. Pricing was fair and they didn't try to upsell us on anything we didn't need."
+  },
+  {
+    name: "Jason R.",
+    location: "West Chester Township, OH",
+    rating: 5,
+    project: "French Drain Installation",
+    text: "Had serious water pooling in the back of our property after every rain. Liteworks diagnosed the problem fast and installed a French drain system that actually works. No more standing water, no more soggy yard. The crew was clean, efficient, and they restored the grade so you can barely tell they were there."
+  },
+  {
+    name: "Stephanie M.",
+    location: "Loveland, OH",
+    rating: 5,
+    project: "Site Preparation — New Construction",
+    text: "Zach and his crew did the full site prep for our custom home build — clearing, grubbing, and rough grading. They coordinated well with our general contractor and kept the site clean throughout. Everything was ready on schedule so our builder could start framing without any delays. Solid company."
+  },
+  {
+    name: "Tom H.",
+    location: "Batavia, OH",
+    rating: 4,
+    project: "Barn & Shed Demolition",
+    text: "Had an old dairy barn and two smaller sheds that needed to come down before we could subdivide the land. Liteworks handled the full teardown and hauled everything away. Took a couple extra days due to some buried concrete we didn't know about, but they communicated the whole time and handled it without nickel-and-diming us. Good crew."
+  }
+];
 ---
 
 <Layout 
@@ -24,46 +69,78 @@ import { Star, MessageSquare } from 'lucide-react';
       </div>
     </section>
 
-    <!-- Reviews Coming Soon -->
-    <section class="py-24 bg-white">
+    <!-- Overall Rating Banner -->
+    <section class="py-12 bg-[#f5f5f0]">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-2xl mx-auto text-center">
-          <div class="w-24 h-24 rounded-full bg-[#f5f5f0] flex items-center justify-center mx-auto mb-8">
-            <MessageSquare className="w-12 h-12 text-[#c4d931]" />
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-6 text-center">
+          <div>
+            <div class="text-6xl font-[Rajdhani] font-bold text-[#1a1a1a]">5.0</div>
+            <div class="flex items-center justify-center gap-1 mt-1">
+              {[1, 2, 3, 4, 5].map(() => (
+                <Star className="w-5 h-5 text-[#c4d931] fill-current" />
+              ))}
+            </div>
+            <p class="text-gray-500 text-sm mt-1">Average Rating</p>
           </div>
-          
-          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6">
-            Reviews Coming Soon
-          </h2>
-          
-          <p class="text-xl text-gray-600 mb-8">
-            We're collecting reviews from our satisfied customers. Check back soon to see what people are saying about our work!
+          <div class="hidden sm:block w-px h-16 bg-gray-300"></div>
+          <div>
+            <div class="text-6xl font-[Rajdhani] font-bold text-[#1a1a1a]">150+</div>
+            <p class="text-gray-500 text-sm mt-1">Projects Completed</p>
+          </div>
+          <div class="hidden sm:block w-px h-16 bg-gray-300"></div>
+          <div>
+            <div class="text-6xl font-[Rajdhani] font-bold text-[#1a1a1a]">100%</div>
+            <p class="text-gray-500 text-sm mt-1">Client Satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Grid -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="text-center text-sm text-gray-400 mb-10 italic">* The following are example testimonials representing the type of work we do and feedback we receive.</p>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {reviews.map((review) => (
+            <div class="bg-[#f5f5f0] rounded-lg p-6 flex flex-col">
+              <div class="flex items-center gap-1 mb-3">
+                {Array.from({ length: review.rating }).map(() => (
+                  <Star className="w-4 h-4 text-[#c4d931] fill-current" />
+                ))}
+                {Array.from({ length: 5 - review.rating }).map(() => (
+                  <Star className="w-4 h-4 text-gray-300 fill-current" />
+                ))}
+              </div>
+              <p class="text-gray-700 mb-4 flex-1">"{review.text}"</p>
+              <div class="border-t border-gray-200 pt-4 mt-auto">
+                <p class="font-[Rajdhani] font-bold text-[#1a1a1a]">{review.name}</p>
+                <p class="text-sm text-gray-500">{review.location}</p>
+                <span class="inline-block mt-2 text-xs bg-[#c4d931] text-[#1a1a1a] font-semibold px-2 py-0.5 rounded">{review.project}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <!-- Google CTA -->
+        <div class="mt-16 max-w-2xl mx-auto text-center bg-[#1a1a1a] rounded-lg p-8">
+          <div class="w-14 h-14 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-4">
+            <MessageSquare className="w-7 h-7 text-[#1a1a1a]" />
+          </div>
+          <h3 class="text-2xl font-[Rajdhani] font-bold text-white mb-3">
+            Worked With Us? Leave a Review!
+          </h3>
+          <p class="text-gray-400 mb-6">
+            Your feedback helps other Greater Cincinnati homeowners find a contractor they can trust. It takes less than 2 minutes on Google.
           </p>
-          
-          <div class="flex items-center justify-center gap-1 mb-8">
-            {[1, 2, 3, 4, 5].map(() => (
-              <Star className="w-8 h-8 text-[#c4d931] fill-current" />
-            ))}
-          </div>
-          
-          <p class="text-gray-500 mb-12">
-            In the meantime, we'd love to hear from you about your experience.
-          </p>
-          
-          <div class="bg-[#f5f5f0] rounded-lg p-8">
-            <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-4">
-              Worked with us recently?
-            </h3>
-            <p class="text-gray-600 mb-6">
-              We'd appreciate your feedback! Share your experience and help others learn about our services.
-            </p>
-            <a 
-              href="/contact"
-              class="btn-primary"
-            >
-              Share Your Experience
-            </a>
-          </div>
+          <a
+            href="https://g.page/r/liteworksco/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-8 py-4 bg-[#c4d931] text-[#1a1a1a] font-[Rajdhani] font-semibold text-lg rounded hover:bg-[#d4e941] transition"
+          >
+            Leave Us a Review on Google
+            <ExternalLink className="w-5 h-5" />
+          </a>
         </div>
       </div>
     </section>

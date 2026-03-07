@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://liteworksco.com/sitemap-index.xml
