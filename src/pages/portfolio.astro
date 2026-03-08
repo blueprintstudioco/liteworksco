@@ -187,6 +187,87 @@ const projects = [
       </div>
     </section>
 
+    <!-- Full Gallery -->
+    <section class="py-16 md:py-20 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold text-center text-[#1a1a1a] mb-4">
+          Project Gallery
+        </h2>
+        <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto">
+          A closer look at our work across Greater Cincinnati — excavation, grading, retaining walls, drainage, and more.
+        </p>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+          {[
+            { src: "/images/gallery/residential/excavation-1.png", label: "Excavation" },
+            { src: "/images/gallery/residential/excavation-2.png", label: "Excavation" },
+            { src: "/images/gallery/residential/excavation-3.png", label: "Excavation" },
+            { src: "/images/gallery/residential/land-clearing-1.png", label: "Land Clearing" },
+            { src: "/images/gallery/residential/land-clearing-2.png", label: "Land Clearing" },
+            { src: "/images/gallery/residential/land-clearing-3.png", label: "Land Clearing" },
+            { src: "/images/gallery/residential/grading-1.png", label: "Grading & Leveling" },
+            { src: "/images/gallery/residential/grading-2.png", label: "Grading & Leveling" },
+            { src: "/images/gallery/residential/grading-3.png", label: "Grading & Leveling" },
+            { src: "/images/gallery/residential/retaining-walls-1.png", label: "Retaining Walls" },
+            { src: "/images/gallery/residential/retaining-walls-2.png", label: "Retaining Walls" },
+            { src: "/images/gallery/residential/retaining-walls-3.png", label: "Retaining Walls" },
+            { src: "/images/gallery/residential/drainage-1.png", label: "Drainage" },
+            { src: "/images/gallery/residential/drainage-2.png", label: "Drainage" },
+            { src: "/images/gallery/residential/drainage-3.png", label: "Drainage" },
+            { src: "/images/gallery/residential/demolition-1.png", label: "Demolition" },
+            { src: "/images/gallery/residential/demolition-2.png", label: "Demolition" },
+            { src: "/images/gallery/residential/demolition-3.png", label: "Demolition" },
+            { src: "/images/gallery/residential/driveways-1.png", label: "Driveways" },
+            { src: "/images/gallery/residential/driveways-2.png", label: "Driveways" },
+            { src: "/images/gallery/residential/driveways-3.png", label: "Driveways" },
+            { src: "/images/gallery/residential/foundation-1.png", label: "Foundation Work" },
+            { src: "/images/gallery/residential/foundation-2.png", label: "Foundation Work" },
+            { src: "/images/gallery/residential/foundation-3.png", label: "Foundation Work" },
+            { src: "/images/gallery/residential/pool-removal-1.png", label: "Pool Removal" },
+            { src: "/images/gallery/residential/pool-removal-2.png", label: "Pool Removal" },
+            { src: "/images/gallery/residential/pool-removal-3.png", label: "Pool Removal" },
+            { src: "/images/gallery/residential/pond-1.png", label: "Ponds" },
+            { src: "/images/gallery/residential/pond-2.png", label: "Ponds" },
+            { src: "/images/gallery/residential/pond-3.png", label: "Ponds" },
+            { src: "/images/gallery/residential/concrete-removal-1.png", label: "Concrete Removal" },
+            { src: "/images/gallery/residential/concrete-removal-2.png", label: "Concrete Removal" },
+            { src: "/images/gallery/residential/concrete-removal-3.png", label: "Concrete Removal" },
+            { src: "/images/gallery/residential/septic-1.png", label: "Septic Systems" },
+            { src: "/images/gallery/residential/septic-2.png", label: "Septic Systems" },
+            { src: "/images/gallery/residential/septic-3.png", label: "Septic Systems" },
+            { src: "/images/gallery/residential/lot-prep-1.png", label: "Lot Prep" },
+            { src: "/images/gallery/residential/lot-prep-2.png", label: "Lot Prep" },
+            { src: "/images/gallery/residential/lot-prep-3.png", label: "Lot Prep" },
+            { src: "/images/gallery/residential/stump-removal-1.png", label: "Stump Removal" },
+            { src: "/images/gallery/residential/stump-removal-2.png", label: "Stump Removal" },
+            { src: "/images/gallery/residential/stump-removal-3.png", label: "Stump Removal" },
+            { src: "/images/gallery/residential/erosion-control-1.png", label: "Erosion Control" },
+            { src: "/images/gallery/residential/erosion-control-2.png", label: "Erosion Control" },
+            { src: "/images/gallery/residential/erosion-control-3.png", label: "Erosion Control" },
+            { src: "/images/gallery/residential/snow-removal-1.png", label: "Snow Removal" },
+            { src: "/images/gallery/residential/snow-removal-2.png", label: "Snow Removal" },
+            { src: "/images/gallery/residential/snow-removal-3.png", label: "Snow Removal" },
+            { src: "/images/gallery/residential/utilities-1.png", label: "Utilities" },
+            { src: "/images/gallery/residential/utilities-2.png", label: "Utilities" },
+            { src: "/images/gallery/residential/utilities-3.png", label: "Utilities" },
+          ].map((img) => (
+            <div class="group relative overflow-hidden rounded-lg aspect-[4/3]">
+              <img 
+                src={img.src}
+                alt={img.label}
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span class="text-white text-sm font-[Rajdhani] font-semibold">{img.label}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <!-- Stats Bar -->
     <section class="py-12 bg-[#1a1a1a]">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
