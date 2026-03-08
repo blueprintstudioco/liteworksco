@@ -4,10 +4,21 @@ import { Menu, X, ChevronDown, Phone } from 'lucide-react';
 const services = [
   { name: 'Excavation', href: '/services/residential/excavation' },
   { name: 'Land Clearing', href: '/services/residential/land-clearing' },
-  { name: 'Demolition', href: '/services/residential/demolition' },
+  { name: 'Grading & Leveling', href: '/services/residential/grading' },
   { name: 'Drainage Solutions', href: '/services/residential/drainage' },
-  { name: 'Underground Utilities', href: '/services/residential/utilities' },
+  { name: 'Retaining Walls', href: '/services/residential/retaining-walls' },
+  { name: 'Demolition', href: '/services/residential/demolition' },
   { name: 'Driveways & Sidewalks', href: '/services/residential/driveways' },
+  { name: 'Foundation Work', href: '/services/residential/foundation' },
+  { name: 'Concrete Removal', href: '/services/residential/concrete-removal' },
+  { name: 'Pool Removal', href: '/services/residential/pool-removal' },
+  { name: 'Ponds & Water Features', href: '/services/residential/pond' },
+  { name: 'Septic Systems', href: '/services/residential/septic' },
+  { name: 'Lot Preparation', href: '/services/residential/lot-prep' },
+  { name: 'Stump Removal', href: '/services/residential/stump-removal' },
+  { name: 'Erosion Control', href: '/services/residential/erosion-control' },
+  { name: 'Snow Removal', href: '/services/residential/snow-removal' },
+  { name: 'Underground Utilities', href: '/services/residential/utilities' },
 ];
 
 export default function Header() {
@@ -47,13 +58,13 @@ export default function Header() {
               </button>
               
               {servicesOpen && (
-                <div className="absolute top-full left-0 pt-2 w-64">
-                  <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
+                <div className="absolute top-full left-0 pt-2 w-[500px]">
+                  <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-3 px-2 border border-gray-700 grid grid-cols-2 gap-0">
                     {services.map((service) => (
                       <a
                         key={service.href}
                         href={service.href}
-                        className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition"
+                        className="block px-3 py-1.5 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition rounded text-sm"
                       >
                         {service.name}
                       </a>

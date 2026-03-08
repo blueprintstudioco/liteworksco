@@ -1505,6 +1505,754 @@ export const residentialServices: ServiceData[] = [
       { question: "My existing driveway is rutted and soft — can it be repaired without full replacement?", answer: "In some cases, yes. We assess the existing conditions — if it's just surface loss and the base is still sound, we can add material and regrade. If the base has failed or was never properly built, reconstruction makes more sense. We'll tell you honestly what the situation is." },
       { question: "Will you damage the road or ditch getting equipment onto my property?", answer: "We're careful about road entrances and existing drainage structures. We use equipment appropriate for the access conditions and take responsibility for any entrance apron damage caused by our work. We typically protect the area during construction and leave it cleaner than we found it." }
     ]
+  },
+  {
+    slug: "grading",
+    title: "Grading & Leveling",
+    shortTitle: "Grading",
+    description: "Yard regrading, slope correction, and pad preparation for patios, sheds, pools, and garages.",
+    metaDescription: "Professional yard grading and leveling in Cincinnati. Slope correction, building pad prep, drainage grading for homeowners. Liteworks Co. gets your ground right.",
+    image: "/images/residential/grading.png",
+    fullDescription: [
+      "Water pooling against your foundation. A backyard that slopes the wrong way. A spot where you want to put a patio or shed but the ground isn't level. These are grading problems, and they're some of the most common — and most fixable — issues homeowners deal with across Greater Cincinnati.",
+      "Grading is one of those jobs that looks simple but requires experience to do right. It's not just pushing dirt around — it's understanding where water needs to go, how much slope is enough, and what the soil conditions will do after the first heavy rain. Cincinnati's clay soils hold water and shift more than most homeowners expect, which means proper grading is even more critical here than in areas with sandier, more forgiving ground.",
+      "We handle yard regrading for drainage correction, building pad preparation for patios, sheds, garages, pools, and additions, and finish grading for new construction lots. Whether you're in a hilly Anderson Township neighborhood where water sheets across your yard during storms, or on a flat lot in Mason where poor original grading is sending water toward your house instead of away from it, the solution is the same: move the dirt to where it needs to be.",
+      "Our equipment — skid steers with grading attachments and mid-size excavators — lets us work efficiently on residential lots without destroying the rest of your property. For tight access situations in established neighborhoods in Loveland, Milford, or Indian Hill, we use compact equipment that fits through gates and between structures. We laser-check grades on pad prep work so your contractor has a level surface to build on.",
+      "Building pad preparation is precise work. If you're pouring a concrete patio, the pad needs to be level, compacted, and at the right elevation relative to your house. If you're setting a prefab shed or garage, the pad needs to drain properly so water doesn't pool under the structure. We establish the grade, compact the subgrade, and leave you with a surface that's ready for the next step — whether that's your concrete contractor, your shed delivery, or your own landscaping work.",
+      "Most residential grading jobs are completed in one to two days. We provide a clear scope during quoting so you know exactly what's being regraded, where the dirt is going, and what the finished product will look like. No surprises on job day."
+    ],
+    situations: [
+      { title: "Water Pooling Near Your Foundation", description: "Your yard slopes toward your house instead of away from it, and water pools against the foundation after every rain.", icon: "💧" },
+      { title: "Building a Patio or Shed", description: "You need a level pad prepared for a concrete patio, deck, prefab shed, or detached garage on your property.", icon: "🏗️" },
+      { title: "Backyard Won't Drain", description: "Standing water sits in your yard for days after rain because the grade is flat or bowled — you need proper drainage slope established.", icon: "🌊" },
+      { title: "New Construction Finish Grading", description: "Your builder finished the house but the yard is rough — you need finish grading before sod, seed, or landscaping.", icon: "🏠" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/grading-1.png",
+      "/images/gallery/residential/grading-2.png",
+      "/images/gallery/residential/grading-3.png"
+    ],
+    expectations: {
+      timeline: "1–2 days for most residential grading projects",
+      priceRange: "$2,000 – $8,000 depending on area size, soil volume, and complexity",
+      details: [
+        "Grade assessment and drainage plan before work begins",
+        "Proper slope established away from structures (minimum 2% grade)",
+        "Subgrade compaction for building pads",
+        "Laser-verified elevations on pad prep work",
+        "Topsoil respread or imported as needed",
+        "Clean site ready for landscaping or construction"
+      ]
+    },
+    testimonial: {
+      quote: "Our backyard was a swamp after every storm. They regraded the whole thing in a day and a half, and we haven't had standing water since. Should have done this years ago.",
+      name: "Mike D.",
+      location: "Anderson Township, OH",
+      project: "Backyard regrading for drainage"
+    },
+    included: [
+      "Grade assessment and drainage evaluation",
+      "Cut and fill earthwork",
+      "Subgrade compaction",
+      "Drainage slope establishment",
+      "Building pad preparation",
+      "Topsoil management",
+      "Finish grading",
+      "Site cleanup"
+    ],
+    process: [
+      { step: "Assessment", description: "We evaluate existing grades, identify drainage issues, and plan the earthwork needed to fix them." },
+      { step: "Rough Grading", description: "We cut high spots and fill low spots to establish the correct slope and elevation across your yard." },
+      { step: "Compaction", description: "We compact the subgrade, especially on building pads, to prevent settling after construction." },
+      { step: "Finish & Cleanup", description: "We fine-grade the surface, spread topsoil where needed, and leave the site ready for your next step." }
+    ],
+    faqs: [
+      { question: "How much does yard grading cost in Cincinnati?", answer: "Most residential grading projects run $2,000–$8,000 depending on the size of the area, how much dirt needs to move, and whether we need to import or export soil. Small pad prep jobs are on the lower end; full-yard regrading with drainage correction is on the higher end. We quote after visiting the site." },
+      { question: "How do I know if my yard needs regrading?", answer: "If water pools against your foundation, sits in your yard for more than 24 hours after rain, or your yard slopes toward your house instead of away from it, you likely need regrading. We can assess your situation during a free site visit." },
+      { question: "Will grading fix my wet basement?", answer: "In many cases, yes — improper grading is one of the most common causes of wet basements. If the ground around your foundation slopes toward the house, regrading to create proper drainage away from the foundation often solves the problem without expensive interior waterproofing." },
+      { question: "How long does a grading job take?", answer: "Most residential grading projects are done in one to two days. Larger properties or jobs requiring significant soil import/export may take longer. We'll give you a realistic timeline with your quote." },
+      { question: "Do I need grading before pouring a concrete patio?", answer: "Yes. A concrete patio needs a level, compacted subgrade at the correct elevation. Pouring concrete on unprepped ground leads to cracking and settling. We prepare the pad to your concrete contractor's specifications." }
+    ]
+  },
+  {
+    slug: "retaining-walls",
+    title: "Retaining Walls",
+    shortTitle: "Retaining Walls",
+    description: "Boulder, block, and timber retaining walls for hillside properties and slope stabilization.",
+    metaDescription: "Retaining wall construction in Cincinnati. Boulder walls, block walls, timber walls for hillside properties. Professional slope stabilization by Liteworks Co.",
+    image: "/images/residential/retaining-walls.png",
+    fullDescription: [
+      "Cincinnati is built on hills. That's what makes the neighborhoods beautiful — and what makes retaining walls one of the most common residential construction needs in the region. If your yard is losing ground to erosion, your hillside is creeping toward your house, or you want to create usable flat space on a sloped lot, a retaining wall is the answer.",
+      "We build retaining walls using natural boulders, segmental concrete block, and timber — depending on your site conditions, aesthetic preferences, and budget. Boulder walls work well for naturalistic settings and can handle significant height with proper engineering. Block walls offer a clean, uniform look and are ideal for walls that need to be perfectly straight or follow precise curves. Timber walls are cost-effective for shorter walls and garden terracing.",
+      "The excavation and base preparation behind a retaining wall is where most of the work — and most of the structural integrity — comes from. A wall is only as good as what's behind it. We excavate the hillside, install proper drainage behind the wall (perforated pipe and drainage gravel), compact the base, and build the wall with adequate batter and drainage to handle the lateral earth pressure it'll face. Cincinnati's clay soils exert significant pressure on retaining walls, especially when saturated, so proper drainage behind the wall isn't optional — it's what keeps the wall standing.",
+      "For walls over four feet in retained height, Hamilton County and most surrounding municipalities require engineered plans and a building permit. We work with local engineers and can help coordinate the permit process. We've built walls throughout the steep neighborhoods of Mt. Adams, Columbia Tusculum, Anderson Township, and the hillside communities along the Ohio River in Northern Kentucky.",
+      "Multi-tier walls are common on Cincinnati's steeper properties. Instead of one tall wall, we build two or three shorter walls with terraced levels between them. This distributes the load, reduces the engineering requirements, creates usable space on each terrace, and often looks better than a single imposing wall. We design the tier spacing and heights based on the specific slope and soil conditions on your property.",
+      "Every retaining wall project starts with a site visit where we assess the slope, soil conditions, drainage patterns, and access. We discuss material options, provide a clear quote with no hidden costs, and give you a realistic timeline. Most residential retaining wall projects are completed in three to five days."
+    ],
+    situations: [
+      { title: "Hillside Eroding Toward Your Home", description: "The slope above or below your house is losing soil with every rain, threatening your foundation or yard.", icon: "⛰️" },
+      { title: "Creating Usable Yard Space", description: "Your sloped lot doesn't have enough flat space — you want to terrace the hillside to create a patio area, play space, or garden.", icon: "🏡" },
+      { title: "Driveway or Walkway Support", description: "The ground next to your driveway or walkway is washing out and needs structural support to prevent collapse.", icon: "🛤️" },
+      { title: "Replacing a Failed Wall", description: "Your existing retaining wall is leaning, cracking, or has already partially collapsed and needs to be rebuilt properly.", icon: "🧱" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/retaining-walls-1.png",
+      "/images/gallery/residential/retaining-walls-2.png",
+      "/images/gallery/residential/retaining-walls-3.png"
+    ],
+    expectations: {
+      timeline: "3–5 days for most residential retaining walls; larger or multi-tier projects may take 1–2 weeks",
+      priceRange: "$5,000 – $25,000+ depending on wall height, length, material, and site access",
+      details: [
+        "Site assessment and material recommendation",
+        "Engineered plans coordination for walls over 4 feet",
+        "Excavation and base preparation with compacted aggregate",
+        "Drainage system behind wall (perforated pipe + gravel)",
+        "Wall construction with proper batter and setback",
+        "Backfill, compaction, and finish grading"
+      ]
+    },
+    testimonial: {
+      quote: "Our hillside was sliding toward the neighbor's property. They built a three-tier boulder wall that looks like it's been there forever and completely stopped the erosion. Worth every dollar.",
+      name: "Tom R.",
+      location: "Mt. Lookout, OH",
+      project: "Multi-tier boulder retaining wall"
+    },
+    included: [
+      "Site assessment and wall design",
+      "Permit assistance for walls over 4 feet",
+      "Hillside excavation and shaping",
+      "Compacted aggregate base installation",
+      "Drainage pipe and gravel behind wall",
+      "Wall construction (boulder, block, or timber)",
+      "Backfill and compaction",
+      "Finish grading and site cleanup"
+    ],
+    process: [
+      { step: "Site Assessment", description: "We evaluate the slope, soil, drainage, and access to determine the right wall type, height, and placement." },
+      { step: "Excavation & Base", description: "We excavate into the hillside, prepare a compacted aggregate base, and install the drainage system behind the wall." },
+      { step: "Wall Construction", description: "We build the wall with proper batter, setback, and drainage — whether natural boulders, concrete block, or timber." },
+      { step: "Backfill & Grade", description: "We backfill behind and above the wall, compact the fill, and finish grade the surrounding area." }
+    ],
+    faqs: [
+      { question: "How much does a retaining wall cost in Cincinnati?", answer: "Residential retaining walls typically run $5,000–$25,000+ depending on height, length, material choice, and site access. Boulder walls tend to cost more per foot but look more natural. Block walls are moderately priced with a clean appearance. Timber walls are the most affordable for shorter applications. We provide detailed quotes after a site visit." },
+      { question: "Do I need a permit for a retaining wall?", answer: "In Hamilton County and most surrounding jurisdictions, walls retaining more than four feet of soil require engineered plans and a building permit. Shorter walls typically don't need a permit, but we recommend checking with your local building department. We can help coordinate the engineering and permit process." },
+      { question: "What type of retaining wall is best for Cincinnati's hills?", answer: "It depends on the specific site. Boulder walls handle Cincinnati's clay soils well and look natural on wooded hillsides. Block walls are ideal for precise lines and taller applications. The key for any wall type in this area is proper drainage behind the wall — clay soil holds water and creates significant pressure when saturated." },
+      { question: "How long does a retaining wall last?", answer: "A properly built retaining wall with adequate drainage should last 50+ years for boulder and block walls, and 15–25 years for timber walls. The most common reason walls fail early is poor drainage behind the wall — water pressure builds up and pushes the wall over. We install drainage on every wall we build." },
+      { question: "Can you fix a leaning or collapsed retaining wall?", answer: "In most cases, a leaning wall needs to be dismantled and rebuilt with proper drainage and base preparation. We can sometimes salvage the existing wall materials. Patching a failing wall is usually a temporary fix — the underlying drainage problem needs to be corrected for a permanent solution." }
+    ]
+  },
+  {
+    slug: "pool-removal",
+    title: "Pool Removal",
+    shortTitle: "Pool Removal",
+    description: "Inground pool demolition, backfill, and regrading to reclaim your backyard.",
+    metaDescription: "Inground pool removal in Cincinnati. Pool demolition, backfill, and regrading for homeowners. Reclaim your backyard with Liteworks Co.",
+    image: "/images/residential/pool-removal.png",
+    fullDescription: [
+      "That pool seemed like a great idea twenty years ago. Now it's cracked, the liner's shot, the pump barely works, and you're spending more to maintain it than you ever spent enjoying it. Or maybe you bought a house with a pool you never wanted. Either way, removing an inground pool is one of the fastest ways to reclaim usable backyard space and eliminate an ongoing maintenance headache.",
+      "Pool removal in Greater Cincinnati is straightforward work for the right equipment and crew. We handle both partial removal (punch holes in the bottom for drainage, break down the walls to 18 inches below grade, backfill) and full removal (complete demolition and extraction of all pool material). Partial removal is more common and more affordable — it works for most residential situations where you're converting the area to lawn or garden. Full removal is sometimes required if you plan to build a structure over the former pool location.",
+      "The backfill process matters more than most homeowners realize. We don't just dump dirt in the hole. We backfill in lifts — layers of material, each compacted before the next is added — to minimize settling. Even with proper compaction, some settling is normal over the first year or two and we'll discuss what to expect so you're not surprised. We use clean fill material, not construction debris or organic matter that would decompose and create voids.",
+      "Cincinnati's clay soils actually help with pool removal in one important way — clay provides a natural moisture barrier that helps with drainage around the former pool area. We punch drainage holes in the pool bottom before backfilling so groundwater doesn't accumulate in the old pool shell and create a bathtub effect under your yard. This step is critical and we don't skip it.",
+      "Permits are typically required for pool demolition in Hamilton County and surrounding jurisdictions. The pool also needs to be disconnected from electrical and gas lines before demolition — we coordinate with you and your electrician to ensure all utilities are properly disconnected and capped before we start breaking concrete. We also handle the disposal of all demolition debris.",
+      "Most residential pool removals are completed in two to three days. We quote based on pool size, type (concrete, fiberglass, or vinyl with concrete walls), access conditions, and whether you want partial or full removal. After backfill and grading, the area is ready for topsoil and seeding — typically within a few weeks you'll have a usable yard where the pool used to be."
+    ],
+    situations: [
+      { title: "Pool Is Beyond Repair", description: "Your inground pool is cracked, leaking, or the repair costs exceed what it's worth — it's time to fill it in and get your yard back.", icon: "🏊" },
+      { title: "Inherited a Pool You Don't Want", description: "You bought a house with a pool you never planned on maintaining — it's costing money and taking up the best part of your backyard.", icon: "🏠" },
+      { title: "Safety Concern", description: "You have young children or grandchildren and an aging pool is a liability — removing it eliminates the risk entirely.", icon: "⚠️" },
+      { title: "Selling Your Home", description: "Your realtor advised that the old pool is hurting your home value — removing it and restoring the yard makes the property more appealing to buyers.", icon: "💰" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/pool-removal-1.png",
+      "/images/gallery/residential/pool-removal-2.png",
+      "/images/gallery/residential/pool-removal-3.png"
+    ],
+    expectations: {
+      timeline: "2–3 days for most residential pool removals",
+      priceRange: "$5,000 – $15,000 depending on pool size, type, and partial vs. full removal",
+      details: [
+        "Utility disconnection coordination (electric, gas, water)",
+        "Pool shell demolition with hydraulic breaker",
+        "Drainage holes punched in pool bottom",
+        "Backfill in compacted lifts with clean fill material",
+        "Debris removal and disposal",
+        "Finish grading ready for topsoil and seed"
+      ]
+    },
+    testimonial: {
+      quote: "The pool hadn't been opened in three years and was basically a mosquito pond. They had it demolished, filled, and graded in two days. Kids now play in the yard where the pool was. Best money we've spent on this house.",
+      name: "Jennifer L.",
+      location: "West Chester, OH",
+      project: "Partial inground pool removal"
+    },
+    included: [
+      "Pool shell demolition",
+      "Drainage hole installation in pool bottom",
+      "Plumbing and utility disconnection coordination",
+      "Backfill with clean fill material in compacted lifts",
+      "Concrete and debris hauling and disposal",
+      "Finish grading",
+      "Permit assistance",
+      "Post-project settling guidance"
+    ],
+    process: [
+      { step: "Assessment & Permits", description: "We evaluate pool size, type, access, and pull the necessary demolition permits." },
+      { step: "Utility Disconnect", description: "All electrical, gas, and water connections to the pool are disconnected and capped before any demolition." },
+      { step: "Demolition & Drainage", description: "We break up the pool shell, punch drainage holes, and haul out debris." },
+      { step: "Backfill & Grade", description: "We fill in compacted lifts, finish grade the surface, and leave it ready for topsoil and seeding." }
+    ],
+    faqs: [
+      { question: "What's the difference between partial and full pool removal?", answer: "Partial removal means we break the walls down to about 18 inches below grade, punch drainage holes, and backfill over the remaining shell. Full removal means we extract everything — all concrete, rebar, and liner material. Partial is cheaper and works for most situations. Full removal is recommended if you plan to build a structure over the pool location." },
+      { question: "How much does pool removal cost?", answer: "Most residential pool removals in Cincinnati run $5,000–$15,000. The main cost drivers are pool size, type (concrete pools cost more to demolish than fiberglass), access for equipment, and whether you choose partial or full removal. We provide a detailed quote after seeing the pool." },
+      { question: "Will the filled area settle?", answer: "Some settling is normal, even with proper compaction. You may see 2–4 inches of settling over the first year or two. We backfill in compacted lifts to minimize this, but we're honest that some settling will occur. Adding topsoil and reseeding after settling is straightforward." },
+      { question: "Do I need a permit to remove a pool?", answer: "Yes, most jurisdictions in Greater Cincinnati require a demolition permit for pool removal. We handle the permit application as part of our service. You'll also need to notify your homeowners insurance that the pool has been removed." },
+      { question: "How long until I can use the yard after pool removal?", answer: "The area is ready for topsoil and seeding immediately after we finish grading. Grass seed typically establishes in 2–4 weeks depending on the season. You can walk on the area right away, but we recommend waiting for grass to establish before heavy use." }
+    ]
+  },
+  {
+    slug: "pond",
+    title: "Ponds & Water Features",
+    shortTitle: "Ponds",
+    description: "Custom pond excavation, stock tanks, and decorative water features for residential properties.",
+    metaDescription: "Pond construction and water feature excavation in Cincinnati. Farm ponds, decorative ponds, stock tanks for homeowners. Professional pond digging by Liteworks Co.",
+    image: "/images/residential/pond.png",
+    fullDescription: [
+      "There's something about a pond on your property that changes the whole feel of the place. Whether you want a half-acre farm pond for fishing and livestock, a small decorative pond near the house, or a natural-looking water feature that attracts wildlife, it starts with a hole in the ground — and that's what we do.",
+      "Pond construction in Greater Cincinnati is well-suited to our clay soils. Unlike areas with sandy or rocky ground where ponds need expensive liners to hold water, Cincinnati's heavy clay naturally seals and retains water. A properly excavated pond in our area will hold water without any liner in most cases. We assess your specific soil conditions during the site visit and will tell you honestly if your site is a good candidate for a natural clay-bottom pond.",
+      "The shape and depth of a pond matter for both function and longevity. A fish pond needs adequate depth — at least 8–10 feet in the deepest section — to prevent winter kill and maintain healthy water temperatures in summer. Stock ponds for livestock need gradual entry slopes for animal access. Decorative ponds near the house need careful grading to look natural and drain properly without threatening your foundation. We excavate to the specifications that match what you actually want to use the pond for.",
+      "Dam construction is part of most pond projects on sloped terrain — and it's the most critical part to get right. A pond dam needs to be built with the right clay material, compacted in lifts, and keyed into the hillside to prevent seepage around the edges. We've built ponds on rural residential properties throughout Clermont, Brown, and Warren counties where the terrain is ideal for impoundment ponds. A well-built dam will last decades; a poorly built one can wash out in the first big rain.",
+      "Spoil management is something we discuss during quoting. Digging a pond produces a significant volume of excavated material — a half-acre pond might generate 1,000+ cubic yards of clay. That material can be used to build the dam, spread on another part of the property, or hauled off-site. We plan this in advance so there are no surprises about where the dirt goes.",
+      "Most residential pond projects take three to five days depending on size. We handle the excavation, dam construction, spillway installation, and finish grading around the pond perimeter. We don't do the landscaping, planting, or stocking — but we can recommend local suppliers for those finishing touches."
+    ],
+    situations: [
+      { title: "Want a Fishing Pond", description: "You have acreage in Clermont or Warren County and want a stocked pond for bass, bluegill, or catfish.", icon: "🎣" },
+      { title: "Livestock Water Source", description: "You need a stock pond for cattle, horses, or other livestock on your rural property.", icon: "🐴" },
+      { title: "Decorative Water Feature", description: "You want a small ornamental pond or water garden near your home for aesthetics and wildlife habitat.", icon: "🌿" },
+      { title: "Property Value Enhancement", description: "A well-placed pond on acreage adds significant property value — you're investing in your land.", icon: "💎" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/pond-1.png",
+      "/images/gallery/residential/pond-2.png",
+      "/images/gallery/residential/pond-3.png"
+    ],
+    expectations: {
+      timeline: "3–5 days for most residential ponds; larger impoundment ponds may take 1–2 weeks",
+      priceRange: "$5,000 – $25,000+ depending on pond size, depth, dam construction, and site conditions",
+      details: [
+        "Soil assessment for natural clay seal viability",
+        "Pond excavation to specified depth and shape",
+        "Dam construction with compacted clay (if applicable)",
+        "Spillway installation for overflow management",
+        "Spoil management — spread on-site or haul off",
+        "Finish grading around pond perimeter"
+      ]
+    },
+    testimonial: {
+      quote: "We wanted a pond on our back five acres for years but didn't know where to start. They came out, walked the property, and found the perfect spot where a natural drainage fed into a low area. Pond filled up within two months. We stocked it last spring and my kids caught their first bass this summer.",
+      name: "Craig M.",
+      location: "Bethel, OH",
+      project: "Half-acre farm pond construction"
+    },
+    included: [
+      "Site assessment and pond location recommendation",
+      "Soil testing for clay seal potential",
+      "Pond excavation to specified dimensions",
+      "Dam construction and compaction",
+      "Spillway installation",
+      "Spoil management",
+      "Perimeter grading",
+      "Site cleanup"
+    ],
+    process: [
+      { step: "Site Walk", description: "We assess your property's terrain, drainage patterns, and soil to recommend the best pond location and type." },
+      { step: "Excavation", description: "We dig the pond to the specified shape and depth, managing spoil material as planned." },
+      { step: "Dam & Spillway", description: "If needed, we build a compacted clay dam and install a spillway for controlled overflow." },
+      { step: "Finish Grading", description: "We grade the perimeter, manage the remaining spoil, and leave the site clean and ready to fill." }
+    ],
+    faqs: [
+      { question: "How much does it cost to dig a pond in Cincinnati?", answer: "Residential ponds typically run $5,000–$25,000+ depending on size, depth, and whether dam construction is needed. A small decorative pond near the house is on the lower end; a half-acre or larger farm pond with a dam is on the higher end. We provide detailed quotes after walking your property." },
+      { question: "Will a pond hold water on my property?", answer: "In most of Greater Cincinnati, yes. Our heavy clay soils naturally seal and hold water. We assess your specific soil during the site visit. If your property has unusually sandy or rocky soil, we'll tell you — and discuss liner options if needed." },
+      { question: "How deep should a pond be?", answer: "For fishing, at least 8–10 feet at the deepest point to prevent winter kill and maintain cool water in summer. Stock ponds for livestock can be shallower. Decorative ponds are typically 3–5 feet. We'll recommend the right depth based on your intended use." },
+      { question: "Do I need permits to build a pond?", answer: "Permit requirements vary by jurisdiction and pond size. Small decorative ponds typically don't need permits. Larger impoundment ponds may require permits from the county or the Ohio Department of Natural Resources. We can advise on what's likely needed for your specific project." },
+      { question: "How long does it take for a new pond to fill?", answer: "It depends on the water source. Ponds fed by natural drainage or springs can fill within a few weeks to a few months. Ponds that rely primarily on rainfall may take longer. We site ponds to take advantage of natural drainage whenever possible." }
+    ]
+  },
+  {
+    slug: "concrete-removal",
+    title: "Concrete Removal",
+    shortTitle: "Concrete Removal",
+    description: "Old patio, sidewalk, driveway, and foundation concrete demolition and removal.",
+    metaDescription: "Concrete removal and demolition in Cincinnati. Old patios, sidewalks, driveways, pool decks, and foundation removal. Clean demolition by Liteworks Co.",
+    image: "/images/residential/concrete-removal.png",
+    fullDescription: [
+      "Old concrete doesn't age gracefully. It cracks, heaves, sinks, and eventually becomes more of an eyesore and trip hazard than a functional surface. Whether it's a 30-year-old patio that's broken into pieces, a driveway that's sunk and cracked beyond repair, or old foundation remnants from a structure that's long gone, removing concrete is the first step toward whatever comes next.",
+      "Concrete removal is a demolition job that requires the right equipment and a plan for disposal. We use hydraulic breakers on our excavator to fracture the concrete, then load the broken material with our skid steer for hauling. For thinner slabs like sidewalks and patios, the work goes quickly. Thicker pours like driveways and foundations take more time to break but the process is the same. Reinforced concrete with rebar takes longer — the rebar needs to be cut and separated during demolition.",
+      "Disposal is a significant part of the cost on any concrete removal job. Broken concrete is heavy — a standard 4-inch patio slab weighs about 50 pounds per square foot. A 400 square foot patio generates roughly 10 tons of material that needs to go somewhere. We haul to local recycling facilities in Greater Cincinnati where the concrete is crushed and reused as aggregate. This keeps the cost reasonable and keeps material out of landfills.",
+      "After the concrete is removed, most homeowners want the area graded and ready for whatever's next — new concrete, a paver patio, landscaping, or just a clean lawn. We handle the grading as part of the project. If you're having new concrete poured, we can coordinate timing with your concrete contractor so the subgrade is prepared and ready when they arrive.",
+      "Access is a common concern on concrete removal jobs — especially when the concrete is in a backyard behind the house. We assess access during the site visit and plan equipment routing to minimize damage to your lawn and landscaping. In tight situations, we use compact equipment that can fit through standard gates and work in confined spaces.",
+      "Most residential concrete removal jobs are completed in one day. Larger projects — like a full driveway removal or multiple areas — may take two days. We include all demolition, loading, hauling, and disposal in our quote. No surprise fees for the dumpster or the dump."
+    ],
+    situations: [
+      { title: "Cracked and Heaving Patio", description: "Your concrete patio has cracked, shifted, and become uneven — it's a trip hazard and an eyesore that needs to go.", icon: "🔨" },
+      { title: "Old Driveway Replacement", description: "Your driveway is beyond patching — the concrete is crumbled, sunken, and needs to be removed before a new surface goes in.", icon: "🚗" },
+      { title: "Removing Old Foundation", description: "There's old foundation concrete from a previous structure — shed, garage, or addition — that needs to be demolished and removed.", icon: "🏚️" },
+      { title: "Pool Deck Removal", description: "You're redoing your pool area or removing the pool entirely, and the surrounding concrete deck needs to come out.", icon: "🏊" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/concrete-removal-1.png",
+      "/images/gallery/residential/concrete-removal-2.png",
+      "/images/gallery/residential/concrete-removal-3.png"
+    ],
+    expectations: {
+      timeline: "1–2 days for most residential concrete removal projects",
+      priceRange: "$1,500 – $8,000 depending on area, thickness, reinforcement, and access",
+      details: [
+        "Concrete demolition with hydraulic breaker",
+        "Rebar cutting and separation",
+        "Loading and hauling of all debris",
+        "Recycling at local concrete recycling facility",
+        "Subgrade grading after removal",
+        "Site cleanup with no debris left behind"
+      ]
+    },
+    testimonial: {
+      quote: "Had a 600 square foot patio and old sidewalk that were both in terrible shape. They broke it all out, hauled it away, and graded the area in one day. Ready for the new paver patio. Clean, fast, and the quote was exactly what we paid.",
+      name: "Angela W.",
+      location: "Loveland, OH",
+      project: "Patio and sidewalk removal"
+    },
+    included: [
+      "Concrete demolition",
+      "Rebar cutting and removal",
+      "Material loading and hauling",
+      "Concrete recycling disposal",
+      "Subgrade grading",
+      "Access protection for lawn areas",
+      "Complete debris removal",
+      "Site cleanup"
+    ],
+    process: [
+      { step: "Assessment", description: "We measure the concrete, assess thickness and reinforcement, check access, and provide a firm quote." },
+      { step: "Demolition", description: "We break the concrete with hydraulic breakers and cut any rebar for separation." },
+      { step: "Removal", description: "We load all material and haul it to a local concrete recycling facility." },
+      { step: "Grading", description: "We grade the exposed subgrade smooth and clean up the surrounding area." }
+    ],
+    faqs: [
+      { question: "How much does concrete removal cost?", answer: "Most residential concrete removal runs $1,500–$8,000 depending on area size, concrete thickness, whether it's reinforced with rebar, and access conditions. A standard patio removal is typically $1,500–$3,000. Full driveway removal runs $3,000–$8,000. We include demolition, hauling, and disposal in the quote." },
+      { question: "Where does the old concrete go?", answer: "We haul it to local concrete recycling facilities where it's crushed and reused as road base and aggregate. This is more cost-effective than landfill disposal and better for the environment." },
+      { question: "How long does concrete removal take?", answer: "Most residential jobs are done in one day. Larger projects like full driveways or multiple areas may take two days. We'll give you a timeline with your quote." },
+      { question: "Will you damage my yard getting equipment to the concrete?", answer: "We plan our equipment access to minimize lawn damage. In tight situations, we use compact equipment and may lay equipment mats to protect the lawn. Some minor turf damage in the access path is typical but we repair the area as part of cleanup." },
+      { question: "Can I pour new concrete right away after removal?", answer: "The subgrade needs to be properly prepared first — compacted and leveled to your concrete contractor's specifications. We can coordinate with your concrete contractor on timing and subgrade requirements so the area is ready when they arrive." }
+    ]
+  },
+  {
+    slug: "septic",
+    title: "Septic Systems",
+    shortTitle: "Septic",
+    description: "Septic tank excavation, drain field trenching, and system replacements for residential properties.",
+    metaDescription: "Septic system installation and replacement in Cincinnati. Tank excavation, drain field trenching, septic repairs. Professional septic work by Liteworks Co.",
+    image: "/images/residential/septic.png",
+    fullDescription: [
+      "If you live outside the municipal sewer system in Clermont, Brown, Warren, or the rural parts of Hamilton County, your home depends on a septic system. When that system fails — or when you're building new and need one installed — the excavation work is the biggest part of the project. That's where we come in.",
+      "Septic system excavation includes digging the tank hole, trenching for the drain field laterals, and connecting the system to your home's sewer line. We work directly with your septic installer or plumber — they design the system and handle the tank, distribution box, and piping. We do the digging. This coordination keeps costs down because you're not paying a plumber's rate for excavation work that an excavation crew does faster and cheaper.",
+      "Drain field installation is where the bulk of the excavation happens. A typical residential drain field requires multiple parallel trenches — each 2–3 feet wide, 100+ feet long, and spaced several feet apart. In Cincinnati's clay soils, drain fields often require imported gravel or sand to provide the percolation that clay alone can't deliver. We excavate the trenches to the exact depths and dimensions specified by your system designer and the county health department.",
+      "Replacement septic systems are more complex than new installations because we're working around an existing home with established landscaping, driveways, and utilities. We access the old system, excavate the failed tank or drain field, and install the new system with minimal disruption to the surrounding property. In many cases, the new drain field goes in a different location than the original — we coordinate with the system designer to identify the best placement.",
+      "The county health department inspects septic installations in most jurisdictions around Cincinnati. Your septic designer or installer handles the permit application and inspection scheduling — we make sure the excavation is done to spec and ready for inspection when the inspector arrives. A failed inspection because of incorrect trench depth or spacing means rework for everyone, so we get it right the first time.",
+      "Most residential septic excavation projects take two to three days. New installations on undeveloped lots are typically faster because access is easier and there are fewer obstacles. Replacement systems in established yards take a bit longer due to the additional care required around existing improvements."
+    ],
+    situations: [
+      { title: "Septic System Has Failed", description: "Your drain field is saturated, sewage is backing up, or the health department has cited your system — you need a replacement.", icon: "🚽" },
+      { title: "Building a New Home", description: "Your new home site is outside municipal sewer and needs a complete septic system installed before construction.", icon: "🏗️" },
+      { title: "Adding to Your Home", description: "You're adding bedrooms or a mother-in-law suite that increases your septic load beyond the current system's capacity.", icon: "🏠" },
+      { title: "Tank Replacement", description: "Your septic tank is cracked, collapsing, or undersized — you need the old one excavated and a new tank installed.", icon: "🔧" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/septic-1.png",
+      "/images/gallery/residential/septic-2.png",
+      "/images/gallery/residential/septic-3.png"
+    ],
+    expectations: {
+      timeline: "2–3 days for most residential septic excavation projects",
+      priceRange: "$3,000 – $12,000 for the excavation portion (septic installer and materials are separate)",
+      details: [
+        "Tank hole excavation to specified depth and dimensions",
+        "Drain field trenching per system design specifications",
+        "Sewer line trench from house to tank",
+        "Gravel or sand bed installation in drain field trenches",
+        "Backfill and compaction after installation",
+        "Finish grading and site restoration"
+      ]
+    },
+    testimonial: {
+      quote: "Our septic failed right before Thanksgiving. They had the old system dug out and the new trenches ready for the installer within two days. The plumber was able to finish the install that same week. Saved our holidays.",
+      name: "Dave S.",
+      location: "Batavia, OH",
+      project: "Complete septic system replacement"
+    },
+    included: [
+      "Septic tank excavation",
+      "Drain field trenching",
+      "Sewer line trench to house",
+      "Gravel/sand bed placement",
+      "Old system removal (replacements)",
+      "Backfill and compaction",
+      "Finish grading",
+      "Site restoration"
+    ],
+    process: [
+      { step: "Coordination", description: "We review the system design with your septic installer and plan the excavation sequence." },
+      { step: "Excavation", description: "We dig the tank hole, drain field trenches, and connecting trenches to exact specifications." },
+      { step: "Bed Preparation", description: "We place gravel or sand in the drain field trenches as specified by the system design." },
+      { step: "Backfill & Restore", description: "After your installer finishes, we backfill, compact, and regrade the disturbed areas." }
+    ],
+    faqs: [
+      { question: "How much does septic excavation cost?", answer: "The excavation portion of a septic project typically runs $3,000–$12,000 depending on system size, soil conditions, and site access. This doesn't include the septic tank, distribution box, piping, or installer labor — those are separate. We provide the excavation quote after reviewing the system design." },
+      { question: "Do you install the septic system itself?", answer: "We do the excavation — digging the tank hole, trenching the drain field, and preparing the beds. Your licensed septic installer handles the tank, distribution box, piping, and connections. We coordinate closely with them for scheduling and specifications." },
+      { question: "How long does a septic replacement take?", answer: "The excavation portion is typically two to three days. Your septic installer usually needs another one to two days for tank and piping installation. Total project time from start to backfill is usually about a week." },
+      { question: "What about the mess in my yard?", answer: "Septic excavation is inherently disruptive — there's no way around it. We minimize the impact as much as possible, protect areas we don't need to access, and restore the grading when we're done. The disturbed areas will need reseeding. We're honest about this during quoting so you know what to expect." },
+      { question: "Can you work in wet conditions?", answer: "We can work in light rain but heavy rain or saturated ground conditions make septic excavation impractical — trenches fill with water and the clay becomes unworkable. If we need to pause for weather, we communicate with you and your installer to reschedule. Cincinnati's clay soils are particularly sensitive to moisture." }
+    ]
+  },
+  {
+    slug: "foundation",
+    title: "Foundation Work",
+    shortTitle: "Foundation",
+    description: "Foundation excavation for waterproofing, footer drains, crawl space access, and repair.",
+    metaDescription: "Foundation excavation in Cincinnati. Waterproofing dig-outs, footer drain installation, crawl space access, foundation repair excavation. Liteworks Co.",
+    image: "/images/residential/foundation.png",
+    fullDescription: [
+      "A wet basement or a cracking foundation isn't just annoying — it's your home's structure telling you something needs attention. Many foundation problems start with water, and the solution often starts with excavation. Digging down to the foundation wall lets waterproofing contractors, masons, and structural repair crews access the problem from the outside, where the fix is usually more effective and longer-lasting.",
+      "Foundation waterproofing excavation is our most common foundation-related service in Cincinnati. We dig a trench along the exterior foundation wall — typically 3–4 feet wide and down to the footer — so your waterproofing contractor can apply membrane, install drain tile, and seal the wall from the outside. This is careful, precise work. We're digging right next to your house, often with landscaping, walkways, HVAC equipment, and utilities in the way. We use the right size equipment for the space and take the time to do it without damaging adjacent improvements.",
+      "Footer drain installation goes hand-in-hand with waterproofing. A perforated drain pipe installed at the footer level, surrounded by washed gravel and wrapped in filter fabric, intercepts groundwater before it reaches your foundation wall. Cincinnati's clay soils are notorious for holding water against foundations — a footer drain gives that water somewhere to go. We excavate the trench, place the gravel bed, and leave it ready for your plumber or waterproofing contractor to install the pipe.",
+      "Foundation repair excavation is needed when structural issues require access to the exterior of the foundation wall. Bowing walls, significant cracks, and settling foundations often need repair from the outside — which means excavating down to the footer so the repair contractor can install wall anchors, carbon fiber straps, or other structural reinforcement. We coordinate with your structural repair contractor on access requirements and timing.",
+      "Crawl space access excavation is less common but comes up when homeowners need equipment or contractors to access beneath their home and the existing crawl space opening is too small or in the wrong location. We can excavate a proper access point and regrade around it for drainage. This is especially common in older Cincinnati homes in neighborhoods like Mariemont, Madeira, and the east side communities where crawl spaces were built with minimal access.",
+      "Most foundation excavation projects take one to three days depending on the length of wall being exposed, depth to footer, and site access conditions. We backfill after your contractor completes their work — using proper backfill material and compaction to prevent settling against the foundation."
+    ],
+    situations: [
+      { title: "Wet Basement", description: "Water is entering your basement through the walls or floor — you need exterior waterproofing that requires excavation to the foundation wall.", icon: "💧" },
+      { title: "Foundation Cracks", description: "Significant cracks in your foundation wall need structural repair from the exterior — the wall needs to be exposed.", icon: "🏚️" },
+      { title: "Installing Footer Drains", description: "Your home has no footer drains and groundwater pressure is pushing through the foundation — drains need to be installed at the footer level.", icon: "🔧" },
+      { title: "Crawl Space Access", description: "You need better access to your crawl space for maintenance, repairs, or encapsulation work.", icon: "🏠" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/foundation-1.png",
+      "/images/gallery/residential/foundation-2.png",
+      "/images/gallery/residential/foundation-3.png"
+    ],
+    expectations: {
+      timeline: "1–3 days for most foundation excavation projects",
+      priceRange: "$3,000 – $15,000 depending on wall length, depth, and site conditions",
+      details: [
+        "Careful excavation along foundation wall to footer depth",
+        "Protection of adjacent landscaping, walkways, and utilities",
+        "Gravel bed preparation for footer drain installation",
+        "Coordination with waterproofing or repair contractor",
+        "Proper backfill and compaction after contractor work",
+        "Finish grading and site restoration"
+      ]
+    },
+    testimonial: {
+      quote: "Our basement leaked every time it rained. They dug out along two walls, the waterproofing guys did their thing, and they backfilled and graded it perfectly. Haven't had a drop of water in the basement since. The landscaping recovered within a season.",
+      name: "Karen P.",
+      location: "Madeira, OH",
+      project: "Foundation waterproofing excavation"
+    },
+    included: [
+      "Foundation wall excavation to footer",
+      "Utility identification and protection",
+      "Adjacent improvement protection",
+      "Gravel bed for footer drains",
+      "Coordination with repair contractors",
+      "Backfill with proper material",
+      "Compaction and finish grading",
+      "Site restoration"
+    ],
+    process: [
+      { step: "Planning", description: "We coordinate with your waterproofing or repair contractor, identify utilities, and plan equipment access." },
+      { step: "Excavation", description: "We carefully dig along the foundation wall to footer depth, protecting adjacent improvements." },
+      { step: "Contractor Access", description: "Your waterproofing or repair contractor completes their work with full access to the foundation wall." },
+      { step: "Backfill & Restore", description: "We backfill in lifts, compact properly, and regrade the area to restore drainage away from the foundation." }
+    ],
+    faqs: [
+      { question: "How much does foundation excavation cost?", answer: "Foundation excavation typically runs $3,000–$15,000 depending on how much wall length needs to be exposed, depth to footer, and access conditions. A single wall on an accessible side of the house is on the lower end; multiple walls with difficult access are higher. This is just the excavation cost — your waterproofing or repair contractor quotes their work separately." },
+      { question: "Will digging next to my foundation damage the house?", answer: "Not when done properly. We use appropriately sized equipment, maintain safe distances, and never undercut the foundation. We're experienced working in tight spaces next to occupied homes and take precautions to protect the structure throughout the process." },
+      { question: "How long do I have to leave the trench open?", answer: "That depends on your contractor's schedule. We coordinate timing so the trench is open for the minimum time necessary. Typically, the waterproofing contractor works within a day or two of us completing the excavation, and we backfill shortly after they finish." },
+      { question: "Is exterior waterproofing better than interior?", answer: "We're excavators, not waterproofing contractors, so we'll let your waterproofing specialist advise on the best approach. What we can say is that exterior waterproofing addresses the problem at the source — the outside of the wall where water is entering. Many waterproofing contractors consider it the gold standard when it's feasible." },
+      { question: "What about my landscaping?", answer: "Landscaping along the foundation wall will need to be removed or temporarily relocated during excavation. We're careful with adjacent areas we don't need to disturb. Plants, shrubs, and garden beds can be replanted after backfill. Most landscaping recovers within one growing season." }
+    ]
+  },
+  {
+    slug: "lot-prep",
+    title: "Lot Preparation",
+    shortTitle: "Lot Prep",
+    description: "Clearing and grading building pads for garages, barns, sheds, ADUs, and outbuildings.",
+    metaDescription: "Residential lot preparation in Cincinnati. Building pad prep for garages, barns, sheds, ADUs, and outbuildings. Professional clearing and grading by Liteworks Co.",
+    image: "/images/residential/lot-prep.png",
+    fullDescription: [
+      "You've decided to build — a detached garage, a pole barn, a workshop, a storage building, or maybe an accessory dwelling unit. Before your builder can start, the site needs to be ready. That means clearing vegetation, establishing the building pad at the right elevation, compacting the subgrade, and making sure water drains away from the finished structure. That's lot preparation, and it's what we do every day.",
+      "Lot prep for outbuildings is simpler than full home construction site prep, but the fundamentals are the same. The pad needs to be level, compacted, at the right elevation relative to the surrounding grade, and designed to shed water away from the structure. Skip any of these steps and you'll have problems — a building that settles unevenly, water that pools against the foundation, or a floor slab that cracks because the subgrade wasn't properly compacted.",
+      "For pole barns and garages on rural or semi-rural properties in Clermont, Warren, and Brown counties, lot prep often includes clearing trees and brush from the building footprint plus a working area around it. We clear the site, grub the stumps and roots, establish the pad elevation, and compact the subgrade. If gravel base is needed for the pad, we can place and compact that as well. Your builder shows up to a clean, level pad that's ready for their work.",
+      "ADUs (accessory dwelling units) are becoming more popular in Cincinnati's suburbs as zoning has loosened in many jurisdictions. These require more precise lot prep because they're closer to the main house, have utility connections, and need to meet the same building standards as the primary residence. We coordinate with your builder on pad specifications and utility trench locations so everything lines up when construction begins.",
+      "Access and material staging are things we plan during the quoting process. If the building site is behind the house and we need to bring equipment through a gate or along the side yard, we plan the route and protect the areas we're traveling through. If fill material needs to be imported for the pad, we need a place to stockpile it and a route to get it to the building site. These details matter and we figure them out before we start.",
+      "Most lot prep projects for residential outbuildings are completed in one to two days. Larger sites requiring significant clearing or earthwork may take longer. We provide a complete quote that includes clearing, grading, compaction, and any material import or export needed to get the pad right."
+    ],
+    situations: [
+      { title: "Building a Detached Garage", description: "You're adding a garage to your property and need the site cleared, leveled, and compacted for the foundation.", icon: "🏗️" },
+      { title: "Pole Barn or Workshop", description: "You're putting up a pole barn on your rural property and need the building pad prepared — clearing, grading, and gravel base.", icon: "🔨" },
+      { title: "Shed or Storage Building", description: "You're installing a larger shed or storage building that needs a proper graded and compacted pad.", icon: "🏚️" },
+      { title: "ADU or Guest House", description: "You're building an accessory dwelling unit and need precise lot prep with utility connections coordinated.", icon: "🏡" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/lot-prep-1.png",
+      "/images/gallery/residential/lot-prep-2.png",
+      "/images/gallery/residential/lot-prep-3.png"
+    ],
+    expectations: {
+      timeline: "1–2 days for most residential lot prep projects; larger sites with clearing may take 3–4 days",
+      priceRange: "$2,000 – $10,000 depending on clearing needs, pad size, and earthwork volume",
+      details: [
+        "Vegetation clearing from building footprint and work area",
+        "Stump and root removal from pad area",
+        "Building pad grading to specified elevation",
+        "Subgrade compaction",
+        "Gravel base placement and compaction (if specified)",
+        "Drainage grading around pad perimeter"
+      ]
+    },
+    testimonial: {
+      quote: "Had them prep the pad for a 30x40 pole barn on our property in Bethel. They cleared the brush, graded it flat, put down the gravel base, and it was perfect. Builder said it was the best-prepped site he'd worked on all year.",
+      name: "Josh H.",
+      location: "Bethel, OH",
+      project: "Pole barn building pad preparation"
+    },
+    included: [
+      "Site clearing and vegetation removal",
+      "Stump and root grubbing",
+      "Building pad grading",
+      "Subgrade compaction",
+      "Gravel base placement (if needed)",
+      "Drainage grading around pad",
+      "Access route protection",
+      "Site cleanup"
+    ],
+    process: [
+      { step: "Planning", description: "We review your building plans, assess the site, and coordinate pad specifications with your builder." },
+      { step: "Clearing", description: "We clear vegetation, remove stumps and roots, and prepare the building footprint." },
+      { step: "Grading & Compaction", description: "We establish the pad at the correct elevation, compact the subgrade, and place gravel if specified." },
+      { step: "Final Prep", description: "We verify grades, establish drainage around the pad, and leave the site ready for construction." }
+    ],
+    faqs: [
+      { question: "How much does lot prep cost for a garage or pole barn?", answer: "Most residential lot prep projects run $2,000–$10,000 depending on how much clearing is needed, pad size, and whether fill or gravel needs to be imported. A simple pad on an already-clear site is on the lower end; clearing a wooded area and building a large pad with gravel base is higher. We provide a detailed quote after reviewing your plans and visiting the site." },
+      { question: "Do I need a gravel base for my pole barn?", answer: "Most pole barn builders recommend a gravel base — typically 4–6 inches of compacted aggregate. It provides a stable, well-drained surface that keeps the building interior dry. We place and compact the gravel as part of lot prep if your builder specifies it." },
+      { question: "Can you clear trees for the building site?", answer: "Yes. We clear the building footprint plus the working area your builder needs around the structure. We use forestry mulching for brush and smaller trees, and can fell and remove larger trees. We'll discuss what needs to come out during the site visit." },
+      { question: "How level does the pad need to be?", answer: "Building pads need to be level within tight tolerances — typically within an inch or two across the pad. We laser-check grades and make adjustments until the pad meets specifications. Your builder will verify before starting construction." },
+      { question: "What if my building site is on a slope?", answer: "We can cut into the hillside and build up the downhill side to create a level pad on sloped terrain. This may involve a retaining wall on the downhill side, depending on the cut depth. We'll discuss the best approach during the site visit and quote accordingly." }
+    ]
+  },
+  {
+    slug: "snow-removal",
+    title: "Snow Removal",
+    shortTitle: "Snow Removal",
+    description: "Residential snow plowing and driveway clearing with professional equipment.",
+    metaDescription: "Residential snow removal in Cincinnati. Driveway plowing, snow pushing, and property clearing for homeowners. Professional snow removal by Liteworks Co.",
+    image: "/images/residential/snow-removal.png",
+    fullDescription: [
+      "Cincinnati averages about 15 inches of snow per year, and it tends to come in a few big dumps rather than steady light dustings. When 6+ inches drops overnight and you're looking at a 200-foot driveway that your garden-variety snow blower can't handle, that's when professional snow removal with real equipment makes the difference between getting to work on time and being stuck until noon.",
+      "We use skid steers with snow pusher attachments for residential snow removal — the same equipment we use for excavation the rest of the year. A skid steer clears a residential driveway in a fraction of the time it takes a pickup with a plow, and it can stack snow where you want it instead of just pushing it off to one side. For longer driveways, large parking areas, and properties with multiple buildings, a skid steer is the right tool.",
+      "We offer both per-push pricing and seasonal contracts for residential snow removal in Greater Cincinnati. Per-push works if you only want us when the big storms hit — we come out when accumulation exceeds a trigger depth you set (typically 3–4 inches). Seasonal contracts give you priority service and a fixed monthly cost from December through March, regardless of how many times we push. You know what it costs, and you know you're at the top of the list when it snows.",
+      "Response time matters when it's snowing. Our seasonal contract customers are prioritized — we start plowing residential routes as soon as accumulation hits the trigger depth, and we make repeat passes during extended storms. Per-push customers are served after contract customers, so if you're someone who absolutely needs their driveway clear by 6 AM, a seasonal contract is the way to go.",
+      "We handle driveways, turnarounds, and access roads on residential properties. We don't do sidewalks or hand shoveling — if you need walks cleared, you'll want to pair our service with someone who does hand work. We also don't salt or treat surfaces — we clear the snow and you can apply your own ice melt. This keeps our service focused on what we do best: moving material with machines.",
+      "Our snow removal service area covers Greater Cincinnati, Northern Kentucky, and Southeast Indiana — the same area we serve for excavation. If you're a current or past excavation customer, you're already in our system and setup is easy."
+    ],
+    situations: [
+      { title: "Long Driveway", description: "Your driveway is too long for a snow blower and too much for a shovel — you need a machine to clear it when the big storms hit.", icon: "❄️" },
+      { title: "Rural Property Access", description: "You live on a rural property with a long access road that becomes impassable after heavy snow.", icon: "🏡" },
+      { title: "Multiple Buildings", description: "You have a detached garage, barn, or workshop and need paths cleared between buildings after snow events.", icon: "🏗️" },
+      { title: "Physical Limitations", description: "You can't shovel due to age, injury, or health — you need reliable snow removal you don't have to think about.", icon: "🤝" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/snow-removal-1.png",
+      "/images/gallery/residential/snow-removal-2.png",
+      "/images/gallery/residential/snow-removal-3.png"
+    ],
+    expectations: {
+      timeline: "Service within 2–4 hours of trigger depth for contract customers; same-day for per-push customers",
+      priceRange: "$75 – $200 per push, or $300 – $800/month seasonal contract depending on driveway size",
+      details: [
+        "Driveway and turnaround clearing with skid steer",
+        "Snow stacked in designated areas",
+        "Repeat passes during extended storms (contract customers)",
+        "Trigger depth set to your preference (typically 3–4 inches)",
+        "Priority response for seasonal contract customers",
+        "Service December through March"
+      ]
+    },
+    testimonial: {
+      quote: "We have a 300-foot gravel driveway that used to take me two hours with the tractor. They clear it in 15 minutes with the skid steer. The seasonal contract is worth every penny just for not having to worry about it anymore.",
+      name: "Bill T.",
+      location: "Goshen, OH",
+      project: "Seasonal residential snow removal"
+    },
+    included: [
+      "Driveway clearing",
+      "Turnaround and parking area clearing",
+      "Access road clearing",
+      "Snow stacking in designated areas",
+      "Repeat passes during storms (contract)",
+      "Priority scheduling (contract)",
+      "Season-long service December–March",
+      "No per-event surprise charges (contract)"
+    ],
+    process: [
+      { step: "Setup", description: "We visit your property, identify driveway dimensions, snow stacking areas, and any obstacles to avoid." },
+      { step: "Trigger", description: "When accumulation hits your trigger depth, we dispatch equipment to your property." },
+      { step: "Clearing", description: "We push snow from the driveway and turnaround, stacking it in the designated areas." },
+      { step: "Repeat", description: "During extended storms, we make additional passes to keep your driveway accessible." }
+    ],
+    faqs: [
+      { question: "How much does residential snow removal cost?", answer: "Per-push pricing typically runs $75–$200 depending on driveway length and complexity. Seasonal contracts run $300–$800/month from December through March. The contract gives you predictable costs and priority service — you're first in line when it snows." },
+      { question: "What's the trigger depth?", answer: "The trigger depth is the accumulation level at which we come out to plow. Most customers set it at 3–4 inches. You can set it lower if you want more frequent service, or higher if you only want us for bigger storms. Contract customers can adjust this anytime." },
+      { question: "Do you do sidewalks and hand shoveling?", answer: "No — we focus on driveway and access clearing with skid steer equipment. If you need sidewalks and walkways cleared, we recommend pairing our service with a landscaping company that does hand snow removal." },
+      { question: "Do you salt or treat surfaces?", answer: "We don't apply salt or ice melt — we clear the snow and you apply your own treatment as needed. This keeps our service straightforward and our pricing simple." },
+      { question: "How fast will you get to my property after it snows?", answer: "Seasonal contract customers are prioritized and typically serviced within 2–4 hours of reaching trigger depth. Per-push customers are served after contract customers, usually same-day. During major storms, response times may be longer as we work through our route." }
+    ]
+  },
+  {
+    slug: "stump-removal",
+    title: "Stump Removal",
+    shortTitle: "Stump Removal",
+    description: "Tree stump grinding and full root ball extraction for residential properties.",
+    metaDescription: "Stump removal and grinding in Cincinnati. Tree stump extraction, root ball removal, stump grinding for homeowners. Professional stump removal by Liteworks Co.",
+    image: "/images/residential/stump-removal.png",
+    fullDescription: [
+      "That tree's been gone for a while but the stump is still there — sitting in the middle of your yard, getting in the way of mowing, and slowly becoming a termite hotel. Or maybe you just had trees taken down and the tree service left the stumps. Either way, stumps don't remove themselves, and the two options are grinding or full extraction. We do both.",
+      "Stump grinding is the more common approach. We use a skid steer-mounted stump grinder that chews the stump down 6–12 inches below grade, turning it into a pile of wood chips. The root system stays in the ground and decomposes naturally over several years. Grinding is faster, cheaper, and less disruptive to the surrounding lawn than full extraction. For most homeowners who just want the stump gone so they can mow over the spot, grinding is the right choice.",
+      "Full root ball extraction is the heavier option — we use our excavator to pull the entire stump and root ball out of the ground. This leaves a bigger hole that needs to be backfilled, but it removes everything. Full extraction is the right call when you're doing construction over the stump location (pouring concrete, building a structure), when the stump is from a species that sends up aggressive suckers from the root system, or when you just want everything gone completely.",
+      "Multiple stumps are common — especially after land clearing or storm damage. We price multiple stumps per-stump with volume discounts. If you have a dozen stumps from a recent clearing job, we'll handle them all in one visit. Our skid steer-mounted grinder moves between stumps quickly without tearing up the lawn the way a trailer-mounted grinder being dragged across the yard does.",
+      "Stump size matters for pricing and approach. Small stumps under 12 inches grind in minutes. Large hardwood stumps — 24 inches and up — take longer and produce significantly more chips. Species matters too: soft maples and pines grind fast; old oaks and hickories are dense and take more time. We quote based on what's actually there, not a one-size-fits-all price.",
+      "After grinding, we typically leave the wood chips in the hole and mound them slightly above grade to account for settling. You can seed over the chips or rake them out and bring in topsoil — your choice. For full extraction, we backfill the hole with clean fill, compact it, and grade it level with the surrounding ground."
+    ],
+    situations: [
+      { title: "Stumps in Your Yard", description: "You have one or more tree stumps in your lawn that are in the way of mowing and making your yard look rough.", icon: "🌳" },
+      { title: "Post-Tree Removal Cleanup", description: "A tree service took down your trees but left the stumps — you need them ground down or pulled out.", icon: "🪓" },
+      { title: "Building Over a Stump Location", description: "You're pouring a patio, building a shed, or doing construction where a stump is — it needs to be fully extracted.", icon: "🏗️" },
+      { title: "Termite or Pest Concern", description: "Old stumps attract termites and carpenter ants — removing them eliminates a pest risk near your home.", icon: "🐜" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/stump-removal-1.png",
+      "/images/gallery/residential/stump-removal-2.png",
+      "/images/gallery/residential/stump-removal-3.png"
+    ],
+    expectations: {
+      timeline: "Same-day for most stump grinding jobs; full extraction may take 1–2 days for multiple large stumps",
+      priceRange: "$150 – $500 per stump for grinding; $300 – $1,000+ per stump for full extraction depending on size",
+      details: [
+        "Stump grinding to 6–12 inches below grade",
+        "Or full root ball extraction with excavator",
+        "Wood chip management (left in hole or hauled away)",
+        "Backfill and grading for extracted stumps",
+        "Volume discounts for multiple stumps",
+        "Minimal lawn disturbance with skid steer-mounted grinder"
+      ]
+    },
+    testimonial: {
+      quote: "Had eight stumps from trees we took down last year. They ground all eight in about three hours. No torn-up lawn, no ruts from dragging equipment around. Way better than the trailer-mounted grinder we used last time at our old house.",
+      name: "Scott N.",
+      location: "Mason, OH",
+      project: "Multiple stump grinding"
+    },
+    included: [
+      "Stump grinding or full extraction",
+      "Below-grade grinding (6–12 inches)",
+      "Root ball removal (extraction)",
+      "Wood chip management",
+      "Hole backfill (extraction)",
+      "Finish grading",
+      "Volume pricing for multiple stumps",
+      "Site cleanup"
+    ],
+    process: [
+      { step: "Assessment", description: "We count stumps, measure sizes, identify species, and determine whether grinding or extraction is appropriate." },
+      { step: "Grinding or Extraction", description: "We grind stumps below grade with our skid steer attachment, or extract root balls with our excavator." },
+      { step: "Chip/Hole Management", description: "We manage wood chips from grinding or backfill holes from extraction." },
+      { step: "Cleanup", description: "We grade any disturbed areas and leave the site clean and mow-ready." }
+    ],
+    faqs: [
+      { question: "What's the difference between stump grinding and full removal?", answer: "Grinding chews the stump 6–12 inches below grade and leaves the root system to decompose naturally underground. Full removal extracts the entire stump and root ball, leaving a larger hole that gets backfilled. Grinding is faster, cheaper, and less disruptive. Full removal is for situations where you're building over the location or need everything gone." },
+      { question: "How much does stump grinding cost?", answer: "Most stumps cost $150–$500 to grind depending on size, species, and accessibility. Large hardwood stumps (24 inches+) are on the higher end. We offer volume discounts for multiple stumps — if you have several, the per-stump price drops. We quote after seeing the stumps." },
+      { question: "Will the roots grow back?", answer: "After grinding, most tree species will not regrow from the remaining roots. A few aggressive species (like silver maples and willows) may send up suckers from the root system for a season or two — these can be mowed over and will eventually stop. Full extraction eliminates any regrowth possibility." },
+      { question: "What happens to the wood chips?", answer: "After grinding, we leave the chips in and around the hole. Most homeowners let them settle, add topsoil over them, and seed. You can also rake them out for use as mulch elsewhere in your yard. We can haul chips away for an additional charge if you prefer." },
+      { question: "Can you grind stumps in tight spaces?", answer: "Our skid steer-mounted grinder can access most residential areas, including through standard gates. For stumps in very tight spaces next to buildings or fences, we assess accessibility during the site visit and let you know what's possible." }
+    ]
+  },
+  {
+    slug: "erosion-control",
+    title: "Erosion Control",
+    shortTitle: "Erosion Control",
+    description: "Hillside stabilization, drainage solutions, and erosion prevention for residential properties.",
+    metaDescription: "Erosion control in Cincinnati. Hillside stabilization, riprap installation, drainage solutions, silt fencing for homeowners. Stop erosion with Liteworks Co.",
+    image: "/images/residential/erosion-control.png",
+    fullDescription: [
+      "Cincinnati is hills, and hills erode. Every heavy rain moves a little more of your property downhill — and once erosion starts, it accelerates. Gullies get deeper, slopes get steeper, and what started as a minor washout becomes a serious problem that threatens your yard, your neighbor's property, or the stability of your home's foundation. Erosion control is about stopping that process and stabilizing your property for good.",
+      "Cincinnati's clay soils are a double-edged sword when it comes to erosion. Clay resists erosion better than sandy soil when it's vegetated and stable. But once the surface is broken — by a drainage change, tree removal, construction activity, or just a really heavy storm — exposed clay erodes aggressively. Clay also doesn't absorb water well, so heavy rain runs off the surface rather than soaking in, concentrating water flow and carving channels through your property.",
+      "We use several approaches to erosion control depending on the specific situation. Riprap (large stone) stabilizes drainage channels and steep slopes where water flow is concentrated. Erosion control blankets and matting protect slopes while new vegetation establishes. French drains and surface drainage improvements redirect water away from vulnerable areas. Regrading can reduce slope angles to prevent future erosion. Often, the right solution is a combination of these methods.",
+      "Hillside stabilization on residential properties in Cincinnati neighborhoods like Mt. Adams, Columbia Tusculum, Price Hill, and the east-side hillside communities is some of the most common erosion work we do. These neighborhoods were built on steep terrain, and decades of development have altered natural drainage patterns. A slope that held fine for fifty years can start eroding after a nearby construction project changes how water flows across the hillside.",
+      "Drainage is usually the root cause of erosion problems. Water that's concentrated into channels or flowing where it didn't historically flow will carve through clay soil quickly. Before we install riprap or matting, we assess where the water is coming from and why it's flowing where it is. Sometimes the fix is upstream — redirecting water through a proper drainage system before it reaches the eroding slope. We address the cause, not just the symptom.",
+      "Most residential erosion control projects take two to four days. Larger hillside stabilization projects involving significant earthwork and riprap installation may take longer. We provide a thorough assessment during the site visit and a clear plan for how we'll stop the erosion and prevent it from returning."
+    ],
+    situations: [
+      { title: "Hillside Washing Away", description: "A slope on your property is eroding with every rain — you're losing ground and it's getting worse.", icon: "⛰️" },
+      { title: "Gully Forming in Yard", description: "Water runoff has carved a channel through your yard that's getting deeper and wider after each storm.", icon: "🌊" },
+      { title: "Neighbor's Water Damaging Your Property", description: "Development or grading changes uphill are sending more water onto your property than it used to get.", icon: "💧" },
+      { title: "Post-Construction Erosion", description: "Recent construction on your property disturbed the soil and now the bare areas are eroding before vegetation can establish.", icon: "🏗️" }
+    ],
+    galleryImages: [
+      "/images/gallery/residential/erosion-control-1.png",
+      "/images/gallery/residential/erosion-control-2.png",
+      "/images/gallery/residential/erosion-control-3.png"
+    ],
+    expectations: {
+      timeline: "2–4 days for most residential erosion control projects",
+      priceRange: "$3,000 – $15,000 depending on slope size, severity, and solution type",
+      details: [
+        "Site assessment and drainage analysis",
+        "Slope regrading where appropriate",
+        "Riprap installation in drainage channels and on steep slopes",
+        "Erosion control blanket and matting installation",
+        "French drain or surface drainage improvements",
+        "Seeding or stabilization of disturbed areas"
+      ]
+    },
+    testimonial: {
+      quote: "The hill behind our house had a gully that was getting worse every year. They regraded the slope, installed riprap in the drainage channel, and put in a French drain at the base. That was two years ago and we haven't had any erosion since — even in the heavy spring rains.",
+      name: "Lisa M.",
+      location: "Anderson Township, OH",
+      project: "Hillside erosion control and drainage"
+    },
+    included: [
+      "Erosion assessment and drainage analysis",
+      "Slope regrading and reshaping",
+      "Riprap and stone installation",
+      "Erosion control matting",
+      "French drain installation",
+      "Surface drainage improvements",
+      "Seeding of disturbed areas",
+      "Site cleanup and stabilization"
+    ],
+    process: [
+      { step: "Assessment", description: "We evaluate the erosion, identify water sources, and design a solution that addresses the root cause." },
+      { step: "Drainage", description: "We install drainage improvements to redirect water away from vulnerable slopes." },
+      { step: "Stabilization", description: "We install riprap, matting, and/or regrade slopes to stop active erosion." },
+      { step: "Restoration", description: "We seed disturbed areas, install final erosion protection, and verify drainage patterns." }
+    ],
+    faqs: [
+      { question: "How much does erosion control cost?", answer: "Most residential erosion control projects run $3,000–$15,000 depending on the size of the affected area, severity of erosion, and what solutions are needed. A simple riprap-lined drainage channel might be $3,000–$5,000. A major hillside stabilization with regrading, drainage, and riprap can be $10,000–$15,000+. We provide a detailed assessment and quote after visiting the site." },
+      { question: "What's the best way to stop erosion on a hillside?", answer: "It depends on the specific situation. Addressing the drainage — where water is coming from and how it's flowing — is always the first step. Riprap stabilizes areas with concentrated water flow. Regrading can reduce slope angles. Erosion control blankets protect slopes while vegetation establishes. Usually, the right answer is a combination of methods. We assess your specific situation and recommend what will work." },
+      { question: "Is erosion covered by homeowners insurance?", answer: "Generally, no. Most homeowners insurance policies exclude erosion and earth movement from coverage. Erosion caused by a specific sudden event (like a burst pipe) may be covered, but gradual erosion is typically the homeowner's responsibility. Check with your insurance agent for your specific policy." },
+      { question: "Will the erosion fix be permanent?", answer: "When we address the root cause — usually a drainage issue — the fix is long-term. Riprap is essentially permanent. Erosion control matting biodegrades over 1–2 years as vegetation establishes and takes over slope stabilization. If the underlying drainage pattern changes in the future (new construction uphill, for example), the erosion problem could return. We design solutions to handle the current and foreseeable drainage conditions." },
+      { question: "Can you help if my neighbor's runoff is causing erosion on my property?", answer: "Yes. We can install drainage improvements on your property to manage the water coming from uphill, regardless of its source. Ohio law generally holds uphill property owners responsible for changes that increase runoff to downhill properties, but the practical solution is usually managing the water on your own property rather than waiting for a legal resolution." }
+    ]
   }
 ];
 

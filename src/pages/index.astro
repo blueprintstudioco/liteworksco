@@ -273,12 +273,15 @@ const schema = {
         
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { title: 'Excavation', description: 'Professional excavation for foundations, basements, ponds, and pools.', href: '/services/residential/excavation', image: '/images/residential/excavation.png' },
-            { title: 'Land Clearing', description: 'Reclaim your property — brush removal and forestry mulching for overgrown land.', href: '/services/residential/land-clearing', image: '/images/residential/land-clearing.png' },
-            { title: 'Home Demolition', description: 'Safe teardowns of sheds, garages, old structures, and concrete removal.', href: '/services/residential/demolition', image: '/images/residential/demolition.png' },
+            { title: 'Excavation', description: 'Foundations, basements, pools, and ponds — precision digging for any residential project.', href: '/services/residential/excavation', image: '/images/residential/excavation.png' },
+            { title: 'Land Clearing', description: 'Brush removal and forestry mulching to reclaim your property.', href: '/services/residential/land-clearing', image: '/images/residential/land-clearing.png' },
+            { title: 'Grading & Leveling', description: 'Yard regrading, drainage correction, and building pad preparation.', href: '/services/residential/grading', image: '/images/residential/grading.png' },
+            { title: 'Retaining Walls', description: 'Boulder, block, and timber walls for Cincinnati\'s hillside properties.', href: '/services/residential/retaining-walls', image: '/images/residential/retaining-walls.png' },
             { title: 'Drainage Solutions', description: 'French drains, swales, and grading to keep water away from your home.', href: '/services/residential/drainage', image: '/images/residential/drainage.png' },
-            { title: 'Underground Utilities', description: 'Trenching for water lines, sewer, electric, and communications.', href: '/services/residential/utilities', image: '/images/residential/trenching.png' },
-            { title: 'Driveways & Sidewalks', description: 'Quality gravel driveways, sidewalks, and turnarounds for your property.', href: '/services/residential/driveways', image: '/images/residential/driveway.png' },
+            { title: 'Demolition', description: 'Safe teardowns of sheds, garages, old structures, and concrete removal.', href: '/services/residential/demolition', image: '/images/residential/demolition.png' },
+            { title: 'Driveways', description: 'Gravel, concrete, and asphalt driveways built to last.', href: '/services/residential/driveways', image: '/images/residential/driveway.png' },
+            { title: 'Pool Removal', description: 'Inground pool demolition, backfill, and regrading to get your yard back.', href: '/services/residential/pool-removal', image: '/images/residential/pool-removal.png' },
+            { title: 'Foundation Work', description: 'Dig-outs for waterproofing, footer drains, and foundation repair.', href: '/services/residential/foundation', image: '/images/residential/foundation.png' },
           ].map((service) => (
             <a 
               href={service.href}
@@ -299,7 +302,18 @@ const schema = {
           ))}
         </div>
         
-        <div class="text-center mt-10">
+        <p class="text-center text-gray-400 mt-8 mb-6">
+          Plus: <a href="/services/residential/concrete-removal" class="text-[#c4d931] hover:underline">Concrete Removal</a> · 
+          <a href="/services/residential/septic" class="text-[#c4d931] hover:underline">Septic Systems</a> · 
+          <a href="/services/residential/pond" class="text-[#c4d931] hover:underline">Ponds</a> · 
+          <a href="/services/residential/lot-prep" class="text-[#c4d931] hover:underline">Lot Prep</a> · 
+          <a href="/services/residential/stump-removal" class="text-[#c4d931] hover:underline">Stump Removal</a> · 
+          <a href="/services/residential/erosion-control" class="text-[#c4d931] hover:underline">Erosion Control</a> · 
+          <a href="/services/residential/utilities" class="text-[#c4d931] hover:underline">Utilities</a> · 
+          <a href="/services/residential/snow-removal" class="text-[#c4d931] hover:underline">Snow Removal</a>
+        </p>
+
+        <div class="text-center mt-6">
           <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#c4d931] text-[#1a1a1a] font-[Rajdhani] font-bold text-lg rounded hover:bg-[#b5ca2d] transition">
             Get a Free Quote
           </a>
