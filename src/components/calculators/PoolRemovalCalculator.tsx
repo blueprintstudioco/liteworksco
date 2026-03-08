@@ -2,15 +2,15 @@ import { useState } from 'react';
 import { Calculator, Phone } from 'lucide-react';
 
 export default function PoolRemovalCalculator() {
-  const [poolLength, setPoolLength] = useState(30);
-  const [poolWidth, setPoolWidth] = useState(15);
+  const [poolLength, setPoolLength] = useState<number | ''>(30);
+  const [poolWidth, setPoolWidth] = useState<number | ''>(15);
   const [poolType, setPoolType] = useState<'concrete' | 'fiberglass' | 'vinyl'>('concrete');
   const [removalType, setRemovalType] = useState<'partial' | 'full'>('partial');
   const [calculated, setCalculated] = useState(false);
   const [result, setResult] = useState({ low: 0, high: 0 });
 
   const calculate = () => {
-    const sqft = poolLength * poolWidth;
+    const sqft = (poolLength || 0) * (poolWidth || 0);
 
     let baseLow: number, baseHigh: number;
 
@@ -49,7 +49,7 @@ export default function PoolRemovalCalculator() {
     setCalculated(true);
   };
 
-  const sqft = poolLength * poolWidth;
+  const sqft = (poolLength || 0) * (poolWidth || 0);
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -111,7 +111,8 @@ export default function PoolRemovalCalculator() {
               min="10"
               max="80"
               value={poolLength}
-              onChange={(e) => setPoolLength(Math.max(10, parseInt(e.target.value) || 10))}
+              onChange={(e) => setPoolLength(e.target.value === '' ? '' : parseInt(e.target.value))}
+              onBlur={() => setPoolLength(prev => (prev === '' || isNaN(prev as number)) ? 10 : Math.max(10, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>
@@ -122,7 +123,8 @@ export default function PoolRemovalCalculator() {
               min="5"
               max="50"
               value={poolWidth}
-              onChange={(e) => setPoolWidth(Math.max(5, parseInt(e.target.value) || 5))}
+              onChange={(e) => setPoolWidth(e.target.value === '' ? '' : parseInt(e.target.value))}
+              onBlur={() => setPoolWidth(prev => (prev === '' || isNaN(prev as number)) ? 5 : Math.max(5, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>

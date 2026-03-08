@@ -2,15 +2,15 @@ import { useState } from 'react';
 import { Calculator, Phone } from 'lucide-react';
 
 export default function GradingCalculator() {
-  const [length, setLength] = useState(40);
-  const [width, setWidth] = useState(30);
+  const [length, setLength] = useState<number | ''>(40);
+  const [width, setWidth] = useState<number | ''>(30);
   const [purpose, setPurpose] = useState<'drainage' | 'pad' | 'yard'>('drainage');
   const [needsFill, setNeedsFill] = useState(false);
   const [calculated, setCalculated] = useState(false);
   const [result, setResult] = useState({ low: 0, high: 0 });
 
   const calculate = () => {
-    const sqft = length * width;
+    const sqft = (length || 0) * (width || 0);
 
     let lowRate: number, highRate: number;
 
@@ -44,7 +44,7 @@ export default function GradingCalculator() {
     setCalculated(true);
   };
 
-  const sqft = length * width;
+  const sqft = (length || 0) * (width || 0);
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -86,7 +86,8 @@ export default function GradingCalculator() {
               min="10"
               max="500"
               value={length}
-              onChange={(e) => setLength(Math.max(10, parseInt(e.target.value) || 10))}
+              onChange={(e) => setLength(e.target.value === '' ? '' : parseInt(e.target.value))}
+              onBlur={() => setLength(prev => (prev === '' || isNaN(prev as number)) ? 10 : Math.max(10, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>
@@ -97,7 +98,8 @@ export default function GradingCalculator() {
               min="10"
               max="500"
               value={width}
-              onChange={(e) => setWidth(Math.max(10, parseInt(e.target.value) || 10))}
+              onChange={(e) => setWidth(e.target.value === '' ? '' : parseInt(e.target.value))}
+              onBlur={() => setWidth(prev => (prev === '' || isNaN(prev as number)) ? 10 : Math.max(10, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>

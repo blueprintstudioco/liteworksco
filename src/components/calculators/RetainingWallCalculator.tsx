@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { Calculator, Phone } from 'lucide-react';
 
 export default function RetainingWallCalculator() {
-  const [length, setLength] = useState(30);
-  const [height, setHeight] = useState(3);
+  const [length, setLength] = useState<number | ''>(30);
+  const [height, setHeight] = useState<number | ''>(3);
   const [material, setMaterial] = useState<'boulder' | 'block' | 'timber'>('boulder');
   const [calculated, setCalculated] = useState(false);
   const [result, setResult] = useState({ low: 0, high: 0 });
 
   const calculate = () => {
-    const faceSqft = length * height;
+    const faceSqft = (length || 0) * (height || 0);
 
     let lowRate: number, highRate: number;
 
@@ -30,7 +30,7 @@ export default function RetainingWallCalculator() {
 
     // Engineering costs for tall walls
     let engineeringAdder = 0;
-    if (height > 4) {
+    if ((height || 0) > 4) {
       engineeringAdder = 2000; // Engineering plans + permit
     }
 
@@ -41,7 +41,7 @@ export default function RetainingWallCalculator() {
     setCalculated(true);
   };
 
-  const faceSqft = length * height;
+  const faceSqft = (length || 0) * (height || 0);
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -83,7 +83,8 @@ export default function RetainingWallCalculator() {
               min="5"
               max="500"
               value={length}
-              onChange={(e) => setLength(Math.max(5, parseInt(e.target.value) || 5))}
+              onChange={(e) => setLength(e.target.value === '' ? '' : parseInt(e.target.value))}
+              onBlur={() => setLength(prev => (prev === '' || isNaN(prev as number)) ? 5 : Math.max(5, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>
@@ -95,7 +96,8 @@ export default function RetainingWallCalculator() {
               max="12"
               step="0.5"
               value={height}
-              onChange={(e) => setHeight(Math.max(1, parseFloat(e.target.value) || 1))}
+              onChange={(e) => setHeight(e.target.value === '' ? '' : parseFloat(e.target.value))}
+              onBlur={() => setHeight(prev => (prev === '' || isNaN(prev as number)) ? 1 : Math.max(1, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>
@@ -103,7 +105,7 @@ export default function RetainingWallCalculator() {
 
         <div className="text-sm text-gray-500 mb-6 bg-[#f5f5f0] rounded-lg px-4 py-2 space-y-1">
           <p>Wall face area: <span className="font-semibold">{faceSqft.toLocaleString()} sq ft</span></p>
-          {height > 4 && (
+          {(height || 0) > 4 && (
             <p className="text-amber-600 font-medium">⚠ Walls over 4 ft require engineered plans and a building permit (included in estimate)</p>
           )}
         </div>
@@ -124,7 +126,7 @@ export default function RetainingWallCalculator() {
               </p>
               <p className="text-xs text-gray-400 mt-2">
                 {length}' long × {height}' tall · {material === 'boulder' ? 'Natural Boulder' : material === 'block' ? 'Concrete Block' : 'Timber'}
-                {height > 4 ? ' · Includes engineering' : ''}
+                {(height || 0) > 4 ? ' · Includes engineering' : ''}
               </p>
             </div>
             <p className="text-xs text-gray-500 text-center mb-4">

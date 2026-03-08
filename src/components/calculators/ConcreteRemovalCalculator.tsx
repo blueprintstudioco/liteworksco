@@ -2,15 +2,15 @@ import { useState } from 'react';
 import { Calculator, Phone } from 'lucide-react';
 
 export default function ConcreteRemovalCalculator() {
-  const [length, setLength] = useState(20);
-  const [width, setWidth] = useState(20);
+  const [length, setLength] = useState<number | ''>(20);
+  const [width, setWidth] = useState<number | ''>(20);
   const [thickness, setThickness] = useState<'4' | '6' | '8+'>('4');
   const [hasRebar, setHasRebar] = useState(false);
   const [calculated, setCalculated] = useState(false);
   const [result, setResult] = useState({ low: 0, high: 0 });
 
   const calculate = () => {
-    const sqft = length * width;
+    const sqft = (length || 0) * (width || 0);
     
     // Base rate per sqft (high side for Cincinnati)
     let lowRate = 3.50;
@@ -37,7 +37,7 @@ export default function ConcreteRemovalCalculator() {
     setCalculated(true);
   };
 
-  const sqft = length * width;
+  const sqft = (length || 0) * (width || 0);
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -58,7 +58,8 @@ export default function ConcreteRemovalCalculator() {
               min="1"
               max="500"
               value={length}
-              onChange={(e) => setLength(Math.max(1, parseInt(e.target.value) || 1))}
+              onChange={(e) => setLength(e.target.value === '' ? '' : parseInt(e.target.value))}
+              onBlur={() => setLength(prev => (prev === '' || isNaN(prev as number)) ? 1 : Math.max(1, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>
@@ -69,7 +70,8 @@ export default function ConcreteRemovalCalculator() {
               min="1"
               max="500"
               value={width}
-              onChange={(e) => setWidth(Math.max(1, parseInt(e.target.value) || 1))}
+              onChange={(e) => setWidth(e.target.value === '' ? '' : parseInt(e.target.value))}
+              onBlur={() => setWidth(prev => (prev === '' || isNaN(prev as number)) ? 1 : Math.max(1, prev as number))}
               className="w-full border-2 border-gray-200 rounded-lg px-4 py-2.5 focus:border-[#c4d931] focus:outline-none transition"
             />
           </div>
