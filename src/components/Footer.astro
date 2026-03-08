@@ -11,26 +11,19 @@ const quickLinks = [
   { name: 'Careers', href: '/careers' },
 ];
 
-const residentialServices = [
-  { name: 'Site Preparation', href: '/services/site-preparation' },
-  { name: 'Excavation', href: '/services/excavation' },
-  { name: 'Land Clearing', href: '/services/land-clearing' },
-  { name: 'Drainage & Erosion Control', href: '/services/drainage' },
-  { name: 'Driveway & Road Building', href: '/services/driveway' },
-];
-
-const commercialServices = [
-  { name: 'Grading & Earthwork', href: '/services/grading' },
-  { name: 'Demolition', href: '/services/demolition' },
-  { name: 'Utility Trenching', href: '/services/trenching' },
-  { name: 'Site Preparation', href: '/services/site-preparation' },
-  { name: 'Land Clearing', href: '/services/land-clearing' },
+const services = [
+  { name: 'Excavation', href: '/services/residential/excavation' },
+  { name: 'Land Clearing', href: '/services/residential/land-clearing' },
+  { name: 'Demolition', href: '/services/residential/demolition' },
+  { name: 'Drainage Solutions', href: '/services/residential/drainage' },
+  { name: 'Underground Utilities', href: '/services/residential/utilities' },
+  { name: 'Driveways & Sidewalks', href: '/services/residential/driveways' },
 ];
 ---
 
 <footer class="bg-[#1a1a1a] text-white pt-16 pb-8">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
       <!-- Company Info -->
       <div>
         <img 
@@ -87,25 +80,11 @@ const commercialServices = [
         </ul>
       </div>
 
-      <!-- Residential Services -->
-      <div>
-        <h3 class="text-lg font-[Rajdhani] font-bold mb-4">Residential</h3>
-        <ul class="space-y-2">
-          {residentialServices.map((service) => (
-            <li>
-              <a href={service.href} class="text-gray-400 hover:text-[#c4d931] transition text-sm">
-                {service.name}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <!-- Commercial Services -->
-      <div>
-        <h3 class="text-lg font-[Rajdhani] font-bold mb-4">Commercial</h3>
-        <ul class="space-y-2">
-          {commercialServices.map((service) => (
+      <!-- Services -->
+      <div class="md:col-span-2">
+        <h3 class="text-lg font-[Rajdhani] font-bold mb-4">Services</h3>
+        <ul class="grid grid-cols-2 gap-2">
+          {services.map((service) => (
             <li>
               <a href={service.href} class="text-gray-400 hover:text-[#c4d931] transition text-sm">
                 {service.name}
