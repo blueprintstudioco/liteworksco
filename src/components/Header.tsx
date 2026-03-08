@@ -120,12 +120,20 @@ export default function Header() {
             </a>
           </div>
 
-          <button
-            className="lg:hidden text-white p-2"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          <div className="flex lg:hidden items-center gap-2">
+            <a 
+              href="/get-a-quote" 
+              className="bg-[#c4d931] text-[#1a1a1a] px-4 py-2 rounded font-semibold text-sm font-[Rajdhani]"
+            >
+              Free Quote
+            </a>
+            <button
+              className="text-white p-2"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
