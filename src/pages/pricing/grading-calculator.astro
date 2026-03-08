@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import GradingCalculator from '../../components/calculators/GradingCalculator';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Yard Grading Cost Calculator - Cincinnati",
+  "description": "Calculate yard grading and leveling costs in Greater Cincinnati. Drainage correction, building pad, and full yard regrading estimates.",
+  "provider": { "@type": "HomeAndConstructionBusiness", "name": "Liteworks Co.", "telephone": "+1-513-927-9675", "areaServed": "Greater Cincinnati" }
+};
+---
+
+<Layout
+  title="Yard Grading Cost Calculator | Cincinnati Pricing | Liteworks Co."
+  description="How much does yard grading cost in Cincinnati? Free calculator for drainage correction, building pad prep, and full yard regrading. Instant estimates for homeowners."
+  schema={schema}
+>
+  <Header client:load />
+
+  <main class="pt-20">
+    <section class="bg-[#1a1a1a] py-16 md:py-20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-white mb-4">
+          Grading & Leveling Cost <span class="text-[#c4d931]">Calculator</span>
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+          Get an instant estimate for yard grading and leveling in Greater Cincinnati
+        </p>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-16 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <GradingCalculator client:load />
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <h2 class="text-3xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6">How Much Does Yard Grading Cost in Cincinnati?</h2>
+        
+        <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
+          <p>Yard grading in Greater Cincinnati typically costs <strong>$2,000 to $8,000</strong> for residential projects. The cost depends on the area being graded, the purpose (drainage correction, building pad, or full yard regrade), and whether fill material needs to be imported or exported.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Why Cincinnati Homes Need Grading</h3>
+          <p>Cincinnati is built on hills, and the region's heavy clay soils create unique grading challenges. Clay doesn't absorb water well — it sheds it. When the grade around your home slopes toward the foundation instead of away from it, every rainstorm pushes water against your basement walls. Regrading to establish a minimum 2% slope away from the foundation is one of the most effective and affordable ways to fix a wet basement.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Types of Residential Grading</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><strong>Drainage correction</strong> ($2,000–$5,000) — Regrading around the foundation to redirect water away from the house. The most common residential grading project.</li>
+            <li><strong>Building pad preparation</strong> ($2,500–$6,500) — Leveling and compacting a pad for a patio, shed, garage, or pool. Requires tighter tolerances than general grading.</li>
+            <li><strong>Full yard regrading</strong> ($3,000–$8,000) — Reshaping the entire yard to eliminate low spots, establish proper drainage, and create usable space.</li>
+          </ul>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Fill Dirt: Import vs. On-Site</h3>
+          <p>Some grading projects can be done by simply reshaping existing soil — cutting high spots and filling low spots. Others require importing fill dirt to raise the grade where needed. Imported fill adds $1.50–$3.00 per square foot to the project cost. We assess this during the site visit and include it in your quote so there are no surprises.</p>
+
+          <p>Most residential grading projects are completed in <strong>1–2 days</strong>. We use skid steers with grading attachments and laser-check our work on building pads to ensure accuracy.</p>
+        </div>
+
+        <div class="mt-12 bg-[#1a1a1a] rounded-xl p-8 text-center">
+          <h3 class="text-2xl font-[Rajdhani] font-bold text-white mb-3">Ready for an Exact Quote?</h3>
+          <p class="text-gray-400 mb-6">We'll evaluate your drainage and grading needs on-site — free, no obligation.</p>
+          <a href="/get-a-quote" class="inline-block bg-[#c4d931] text-[#1a1a1a] px-8 py-3 rounded-lg font-[Rajdhani] font-bold text-lg hover:bg-[#b5ca2d] transition">
+            Get a Free Quote
+          </a>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="/services/residential/grading" class="text-[#c4d931] hover:underline font-semibold">
+            ← Learn more about our grading & leveling service
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

@@ -21,6 +21,16 @@ interface Props {
 
 const { service } = Astro.props;
 
+const calculatorMap: Record<string, string> = {
+  'stump-removal': '/pricing/stump-removal-calculator',
+  'concrete-removal': '/pricing/concrete-removal-calculator',
+  'driveways': '/pricing/driveway-calculator',
+  'pool-removal': '/pricing/pool-removal-calculator',
+  'grading': '/pricing/grading-calculator',
+  'retaining-walls': '/pricing/retaining-wall-calculator',
+};
+const calculatorUrl = calculatorMap[service.slug];
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -127,6 +137,19 @@ const hasTestimonial = service.testimonial;
         </div>
       </div>
     </section>
+
+    <!-- ═══════════ PRICING CALCULATOR BANNER ═══════════ -->
+    {calculatorUrl && (
+      <section class="bg-[#c4d931] py-4">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <a href={calculatorUrl} class="flex items-center justify-center gap-3 text-[#1a1a1a] hover:opacity-80 transition">
+            <span class="text-lg">📐</span>
+            <span class="font-[Rajdhani] font-bold text-lg">How much does {service.shortTitle.toLowerCase()} cost?</span>
+            <span class="font-semibold">Try our free pricing calculator →</span>
+          </a>
+        </div>
+      </section>
+    )}
 
     <!-- ═══════════ COMMON SITUATIONS — "Is this right for you?" ═══════════ -->
     {hasSituations ? (

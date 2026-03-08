@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import PoolRemovalCalculator from '../../components/calculators/PoolRemovalCalculator';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Pool Removal Cost Calculator - Cincinnati",
+  "description": "Calculate inground pool removal costs in Greater Cincinnati. Partial and full pool demolition estimates.",
+  "provider": { "@type": "HomeAndConstructionBusiness", "name": "Liteworks Co.", "telephone": "+1-513-927-9675", "areaServed": "Greater Cincinnati" }
+};
+---
+
+<Layout
+  title="Pool Removal Cost Calculator | Cincinnati Pricing | Liteworks Co."
+  description="How much does pool removal cost in Cincinnati? Free calculator for inground pool demolition. Partial and full removal estimates for concrete, fiberglass, and vinyl pools."
+  schema={schema}
+>
+  <Header client:load />
+
+  <main class="pt-20">
+    <section class="bg-[#1a1a1a] py-16 md:py-20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-white mb-4">
+          Pool Removal Cost <span class="text-[#c4d931]">Calculator</span>
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+          Get an instant estimate for inground pool removal in Greater Cincinnati
+        </p>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-16 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <PoolRemovalCalculator client:load />
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <h2 class="text-3xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6">How Much Does Pool Removal Cost in Cincinnati?</h2>
+        
+        <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
+          <p>Inground pool removal in Greater Cincinnati typically costs <strong>$5,000 to $15,000 for partial removal</strong> and <strong>$8,000 to $18,000 for full removal</strong>. The main cost factors are pool size, construction type (concrete, fiberglass, or vinyl), and whether you choose partial or full demolition.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Partial vs. Full Pool Removal</h3>
+          <p><strong>Partial removal</strong> is the most common choice. We break the pool walls down to about 18 inches below grade, punch drainage holes in the bottom, and backfill the cavity with clean fill material in compacted lifts. This approach is significantly cheaper and works for most situations — converting the space to lawn, garden, or patio.</p>
+          <p><strong>Full removal</strong> means we extract every piece of the pool — all concrete, rebar, liner material, and plumbing. The entire cavity is backfilled. This is recommended when you plan to build a structure over the former pool location, as partial removal leaves material underground that could affect future construction.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Pool Type and Cost Impact</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><strong>Concrete/Gunite pools</strong> — Most expensive to remove due to the heavy, reinforced concrete shell. Requires hydraulic breakers and generates significant debris.</li>
+            <li><strong>Fiberglass pools</strong> — Moderate cost. The shell can sometimes be removed in large sections, reducing demolition time.</li>
+            <li><strong>Vinyl liner pools</strong> — Least expensive. The liner is removed and the concrete or steel walls are demolished or extracted.</li>
+          </ul>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">What to Expect During Pool Removal</h3>
+          <p>Most pool removals take <strong>2–3 days</strong>. Before we start, all electrical, gas, and water connections to the pool need to be disconnected by a licensed electrician. We handle the demolition, backfill, grading, and debris disposal. After backfill and grading, the area is ready for topsoil and seeding.</p>
+          <p>Some settling is normal over the first year — even with proper compaction in lifts, you may see 2–4 inches of settling as the fill material consolidates. This is easily corrected with additional topsoil.</p>
+        </div>
+
+        <div class="mt-12 bg-[#1a1a1a] rounded-xl p-8 text-center">
+          <h3 class="text-2xl font-[Rajdhani] font-bold text-white mb-3">Ready to Reclaim Your Backyard?</h3>
+          <p class="text-gray-400 mb-6">We'll assess your pool, discuss your options, and give you a clear quote — no obligation.</p>
+          <a href="/get-a-quote" class="inline-block bg-[#c4d931] text-[#1a1a1a] px-8 py-3 rounded-lg font-[Rajdhani] font-bold text-lg hover:bg-[#b5ca2d] transition">
+            Get a Free Quote
+          </a>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="/services/residential/pool-removal" class="text-[#c4d931] hover:underline font-semibold">
+            ← Learn more about our pool removal service
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

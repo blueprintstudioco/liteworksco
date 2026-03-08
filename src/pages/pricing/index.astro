@@ -1,0 +1,70 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import { Calculator, Phone } from 'lucide-react';
+
+const calculators = [
+  { title: 'Stump Removal', description: 'Grinding & full extraction pricing by stump size and quantity', href: '/pricing/stump-removal-calculator', icon: '🌳' },
+  { title: 'Concrete Removal', description: 'Patio, driveway, sidewalk, and foundation demolition costs', href: '/pricing/concrete-removal-calculator', icon: '🔨' },
+  { title: 'Driveway', description: 'New and replacement driveway pricing — gravel, asphalt, concrete', href: '/pricing/driveway-calculator', icon: '🚗' },
+  { title: 'Pool Removal', description: 'Inground pool demolition — partial and full removal estimates', href: '/pricing/pool-removal-calculator', icon: '🏊' },
+  { title: 'Grading & Leveling', description: 'Drainage correction, building pads, and full yard regrading', href: '/pricing/grading-calculator', icon: '📐' },
+  { title: 'Retaining Wall', description: 'Boulder, block, and timber wall costs by length and height', href: '/pricing/retaining-wall-calculator', icon: '🧱' },
+];
+---
+
+<Layout
+  title="Pricing Calculators | Cincinnati Excavation Costs | Liteworks Co."
+  description="Free pricing calculators for excavation and sitework in Cincinnati. Get instant estimates for stump removal, concrete removal, driveways, pool removal, grading, and retaining walls."
+>
+  <Header client:load />
+
+  <main class="pt-20">
+    <section class="bg-[#1a1a1a] py-16 md:py-20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-white mb-4">
+          Pricing <span class="text-[#c4d931]">Calculators</span>
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+          Get instant cost estimates for your project. These calculators give you a ballpark range — we'll give you an exact quote for free.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-16 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <div class="grid sm:grid-cols-2 gap-6">
+          {calculators.map((calc) => (
+            <a
+              href={calc.href}
+              class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
+            >
+              <div class="text-3xl mb-3">{calc.icon}</div>
+              <h2 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-2 group-hover:text-[#c4d931] transition">
+                {calc.title} Calculator
+              </h2>
+              <p class="text-gray-500 text-sm">{calc.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <div class="mt-12 bg-[#1a1a1a] rounded-xl p-8 text-center">
+          <h3 class="text-2xl font-[Rajdhani] font-bold text-white mb-3">Don't See Your Project?</h3>
+          <p class="text-gray-400 mb-6">We provide free quotes for all our services. Tell us about your project and we'll get back to you within 24 hours.</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/get-a-quote" class="inline-block bg-[#c4d931] text-[#1a1a1a] px-8 py-3 rounded-lg font-[Rajdhani] font-bold text-lg hover:bg-[#b5ca2d] transition">
+              Get a Free Quote
+            </a>
+            <a href="tel:5139279675" class="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-[Rajdhani] font-bold text-lg hover:bg-white/10 transition">
+              <Phone className="w-5 h-5" />
+              (513) 927-9675
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

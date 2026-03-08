@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import RetainingWallCalculator from '../../components/calculators/RetainingWallCalculator';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Retaining Wall Cost Calculator - Cincinnati",
+  "description": "Calculate retaining wall costs in Greater Cincinnati. Boulder, block, and timber wall estimates for hillside properties.",
+  "provider": { "@type": "HomeAndConstructionBusiness", "name": "Liteworks Co.", "telephone": "+1-513-927-9675", "areaServed": "Greater Cincinnati" }
+};
+---
+
+<Layout
+  title="Retaining Wall Cost Calculator | Cincinnati Pricing | Liteworks Co."
+  description="How much does a retaining wall cost in Cincinnati? Free calculator for boulder, concrete block, and timber retaining walls. Instant estimates for hillside properties."
+  schema={schema}
+>
+  <Header client:load />
+
+  <main class="pt-20">
+    <section class="bg-[#1a1a1a] py-16 md:py-20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-white mb-4">
+          Retaining Wall Cost <span class="text-[#c4d931]">Calculator</span>
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+          Get an instant estimate for retaining wall construction in Greater Cincinnati
+        </p>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-16 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <RetainingWallCalculator client:load />
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <h2 class="text-3xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6">How Much Does a Retaining Wall Cost in Cincinnati?</h2>
+        
+        <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
+          <p>Retaining walls in Greater Cincinnati typically cost <strong>$30 to $85 per square foot of wall face</strong>, depending on material, height, and site conditions. A typical residential retaining wall project runs <strong>$5,000 to $25,000+</strong>. Cincinnati's hilly terrain makes retaining walls one of the most common residential construction projects in the region.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Retaining Wall Materials Compared</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><strong>Natural boulder walls</strong> ($55–$85/sq ft face) — The most natural-looking option, ideal for Cincinnati's wooded hillside neighborhoods. Boulders handle the area's clay soils and drainage conditions well. Best for naturalistic settings where you want the wall to blend with the landscape.</li>
+            <li><strong>Concrete block walls</strong> ($45–$70/sq ft face) — Clean, uniform lines. Available in a range of colors and textures. Ideal for walls that need to be precisely straight or follow specific curves. The most versatile option for most residential applications.</li>
+            <li><strong>Timber walls</strong> ($30–$50/sq ft face) — Most affordable option, best for shorter walls (under 4 feet) and garden terracing. Timber walls have a shorter lifespan (15–25 years vs. 50+ for stone and block) but work well for lower-height applications.</li>
+          </ul>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Why Drainage Behind the Wall Matters</h3>
+          <p>The number one reason retaining walls fail in Cincinnati is poor drainage. Clay soil holds water. When saturated clay pushes against the back of a retaining wall, the pressure can be immense — enough to push over or crack even well-built walls. Every retaining wall we build includes a drainage system: perforated pipe at the base, wrapped in filter fabric, surrounded by washed drainage gravel. This isn't optional in Cincinnati's clay soils — it's what keeps the wall standing for decades.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Permits and Engineering</h3>
+          <p>In Hamilton County and most surrounding jurisdictions, retaining walls over <strong>4 feet in retained height</strong> require engineered plans and a building permit. Engineering typically costs $1,500–$2,500 and is included in our estimates for walls that require it. Walls under 4 feet generally don't need permits, but we recommend confirming with your local building department.</p>
+
+          <p>Most residential retaining wall projects take <strong>3–5 days</strong>. Larger multi-tier walls on steep hillsides may take 1–2 weeks.</p>
+        </div>
+
+        <div class="mt-12 bg-[#1a1a1a] rounded-xl p-8 text-center">
+          <h3 class="text-2xl font-[Rajdhani] font-bold text-white mb-3">Ready for an Exact Quote?</h3>
+          <p class="text-gray-400 mb-6">We'll assess your slope, recommend the right wall type, and give you a clear quote.</p>
+          <a href="/get-a-quote" class="inline-block bg-[#c4d931] text-[#1a1a1a] px-8 py-3 rounded-lg font-[Rajdhani] font-bold text-lg hover:bg-[#b5ca2d] transition">
+            Get a Free Quote
+          </a>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="/services/residential/retaining-walls" class="text-[#c4d931] hover:underline font-semibold">
+            ← Learn more about our retaining wall service
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

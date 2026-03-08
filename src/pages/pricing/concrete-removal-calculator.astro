@@ -1,0 +1,83 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import ConcreteRemovalCalculator from '../../components/calculators/ConcreteRemovalCalculator';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Concrete Removal Cost Calculator - Cincinnati",
+  "description": "Calculate concrete removal and demolition costs in Greater Cincinnati. Instant estimates for patios, driveways, sidewalks, and foundations.",
+  "provider": { "@type": "HomeAndConstructionBusiness", "name": "Liteworks Co.", "telephone": "+1-513-927-9675", "areaServed": "Greater Cincinnati" }
+};
+---
+
+<Layout
+  title="Concrete Removal Cost Calculator | Cincinnati Pricing | Liteworks Co."
+  description="How much does concrete removal cost in Cincinnati? Free calculator for patio, driveway, sidewalk, and foundation demolition estimates. Includes hauling and disposal."
+  schema={schema}
+>
+  <Header client:load />
+
+  <main class="pt-20">
+    <section class="bg-[#1a1a1a] py-16 md:py-20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-white mb-4">
+          Concrete Removal Cost <span class="text-[#c4d931]">Calculator</span>
+        </h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+          Get an instant estimate for concrete demolition and removal in Greater Cincinnati
+        </p>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-16 bg-[#f5f5f0]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <ConcreteRemovalCalculator client:load />
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <h2 class="text-3xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6">How Much Does Concrete Removal Cost in Cincinnati?</h2>
+        
+        <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
+          <p>Concrete removal in Greater Cincinnati typically costs <strong>$3.50 to $9.00 per square foot</strong>, depending on thickness, reinforcement, and access conditions. Most residential projects — patios, sidewalks, and driveways — fall in the <strong>$1,500 to $8,000 range</strong>.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">What's Included in Concrete Removal Pricing?</h3>
+          <p>A professional concrete removal quote should include demolition (breaking the concrete), loading, hauling to a recycling facility, disposal fees, and basic grading of the exposed subgrade. At Liteworks Co., all of these are included in our quotes — no surprise charges for dumpsters or dump fees.</p>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Factors That Affect Cost</h3>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><strong>Thickness</strong> — Standard 4" patios and sidewalks are cheapest. 6" driveways cost more. 8"+ foundation concrete is the most expensive to break and remove.</li>
+            <li><strong>Rebar reinforcement</strong> — Reinforced concrete takes significantly longer to demolish because the rebar needs to be cut and separated. This typically adds $1.50–$2.00 per square foot.</li>
+            <li><strong>Access</strong> — Backyard concrete behind the house requires equipment to navigate through gates and around landscaping, adding time and cost.</li>
+            <li><strong>Disposal distance</strong> — Most Cincinnati-area concrete is recycled locally, keeping disposal costs reasonable.</li>
+          </ul>
+
+          <h3 class="text-xl font-[Rajdhani] font-bold text-[#1a1a1a] mt-8">Common Concrete Removal Projects</h3>
+          <p><strong>Patio removal</strong> (200–500 sq ft) typically runs $1,500–$3,000. <strong>Driveway removal</strong> (400–800 sq ft) runs $3,000–$6,000. <strong>Sidewalk removal</strong> is usually $1,500–$2,500 for a standard residential walkway. Pool deck removal is priced similarly to patio removal but may cost more if access is restricted by the pool or fencing.</p>
+
+          <p>Most residential concrete removal projects are completed in <strong>one day</strong>. We break the concrete with hydraulic breakers mounted on our excavator, load the material with our skid steer, and haul it to a local recycling facility where it's crushed and reused as road base.</p>
+        </div>
+
+        <div class="mt-12 bg-[#1a1a1a] rounded-xl p-8 text-center">
+          <h3 class="text-2xl font-[Rajdhani] font-bold text-white mb-3">Ready for an Exact Quote?</h3>
+          <p class="text-gray-400 mb-6">We'll measure your concrete, assess conditions, and give you a firm price — no guesswork.</p>
+          <a href="/get-a-quote" class="inline-block bg-[#c4d931] text-[#1a1a1a] px-8 py-3 rounded-lg font-[Rajdhani] font-bold text-lg hover:bg-[#b5ca2d] transition">
+            Get a Free Quote
+          </a>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="/services/residential/concrete-removal" class="text-[#c4d931] hover:underline font-semibold">
+            ← Learn more about our concrete removal service
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
