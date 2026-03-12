@@ -1,0 +1,116 @@
+{
+  "city": "Aurora",
+  "state": "IN",
+  "service": "Grading & Earthwork",
+  "slug": "grading-aurora-in",
+  "metaTitle": "Grading & Earthwork in Aurora, IN | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert grading and earthwork services in Aurora, IN. We handle everything from site preparation to drainage solutions. Call (513) 927-9675 for a free quote!",
+  "h1": "Aurora, IN Grading & Earthwork Services",
+  "heroText": "Liteworks Co. delivers professional grading and earthwork solutions to Aurora, Indiana, and the surrounding areas. We specialize in preparing sites for construction, ensuring proper drainage, and managing all your excavation needs. Our experienced team understands the unique challenges of working in Southeast Indiana and is committed to providing quality workmanship.",
+  "localContext": {
+    "terrain": "Aurora, Indiana, is characterized by rolling hills and river valleys, situated near the Ohio River. This topography presents unique challenges for grading and earthwork projects.",
+    "soilConditions": "The soil in Aurora and Southeast Indiana typically consists of clay-rich topsoil underlain by shale and limestone bedrock. This can lead to drainage issues and requires careful planning for excavation and foundation work.",
+    "commonProjects": [
+      "Residential site preparation for new homes",
+      "Erosion control and drainage improvements",
+      "Driveway and parking area grading",
+      "Retaining wall installation",
+      "Land clearing for development",
+      "Foundation excavation and backfill"
+    ],
+    "seasonalNotes": "Aurora experiences distinct seasons, with wet springs and occasional freezing temperatures in winter. Grading and earthwork are best performed during the drier months of summer and fall to ensure optimal soil compaction and stability. Spring projects require careful attention to drainage and erosion control.",
+    "localRegulations": "Grading and earthwork projects in Aurora, IN, are subject to local building codes and zoning regulations. Permits may be required for significant land alteration, especially near waterways or in designated floodplains. Liteworks Co. is familiar with these regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Proper Site Drainage",
+      "description": "Ensure water flows away from your foundation, preventing costly damage and maintaining a healthy property."
+    },
+    {
+      "title": "Stable Foundations",
+      "description": "Accurate grading creates a solid base for buildings and structures, preventing settling and structural issues."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Implement effective erosion control measures to protect your land and prevent soil loss."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "Well-graded land enhances the aesthetic appeal and functionality of your property, boosting its overall value."
+    },
+    {
+      "title": "Compliance with Regulations",
+      "description": "Ensure your project meets all local codes and regulations, avoiding potential fines and delays."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough evaluation of your property, including soil testing, topographic surveys, and drainage analysis."
+    },
+    {
+      "step": "Planning & Design",
+      "description": "Our team develops a detailed grading plan that addresses your specific needs and complies with local regulations."
+    },
+    {
+      "step": "Excavation & Grading",
+      "description": "Using state-of-the-art equipment, we carefully excavate, fill, and compact the soil to achieve the desired grade."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install drainage systems, such as swales, culverts, and French drains, to manage water runoff effectively."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the project meets our high standards and your complete satisfaction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $5,000",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions and accessibility",
+      "Amount of excavation and fill required",
+      "Drainage system installation",
+      "Permitting and regulatory requirements"
+    ],
+    "note": "These are estimates only. Contact us for a free, detailed quote tailored to your specific project in Aurora, IN."
+  },
+  "faqs": [
+    {
+      "question": "What is grading and earthwork?",
+      "answer": "Grading and earthwork involve altering the natural landscape by moving soil, rock, and other materials to achieve a desired elevation and slope. This is essential for preparing sites for construction, improving drainage, and creating stable foundations."
+    },
+    {
+      "question": "Why is proper grading important?",
+      "answer": "Proper grading ensures water flows away from buildings, prevents erosion, creates stable foundations, and enhances the overall aesthetic appeal of your property."
+    },
+    {
+      "question": "How much does grading and earthwork cost in Aurora, IN?",
+      "answer": "The cost varies depending on the project's scope and complexity, but typically ranges from $1,500 to $5,000. Contact us for a free, accurate estimate."
+    },
+    {
+      "question": "Do I need a permit for grading and earthwork?",
+      "answer": "Permits may be required for significant land alteration, especially near waterways or in designated floodplains. Liteworks Co. can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How long does grading and earthwork take?",
+      "answer": "The timeline depends on the project's size and complexity, but most residential grading projects can be completed in a few days to a week."
+    },
+    {
+      "question": "What types of equipment do you use?",
+      "answer": "We use a variety of heavy equipment, including excavators, bulldozers, skid steers, and compactors, to ensure efficient and precise grading and earthwork."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:58:59.669Z",
+  "_model": "gemini-2.0-flash"
+}

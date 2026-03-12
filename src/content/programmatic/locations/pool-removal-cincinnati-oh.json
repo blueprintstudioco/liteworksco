@@ -1,0 +1,116 @@
+{
+  "city": "Cincinnati",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-cincinnati-oh",
+  "metaTitle": "Pool Removal in Cincinnati, OH | Liteworks Co.",
+  "metaDescription": "Safely and efficiently remove your unwanted pool with Liteworks Co. in Cincinnati, OH. Experts in pool demolition, backfill, and site restoration. Get a free quote today!",
+  "h1": "Cincinnati Pool Removal Services",
+  "heroText": "Liteworks Co. provides professional pool removal services throughout the Greater Cincinnati area. From initial demolition to complete site restoration, we handle every aspect of your pool removal project. Let us help you reclaim your backyard and eliminate the safety hazards and maintenance costs associated with an unwanted pool.",
+  "localContext": {
+    "terrain": "Cincinnati is characterized by rolling hills and valleys, situated in the Ohio River Valley.",
+    "soilConditions": "The soil in Cincinnati is primarily clay-based, with areas of shale and limestone bedrock. This can impact excavation and backfilling processes during pool removal.",
+    "commonProjects": [
+      "Inground pool removal",
+      "Above-ground pool demolition",
+      "Pool deck removal",
+      "Backyard regrading and landscaping",
+      "Concrete removal and disposal",
+      "Underground utility rerouting"
+    ],
+    "seasonalNotes": "Cincinnati experiences distinct seasons, with freezing temperatures and potential snow in the winter. Pool removal projects are best undertaken during the warmer months (late spring to early fall) for optimal soil conditions and efficient completion.",
+    "localRegulations": "Pool removal in Cincinnati requires adherence to local building codes and permit regulations. Liteworks Co. will handle all necessary permits and ensure compliance with city ordinances regarding demolition, backfilling, and site restoration."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property value by making your backyard more appealing and usable."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the safety hazards associated with an unused or poorly maintained pool, especially for families with young children or pets."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Say goodbye to ongoing pool maintenance expenses, including chemicals, cleaning, and repairs."
+    },
+    {
+      "title": "Reclaimed Backyard Space",
+      "description": "Transform your pool area into a functional and aesthetically pleasing outdoor living space."
+    },
+    {
+      "title": "Environmental Responsibility",
+      "description": "Proper pool demolition and backfilling prevent potential environmental hazards and ensure responsible disposal of materials."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Consultation and Estimate",
+      "description": "We begin with a thorough site assessment and provide a detailed, transparent estimate for your pool removal project."
+    },
+    {
+      "step": "2. Permitting and Planning",
+      "description": "Liteworks Co. handles all necessary permits and develops a comprehensive plan to ensure a safe and efficient pool removal process."
+    },
+    {
+      "step": "3. Pool Demolition",
+      "description": "Our experienced team carefully demolishes the pool structure, adhering to strict safety protocols and environmental regulations."
+    },
+    {
+      "step": "4. Backfilling and Compaction",
+      "description": "We backfill the excavated area with properly compacted soil to ensure stability and prevent future settling."
+    },
+    {
+      "step": "5. Site Restoration",
+      "description": "We complete the project by grading the area, restoring the landscape, and ensuring a seamless transition to your existing backyard."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$5,000 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above-ground)",
+      "Accessibility to the pool area",
+      "Material of the pool (concrete, vinyl, fiberglass)",
+      "Backfill requirements and soil conditions",
+      "Desired level of site restoration"
+    ],
+    "note": "These prices are estimates. Contact us for a free, personalized quote based on your specific pool removal needs in the Cincinnati area."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "The duration of a pool removal project typically ranges from 3-7 days, depending on the size and complexity of the pool and site conditions."
+    },
+    {
+      "question": "Do I need a permit to remove my pool?",
+      "answer": "Yes, a permit is required for pool removal in Cincinnati. Liteworks Co. will handle the permit application process on your behalf."
+    },
+    {
+      "question": "What happens to the debris from the pool demolition?",
+      "answer": "We responsibly dispose of all pool debris at licensed recycling or disposal facilities."
+    },
+    {
+      "question": "What type of fill material do you use?",
+      "answer": "We use compacted fill material that meets local building codes and ensures proper drainage and stability."
+    },
+    {
+      "question": "Will you restore my yard after the pool is removed?",
+      "answer": "Yes, we offer complete site restoration services, including grading, topsoil, and seeding or sodding."
+    },
+    {
+      "question": "Is it better to fill in a pool or remove it completely?",
+      "answer": "Complete removal is generally recommended as it eliminates potential structural issues and allows for full use of the space. Filling in a pool can lead to settling and drainage problems in the future."
+    }
+  ],
+  "nearbyAreas": [
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh",
+    "batavia-oh"
+  ],
+  "_generated": "2026-03-12T13:46:33.691Z",
+  "_model": "gemini-2.0-flash"
+}

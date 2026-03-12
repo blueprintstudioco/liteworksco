@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-franklin-oh",
+  "metaTitle": "Grading & Earthwork in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Expert grading and earthwork services in Franklin, OH by Liteworks Co. We handle residential and commercial projects. Call (513) 927-9675 for a free quote!",
+  "h1": "Franklin, OH Grading & Earthwork Services",
+  "heroText": "Liteworks Co. provides professional grading and earthwork services to Franklin, Ohio residents and businesses. We are experienced in preparing sites for construction, improving drainage, and creating level surfaces for various projects throughout the Franklin area.",
+  "localContext": {
+    "terrain": "Franklin and surrounding Warren County features gently rolling hills and flat bottomlands along the Great Miami River.",
+    "soilConditions": "The soil conditions in Franklin typically consist of clay, silt loam, and some gravel deposits, especially closer to the river. Proper soil testing is essential before any grading or earthwork project to ensure stability and proper drainage.",
+    "commonProjects": [
+      "New home construction site preparation",
+      "Driveway and parking lot grading",
+      "Drainage improvements to prevent water damage",
+      "Land leveling for patios and outdoor living spaces",
+      "Retaining wall installation",
+      "Erosion control measures"
+    ],
+    "seasonalNotes": "Spring and fall are ideal times for grading projects in Franklin, as the ground is typically moist but not frozen. Winter can bring frozen ground, making excavation difficult. Summer can be hot and dry, requiring careful dust control measures.",
+    "localRegulations": "Grading and earthwork projects in Franklin, OH, may be subject to local regulations and require permits, especially if they involve significant changes to the land's topography or impact drainage. Contact the Franklin Planning and Zoning Department for specific requirements."
+  },
+  "benefits": [
+    {
+      "title": "Improved Drainage",
+      "description": "Proper grading directs water away from your foundation, preventing costly water damage and basement flooding."
+    },
+    {
+      "title": "Stable Foundation",
+      "description": "A properly graded site ensures a stable base for construction, preventing settling and structural issues."
+    },
+    {
+      "title": "Enhanced Property Value",
+      "description": "Professional grading and landscaping can significantly enhance the curb appeal and overall value of your property in Franklin."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Grading helps to establish proper slopes and drainage patterns to minimize soil erosion and protect the environment."
+    },
+    {
+      "title": "Prepared for Construction",
+      "description": "We ensure your site is perfectly prepped and ready for your construction project, saving you time and money."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of your property in Franklin, considering soil conditions, topography, and drainage patterns."
+    },
+    {
+      "step": "Planning & Design",
+      "description": "We develop a detailed grading plan that addresses your specific needs and complies with all local regulations."
+    },
+    {
+      "step": "Excavation & Grading",
+      "description": "Our experienced team uses state-of-the-art equipment to carefully excavate and grade your site according to the plan."
+    },
+    {
+      "step": "Compaction & Stabilization",
+      "description": "We compact the soil to ensure stability and prevent settling, and implement erosion control measures as needed."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure that the grading meets our high standards and your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $5,000",
+    "factors": [
+      "Size of the project area",
+      "Complexity of the grading plan",
+      "Soil conditions",
+      "Amount of excavation required",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact Liteworks Co. for a free, accurate quote for your grading project in Franklin, OH."
+  },
+  "faqs": [
+    {
+      "question": "How much does grading cost in Franklin, OH?",
+      "answer": "Grading costs vary depending on the scope and complexity of the project. Smaller residential projects might start around $500, while larger commercial projects can range from $1,500 to $5,000 or more. Contact us for a free estimate."
+    },
+    {
+      "question": "Do I need a permit for grading in Franklin?",
+      "answer": "It depends on the extent of the grading. Significant changes to the land's topography or drainage patterns typically require a permit from the Franklin Planning and Zoning Department. We can help you determine if a permit is needed."
+    },
+    {
+      "question": "How long does a grading project take?",
+      "answer": "The duration of a grading project depends on the size and complexity of the job. Simple residential projects may only take a day or two, while larger commercial projects can take several days or weeks."
+    },
+    {
+      "question": "What are the benefits of professional grading?",
+      "answer": "Professional grading ensures proper drainage, a stable foundation, and enhanced property value. It also helps to prevent erosion and comply with local regulations."
+    },
+    {
+      "question": "What type of equipment do you use for grading?",
+      "answer": "We use a variety of equipment, including excavators, bulldozers, skid steers, and compactors, to ensure that your grading project is completed efficiently and effectively."
+    },
+    {
+      "question": "Do you provide grading services for both residential and commercial properties?",
+      "answer": "Yes, Liteworks Co. provides grading services for both residential and commercial properties in Franklin, OH."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:23:32.030Z",
+  "_model": "gemini-2.0-flash"
+}

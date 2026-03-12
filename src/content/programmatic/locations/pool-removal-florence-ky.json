@@ -1,0 +1,117 @@
+{
+  "city": "Florence",
+  "state": "KY",
+  "service": "Pool Removal",
+  "slug": "pool-removal-florence-ky",
+  "metaTitle": "Pool Removal in Florence, KY | Liteworks Co.",
+  "metaDescription": "Professional pool removal services in Florence, KY by Liteworks Co. Safe, efficient, and affordable pool demolition and fill-in for Northern Kentucky homeowners.",
+  "h1": "Pool Removal Florence, KY",
+  "heroText": "Liteworks Co. provides expert pool removal services in Florence, Kentucky, and the surrounding Northern Kentucky region. We handle everything from initial assessment and permitting to complete pool demolition and site restoration, ensuring a smooth and stress-free process for homeowners in Florence.",
+  "localContext": {
+    "terrain": "Florence, KY, features gently rolling hills and valleys typical of Northern Kentucky.",
+    "soilConditions": "The soil in Florence is primarily composed of clay and shale, which can present challenges for excavation and drainage. Proper site preparation is crucial for pool removal and backfill projects.",
+    "commonProjects": [
+      "In-ground pool removal",
+      "Above-ground pool demolition",
+      "Pool fill-in and landscaping",
+      "Concrete patio removal",
+      "Drainage solutions for yards",
+      "Erosion control"
+    ],
+    "seasonalNotes": "Wet springs and occasional heavy rains in Florence can impact pool removal timelines. It's best to schedule pool removal during the drier summer or fall months for optimal conditions.",
+    "localRegulations": "Pool removal in Florence, KY, may require permits from the city or county. Liteworks Co. will handle all necessary permit applications and ensure compliance with local regulations."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property value and make your yard more appealing to potential buyers in the Florence market."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the safety hazards associated with an unused or poorly maintained pool, protecting your family and neighbors from potential accidents."
+    },
+    {
+      "title": "More Usable Yard Space",
+      "description": "Reclaim valuable yard space for other activities, such as gardening, recreation, or outdoor entertaining."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Say goodbye to the ongoing costs of pool maintenance, including chemicals, cleaning, and repairs."
+    },
+    {
+      "title": "Prevents Liability Issues",
+      "description": "Avoid potential liability issues associated with owning a pool, such as injuries or accidents."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation & Estimate",
+      "description": "We'll assess your pool removal needs in Florence, KY, provide a detailed estimate, and discuss the best approach for your specific situation."
+    },
+    {
+      "step": "Permitting & Planning",
+      "description": "Liteworks Co. will handle all necessary permits and develop a comprehensive plan for the pool removal process, ensuring compliance with local regulations."
+    },
+    {
+      "step": "Pool Demolition & Removal",
+      "description": "Our experienced team will safely and efficiently demolish and remove the pool structure, using specialized equipment to minimize disruption to your property."
+    },
+    {
+      "step": "Site Restoration & Fill-In",
+      "description": "We'll fill in the excavated area with compacted soil, grade the site to ensure proper drainage, and prepare it for landscaping or other desired uses."
+    },
+    {
+      "step": "Final Inspection & Cleanup",
+      "description": "We'll conduct a final inspection to ensure the site meets your expectations and handle all cleanup and debris removal."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$4,500 - $12,000",
+    "factors": [
+      "Pool size and type (in-ground vs. above-ground)",
+      "Accessibility to the pool area",
+      "Materials used for pool construction (concrete, vinyl, fiberglass)",
+      "Permitting requirements and inspection fees",
+      "Site restoration and landscaping needs",
+      "Soil conditions and drainage requirements"
+    ],
+    "note": "These prices are estimates for the Northern Kentucky area. Contact Liteworks Co. for a free, personalized quote for your pool removal project in Florence, KY."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit to remove my pool in Florence, KY?",
+      "answer": "Yes, in most cases, a permit is required for pool removal in Florence, KY. Liteworks Co. will handle the permitting process for you."
+    },
+    {
+      "question": "How long does pool removal take?",
+      "answer": "The duration of the pool removal process depends on the size and type of pool, as well as site conditions. Most projects take between 3-7 days."
+    },
+    {
+      "question": "What happens to the debris from the pool?",
+      "answer": "Liteworks Co. will haul away all debris from the pool demolition and dispose of it properly at a licensed recycling or disposal facility."
+    },
+    {
+      "question": "Will you damage my yard during the pool removal process?",
+      "answer": "We take precautions to minimize disruption to your yard during the pool removal process. We use specialized equipment and techniques to protect your landscaping and other features."
+    },
+    {
+      "question": "What type of fill material do you use?",
+      "answer": "We use compacted soil or gravel as fill material, depending on the specific requirements of your project and the local soil conditions in Florence, KY."
+    },
+    {
+      "question": "How close are you to Florence, KY?",
+      "answer": "We are based in Loveland, OH, which is about 45 minutes from Florence, KY. We serve the entire Northern Kentucky region!"
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:48:02.042Z",
+  "_model": "gemini-2.0-flash"
+}

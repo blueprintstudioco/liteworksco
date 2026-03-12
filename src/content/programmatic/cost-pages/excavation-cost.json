@@ -1,0 +1,133 @@
+{
+  "slug": "excavation-cost",
+  "title": "Excavation Cost Guide: Cincinnati, Northern Kentucky & Indiana (2024)",
+  "metaTitle": "Excavation Cost Per Cubic Yard - Cincinnati, NKY, & Indiana",
+  "metaDescription": "Comprehensive excavation cost guide for Cincinnati, Northern Kentucky, and Indiana. Get realistic pricing for your excavation project. Liteworks Co. (513) 927-9675.",
+  "h1": "Excavation Cost Per Cubic Yard: Cincinnati, Northern Kentucky & Indiana",
+  "intro": "Planning an excavation project in the Greater Cincinnati area? Understanding the excavation cost per cubic yard is crucial for budgeting. Liteworks Co. provides professional excavation services throughout Southwest Ohio, Northern Kentucky, and Southeast Indiana. This guide breaks down the factors influencing excavation costs, offering realistic price ranges to help you plan your project effectively. Call Liteworks Co. at (513) 927-9675 for a free estimate.",
+  "costBreakdown": [
+    {
+      "category": "Small Excavation (less than 50 cubic yards)",
+      "lowEnd": "$8",
+      "average": "$15",
+      "highEnd": "$30",
+      "unit": "per cubic yard",
+      "notes": "Typically for small residential projects like small patios, walkways, or small additions. Includes mobilization and basic site preparation."
+    },
+    {
+      "category": "Medium Excavation (50-200 cubic yards)",
+      "lowEnd": "$7",
+      "average": "$12",
+      "highEnd": "$25",
+      "unit": "per cubic yard",
+      "notes": "Common for larger residential projects, small commercial building pads, or driveway installations. May require additional equipment and labor."
+    },
+    {
+      "category": "Large Excavation (200-500 cubic yards)",
+      "lowEnd": "$6",
+      "average": "$10",
+      "highEnd": "$20",
+      "unit": "per cubic yard",
+      "notes": "For larger commercial projects, building foundations, or significant land grading. Requires specialized equipment and experienced operators."
+    },
+    {
+      "category": "Major Excavation (500+ cubic yards)",
+      "lowEnd": "$5",
+      "average": "$8",
+      "highEnd": "$15",
+      "unit": "per cubic yard",
+      "notes": "Typically for large-scale commercial or industrial projects. Prices can vary significantly based on site conditions and project complexity."
+    },
+    {
+      "category": "Rock Excavation",
+      "lowEnd": "$30",
+      "average": "$50",
+      "highEnd": "$100+",
+      "unit": "per cubic yard",
+      "notes": "Significantly more expensive due to the need for specialized equipment like rock breakers or blasting (with permits)."
+    },
+    {
+      "category": "Site Preparation & Grading",
+      "lowEnd": "$1",
+      "average": "$4",
+      "highEnd": "$8",
+      "unit": "per square foot",
+      "notes": "Includes clearing vegetation, topsoil removal, and rough grading. This is often in addition to the excavation cost."
+    }
+  ],
+  "factorsAffectingCost": [
+    {
+      "factor": "Soil Type",
+      "explanation": "Loose soil is easier and cheaper to excavate than dense clay or rocky soil. Rock excavation requires specialized equipment and increases costs significantly."
+    },
+    {
+      "factor": "Volume of Excavation",
+      "explanation": "Larger projects benefit from economies of scale, reducing the per-cubic-yard cost. Smaller projects have higher mobilization costs spread over fewer cubic yards."
+    },
+    {
+      "factor": "Site Accessibility",
+      "explanation": "Limited access for equipment increases labor costs and may require smaller, specialized machinery, raising the overall price."
+    },
+    {
+      "factor": "Depth of Excavation",
+      "explanation": "Deeper excavations require shoring and can be more complex, leading to higher costs."
+    },
+    {
+      "factor": "Permits and Inspections",
+      "explanation": "Permit fees and required inspections vary by location and project scope, adding to the overall cost."
+    },
+    {
+      "factor": "Distance to Disposal Site",
+      "explanation": "The further the excavated material needs to be hauled, the higher the transportation costs will be."
+    },
+    {
+      "factor": "Underground Utilities",
+      "explanation": "Locating and working around underground utilities requires extra care and can slow down the excavation process, increasing costs."
+    },
+    {
+      "factor": "Weather Conditions",
+      "explanation": "Inclement weather can delay excavation and increase labor costs. Frozen ground also increases excavation difficulty."
+    }
+  ],
+  "savingTips": [
+    "Obtain multiple quotes from reputable excavation contractors.",
+    "Clearly define the scope of work to avoid misunderstandings and change orders.",
+    "Ensure proper site access for equipment to minimize labor costs.",
+    "Consider the timing of your project to avoid peak season pricing.",
+    "Check for underground utilities before excavation to prevent damage and delays.",
+    "Explore options for reusing excavated material on-site to reduce disposal costs."
+  ],
+  "faqs": [
+    {
+      "question": "What is included in the excavation cost?",
+      "answer": "Excavation cost typically includes site preparation, soil removal, loading, hauling, and disposal of excavated materials. It may also include backfilling and compaction, depending on the project scope."
+    },
+    {
+      "question": "How is excavation cost calculated?",
+      "answer": "Excavation cost is typically calculated based on the volume of material excavated (cubic yards) and the factors affecting the project, such as soil type, accessibility, and depth."
+    },
+    {
+      "question": "Do I need a permit for excavation?",
+      "answer": "Permit requirements vary by location and project scope. Contact your local building department to determine if a permit is required for your excavation project."
+    },
+    {
+      "question": "How deep can you excavate?",
+      "answer": "Excavation depth depends on the project requirements and site conditions. Deep excavations may require shoring or other safety measures."
+    },
+    {
+      "question": "What is the best time of year for excavation?",
+      "answer": "The best time of year for excavation is typically during the dry season when the ground is not frozen or saturated with water. This can vary depending on the specific location and weather patterns."
+    },
+    {
+      "question": "What other services does Liteworks Co. provide?",
+      "answer": "Liteworks Co. offers a wide range of services, including grading, drainage solutions, driveway installation, retaining wall construction, land clearing, demolition, septic system installation, foundation work, pool removal, stump removal, and pond construction."
+    }
+  ],
+  "relatedServices": [
+    "grading",
+    "drainage",
+    "foundation"
+  ],
+  "_generated": "2026-03-12T13:30:41.769Z",
+  "_model": "gemini-2.0-flash"
+}

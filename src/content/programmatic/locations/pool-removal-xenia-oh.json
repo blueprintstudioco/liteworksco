@@ -1,0 +1,117 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-xenia-oh",
+  "metaTitle": "Pool Removal in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Professional pool removal services in Xenia, OH by Liteworks Co. Safe, efficient, and affordable pool demolition and site restoration. Call (513) 927-9675 for a free quote.",
+  "h1": "Pool Removal Xenia, OH",
+  "heroText": "Liteworks Co. provides expert pool removal services in Xenia, Ohio and the surrounding Greene County area. We handle everything from initial demolition to complete site restoration, ensuring a smooth and hassle-free process for homeowners. Trust our experienced team to safely and efficiently remove your unwanted pool.",
+  "localContext": {
+    "terrain": "Xenia and Greene County feature gently rolling hills and flat plains, typical of southwestern Ohio. The area is part of the Miami Valley region.",
+    "soilConditions": "The soil in Xenia is predominantly composed of clay loam with varying amounts of gravel and shale. Drainage can be an issue in some areas, especially after heavy rainfall. Proper soil stabilization is important for pool removal and subsequent backfilling.",
+    "commonProjects": [
+      "Inground pool removal",
+      "Above-ground pool demolition",
+      "Pool filling and compaction",
+      "Land grading and leveling",
+      "Erosion control",
+      "Foundation excavation"
+    ],
+    "seasonalNotes": "Winters in Xenia can bring freezing temperatures and snow, potentially delaying pool removal projects. Spring and fall offer ideal weather conditions. Summer is also suitable, but high temperatures can impact project timelines.",
+    "localRegulations": "Pool removal in Xenia requires permits from the Greene County Building Department. Regulations cover demolition, proper disposal of materials, and backfilling requirements. Liteworks Co. can assist with navigating the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property's value and appeal to potential buyers in the Xenia real estate market."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the safety hazards associated with an unused or poorly maintained pool, protecting your family and neighbors from potential accidents."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard space for other landscaping features, recreational activities, or outdoor living areas."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Say goodbye to the ongoing costs of pool maintenance, including chemicals, repairs, and cleaning supplies."
+    },
+    {
+      "title": "Prevent Water Waste",
+      "description": "Eliminate the need to fill and maintain a pool, conserving water and reducing your environmental impact."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Estimate",
+      "description": "We'll assess your pool removal needs, discuss your options, and provide a detailed, transparent estimate."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "We'll handle all necessary permits and create a comprehensive plan to ensure a smooth and compliant pool removal process in Xenia."
+    },
+    {
+      "step": "Pool Demolition and Removal",
+      "description": "Our experienced team will safely and efficiently demolish and remove the pool structure, adhering to all safety regulations."
+    },
+    {
+      "step": "Backfilling and Compaction",
+      "description": "We'll backfill the area with suitable materials and compact the soil to prevent settling and ensure stability."
+    },
+    {
+      "step": "Site Restoration",
+      "description": "We'll grade and level the area, preparing it for new landscaping or other desired uses. We can also provide seeding or sodding services."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$5,000 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above-ground)",
+      "Pool material (concrete, vinyl, fiberglass)",
+      "Accessibility to the pool area",
+      "Backfill material requirements",
+      "Permitting fees",
+      "Desired level of site restoration"
+    ],
+    "note": "Pricing can vary based on the specific complexity and requirements of each pool removal project in Xenia. Contact us for a free, personalized quote."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "The duration of a pool removal project typically ranges from 3 to 7 days, depending on the size and complexity of the pool and site conditions."
+    },
+    {
+      "question": "Do I need a permit to remove my pool in Xenia?",
+      "answer": "Yes, a permit is required for pool removal in Xenia and Greene County. We can handle the permitting process for you."
+    },
+    {
+      "question": "What happens to the debris from the pool?",
+      "answer": "We responsibly dispose of all pool debris at licensed recycling and disposal facilities."
+    },
+    {
+      "question": "Can you fill in the pool with the debris?",
+      "answer": "No. Xenia regulations require that the pool area be filled with clean fill dirt and properly compacted."
+    },
+    {
+      "question": "Will removing my pool damage my yard?",
+      "answer": "We take precautions to minimize any impact on your surrounding yard during the pool removal process. We also offer site restoration services to restore your yard to its original condition or better."
+    },
+    {
+      "question": "What type of fill material do you use?",
+      "answer": "We use compacted fill material that meets local codes and regulations for pool removal. This typically includes a mixture of soil, gravel, and sand to ensure proper drainage and stability."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:30:17.379Z",
+  "_model": "gemini-2.0-flash"
+}

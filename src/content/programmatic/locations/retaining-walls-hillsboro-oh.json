@@ -1,0 +1,116 @@
+{
+  "city": "Hillsboro",
+  "state": "OH",
+  "service": "Retaining Walls",
+  "slug": "retaining-walls-hillsboro-oh",
+  "metaTitle": "Retaining Walls in Hillsboro, OH | Liteworks Co.",
+  "metaDescription": "Expert retaining wall construction and repair services in Hillsboro, OH by Liteworks Co. Protect your property from erosion and create beautiful landscapes.",
+  "h1": "Retaining Walls in Hillsboro, OH",
+  "heroText": "Liteworks Co. provides expert retaining wall solutions in Hillsboro, Ohio, and throughout Highland County. We specialize in designing and building durable, functional, and aesthetically pleasing retaining walls to protect your property from erosion, manage water runoff, and enhance your landscape. Whether you're in a neighborhood like Willowbrook or closer to the historic downtown area, we've got you covered.",
+  "localContext": {
+    "terrain": "Hillsboro and Highland County feature rolling hills and valleys, typical of the Appalachian foothills. This topography often necessitates retaining walls for property stabilization and erosion control.",
+    "soilConditions": "The soil in the Hillsboro area is primarily composed of silty clay loam, with underlying shale bedrock in many locations. This soil type can be prone to expansion and contraction with moisture changes, requiring careful design and construction of retaining walls.",
+    "commonProjects": [
+      "Erosion control on sloped properties",
+      "Terracing gardens and landscapes",
+      "Stabilizing driveways and walkways",
+      "Creating level areas for patios and outdoor living spaces",
+      "Foundation stabilization near hillsides",
+      "Water runoff management"
+    ],
+    "seasonalNotes": "Hillsboro experiences freeze-thaw cycles during the winter months, which can put stress on retaining walls. Proper drainage and construction techniques are crucial to prevent damage. Spring brings increased rainfall, making erosion control a priority.",
+    "localRegulations": "Retaining walls in Hillsboro may require permits depending on their height and location. It's essential to check with the Highland County Building Department for specific regulations and requirements before starting any construction project. Liteworks Co. can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Erosion Control",
+      "description": "Prevent soil erosion and protect your property from damage caused by runoff."
+    },
+    {
+      "title": "Property Stabilization",
+      "description": "Stabilize slopes and prevent landslides, ensuring the safety and integrity of your land."
+    },
+    {
+      "title": "Landscape Enhancement",
+      "description": "Create beautiful and functional outdoor spaces with terraced gardens and leveled areas."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-designed and constructed retaining wall can add significant value to your home."
+    },
+    {
+      "title": "Water Management",
+      "description": "Direct water away from your foundation and prevent water damage."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate your property to determine the best retaining wall design and materials for your specific needs and soil conditions."
+    },
+    {
+      "step": "Design and Planning",
+      "description": "Our team creates a detailed plan, including engineering specifications and material selection, ensuring structural integrity and aesthetic appeal. We will also assist with permitting, if needed."
+    },
+    {
+      "step": "Excavation and Foundation",
+      "description": "We prepare the site by excavating the area and creating a solid foundation for the retaining wall."
+    },
+    {
+      "step": "Wall Construction",
+      "description": "Using high-quality materials and expert craftsmanship, we build the retaining wall according to the approved design."
+    },
+    {
+      "step": "Backfilling and Drainage",
+      "description": "We backfill the wall with appropriate materials and install drainage systems to prevent water buildup and ensure long-term stability."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$50 per square foot",
+    "averageRange": "$75 - $150 per square foot",
+    "factors": [
+      "Wall height and length",
+      "Materials used (e.g., concrete, timber, stone)",
+      "Site accessibility",
+      "Soil conditions",
+      "Drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "These prices are estimates. Contact us for a free, no-obligation quote tailored to your specific project in Hillsboro, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to build a retaining wall?",
+      "answer": "The timeline varies depending on the size and complexity of the project. A small residential wall might take a few days, while a larger commercial project could take several weeks."
+    },
+    {
+      "question": "Do I need a permit for a retaining wall in Hillsboro?",
+      "answer": "It depends on the height and location of the wall. Contact the Highland County Building Department or Liteworks Co. for assistance in determining permit requirements."
+    },
+    {
+      "question": "What materials are used for retaining walls?",
+      "answer": "Common materials include concrete blocks, timber, natural stone, and poured concrete. The best choice depends on your budget, aesthetic preferences, and the structural requirements of the wall."
+    },
+    {
+      "question": "How do I maintain my retaining wall?",
+      "answer": "Regularly inspect the wall for cracks, drainage issues, and signs of erosion. Clear any debris from the drainage system and address any problems promptly to prevent further damage."
+    },
+    {
+      "question": "What is the lifespan of a retaining wall?",
+      "answer": "With proper design, construction, and maintenance, a retaining wall can last for many years, often exceeding 50 years or more."
+    },
+    {
+      "question": "Why is drainage important for a retaining wall?",
+      "answer": "Proper drainage prevents water from building up behind the wall, which can create excessive pressure and lead to structural failure. Good drainage is essential for the longevity of your retaining wall."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "batavia-oh"
+  ],
+  "_generated": "2026-03-12T14:34:22.012Z",
+  "_model": "gemini-2.0-flash"
+}

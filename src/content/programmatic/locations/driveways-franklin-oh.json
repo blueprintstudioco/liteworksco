@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Driveway Construction",
+  "slug": "driveways-franklin-oh",
+  "metaTitle": "Driveway Construction in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Expert driveway construction services in Franklin, OH by Liteworks Co. From gravel to concrete, we build durable and attractive driveways. Call (513) 927-9675 for a free quote.",
+  "h1": "Driveway Construction in Franklin, OH",
+  "heroText": "Liteworks Co. provides top-quality driveway construction services in Franklin, Ohio. We understand the specific needs of Franklin homeowners and businesses, delivering durable and aesthetically pleasing driveways that stand the test of time. Whether you need a new driveway, replacement, or extension, we're the team to call in Warren County.",
+  "localContext": {
+    "terrain": "Franklin, Ohio, is characterized by gently rolling hills and flat areas along the Great Miami River. The area is part of the Miami Valley region.",
+    "soilConditions": "The soil in the Franklin area typically consists of clay loam, with varying amounts of gravel and shale depending on the specific location. Drainage can be an issue in some areas due to the clay content.",
+    "commonProjects": [
+      "New driveway installations for new homes",
+      "Driveway replacements due to cracking or deterioration",
+      "Driveway extensions to accommodate additional parking",
+      "Gravel driveway grading and resurfacing",
+      "Concrete driveway installation and repair",
+      "Asphalt driveway paving and sealing"
+    ],
+    "seasonalNotes": "Franklin experiences distinct seasons. Winter brings freezing temperatures and potential snow/ice, which can impact concrete pouring and asphalt paving. Spring and fall offer ideal conditions for driveway construction. Summer can be hot and humid, requiring careful planning for concrete curing.",
+    "localRegulations": "Driveway construction in Franklin, OH, may be subject to local zoning and permitting regulations. Contact the Franklin City Planning Department to ensure compliance with all applicable rules and obtain necessary permits before starting any work."
+  },
+  "benefits": [
+    {
+      "title": "Enhanced Curb Appeal",
+      "description": "A new or well-maintained driveway significantly improves the overall look of your property, increasing its value and aesthetic appeal."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A durable and attractive driveway is a valuable asset that adds to your home's market value."
+    },
+    {
+      "title": "Improved Functionality",
+      "description": "A properly constructed driveway provides a safe and convenient surface for parking and accessing your home."
+    },
+    {
+      "title": "Reduced Maintenance",
+      "description": "Our driveways are built to last, minimizing the need for frequent repairs and maintenance."
+    },
+    {
+      "title": "Customized Solutions",
+      "description": "We offer a variety of materials and design options to create a driveway that perfectly complements your home and meets your specific needs."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Consultation and Design",
+      "description": "We'll discuss your needs and preferences, assess the site, and provide a detailed plan and estimate."
+    },
+    {
+      "step": "2. Site Preparation",
+      "description": "This includes excavation, grading, and ensuring proper drainage to create a stable base."
+    },
+    {
+      "step": "3. Base Installation",
+      "description": "We'll install a gravel or compacted aggregate base to provide a solid foundation for your driveway."
+    },
+    {
+      "step": "4. Surface Installation",
+      "description": "We'll pour and finish the concrete or lay the asphalt, ensuring a smooth and durable surface."
+    },
+    {
+      "step": "5. Final Inspection and Cleanup",
+      "description": "We'll conduct a final inspection to ensure your satisfaction and clean up the job site."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$6 per square foot",
+    "averageRange": "$8 - $15 per square foot",
+    "factors": [
+      "Material (gravel, asphalt, concrete, pavers)",
+      "Size and complexity of the driveway",
+      "Site preparation requirements (excavation, grading)",
+      "Drainage solutions",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary based on the specific requirements of your project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "How long does driveway construction take?",
+      "answer": "The duration depends on the size and complexity of the project, but most residential driveways can be completed within 3-7 days."
+    },
+    {
+      "question": "What type of driveway is best for Franklin's climate?",
+      "answer": "Concrete and asphalt are both excellent choices for Franklin's climate, offering durability and resistance to freeze-thaw cycles. Gravel is a more economical option."
+    },
+    {
+      "question": "Do I need a permit for driveway construction?",
+      "answer": "It depends on the scope of the project and local regulations. We can help you determine if a permit is required and assist with the application process."
+    },
+    {
+      "question": "How do I maintain my new driveway?",
+      "answer": "Regular sealing (for asphalt) and cleaning (for concrete) can help extend the life of your driveway. Avoid using de-icing salts excessively in the winter."
+    },
+    {
+      "question": "What is the typical lifespan of a driveway?",
+      "answer": "A well-constructed and maintained concrete driveway can last 25-30 years, while an asphalt driveway typically lasts 15-20 years."
+    },
+    {
+      "question": "What type of base is used for driveway construction?",
+      "answer": "We typically use compacted gravel or aggregate as a base for driveways, ensuring a stable and well-draining foundation."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:23:53.249Z",
+  "_model": "gemini-2.0-flash"
+}

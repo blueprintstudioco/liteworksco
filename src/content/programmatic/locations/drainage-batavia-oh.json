@@ -1,0 +1,111 @@
+{
+  "city": "Batavia",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-batavia-oh",
+  "metaTitle": "Drainage Solutions in Batavia, OH | Liteworks Co.",
+  "metaDescription": "Solve your drainage problems in Batavia, OH with Liteworks Co. Expert drainage solutions to protect your property from water damage. Call (513) 927-9675.",
+  "h1": "Batavia, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions in Batavia, Ohio, and the surrounding areas. We understand the unique challenges that Clermont County properties face due to heavy rainfall and specific soil conditions. Our team is equipped to assess your property and implement effective drainage systems to protect your home or business from water damage.",
+  "localContext": {
+    "terrain": "Batavia and Clermont County feature rolling hills and valleys, contributing to potential drainage issues as water flows downhill.",
+    "soilConditions": "The soil in Batavia is primarily composed of clay and shale, which can be poorly draining and contribute to standing water and erosion problems.",
+    "commonProjects": [
+      "French drains",
+      "Surface grading",
+      "Downspout extensions",
+      "Sump pump installation",
+      "Retaining wall drainage",
+      "Erosion control"
+    ],
+    "seasonalNotes": "Spring and summer bring heavy rainfall to Batavia, making it crucial to have proper drainage systems in place to prevent flooding and water damage. Winter freeze-thaw cycles can also exacerbate existing drainage problems.",
+    "localRegulations": "Batavia and Clermont County have specific regulations regarding stormwater management and drainage systems. Liteworks Co. is familiar with these regulations and will ensure that your project complies with all local requirements."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions protect your foundation, landscaping, and property from costly water damage."
+    },
+    {
+      "title": "Reduce Erosion",
+      "description": "Proper drainage helps to stabilize soil and prevent erosion, preserving the integrity of your land."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Drainage systems remove standing water, reducing mosquito breeding grounds and improving the usability of your outdoor spaces."
+    },
+    {
+      "title": "Increase Property Value",
+      "description": "Investing in drainage solutions can increase the value and appeal of your property."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "Knowing that your property is protected from water damage provides peace of mind during heavy rainfall and storms."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of your property to identify drainage issues and problem areas."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Our team designs a custom drainage solution tailored to your specific needs and property conditions."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "We use high-quality materials and expert techniques to install your drainage system efficiently and effectively."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure that your drainage system is functioning properly and meets your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Type of drainage system",
+      "Size of the affected area",
+      "Soil conditions",
+      "Accessibility of the site",
+      "Permitting requirements"
+    ],
+    "note": "These are estimates only. Contact us for a free, no-obligation quote specific to your Batavia property."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs of poor drainage include standing water, soggy areas, erosion, foundation cracks, and water in your basement."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of drainage solutions, including French drains, surface grading, downspout extensions, sump pump installation, and retaining wall drainage."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project, but most drainage systems can be installed within a few days."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Depending on the scope of the project, a permit may be required. We will handle all necessary permitting to ensure compliance with local regulations."
+    },
+    {
+      "question": "How much does a drainage system cost?",
+      "answer": "The cost of a drainage system varies depending on several factors. We provide free, no-obligation quotes to give you an accurate estimate."
+    },
+    {
+      "question": "Why is drainage important in Batavia, OH?",
+      "answer": "Batavia's climate and soil conditions make it prone to drainage issues. Proper drainage protects your property from water damage, erosion, and other problems."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "milford-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:00:12.396Z",
+  "_model": "gemini-2.0-flash"
+}

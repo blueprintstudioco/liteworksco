@@ -1,0 +1,114 @@
+{
+  "city": "Lebanon",
+  "state": "OH",
+  "service": "Driveway Construction",
+  "slug": "driveways-lebanon-oh",
+  "metaTitle": "Driveway Construction in Lebanon, OH | Liteworks Co.",
+  "metaDescription": "Looking for driveway construction in Lebanon, OH? Liteworks Co. provides expert driveway installation and repair services. Contact us today for a free estimate!",
+  "h1": "Driveway Construction in Lebanon, OH",
+  "heroText": "Liteworks Co. provides professional driveway construction services to homeowners and businesses in Lebanon, Ohio. We specialize in building durable, attractive driveways that enhance your property's value and curb appeal. We handle everything from initial excavation and grading to final paving and finishing, ensuring a smooth and long-lasting surface.",
+  "localContext": {
+    "terrain": "Lebanon, OH, is characterized by rolling hills and gentle slopes, typical of the Warren County landscape.",
+    "soilConditions": "The soil in Lebanon is primarily composed of clay and shale, which can present challenges for driveway construction if not properly addressed with adequate drainage and base preparation.",
+    "commonProjects": [
+      "New driveway installations for residential properties",
+      "Driveway replacements and repairs",
+      "Gravel driveway construction",
+      "Asphalt driveway paving",
+      "Concrete driveway installation",
+      "Driveway extensions and widening"
+    ],
+    "seasonalNotes": "Lebanon experiences freeze-thaw cycles in the winter, which can damage poorly constructed driveways. Proper drainage is crucial to prevent water from seeping into the base and causing cracks or potholes. Spring and summer are ideal times for driveway construction.",
+    "localRegulations": "Driveway construction in Lebanon, OH, may require permits from the city's building department. Liteworks Co. is familiar with local regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Enhanced Curb Appeal",
+      "description": "A new or well-maintained driveway significantly improves the appearance of your home, increasing its overall curb appeal and value."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "Investing in a quality driveway can boost your property's market value, making it a worthwhile investment."
+    },
+    {
+      "title": "Improved Functionality",
+      "description": "A properly constructed driveway provides a smooth and safe surface for vehicles, eliminating issues like potholes and uneven surfaces."
+    },
+    {
+      "title": "Long-Lasting Durability",
+      "description": "We use high-quality materials and proven construction techniques to ensure your driveway withstands the elements and heavy use for years to come."
+    },
+    {
+      "title": "Reduced Maintenance",
+      "description": "A well-built driveway requires minimal maintenance, saving you time and money in the long run."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Site Evaluation and Design",
+      "description": "We assess the site conditions, discuss your needs and preferences, and create a custom driveway design that meets your budget and aesthetic goals."
+    },
+    {
+      "step": "2. Excavation and Grading",
+      "description": "We excavate the area to the required depth and grade the base to ensure proper drainage and a stable foundation."
+    },
+    {
+      "step": "3. Base Preparation",
+      "description": "We install a compacted gravel base to provide a solid and durable foundation for the driveway surface."
+    },
+    {
+      "step": "4. Paving and Finishing",
+      "description": "We install the chosen driveway material (asphalt, concrete, or gravel) and finish the surface to create a smooth and attractive appearance."
+    },
+    {
+      "step": "5. Final Inspection and Cleanup",
+      "description": "We conduct a final inspection to ensure the driveway meets our high standards and clean up the site, leaving it neat and tidy."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$6 per square foot",
+    "averageRange": "$8 - $15 per square foot",
+    "factors": [
+      "Driveway size and shape",
+      "Choice of materials (asphalt, concrete, gravel)",
+      "Site conditions and complexity of the project",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact us for a free, no-obligation quote tailored to your specific needs."
+  },
+  "faqs": [
+    {
+      "question": "How long does driveway construction take?",
+      "answer": "The duration of driveway construction depends on the size and complexity of the project, but most residential driveways can be completed within 1-3 days."
+    },
+    {
+      "question": "What type of driveway material is best for Lebanon, OH?",
+      "answer": "Asphalt and concrete are both popular choices for driveways in Lebanon. Asphalt is more affordable, while concrete offers greater durability and a wider range of design options. Gravel is another budget-friendly option for rural properties."
+    },
+    {
+      "question": "Do I need a permit for driveway construction?",
+      "answer": "In most cases, a permit is required for driveway construction in Lebanon, OH. We can assist you with the permitting process."
+    },
+    {
+      "question": "How do I maintain my new driveway?",
+      "answer": "Regular cleaning, sealing (for asphalt and concrete), and prompt repair of any cracks or potholes will help extend the life of your driveway."
+    },
+    {
+      "question": "What is the lifespan of a driveway?",
+      "answer": "With proper installation and maintenance, an asphalt driveway can last 15-20 years, while a concrete driveway can last 25-30 years or more."
+    },
+    {
+      "question": "What is the best time of year to install a driveway in Lebanon, OH?",
+      "answer": "The best time to install a driveway in Lebanon is during the spring, summer, or early fall, when the weather is mild and dry. Avoid installing driveways during the winter months due to freezing temperatures and potential for frost heave."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:02:51.111Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,116 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Foundation Work",
+  "slug": "foundation-burlington-ky",
+  "metaTitle": "Foundation Work in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert foundation services in Burlington, KY. From new construction to repairs, we ensure solid foundations for your Northern Kentucky property.",
+  "h1": "Foundation Work in Burlington, KY",
+  "heroText": "Liteworks Co. delivers reliable foundation services to Burlington, Kentucky, ensuring the structural integrity of your residential or commercial property. We understand the unique challenges of Northern Kentucky soil and offer tailored solutions for new construction, repairs, and replacements. Trust our experienced team to provide a solid foundation for your project.",
+  "localContext": {
+    "terrain": "Burlington, KY, features rolling hills and valleys characteristic of Northern Kentucky. The topography can impact foundation design and construction.",
+    "soilConditions": "The soil in Burlington is typically a mix of clay and shale, with some limestone deposits. These soil conditions can present challenges for foundation stability if not properly addressed.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs for existing homes",
+      "Basement waterproofing",
+      "Retaining wall foundations",
+      "Commercial building foundations",
+      "Foundation inspections"
+    ],
+    "seasonalNotes": "Wet springs and fluctuating temperatures in Burlington can affect soil stability, making proper drainage and soil compaction crucial for foundation longevity. Winter freeze-thaw cycles can also impact existing foundations.",
+    "localRegulations": "Foundation work in Burlington, KY, must adhere to Boone County building codes and regulations. Permits are typically required for new construction and significant repairs. Liteworks Co. can assist with navigating the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Structural Integrity",
+      "description": "Ensuring a solid and stable foundation for your home or building, preventing costly repairs in the future."
+    },
+    {
+      "title": "Expertise in Local Soil",
+      "description": "Deep understanding of Burlington's clay and shale soil conditions, providing tailored solutions for optimal foundation performance."
+    },
+    {
+      "title": "Proper Drainage Solutions",
+      "description": "Implementing effective drainage systems to protect your foundation from water damage and soil erosion."
+    },
+    {
+      "title": "Permitting Assistance",
+      "description": "Navigating Boone County building codes and regulations, ensuring your project is compliant and approved."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-built and maintained foundation enhances the overall value and appeal of your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "Thorough assessment of the soil conditions, topography, and existing structures to determine the best foundation approach."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "Precise excavation and grading to prepare the site for foundation construction, ensuring proper slope and drainage."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "Pouring and reinforcing the foundation according to engineered plans, using high-quality materials for maximum strength and durability."
+    },
+    {
+      "step": "Backfilling and Compaction",
+      "description": "Carefully backfilling around the foundation and compacting the soil to provide stability and prevent settling."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "Conducting a final inspection to ensure the foundation meets all building codes and quality standards."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth and type of foundation (e.g., slab, crawl space, basement)",
+      "Required permits and inspections",
+      "Reinforcement and drainage requirements"
+    ],
+    "note": "These prices are estimates. Contact us for a detailed quote specific to your Burlington, KY, project."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work typically take?",
+      "answer": "The duration varies depending on the project's scope, but most residential foundation projects in Burlington take between 1-3 weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Burlington?",
+      "answer": "Yes, a permit is generally required for new construction and major foundation repairs in Boone County. We can assist with the permit application process."
+    },
+    {
+      "question": "What type of foundation is best for Burlington's soil conditions?",
+      "answer": "The best type depends on the specific site, but slab-on-grade and basement foundations are common. We'll assess your site to determine the most suitable option."
+    },
+    {
+      "question": "How can I prevent foundation problems?",
+      "answer": "Ensure proper drainage, maintain consistent soil moisture levels around your foundation, and address any cracks or signs of settling promptly."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Cracks in walls or floors, sticking doors and windows, uneven floors, and water leaks in the basement are all potential signs of foundation issues."
+    },
+    {
+      "question": "Does Liteworks Co. offer foundation inspections?",
+      "answer": "Yes, we provide thorough foundation inspections to assess the condition of your foundation and identify any potential problems."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:55:22.371Z",
+  "_model": "gemini-2.0-flash"
+}

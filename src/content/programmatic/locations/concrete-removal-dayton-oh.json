@@ -1,0 +1,116 @@
+{
+  "city": "Dayton",
+  "state": "OH",
+  "service": "Concrete Removal",
+  "slug": "concrete-removal-dayton-oh",
+  "metaTitle": "Concrete Removal in Dayton, OH | Liteworks Co.",
+  "metaDescription": "Professional concrete removal services in Dayton, OH by Liteworks Co. We handle everything from driveways to patios. Get a free quote today!",
+  "h1": "Concrete Removal in Dayton, OH",
+  "heroText": "Liteworks Co. provides expert concrete removal services throughout Dayton, Ohio, and the Miami Valley. Whether you're dealing with an old driveway in Kettering, a cracked patio in Oakwood, or outdated concrete structures downtown, our team has the equipment and experience to get the job done safely and efficiently. We handle all aspects of concrete removal, from initial assessment to responsible disposal, leaving your site clean and ready for its next phase.",
+  "localContext": {
+    "terrain": "Dayton sits in the Miami Valley, a relatively flat region formed by glacial activity. The area is bisected by the Great Miami River and its tributaries, leading to varied soil conditions.",
+    "soilConditions": "The soil conditions in Dayton are diverse, ranging from clay-rich soils near the river to areas with more gravel and sand. Shale bedrock is common in the region. Drainage can be an issue in areas with heavy clay content.",
+    "commonProjects": [
+      "Driveway removal and replacement",
+      "Patio and walkway demolition",
+      "Concrete slab removal for new construction",
+      "Foundation removal",
+      "Concrete step and retaining wall demolition",
+      "Removal of old concrete parking pads"
+    ],
+    "seasonalNotes": "Dayton experiences distinct seasons, with freezing temperatures and snow in the winter. Concrete removal is possible year-round, but winter projects may require additional precautions due to frozen ground. Spring and fall offer the most favorable conditions.",
+    "localRegulations": "Concrete disposal in Dayton and Montgomery County is subject to local regulations. Liteworks Co. ensures all concrete debris is disposed of properly at approved recycling or landfill facilities, adhering to environmental guidelines and local ordinances. Permits may be required for certain demolition projects; we can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Safe and Efficient Removal",
+      "description": "Our team utilizes specialized equipment and proven techniques to remove concrete safely and efficiently, minimizing disruption to your property."
+    },
+    {
+      "title": "Proper Disposal",
+      "description": "We handle all aspects of concrete disposal, ensuring it's done responsibly and in compliance with local environmental regulations."
+    },
+    {
+      "title": "Site Preparation",
+      "description": "After concrete removal, we can prepare the site for its next use, including grading, leveling, and backfilling."
+    },
+    {
+      "title": "Experienced Professionals",
+      "description": "Liteworks Co. has years of experience in concrete removal in the Miami Valley. We understand the local soil conditions and regulatory requirements."
+    },
+    {
+      "title": "Free Estimates",
+      "description": "We offer free, no-obligation estimates for all concrete removal projects in Dayton and surrounding areas."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Site Assessment",
+      "description": "We evaluate the project site to determine the scope of work, identify any potential hazards, and develop a removal plan."
+    },
+    {
+      "step": "2. Concrete Cutting and Breaking",
+      "description": "Using specialized equipment, we cut and break the concrete into manageable pieces for removal."
+    },
+    {
+      "step": "3. Removal and Loading",
+      "description": "We load the broken concrete into trucks or containers for transportation to a disposal facility."
+    },
+    {
+      "step": "4. Site Cleanup",
+      "description": "We thoroughly clean the project site, removing any remaining debris and ensuring a clean and safe environment."
+    },
+    {
+      "step": "5. Disposal",
+      "description": "The concrete is taken to a recycling center or landfill."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$5 per square foot",
+    "averageRange": "$5 - $12 per square foot",
+    "factors": [
+      "Thickness of concrete",
+      "Accessibility of the site",
+      "Amount of reinforcement (rebar)",
+      "Disposal fees",
+      "Size of the project"
+    ],
+    "note": "Pricing can vary depending on the specific requirements of the project. Contact us for a free, accurate estimate."
+  },
+  "faqs": [
+    {
+      "question": "How long does concrete removal take?",
+      "answer": "The duration of a concrete removal project depends on the size and complexity of the job. A small patio removal might take a day, while a larger driveway or foundation removal could take several days."
+    },
+    {
+      "question": "Do I need a permit for concrete removal?",
+      "answer": "Permit requirements vary depending on the scope and location of the project. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "What happens to the concrete after it's removed?",
+      "answer": "We prioritize responsible disposal and recycling. Concrete is often crushed and reused as aggregate in construction projects."
+    },
+    {
+      "question": "Is concrete removal a messy process?",
+      "answer": "Concrete removal can be dusty and generate some noise. We take precautions to minimize dust and disruption to your property and neighbors."
+    },
+    {
+      "question": "Can you remove reinforced concrete?",
+      "answer": "Yes, we have the equipment and expertise to remove reinforced concrete, including concrete with rebar or other metal reinforcement."
+    },
+    {
+      "question": "Do you offer other services besides concrete removal?",
+      "answer": "Yes, Liteworks Co. offers a full range of excavation and sitework services, including grading, drainage, driveway installation, retaining walls, and more."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "springboro-oh",
+    "kettering-oh"
+  ],
+  "_generated": "2026-03-12T14:13:36.724Z",
+  "_model": "gemini-2.0-flash"
+}

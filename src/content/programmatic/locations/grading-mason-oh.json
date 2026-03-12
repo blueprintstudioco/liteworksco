@@ -1,0 +1,116 @@
+{
+  "city": "Mason",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-mason-oh",
+  "metaTitle": "Grading & Earthwork in Mason, OH | Liteworks Co.",
+  "metaDescription": "Professional grading and earthwork services in Mason, OH by Liteworks Co. Expert site preparation, drainage solutions, and soil stabilization for residential and commercial projects.",
+  "h1": "Grading & Earthwork Services in Mason, OH",
+  "heroText": "Liteworks Co. provides expert grading and earthwork services in Mason, Ohio, ensuring stable foundations and proper drainage for your construction projects. We understand the unique soil conditions and terrain of the Mason area, delivering reliable and efficient solutions for residential and commercial properties.",
+  "localContext": {
+    "terrain": "Mason, OH features gently rolling hills and relatively flat areas, particularly along the Mill Creek valley. The area is part of the Little Miami River watershed.",
+    "soilConditions": "The soil in Mason is primarily composed of clay and shale, with some areas containing glacial till. These soil types can present challenges for construction due to their tendency to expand and contract with moisture changes. Proper soil compaction and drainage are crucial.",
+    "commonProjects": [
+      "New home construction site preparation",
+      "Driveway and patio grading",
+      "Retaining wall installation",
+      "Drainage system installation",
+      "Land leveling for landscaping",
+      "Erosion control projects"
+    ],
+    "seasonalNotes": "Spring and fall in Mason often bring significant rainfall, which can impact grading and earthwork projects. It's important to schedule projects during drier periods and implement proper erosion control measures to prevent soil runoff. Winter can bring frozen ground conditions.",
+    "localRegulations": "Grading and earthwork projects in Mason, OH, are subject to local regulations and permitting requirements. It's essential to obtain the necessary permits from the City of Mason and Warren County to ensure compliance with zoning and environmental regulations. Liteworks Co. can assist with navigating these requirements."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundations",
+      "description": "Proper grading ensures a level and compacted base for your building's foundation, preventing settling and structural issues."
+    },
+    {
+      "title": "Effective Drainage",
+      "description": "We create effective drainage solutions to direct water away from your property, preventing water damage and erosion."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Our earthwork services minimize soil erosion, protecting your property and the surrounding environment."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "Professional grading and landscaping enhance the aesthetic appeal and functionality of your property, increasing its value."
+    },
+    {
+      "title": "Compliance with Regulations",
+      "description": "We ensure that all grading and earthwork projects comply with local regulations and permitting requirements in Mason, OH."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate the site's topography, soil conditions, and drainage patterns to develop a customized grading plan."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "Using specialized equipment, we carefully excavate and grade the land to achieve the desired elevations and slopes."
+    },
+    {
+      "step": "Soil Compaction",
+      "description": "We compact the soil to ensure stability and prevent settling, using industry-standard compaction techniques."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install drainage systems, such as French drains or swales, to manage water runoff and prevent water damage."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure that the grading and earthwork meet our high standards and comply with local regulations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Type of soil and terrain",
+      "Amount of excavation required",
+      "Drainage system installation",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary significantly based on the specific requirements of each project. Contact us for a free estimate."
+  },
+  "faqs": [
+    {
+      "question": "What is grading and earthwork?",
+      "answer": "Grading and earthwork involve altering the topography of a site by excavating, filling, and compacting soil to create a level and stable surface for construction or landscaping."
+    },
+    {
+      "question": "Why is grading important?",
+      "answer": "Proper grading ensures a stable foundation, effective drainage, and erosion control, preventing structural damage and water damage to your property."
+    },
+    {
+      "question": "Do I need a permit for grading in Mason, OH?",
+      "answer": "Yes, grading projects in Mason typically require a permit from the City of Mason or Warren County. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does a grading project take?",
+      "answer": "The duration of a grading project depends on the size and complexity of the project. Simple grading projects may take a few days, while larger projects can take several weeks."
+    },
+    {
+      "question": "What type of equipment do you use for grading?",
+      "answer": "We use a variety of equipment, including excavators, bulldozers, skid steers, and compactors, to handle different types of grading and earthwork projects."
+    },
+    {
+      "question": "How do you handle soil erosion?",
+      "answer": "We use erosion control measures such as silt fences, erosion control blankets, and temporary seeding to prevent soil erosion during and after grading."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T13:47:29.092Z",
+  "_model": "gemini-2.0-flash"
+}

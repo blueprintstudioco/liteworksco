@@ -1,0 +1,115 @@
+{
+  "city": "Harrison",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-harrison-oh",
+  "metaTitle": "Grading & Earthwork in Harrison, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert grading and earthwork services in Harrison, OH. We handle everything from site preparation to drainage solutions. Call (513) 927-9675 for a free quote.",
+  "h1": "Grading & Earthwork Services in Harrison, OH",
+  "heroText": "Liteworks Co. is your trusted partner for professional grading and earthwork services in Harrison, Ohio. We understand the unique landscape and soil conditions of Hamilton County and provide tailored solutions for residential and commercial projects. Our experienced team ensures precise and efficient grading for stable foundations, proper drainage, and aesthetically pleasing landscapes in Harrison and the surrounding areas.",
+  "localContext": {
+    "terrain": "Harrison, OH, features a mix of rolling hills and flatter areas, typical of southwestern Ohio. The topography influences drainage patterns and requires careful grading to prevent water issues.",
+    "soilConditions": "The soil in Harrison is primarily composed of clay and shale, which can present challenges for construction and landscaping. Proper compaction and soil stabilization techniques are essential for successful grading and earthwork projects.",
+    "commonProjects": [
+      "Residential site preparation for new homes in neighborhoods like Stonebridge and Harrison Lakes.",
+      "Commercial grading for businesses along Harrison Avenue.",
+      "Drainage improvements to address water runoff issues in older neighborhoods.",
+      "Land leveling for new construction projects near the I-74 corridor.",
+      "Erosion control measures for properties on sloped terrain."
+    ],
+    "seasonalNotes": "Harrison experiences freeze-thaw cycles in the winter, which can affect soil stability. Spring and fall are ideal for grading projects, while summer can be hot and dry, requiring careful moisture management.",
+    "localRegulations": "Grading and earthwork projects in Harrison, OH, are subject to local building codes and permitting requirements. It's important to consult with the City of Harrison and Hamilton County Planning and Development to ensure compliance."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundations",
+      "description": "Proper grading ensures a level and compacted base for building foundations, preventing settling and structural issues."
+    },
+    {
+      "title": "Effective Drainage",
+      "description": "Precision grading directs water away from buildings and landscapes, preventing water damage and erosion."
+    },
+    {
+      "title": "Enhanced Aesthetics",
+      "description": "Professional earthwork creates smooth, even surfaces for lawns, gardens, and other landscape features."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Grading techniques minimize soil erosion and protect property from damage caused by heavy rainfall."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "Well-executed grading and earthwork improve the overall appearance and functionality of your property, increasing its value."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate the existing terrain, soil conditions, and drainage patterns to develop a customized grading plan."
+    },
+    {
+      "step": "Permitting & Compliance",
+      "description": "We obtain all necessary permits and ensure compliance with local regulations in Harrison, OH."
+    },
+    {
+      "step": "Grading & Earthmoving",
+      "description": "Our experienced operators use state-of-the-art equipment to precisely grade and contour the land according to the plan."
+    },
+    {
+      "step": "Compaction & Stabilization",
+      "description": "We compact the soil to the required density and implement stabilization techniques to prevent erosion and settling."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a thorough inspection to ensure the grading meets our high standards and your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Project size and complexity",
+      "Volume of soil to be moved",
+      "Site accessibility",
+      "Soil conditions",
+      "Permitting fees"
+    ],
+    "note": "Pricing varies depending on the specific requirements of each project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "What is grading and earthwork?",
+      "answer": "Grading and earthwork involve altering the existing terrain to create level surfaces, improve drainage, and prepare sites for construction or landscaping."
+    },
+    {
+      "question": "Why is grading important?",
+      "answer": "Proper grading is essential for stable foundations, effective drainage, erosion control, and aesthetically pleasing landscapes."
+    },
+    {
+      "question": "How long does a grading project take?",
+      "answer": "The duration of a grading project depends on the size and complexity of the job, but most projects can be completed within a few days to a few weeks."
+    },
+    {
+      "question": "Do I need a permit for grading?",
+      "answer": "In most cases, a permit is required for grading projects in Harrison, OH. We can assist you with the permitting process."
+    },
+    {
+      "question": "What equipment do you use for grading?",
+      "answer": "We use a variety of equipment, including bulldozers, excavators, graders, and compactors, to ensure precise and efficient grading."
+    },
+    {
+      "question": "How much does grading cost?",
+      "answer": "The cost of grading depends on several factors, including the size of the project, the volume of soil to be moved, and site accessibility. Contact us for a free quote."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:43:56.117Z",
+  "_model": "gemini-2.0-flash"
+}

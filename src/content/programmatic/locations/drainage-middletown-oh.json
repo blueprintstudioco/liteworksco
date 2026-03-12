@@ -1,0 +1,111 @@
+{
+  "city": "Middletown",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-middletown-oh",
+  "metaTitle": "Drainage Solutions in Middletown, OH | Liteworks Co.",
+  "metaDescription": "Expert drainage solutions in Middletown, OH by Liteworks Co. Protect your property from water damage with our grading, French drains, and more. Call (513) 927-9675.",
+  "h1": "Middletown, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides comprehensive drainage solutions for residential and commercial properties in Middletown, OH. We understand the unique challenges posed by Butler County's soil and weather, and we're dedicated to protecting your property from water damage with effective and affordable drainage systems.",
+  "localContext": {
+    "terrain": "Middletown, OH, is situated in a relatively flat area of the Great Miami River valley, with some gentle slopes and rolling hills in the surrounding areas. The city is bisected by several creeks and drainage channels that feed into the Great Miami River.",
+    "soilConditions": "The soil in Middletown and Butler County is primarily composed of silty clay loam, which can retain water and lead to drainage issues. Some areas may also have underlying shale or limestone bedrock.",
+    "commonProjects": [
+      "French drains for residential properties",
+      "Grading and sloping for new construction",
+      "Culvert installation and repair",
+      "Erosion control measures along creeks and streams",
+      "Stormwater management systems for commercial developments",
+      "Foundation drainage improvements"
+    ],
+    "seasonalNotes": "Middletown experiences significant rainfall throughout the year, with the wettest periods typically in spring and early summer. Snowmelt in winter can also contribute to drainage problems. Proper drainage is essential to prevent flooding and water damage during these periods.",
+    "localRegulations": "Drainage projects in Middletown, OH, are subject to local and county regulations regarding stormwater management and erosion control. Permits may be required for certain types of work, particularly those affecting waterways or public infrastructure. Liteworks Co. is familiar with these regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions protect your foundation, landscaping, and property from costly water damage."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Say goodbye to mosquito breeding grounds and unsightly puddles with proper drainage."
+    },
+    {
+      "title": "Protect Your Foundation",
+      "description": "Proper drainage diverts water away from your foundation, preventing cracks and structural problems."
+    },
+    {
+      "title": "Improve Property Value",
+      "description": "A well-drained property is more attractive to potential buyers and can increase your property value."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Prevent soil erosion and protect your landscaping with effective drainage solutions."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Site Assessment",
+      "description": "We thoroughly assess your property to identify drainage problems and determine the best solutions."
+    },
+    {
+      "step": "2. Customized Design",
+      "description": "We design a drainage system tailored to your specific needs and budget."
+    },
+    {
+      "step": "3. Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care."
+    },
+    {
+      "step": "4. Final Inspection",
+      "description": "We conduct a final inspection to ensure your drainage system is working effectively."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Size of the area to be drained",
+      "Type of drainage system required",
+      "Soil conditions",
+      "Accessibility of the site",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary based on the complexity and scale of the drainage project. Contact us for a free estimate."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs include standing water, soggy soil, foundation cracks, basement leaks, and erosion."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of drainage solutions, including French drains, surface drains, grading, culvert installation, and sump pump installation."
+    },
+    {
+      "question": "How much does drainage work cost?",
+      "answer": "The cost of drainage work depends on the scope of the project. We offer free estimates to provide you with an accurate quote."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Permits may be required for certain drainage projects in Middletown, OH. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project, but most drainage systems can be installed within a few days."
+    },
+    {
+      "question": "How do I maintain my drainage system?",
+      "answer": "Regular maintenance includes removing debris from drains, inspecting for damage, and ensuring proper grading."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:05:07.628Z",
+  "_model": "gemini-2.0-flash"
+}

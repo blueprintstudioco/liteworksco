@@ -1,0 +1,116 @@
+{
+  "city": "Florence",
+  "state": "KY",
+  "service": "Grading & Earthwork",
+  "slug": "grading-florence-ky",
+  "metaTitle": "Grading & Earthwork in Florence, KY | Liteworks Co.",
+  "metaDescription": "Professional grading and earthwork services in Florence, KY by Liteworks Co. Expert site preparation for residential and commercial projects. Call (513) 927-9675.",
+  "h1": "Florence, KY Grading & Earthwork Services",
+  "heroText": "Liteworks Co. provides expert grading and earthwork services in Florence, Kentucky, and throughout Northern Kentucky. We specialize in preparing sites for construction, ensuring proper drainage, and creating stable foundations for residential and commercial projects. Our experienced team delivers reliable and efficient solutions tailored to the unique needs of Florence properties.",
+  "localContext": {
+    "terrain": "Florence, KY features rolling hills and flat areas along the Ohio River and its tributaries.",
+    "soilConditions": "The soil in Florence is predominantly clay-rich, with some areas containing shale and limestone. Proper soil testing is crucial to determine the best grading and compaction methods.",
+    "commonProjects": [
+      "Residential foundation grading",
+      "Commercial site preparation",
+      "Driveway and parking lot grading",
+      "Retaining wall installation",
+      "Drainage system implementation",
+      "Land leveling for landscaping"
+    ],
+    "seasonalNotes": "Spring and fall often bring heavy rainfall in Florence, making proper drainage during grading projects essential. Winter can cause frozen ground conditions, impacting excavation and compaction.",
+    "localRegulations": "Grading projects in Florence, KY, must adhere to local building codes and regulations regarding erosion control, stormwater management, and site disturbance permits. It's important to consult with the city's planning and zoning department."
+  },
+  "benefits": [
+    {
+      "title": "Ensured Stability",
+      "description": "Proper grading creates a stable base for construction, preventing settling and structural issues."
+    },
+    {
+      "title": "Optimal Drainage",
+      "description": "Effective grading directs water away from buildings, protecting against water damage and foundation problems."
+    },
+    {
+      "title": "Enhanced Property Value",
+      "description": "Professional grading enhances the aesthetic appeal and functionality of your property, increasing its overall value."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Grading and earthwork services help to control erosion and prevent soil loss, protecting the environment."
+    },
+    {
+      "title": "Code Compliance",
+      "description": "We ensure your grading project complies with all local regulations and building codes in Florence, KY."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate the site's topography, soil conditions, and drainage patterns to develop a tailored grading plan."
+    },
+    {
+      "step": "Permitting",
+      "description": "We assist with obtaining the necessary permits and approvals from the City of Florence for your grading project."
+    },
+    {
+      "step": "Grading & Earthmoving",
+      "description": "Our team uses state-of-the-art equipment to perform precise grading and earthmoving according to the approved plan."
+    },
+    {
+      "step": "Compaction & Stabilization",
+      "description": "We compact and stabilize the soil to ensure a solid and durable foundation for your project."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the grading meets all specifications and regulations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $15,000+",
+    "factors": [
+      "Project size and complexity",
+      "Volume of earth to be moved",
+      "Soil conditions and accessibility",
+      "Permitting requirements",
+      "Drainage system installation"
+    ],
+    "note": "These are general estimates. Contact us for a free, detailed quote specific to your Florence, KY project."
+  },
+  "faqs": [
+    {
+      "question": "What is the purpose of grading and earthwork?",
+      "answer": "Grading and earthwork involve altering the landscape to create a level or sloped surface for construction, drainage, or other purposes. It ensures proper site preparation and stability."
+    },
+    {
+      "question": "Do I need a permit for grading in Florence, KY?",
+      "answer": "Yes, most grading projects in Florence require a permit from the city's planning and zoning department. We can assist with the permitting process."
+    },
+    {
+      "question": "How long does a grading project take?",
+      "answer": "The duration of a grading project depends on the size and complexity of the job. Smaller residential projects may take a few days, while larger commercial projects can take several weeks."
+    },
+    {
+      "question": "What equipment do you use for grading?",
+      "answer": "We use a variety of equipment, including bulldozers, excavators, graders, and compactors, to perform grading and earthwork efficiently and accurately."
+    },
+    {
+      "question": "How do you handle erosion control during grading?",
+      "answer": "We implement erosion control measures, such as silt fences, erosion blankets, and temporary seeding, to minimize soil erosion and protect waterways."
+    },
+    {
+      "question": "What factors affect the cost of grading?",
+      "answer": "The cost of grading depends on factors such as the size of the project, the amount of earth to be moved, soil conditions, and permitting requirements."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:46:25.481Z",
+  "_model": "gemini-2.0-flash"
+}

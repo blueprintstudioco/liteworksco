@@ -1,0 +1,111 @@
+{
+  "city": "Florence",
+  "state": "KY",
+  "service": "Drainage Solutions",
+  "slug": "drainage-florence-ky",
+  "metaTitle": "Drainage Solutions in Florence, KY | Liteworks Co.",
+  "metaDescription": "Solve your property's drainage issues in Florence, KY with Liteworks Co. Expert solutions for French drains, grading, and more. Call (513) 927-9675 for a quote.",
+  "h1": "Florence, KY Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions to Florence, Kentucky homeowners and businesses. We address standing water, erosion, and foundation issues with tailored drainage systems, ensuring the long-term health and stability of your property in the Northern Kentucky climate.",
+  "localContext": {
+    "terrain": "Florence is characterized by rolling hills and relatively flat areas along the Ohio River. The topography influences drainage patterns, making proper water management essential.",
+    "soilConditions": "The soil in Florence, KY, is predominantly clay-rich, which can lead to poor drainage and water accumulation. This clay content impacts the design and implementation of effective drainage systems.",
+    "commonProjects": [
+      "French drain installation",
+      "Grading and re-sloping",
+      "Sump pump installation",
+      "Erosion control",
+      "Surface water management",
+      "Downspout extensions"
+    ],
+    "seasonalNotes": "Spring and early summer bring the highest rainfall to Florence, making it crucial to have effective drainage systems in place to prevent flooding and water damage. Winter freeze-thaw cycles can also exacerbate existing drainage problems.",
+    "localRegulations": "Drainage projects in Florence, KY, may be subject to local building codes and regulations, particularly concerning stormwater management and erosion control. Permits may be required for certain drainage system installations. It is important to check with the city of Florence and Boone County for specific requirements."
+  },
+  "benefits": [
+    {
+      "title": "Prevents Water Damage",
+      "description": "Proper drainage prevents water from pooling around your foundation, protecting your home from costly water damage and structural issues."
+    },
+    {
+      "title": "Reduces Erosion",
+      "description": "Effective drainage systems minimize soil erosion, preserving your landscape and preventing sediment runoff."
+    },
+    {
+      "title": "Eliminates Standing Water",
+      "description": "Say goodbye to mosquito breeding grounds and unsightly puddles with our tailored drainage solutions."
+    },
+    {
+      "title": "Protects Your Foundation",
+      "description": "Excess water can compromise your foundation's integrity. Our drainage solutions divert water away, ensuring long-term stability."
+    },
+    {
+      "title": "Increases Property Value",
+      "description": "A well-drained property is more attractive and valuable. Investing in drainage solutions is an investment in your property's future."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough evaluation of your property's drainage issues, including soil type, topography, and water flow patterns."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on our assessment, we design a customized drainage system tailored to your specific needs and budget."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care, using high-quality materials and proven techniques."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure your drainage system is functioning optimally and meets our high standards."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Project complexity",
+      "Materials used",
+      "Site accessibility",
+      "Size of the area"
+    ],
+    "note": "Pricing varies based on the specific drainage solution and property conditions. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs include standing water after rain, soil erosion, foundation cracks, and water in your basement."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of solutions, including French drains, surface drains, downspout extensions, and grading services."
+    },
+    {
+      "question": "How long does drainage installation take?",
+      "answer": "The duration depends on the project's complexity, but most installations are completed within a few days."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Permit requirements vary. We can help you determine if a permit is necessary and assist with the application process."
+    },
+    {
+      "question": "How much does a drainage system cost?",
+      "answer": "Costs vary depending on the scope of the project. We provide free estimates to help you understand the investment involved."
+    },
+    {
+      "question": "How do I maintain my drainage system?",
+      "answer": "Regular maintenance includes clearing debris from drains and ensuring proper water flow. We can provide specific maintenance recommendations for your system."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:46:34.990Z",
+  "_model": "gemini-2.0-flash"
+}

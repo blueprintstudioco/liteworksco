@@ -1,0 +1,116 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Pool Removal",
+  "slug": "pool-removal-burlington-ky",
+  "metaTitle": "Pool Removal in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Professional pool removal services in Burlington, KY by Liteworks Co. Safe, efficient, and affordable pool demolition and site restoration. Get a free quote today!",
+  "h1": "Pool Removal in Burlington, KY",
+  "heroText": "Liteworks Co. provides expert pool removal services in Burlington, Kentucky. We handle everything from initial assessment and permitting to complete demolition and site restoration, ensuring a smooth and hassle-free experience for homeowners in Burlington and the surrounding Northern Kentucky area. Let us help you reclaim your backyard space.",
+  "localContext": {
+    "terrain": "Burlington, KY, features gently rolling hills and flat areas near the Ohio River. The terrain is typical of Northern Kentucky, with a mix of residential and agricultural land.",
+    "soilConditions": "The soil in Burlington is primarily composed of clay and shale, which can present challenges for excavation and demolition projects. Proper drainage and soil stabilization are crucial.",
+    "commonProjects": [
+      "Pool removal and demolition",
+      "Residential excavation for additions",
+      "Drainage solutions for sloped properties",
+      "Driveway installation and repair",
+      "Retaining wall construction",
+      "Land clearing for new construction"
+    ],
+    "seasonalNotes": "Burlington experiences distinct seasons, with wet springs and occasional freezing temperatures in winter. Pool removal is best performed during the drier months of late spring, summer, and early fall to avoid waterlogged soil and potential delays.",
+    "localRegulations": "Pool removal in Burlington, KY, requires adherence to local regulations and permitting processes. Liteworks Co. is familiar with Burlington's requirements and will ensure all necessary permits are obtained before starting any work."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted pool can increase your property value by making your backyard more appealing to a wider range of potential buyers."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the risk of accidents and liabilities associated with an unused or poorly maintained pool."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard space for other activities like gardening, entertaining, or simply relaxing."
+    },
+    {
+      "title": "Reduced Maintenance",
+      "description": "Say goodbye to the costs and hassle of pool maintenance, including chemicals, cleaning, and repairs."
+    },
+    {
+      "title": "Environmental Benefits",
+      "description": "Prevent stagnant water from becoming a breeding ground for mosquitoes and other pests."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Site Assessment",
+      "description": "We'll visit your Burlington property to assess the pool's condition, location, and any potential challenges. We'll discuss your goals and provide a detailed estimate."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "Liteworks Co. will handle all necessary permits and ensure compliance with Burlington, KY, regulations."
+    },
+    {
+      "step": "Pool Demolition and Removal",
+      "description": "Our experienced team will safely and efficiently demolish the pool, removing all debris and materials from your property."
+    },
+    {
+      "step": "Backfilling and Compaction",
+      "description": "We'll backfill the excavated area with appropriate materials and compact the soil to prevent settling."
+    },
+    {
+      "step": "Site Restoration",
+      "description": "We'll restore the area to your specifications, including grading, topsoil, and seeding or sodding."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$4,500 - $12,000",
+    "factors": [
+      "Pool size and depth",
+      "Type of pool (inground, above ground)",
+      "Accessibility to the pool area",
+      "Materials used in pool construction",
+      "Desired level of site restoration"
+    ],
+    "note": "These are estimates only. Contact us for a free, personalized quote for your pool removal project in Burlington, KY."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "Most pool removal projects in Burlington, KY, can be completed in 1-2 weeks, depending on the size and complexity of the project."
+    },
+    {
+      "question": "Do I need a permit to remove my pool?",
+      "answer": "Yes, a permit is typically required for pool removal in Burlington, KY. Liteworks Co. will handle the permitting process for you."
+    },
+    {
+      "question": "What happens to the debris from the pool?",
+      "answer": "We responsibly dispose of all pool debris at licensed recycling or disposal facilities."
+    },
+    {
+      "question": "Will removing my pool damage my yard?",
+      "answer": "We take precautions to minimize disruption to your yard during the pool removal process. We'll restore the area to your specifications after the demolition is complete."
+    },
+    {
+      "question": "What type of fill material do you use?",
+      "answer": "We use compacted fill that meets local building codes."
+    },
+    {
+      "question": "How close are you to Burlington, KY?",
+      "answer": "We are based in Loveland, OH, and regularly service the Burlington, KY area. We are very familiar with Northern Kentucky."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:55:33.531Z",
+  "_model": "gemini-2.0-flash"
+}

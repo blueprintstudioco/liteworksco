@@ -1,0 +1,166 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import fs from 'fs';
+import path from 'path';
+
+export async function getStaticPaths() {
+  const dir = path.join(process.cwd(), 'src', 'content', 'programmatic', 'comparisons');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter(f => f.endsWith('.json')).map(file => {
+    const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+    return { params: { slug: data.slug }, props: { data } };
+  });
+}
+
+const { data } = Astro.props;
+
+const faqSchema = {
+  "@context": "https://schema.org", "@type": "FAQPage",
+  "mainEntity": data.faqs?.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } }))
+};
+---
+
+<Layout title={data.metaTitle} description={data.metaDescription}>
+  <Header client:load />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <main class="pt-20">
+    <section class="bg-secondary text-white py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <nav class="mb-6 text-sm text-white/50">
+          <a href="/" class="hover:text-primary">Home</a><span class="mx-2">›</span>
+          <a href="/compare" class="hover:text-primary">Comparisons</a><span class="mx-2">›</span>
+          <span class="text-white">{data.title}</span>
+        </nav>
+        <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">{data.h1}</h1>
+        <p class="text-xl text-white/70 max-w-3xl">{data.intro}</p>
+      </div>
+    </section>
+
+    <!-- Side by Side -->
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Option A -->
+          <div class="bg-muted rounded-2xl p-8 border-2 border-secondary/10">
+            <h2 class="text-2xl font-heading font-bold mb-4">{data.optionA?.name}</h2>
+            <p class="text-secondary/70 mb-6">{data.optionA?.description}</p>
+            <div class="mb-4">
+              <div class="text-sm font-semibold text-primary mb-2 font-heading">Cost Range</div>
+              <div class="text-xl font-bold">{data.optionA?.costRange}</div>
+            </div>
+            <div class="mb-4">
+              <div class="text-sm font-semibold text-primary mb-2 font-heading">Best For</div>
+              <p class="text-secondary/70">{data.optionA?.bestFor}</p>
+            </div>
+            <div class="mb-4">
+              <h3 class="text-sm font-semibold text-green-600 mb-2 font-heading">✅ Pros</h3>
+              <ul class="space-y-1">
+                {data.optionA?.pros?.map(p => <li class="text-sm text-secondary/70 flex items-start gap-2"><span class="text-green-500">+</span>{p}</li>)}
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold text-red-500 mb-2 font-heading">❌ Cons</h3>
+              <ul class="space-y-1">
+                {data.optionA?.cons?.map(c => <li class="text-sm text-secondary/70 flex items-start gap-2"><span class="text-red-400">−</span>{c}</li>)}
+              </ul>
+            </div>
+          </div>
+
+          <!-- Option B -->
+          <div class="bg-muted rounded-2xl p-8 border-2 border-secondary/10">
+            <h2 class="text-2xl font-heading font-bold mb-4">{data.optionB?.name}</h2>
+            <p class="text-secondary/70 mb-6">{data.optionB?.description}</p>
+            <div class="mb-4">
+              <div class="text-sm font-semibold text-primary mb-2 font-heading">Cost Range</div>
+              <div class="text-xl font-bold">{data.optionB?.costRange}</div>
+            </div>
+            <div class="mb-4">
+              <div class="text-sm font-semibold text-primary mb-2 font-heading">Best For</div>
+              <p class="text-secondary/70">{data.optionB?.bestFor}</p>
+            </div>
+            <div class="mb-4">
+              <h3 class="text-sm font-semibold text-green-600 mb-2 font-heading">✅ Pros</h3>
+              <ul class="space-y-1">
+                {data.optionB?.pros?.map(p => <li class="text-sm text-secondary/70 flex items-start gap-2"><span class="text-green-500">+</span>{p}</li>)}
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold text-red-500 mb-2 font-heading">❌ Cons</h3>
+              <ul class="space-y-1">
+                {data.optionB?.cons?.map(c => <li class="text-sm text-secondary/70 flex items-start gap-2"><span class="text-red-400">−</span>{c}</li>)}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="py-16 bg-muted">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-8">Head-to-Head Comparison</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full bg-white rounded-xl overflow-hidden">
+            <thead>
+              <tr class="border-b-2 border-secondary/10">
+                <th class="text-left py-4 px-5 font-heading font-bold">Factor</th>
+                <th class="text-left py-4 px-5 font-heading font-bold text-primary">{data.optionA?.name}</th>
+                <th class="text-left py-4 px-5 font-heading font-bold text-primary">{data.optionB?.name}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.comparisonTable?.map((row, i) => (
+                <tr class={`border-b border-secondary/5 ${i % 2 === 0 ? 'bg-muted/30' : ''}`}>
+                  <td class="py-3 px-5 font-medium">{row.factor}</td>
+                  <td class="py-3 px-5 text-secondary/70">{row.optionAValue}</td>
+                  <td class="py-3 px-5 text-secondary/70">{row.optionBValue}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verdict -->
+    <section class="py-16">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <h2 class="text-3xl font-heading font-bold mb-6">🏆 Our Verdict</h2>
+        <div class="bg-primary/10 border border-primary/20 rounded-2xl p-8">
+          <p class="text-lg text-secondary/80 leading-relaxed">{data.verdict}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="py-16 bg-muted">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <h2 class="text-3xl font-heading font-bold mb-10">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          {data.faqs?.map(faq => (
+            <details class="group bg-white rounded-xl overflow-hidden border border-secondary/5">
+              <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-muted/50 transition-colors">
+                <span class="font-bold pr-4 font-heading">{faq.question}</span>
+                <svg class="w-5 h-5 text-secondary/40 transition-transform group-open:rotate-180 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 text-secondary/70">{faq.answer}</div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-secondary text-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-4">Not Sure Which Option Is Right?</h2>
+        <p class="text-white/60 mb-8 max-w-2xl mx-auto">We'll assess your property and recommend the best solution for your specific situation.</p>
+        <a href="/get-a-quote" class="inline-flex px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-lg hover:bg-primary/90">Get a Free Quote →</a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

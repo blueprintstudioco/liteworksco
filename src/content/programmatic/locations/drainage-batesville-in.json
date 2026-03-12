@@ -1,0 +1,112 @@
+{
+  "city": "Batesville",
+  "state": "IN",
+  "service": "Drainage Solutions",
+  "slug": "drainage-batesville-in",
+  "metaTitle": "Drainage Solutions in Batesville, IN | Liteworks Co.",
+  "metaDescription": "Solve your drainage problems in Batesville, IN with Liteworks Co. Expert drainage solutions for residential and commercial properties. Call (513) 927-9675 for a quote.",
+  "h1": "Batesville, IN Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions in Batesville, Indiana, and the surrounding Southeast Indiana region. We understand the unique challenges posed by the local terrain and soil conditions, offering tailored drainage systems to protect your property from water damage. From French drains to surface grading, we have the experience to keep your property dry.",
+  "localContext": {
+    "terrain": "Batesville and Southeast Indiana feature rolling hills and valleys, contributing to potential drainage issues due to natural water flow and accumulation.",
+    "soilConditions": "The soil in Batesville is predominantly clay-rich, which retains water and can exacerbate drainage problems. This clay content, combined with occasional shale deposits, leads to slow water absorption and increased runoff.",
+    "commonProjects": [
+      "French drain installation",
+      "Surface grading and re-sloping",
+      "Downspout extensions and redirection",
+      "Sump pump installation and repair",
+      "Erosion control measures",
+      "Culvert installation and repair"
+    ],
+    "seasonalNotes": "Spring and early summer are particularly wet in Batesville, making it crucial to have effective drainage systems in place to manage increased rainfall and prevent flooding. Winter freeze-thaw cycles can also damage existing drainage infrastructure.",
+    "localRegulations": "Batesville adheres to Indiana state regulations regarding stormwater management and drainage. Projects may require permits to ensure compliance with environmental protection and water quality standards. Contact the city of Batesville planning and zoning department for specifics."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions protect your foundation, landscaping, and property from costly water damage caused by flooding and standing water."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Proper drainage prevents soil erosion, preserving the integrity of your land and preventing sediment runoff into local waterways."
+    },
+    {
+      "title": "Improve Property Value",
+      "description": "A well-drained property is more attractive to potential buyers and can increase your property value."
+    },
+    {
+      "title": "Prevent Mosquito Breeding",
+      "description": "Eliminating standing water reduces mosquito breeding grounds, creating a healthier and more enjoyable outdoor environment."
+    },
+    {
+      "title": "Enhance Landscaping",
+      "description": "Proper drainage ensures healthy plant growth by preventing waterlogged soil and root rot."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough evaluation of your property to identify drainage issues, assess soil conditions, and determine the best course of action."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on our assessment, we design a customized drainage system tailored to your specific needs and property layout."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs the drainage system using high-quality materials and proven techniques to ensure long-lasting performance."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "After installation, we conduct a final inspection to ensure the system is functioning correctly and meets your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Project complexity",
+      "Size of the affected area",
+      "Type of drainage system",
+      "Materials used",
+      "Accessibility of the site"
+    ],
+    "note": "These prices are estimates. Contact us for a free, no-obligation quote specific to your Batesville property."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs include standing water after rain, soggy areas in your yard, erosion, foundation cracks, and water in your basement."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of solutions, including French drains, surface grading, downspout extensions, sump pump installation, and culvert installation."
+    },
+    {
+      "question": "How long does drainage installation take?",
+      "answer": "The duration depends on the complexity of the project, but most installations can be completed within a few days."
+    },
+    {
+      "question": "Do I need a permit for drainage work in Batesville?",
+      "answer": "Depending on the scope of the project, a permit may be required. We can help you determine if a permit is necessary and assist with the application process."
+    },
+    {
+      "question": "How do I maintain my drainage system?",
+      "answer": "Regular maintenance includes removing debris from drains, inspecting for damage, and ensuring proper water flow."
+    },
+    {
+      "question": "How much does a French drain cost in Batesville, IN?",
+      "answer": "The cost of a French drain depends on its length, depth, and the materials used. In Batesville, you can expect to pay between $25 and $45 per linear foot for a professionally installed French drain."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T15:01:32.044Z",
+  "_model": "gemini-2.0-flash"
+}

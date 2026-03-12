@@ -1,0 +1,129 @@
+{
+  "slug": "stump-removal-cost",
+  "title": "Stump Removal Cost Guide: Cincinnati, Northern Kentucky & Indiana (2024)",
+  "metaTitle": "Stump Removal Cost Per Stump: Cincinnati, NKY, Indiana (2024)",
+  "metaDescription": "Comprehensive stump removal cost guide for Cincinnati, Northern Kentucky, and Indiana. Get realistic prices for stump grinding and removal from Liteworks Co.",
+  "h1": "Stump Removal Cost Per Stump (2024 Guide)",
+  "intro": "Removing unsightly tree stumps can significantly improve your property's aesthetics and safety. Liteworks Co., serving the Greater Cincinnati, Northern Kentucky, and Indiana areas, provides professional stump removal services. This guide breaks down the stump removal cost per stump, considering factors like size, location, and removal method, offering a clear understanding of what to expect. Contact Liteworks Co. at (513) 927-9675 for a free estimate tailored to your specific needs.",
+  "costBreakdown": [
+    {
+      "category": "Small Stump (Under 12\" Diameter)",
+      "lowEnd": "$75",
+      "average": "$125",
+      "highEnd": "$200",
+      "unit": "per stump",
+      "notes": "Typically removed with smaller stump grinders. Price may vary based on accessibility."
+    },
+    {
+      "category": "Medium Stump (12\"-24\" Diameter)",
+      "lowEnd": "$150",
+      "average": "$250",
+      "highEnd": "$400",
+      "unit": "per stump",
+      "notes": "Requires larger stump grinders and more labor. Root system complexity can affect the price."
+    },
+    {
+      "category": "Large Stump (24\"-36\" Diameter)",
+      "lowEnd": "$350",
+      "average": "$500",
+      "highEnd": "$750",
+      "unit": "per stump",
+      "notes": "Often requires specialized equipment and experienced operators. Extensive root systems increase costs."
+    },
+    {
+      "category": "Extra Large Stump (Over 36\" Diameter)",
+      "lowEnd": "$700",
+      "average": "$1000",
+      "highEnd": "$1500+",
+      "unit": "per stump",
+      "notes": "May require excavation equipment in addition to stump grinding. Price significantly affected by size and root depth."
+    },
+    {
+      "category": "Stump Removal (Including Root Removal)",
+      "lowEnd": "$300",
+      "average": "$600",
+      "highEnd": "$1200+",
+      "unit": "per stump",
+      "notes": "Involves complete removal of the stump and major roots. Necessary for construction or replanting in the same spot. Requires excavation equipment."
+    },
+    {
+      "category": "Travel/Setup Fee",
+      "lowEnd": "$50",
+      "average": "$75",
+      "highEnd": "$100",
+      "unit": "per project",
+      "notes": "Covers transportation of equipment and initial setup costs. May be waived for larger projects."
+    }
+  ],
+  "factorsAffectingCost": [
+    {
+      "factor": "Stump Size",
+      "explanation": "Larger stumps require more time, labor, and specialized equipment, increasing the overall cost."
+    },
+    {
+      "factor": "Stump Location & Accessibility",
+      "explanation": "Stumps in difficult-to-reach areas or with obstacles (fences, buildings) will be more expensive to remove."
+    },
+    {
+      "factor": "Root System Complexity",
+      "explanation": "Extensive or deep root systems require more grinding or excavation, adding to the labor and equipment costs."
+    },
+    {
+      "factor": "Removal Method",
+      "explanation": "Grinding is generally less expensive than complete removal (including roots), but may not be suitable for all situations."
+    },
+    {
+      "factor": "Soil Type",
+      "explanation": "Rocky or compacted soil can make stump removal more difficult and time-consuming, increasing costs."
+    },
+    {
+      "factor": "Travel Distance",
+      "explanation": "Greater distances from the service provider's base of operations can result in higher travel fees."
+    },
+    {
+      "factor": "Permits",
+      "explanation": "Some municipalities require permits for tree removal, which can add to the overall project cost."
+    }
+  ],
+  "savingTips": [
+    "Get multiple quotes from different stump removal services.",
+    "Combine stump removal with other landscaping projects for potential discounts.",
+    "Consider grinding the stump yourself if you have the skills and access to the equipment (but be aware of safety hazards).",
+    "Remove any rocks or debris around the stump before the service arrives to improve access.",
+    "If possible, schedule stump removal during the off-season (late fall or winter) when demand may be lower.",
+    "Ask about discounts for removing multiple stumps at the same time."
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between stump grinding and stump removal?",
+      "answer": "Stump grinding grinds the stump down a few inches below the surface, while stump removal involves extracting the entire stump and root system."
+    },
+    {
+      "question": "How long does stump removal take?",
+      "answer": "The time required depends on the size and complexity of the stump, but most stump grinding jobs take a few hours. Full stump removal can take longer, especially for large stumps."
+    },
+    {
+      "question": "Is it necessary to remove tree stumps?",
+      "answer": "While not always necessary, removing stumps eliminates potential hazards, improves aesthetics, prevents regrowth, and allows for replanting or construction."
+    },
+    {
+      "question": "What happens to the wood chips after stump grinding?",
+      "answer": "The wood chips can be used as mulch, composted, or hauled away. Liteworks Co. can discuss disposal options with you."
+    },
+    {
+      "question": "Do I need a permit for stump removal?",
+      "answer": "Some municipalities require permits for tree removal, including stump removal. Check with your local government to determine if a permit is needed."
+    },
+    {
+      "question": "How deep will you grind the stump?",
+      "answer": "Typically, we grind stumps 4-6 inches below the surface to allow for replanting grass or other landscaping."
+    }
+  ],
+  "relatedServices": [
+    "excavation",
+    "land-clearing",
+    "demolition"
+  ],
+  "_generated": "2026-03-12T13:32:33.756Z",
+  "_model": "gemini-2.0-flash"
+}

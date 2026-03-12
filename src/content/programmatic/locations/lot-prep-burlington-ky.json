@@ -1,0 +1,116 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-burlington-ky",
+  "metaTitle": "Lot Preparation in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Expert lot preparation services in Burlington, KY by Liteworks Co. Ensure your construction project starts on solid ground. Call (513) 927-9675 for a quote!",
+  "h1": "Lot Preparation Services in Burlington, KY",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in Burlington, KY, ensuring your construction project begins with a solid, properly prepared foundation. We handle everything from initial clearing and grading to soil stabilization and utility preparation, tailored to the specific needs of your Burlington property.",
+  "localContext": {
+    "terrain": "Burlington, KY features gently rolling hills and flat areas along the Ohio River. The terrain can present challenges for construction, requiring careful grading and drainage solutions.",
+    "soilConditions": "The soil conditions in Burlington are typically a mix of clay, silt loam, and shale. Clay soils can be problematic due to their tendency to expand and contract with moisture changes, requiring proper compaction and stabilization techniques.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial building development",
+      "Landscaping projects",
+      "Driveway and parking lot installations",
+      "Erosion control projects",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Burlington experiences distinct seasons, with heavy rainfall in the spring and potential for freezing temperatures in the winter. Lot preparation projects are best scheduled during the drier months of late summer and early fall to avoid delays and ensure optimal soil conditions.",
+    "localRegulations": "Lot preparation in Burlington, KY, is subject to local zoning and building codes. Permits are typically required for grading, excavation, and utility connections. Liteworks Co. is familiar with these regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundation",
+      "description": "Proper lot preparation ensures a stable and level foundation for your construction project, preventing future structural issues."
+    },
+    {
+      "title": "Optimal Drainage",
+      "description": "We implement effective drainage solutions to prevent water accumulation and potential damage to your property."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Our services include erosion control measures to protect your land and prevent soil loss during and after construction."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-prepared lot enhances the overall value and appeal of your property."
+    },
+    {
+      "title": "Code Compliance",
+      "description": "We ensure that all lot preparation work is performed in compliance with Burlington's local building codes and regulations."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of your property, including soil testing, topographical surveys, and identification of potential challenges."
+    },
+    {
+      "step": "Clearing and Grubbing",
+      "description": "We remove trees, vegetation, and debris from the site to prepare it for grading and excavation."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "We grade the land to create a level building surface and excavate for foundations, utilities, and other necessary features."
+    },
+    {
+      "step": "Soil Stabilization",
+      "description": "We compact and stabilize the soil to ensure a solid and stable base for construction."
+    },
+    {
+      "step": "Utility Preparation",
+      "description": "We prepare the site for utility connections, including water, sewer, and electrical services."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,000",
+    "averageRange": "$5,000 - $15,000",
+    "factors": [
+      "Lot size and terrain",
+      "Soil conditions",
+      "Amount of clearing and grading required",
+      "Utility preparation needs",
+      "Erosion control measures"
+    ],
+    "note": "These prices are estimates. Contact Liteworks Co. for a detailed quote specific to your project in Burlington, KY."
+  },
+  "faqs": [
+    {
+      "question": "What permits are required for lot preparation in Burlington, KY?",
+      "answer": "Permits are typically required for grading, excavation, and utility connections. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project, but it typically takes between one to two weeks."
+    },
+    {
+      "question": "Why is proper lot preparation important?",
+      "answer": "Proper lot preparation ensures a stable foundation, prevents drainage problems, and helps protect your property from erosion."
+    },
+    {
+      "question": "What type of equipment do you use for lot preparation?",
+      "answer": "We use a variety of heavy equipment, including bulldozers, excavators, graders, and compactors, to ensure efficient and effective lot preparation."
+    },
+    {
+      "question": "Do you offer soil testing services?",
+      "answer": "Yes, we offer soil testing services to determine the soil composition and stability of your property."
+    },
+    {
+      "question": "Can you handle erosion control during lot preparation?",
+      "answer": "Yes, we implement erosion control measures to protect your land and prevent soil loss during and after construction."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:55:53.879Z",
+  "_model": "gemini-2.0-flash"
+}

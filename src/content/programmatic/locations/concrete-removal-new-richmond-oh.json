@@ -1,0 +1,116 @@
+{
+  "city": "New Richmond",
+  "state": "OH",
+  "service": "Concrete Removal",
+  "slug": "concrete-removal-new-richmond-oh",
+  "metaTitle": "Concrete Removal in New Richmond, OH | Liteworks Co.",
+  "metaDescription": "Expert concrete removal services in New Richmond, OH by Liteworks Co. We handle all types of concrete removal projects. Call (513) 927-9675 for a free quote.",
+  "h1": "Concrete Removal in New Richmond, OH",
+  "heroText": "Liteworks Co. provides professional concrete removal services in New Richmond, Ohio, and the surrounding areas. We handle everything from small residential jobs to larger commercial projects, ensuring safe and efficient removal with minimal disruption to your property. Our team is experienced in navigating the specific challenges presented by New Richmond's local environment.",
+  "localContext": {
+    "terrain": "New Richmond is situated along the Ohio River, characterized by rolling hills and river valleys. This varied terrain can impact concrete removal projects, requiring specialized equipment and techniques.",
+    "soilConditions": "The soil in New Richmond and Clermont County generally consists of clay and shale. This can affect the stability of concrete structures and influence the removal process.",
+    "commonProjects": [
+      "Driveway removal and replacement",
+      "Patio and walkway demolition",
+      "Foundation removal",
+      "Concrete slab removal for new construction",
+      "Removal of old concrete steps and retaining walls",
+      "Pool deck removal"
+    ],
+    "seasonalNotes": "Weather conditions significantly impact concrete removal. Winter months can bring frozen ground, making removal more difficult. Spring rains can cause soil instability. Fall and late summer typically provide the most favorable conditions.",
+    "localRegulations": "Concrete removal projects in New Richmond may be subject to local regulations regarding disposal and environmental impact. Liteworks Co. ensures compliance with all applicable codes and ordinances."
+  },
+  "benefits": [
+    {
+      "title": "Safety First",
+      "description": "We prioritize safety in every project, utilizing proper equipment and techniques to protect your property and our team."
+    },
+    {
+      "title": "Efficient Removal",
+      "description": "Our experienced crew ensures prompt and efficient concrete removal, minimizing downtime and disruption."
+    },
+    {
+      "title": "Proper Disposal",
+      "description": "We handle all concrete debris responsibly, adhering to environmental regulations and utilizing proper disposal methods."
+    },
+    {
+      "title": "Site Preparation",
+      "description": "We can prepare the site for future construction or landscaping after concrete removal, ensuring a smooth transition."
+    },
+    {
+      "title": "Experienced Professionals",
+      "description": "Our team has extensive experience in concrete removal projects throughout Clermont County, ensuring quality workmanship."
+    }
+  ],
+  "process": [
+    {
+      "step": "Assessment",
+      "description": "We evaluate the project to determine the best removal approach, considering the concrete's thickness, location, and surrounding environment."
+    },
+    {
+      "step": "Preparation",
+      "description": "We take steps to protect surrounding areas, including marking utility lines and setting up safety barriers."
+    },
+    {
+      "step": "Removal",
+      "description": "Using specialized equipment, we break up and remove the concrete, taking care to minimize dust and noise."
+    },
+    {
+      "step": "Cleanup",
+      "description": "We remove all concrete debris and thoroughly clean the site, leaving it ready for the next phase of your project."
+    },
+    {
+      "step": "Disposal",
+      "description": "We haul away the concrete debris and dispose of it at a licensed recycling or disposal facility."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$5",
+    "averageRange": "$5 - $12 per square foot",
+    "factors": [
+      "Thickness of the concrete",
+      "Accessibility of the site",
+      "Amount of reinforcement (rebar)",
+      "Disposal costs",
+      "Permitting requirements"
+    ],
+    "note": "These prices are estimates. Contact us for a free, accurate quote tailored to your specific project in New Richmond, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does concrete removal take?",
+      "answer": "The duration depends on the size and complexity of the project. A small residential job might take a day, while a larger commercial project could take several days."
+    },
+    {
+      "question": "Do I need a permit for concrete removal?",
+      "answer": "It depends on the scope of the project and local regulations. We can help you determine if a permit is required in New Richmond."
+    },
+    {
+      "question": "What happens to the concrete debris?",
+      "answer": "We dispose of the concrete debris at a licensed recycling or disposal facility, following all environmental regulations."
+    },
+    {
+      "question": "Is concrete removal messy?",
+      "answer": "Concrete removal can create dust and debris. We take precautions to minimize the mess and thoroughly clean the site after the project is complete."
+    },
+    {
+      "question": "Can you remove concrete in tight spaces?",
+      "answer": "Yes, we have specialized equipment that allows us to remove concrete in confined areas."
+    },
+    {
+      "question": "Do you offer any other services?",
+      "answer": "Yes, Liteworks Co. offers a range of excavation and sitework services, including grading, drainage, driveways, retaining walls, land clearing, demolition, septic system installation, and foundation work."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:42:28.259Z",
+  "_model": "gemini-2.0-flash"
+}

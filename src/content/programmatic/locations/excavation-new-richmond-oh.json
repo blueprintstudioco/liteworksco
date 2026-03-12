@@ -1,0 +1,115 @@
+{
+  "city": "New Richmond",
+  "state": "OH",
+  "service": "Excavation",
+  "slug": "excavation-new-richmond-oh",
+  "metaTitle": "Excavation in New Richmond, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert excavation services in New Richmond, OH. Specializing in grading, drainage, foundations, and more. Call (513) 927-9675 for a free quote!",
+  "h1": "Excavation Services in New Richmond, OH",
+  "heroText": "Liteworks Co. offers professional excavation services to the New Richmond, Ohio area. We handle everything from residential grading and drainage solutions to more complex foundation work and land clearing projects. Our experienced team ensures quality workmanship and reliable results for your project in New Richmond.",
+  "localContext": {
+    "terrain": "New Richmond, Ohio, is situated along the Ohio River and features rolling hills and valleys characteristic of Clermont County. The terrain can present unique challenges for excavation projects, especially regarding drainage and soil stability.",
+    "soilConditions": "The soil in and around New Richmond typically consists of clay, shale, and some limestone deposits. Clay-rich soil can be prone to expansion and contraction with moisture changes, affecting foundation stability. Shale can impact excavation costs.",
+    "commonProjects": [
+      "Residential Grading and Drainage",
+      "Foundation Excavation and Backfill",
+      "Driveway Installation and Repair",
+      "Retaining Wall Construction",
+      "Land Clearing for New Construction",
+      "Septic System Installation"
+    ],
+    "seasonalNotes": "Spring in New Richmond often brings heavy rainfall, which can saturate the soil and make excavation more challenging. Winter can bring frozen ground, increasing excavation costs. Fall and late summer are typically the best times for excavation projects, offering drier conditions.",
+    "localRegulations": "Excavation projects in New Richmond, OH, are subject to Clermont County building codes and regulations. Permits are typically required for projects involving significant earthmoving, foundation work, or changes to drainage patterns. Liteworks Co. ensures all projects comply with local regulations."
+  },
+  "benefits": [
+    {
+      "title": "Improved Property Drainage",
+      "description": "Proper excavation and grading can significantly improve drainage around your New Richmond property, preventing water damage and erosion."
+    },
+    {
+      "title": "Stable Foundations",
+      "description": "Our expert foundation excavation services ensure a solid and level base for your new construction or addition in the New Richmond area."
+    },
+    {
+      "title": "Enhanced Property Value",
+      "description": "Professional excavation and landscaping can enhance the aesthetic appeal and overall value of your New Richmond property."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "We implement effective erosion control measures during excavation to protect the surrounding environment and prevent soil loss in New Richmond."
+    },
+    {
+      "title": "Project Efficiency",
+      "description": "Our experienced team and modern equipment ensure efficient and timely completion of your excavation project in New Richmond."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of your New Richmond property to understand the specific requirements of your project, including soil conditions, drainage patterns, and potential challenges."
+    },
+    {
+      "step": "Planning and Permitting",
+      "description": "We develop a detailed excavation plan and obtain any necessary permits from Clermont County to ensure compliance with local regulations."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "Our skilled operators use state-of-the-art equipment to perform the excavation and grading work according to the project specifications."
+    },
+    {
+      "step": "Erosion Control and Stabilization",
+      "description": "We implement erosion control measures and stabilize the excavated area to prevent soil loss and protect the surrounding environment."
+    },
+    {
+      "step": "Final Inspection and Cleanup",
+      "description": "We conduct a final inspection to ensure the project meets our high standards and clean up the site, leaving it neat and ready for the next phase of construction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions and accessibility",
+      "Equipment and labor requirements",
+      "Permitting fees",
+      "Erosion control measures"
+    ],
+    "note": "Pricing can vary based on the specific requirements of your excavation project in New Richmond. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for excavation in New Richmond, OH?",
+      "answer": "Yes, permits are typically required for excavation projects that involve significant earthmoving, foundation work, or changes to drainage patterns. Liteworks Co. can assist you with the permitting process."
+    },
+    {
+      "question": "How long does an excavation project typically take?",
+      "answer": "The duration of an excavation project depends on the size and complexity of the project, as well as soil conditions and weather. We will provide you with an estimated timeline during the initial consultation."
+    },
+    {
+      "question": "What type of equipment do you use for excavation?",
+      "answer": "We use a variety of equipment, including excavators, bulldozers, skid steers, and graders, to handle different types of excavation projects in New Richmond."
+    },
+    {
+      "question": "How do you handle erosion control during excavation?",
+      "answer": "We use a variety of erosion control methods, such as silt fences, hay bales, and temporary seeding, to prevent soil loss and protect the environment during excavation."
+    },
+    {
+      "question": "Are you insured and licensed to perform excavation work in New Richmond?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to perform excavation work in New Richmond, Ohio."
+    },
+    {
+      "question": "What areas around New Richmond do you serve?",
+      "answer": "Besides New Richmond, we provide excavation services throughout Clermont County, including areas like Amelia, Batavia, and Williamsburg."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "milford-oh",
+    "batavia-oh",
+    "loveland-oh"
+  ],
+  "_generated": "2026-03-12T14:41:15.423Z",
+  "_model": "gemini-2.0-flash"
+}

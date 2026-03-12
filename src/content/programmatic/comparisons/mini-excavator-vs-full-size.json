@@ -1,0 +1,111 @@
+{
+  "slug": "mini-excavator-vs-full-size",
+  "title": "Mini Excavator vs. Full-Size Excavator: Which is Right for Your Cincinnati Project?",
+  "metaTitle": "Mini vs. Full-Size Excavator: Choosing the Right Excavator in Cincinnati",
+  "metaDescription": "Comparing mini and full-size excavators for Cincinnati projects. Liteworks Co. provides an expert comparison to help you choose the right machine.",
+  "h1": "Mini Excavator vs. Full-Size Excavator: Which Do You Need?",
+  "intro": "Choosing the right excavator can make or break your project. At Liteworks Co., serving the Greater Cincinnati area, we often help clients decide between a mini excavator and a full-size model. This guide breaks down the pros, cons, and costs to help you make the best choice for your needs.",
+  "optionA": {
+    "name": "Mini Excavator",
+    "description": "Mini excavators, also known as compact excavators, are smaller, lighter versions of their full-size counterparts. They are ideal for jobs in tight spaces or where minimal ground disturbance is required.",
+    "pros": [
+      "Excellent maneuverability in confined spaces",
+      "Lower ground pressure minimizes damage to lawns and surfaces",
+      "Easier to transport",
+      "Lower rental and operating costs"
+    ],
+    "cons": [
+      "Lower digging depth and lifting capacity",
+      "Less powerful than full-size excavators",
+      "Can be less stable on uneven terrain",
+      "Slower cycle times for larger projects"
+    ],
+    "costRange": "$150 - $400 per day (rental); $20,000 - $80,000 (purchase)",
+    "bestFor": "Landscaping, small demolition jobs, trenching for utilities, working in backyards or tight urban environments."
+  },
+  "optionB": {
+    "name": "Full-Size Excavator",
+    "description": "Full-size excavators are powerful machines designed for heavy-duty excavation and demolition. They offer greater digging depth, lifting capacity, and overall performance compared to mini excavators.",
+    "pros": [
+      "High digging depth and lifting capacity",
+      "Powerful engine for demanding tasks",
+      "Greater stability on uneven terrain",
+      "Faster cycle times for large-scale projects"
+    ],
+    "cons": [
+      "Large size limits maneuverability in tight spaces",
+      "Higher ground pressure can damage surfaces",
+      "More difficult and expensive to transport",
+      "Higher rental and operating costs"
+    ],
+    "costRange": "$400 - $1,000+ per day (rental); $80,000 - $500,000+ (purchase)",
+    "bestFor": "Large-scale construction, demolition, road work, major excavation projects, and commercial site development."
+  },
+  "comparisonTable": [
+    {
+      "factor": "Size and Maneuverability",
+      "optionAValue": "Compact, excellent in tight spaces",
+      "optionBValue": "Large, limited maneuverability"
+    },
+    {
+      "factor": "Digging Depth",
+      "optionAValue": "Limited digging depth",
+      "optionBValue": "Greater digging depth"
+    },
+    {
+      "factor": "Lifting Capacity",
+      "optionAValue": "Lower lifting capacity",
+      "optionBValue": "Higher lifting capacity"
+    },
+    {
+      "factor": "Ground Pressure",
+      "optionAValue": "Low, minimizes surface damage",
+      "optionBValue": "High, can damage surfaces"
+    },
+    {
+      "factor": "Transport",
+      "optionAValue": "Easy to transport on a trailer",
+      "optionBValue": "Requires specialized transport"
+    },
+    {
+      "factor": "Cost",
+      "optionAValue": "Lower rental and operating costs",
+      "optionBValue": "Higher rental and operating costs"
+    },
+    {
+      "factor": "Power",
+      "optionAValue": "Less powerful",
+      "optionBValue": "More powerful"
+    },
+    {
+      "factor": "Stability",
+      "optionAValue": "Less stable on uneven ground",
+      "optionBValue": "More stable on uneven ground"
+    }
+  ],
+  "verdict": "For most homeowners and smaller contractors in the Cincinnati area, a mini excavator is the more practical choice. Unless you're consistently tackling large-scale demolition or commercial projects, the maneuverability, lower cost, and reduced ground impact of a mini excavator outweigh the benefits of a full-size machine. However, if you're moving serious earth, a full-size excavator is the only way to go.",
+  "faqs": [
+    {
+      "question": "Can I use a mini excavator for demolition?",
+      "answer": "Yes, mini excavators can be used for small demolition jobs, such as removing sheds, decks, or small structures. However, for larger buildings, a full-size excavator is recommended."
+    },
+    {
+      "question": "Do I need a special license to operate an excavator in Ohio?",
+      "answer": "While Ohio doesn't require a specific license to operate an excavator for private use, it's highly recommended to receive proper training and certification to ensure safe and efficient operation. OSHA regulations apply to commercial use."
+    },
+    {
+      "question": "What size excavator is best for digging a pool?",
+      "answer": "For most residential pools in Cincinnati, a mini excavator in the 3-5 ton range is sufficient. However, for larger or deeper pools, a full-size excavator might be necessary."
+    },
+    {
+      "question": "What are the common attachments for excavators?",
+      "answer": "Common attachments include buckets (various sizes), hydraulic breakers, augers, grapples, and thumbs. These attachments expand the versatility of the excavator for different tasks."
+    },
+    {
+      "question": "How do I transport an excavator?",
+      "answer": "Mini excavators can typically be transported on a heavy-duty trailer pulled by a pickup truck. Full-size excavators require specialized lowboy trailers and professional transport services."
+    }
+  ],
+  "_generated": "2026-03-12T13:43:01.926Z",
+  "_model": "gemini-2.0-flash"
+}

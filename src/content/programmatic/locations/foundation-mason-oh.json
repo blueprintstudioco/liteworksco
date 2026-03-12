@@ -1,0 +1,116 @@
+{
+  "city": "Mason",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-mason-oh",
+  "metaTitle": "Foundation Work in Mason, OH | Liteworks Co.",
+  "metaDescription": "Expert foundation services in Mason, OH by Liteworks Co. Specializing in new foundations, repairs, and inspections. Call (513) 927-9675 for a free quote!",
+  "h1": "Foundation Work in Mason, OH",
+  "heroText": "Liteworks Co. provides comprehensive foundation services in Mason, Ohio, ensuring the structural integrity of your residential or commercial property. Our experienced team handles everything from new foundation construction to repairs and inspections, serving neighborhoods throughout Mason and the surrounding areas.",
+  "localContext": {
+    "terrain": "Mason, OH, sits on gently rolling hills, part of the Little Miami River valley. This topography can influence foundation design and drainage considerations.",
+    "soilConditions": "The soil in Mason primarily consists of clay-rich glacial till and some areas of shale. These soils can expand and contract with moisture changes, potentially impacting foundation stability. Proper soil testing and preparation are crucial.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs (cracks, settling)",
+      "Basement waterproofing",
+      "Foundation inspections",
+      "Foundation additions",
+      "Slab foundation construction"
+    ],
+    "seasonalNotes": "Mason experiences distinct seasons with freeze-thaw cycles in winter and periods of heavy rainfall in spring and summer. These conditions can exacerbate foundation issues. Proper drainage and winterization are important.",
+    "localRegulations": "Foundation work in Mason, OH, is subject to Warren County building codes and permitting requirements. Liteworks Co. will handle all necessary permits and ensure compliance with local regulations."
+  },
+  "benefits": [
+    {
+      "title": "Structural Integrity",
+      "description": "Ensure the long-term stability and safety of your building with a properly constructed and maintained foundation."
+    },
+    {
+      "title": "Property Value",
+      "description": "A solid foundation protects your investment and enhances the value of your property."
+    },
+    {
+      "title": "Waterproofing",
+      "description": "Prevent water damage and mold growth by ensuring proper foundation waterproofing and drainage."
+    },
+    {
+      "title": "Expert Solutions",
+      "description": "Benefit from our experienced team's knowledge and expertise in handling various foundation challenges."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "Rest easy knowing your foundation is in the hands of reliable professionals."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation & Soil Testing",
+      "description": "We conduct a thorough assessment of the site, including soil testing, to determine the best foundation design for your specific needs."
+    },
+    {
+      "step": "Excavation & Grading",
+      "description": "Our team carefully excavates the site and prepares the ground for foundation construction, ensuring proper compaction and drainage."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "We build the foundation according to approved plans, using high-quality materials and adhering to strict quality control standards. This includes pouring concrete footings and walls."
+    },
+    {
+      "step": "Waterproofing & Backfilling",
+      "description": "We apply waterproofing measures to protect the foundation from moisture and backfill the excavated area, ensuring proper drainage away from the foundation."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the foundation meets all requirements and is ready for the next phase of construction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$7,500",
+    "averageRange": "$10,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation",
+      "Required permits and inspections",
+      "Waterproofing and drainage solutions"
+    ],
+    "note": "Pricing can vary significantly based on the specific requirements of each project. Contact us for a free, detailed estimate."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work take?",
+      "answer": "The duration varies depending on the scope of the project, but most residential foundation projects in Mason take between 1-3 weeks."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs include cracks in walls or floors, sticking doors and windows, uneven floors, and water intrusion in the basement."
+    },
+    {
+      "question": "Do I need a permit for foundation work?",
+      "answer": "Yes, most foundation work in Mason requires a building permit from Warren County. We handle the permit process for you."
+    },
+    {
+      "question": "How often should I have my foundation inspected?",
+      "answer": "It's recommended to have your foundation inspected every 1-2 years, especially if you notice any signs of problems."
+    },
+    {
+      "question": "What type of foundations do you build?",
+      "answer": "We construct various types of foundations, including poured concrete, block, and slab foundations, depending on the project requirements."
+    },
+    {
+      "question": "Do you offer foundation repair services?",
+      "answer": "Yes, we offer a full range of foundation repair services, including crack repair, underpinning, and stabilization."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T13:48:58.166Z",
+  "_model": "gemini-2.0-flash"
+}

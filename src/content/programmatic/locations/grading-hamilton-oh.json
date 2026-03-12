@@ -1,0 +1,115 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-hamilton-oh",
+  "metaTitle": "Grading & Earthwork in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Expert grading and earthwork services in Hamilton, OH by Liteworks Co. We handle residential and commercial projects, ensuring proper site preparation and drainage. Call (513) 927-9675.",
+  "h1": "Hamilton, OH Grading & Earthwork Services",
+  "heroText": "Liteworks Co. provides professional grading and earthwork services in Hamilton, Ohio, and the surrounding Butler County area. We specialize in preparing your site for construction, ensuring proper drainage, and creating stable foundations for residential and commercial projects throughout Hamilton's diverse neighborhoods.",
+  "localContext": {
+    "terrain": "Hamilton, OH, features a mix of relatively flat land near the Great Miami River and rolling hills as you move further east. The topography is influenced by glacial activity and river erosion.",
+    "soilConditions": "The soil conditions in Hamilton are typically characterized by clay-rich soils, especially in the low-lying areas. Some areas may also have deposits of sand and gravel. Proper soil testing is crucial before any construction or grading project to ensure stability and drainage.",
+    "commonProjects": [
+      "Residential foundation grading",
+      "Commercial site preparation",
+      "Driveway grading and installation",
+      "Retaining wall construction",
+      "Drainage system installation",
+      "Land leveling for landscaping"
+    ],
+    "seasonalNotes": "Hamilton experiences distinct seasons, with wet springs that can complicate earthwork projects. Winter brings freezing temperatures that can affect soil compaction. The best time for grading and earthwork is typically late spring through early fall, when the ground is drier and temperatures are moderate.",
+    "localRegulations": "Grading and earthwork projects in Hamilton, OH, are subject to local regulations and permitting requirements. It's important to check with the City of Hamilton's engineering department to ensure compliance with all applicable codes and ordinances, especially regarding stormwater management and erosion control."
+  },
+  "benefits": [
+    {
+      "title": "Proper Site Preparation",
+      "description": "Ensure a stable foundation for your construction project with our expert grading services, preventing future structural issues."
+    },
+    {
+      "title": "Improved Drainage",
+      "description": "Protect your property from water damage with properly graded land that directs water away from buildings and foundations."
+    },
+    {
+      "title": "Enhanced Aesthetics",
+      "description": "Create a level and visually appealing landscape that enhances the beauty and value of your property."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Minimize soil erosion and protect the environment with our effective grading and erosion control techniques."
+    },
+    {
+      "title": "Compliance with Regulations",
+      "description": "Ensure your project meets all local regulations and permitting requirements for grading and earthwork in Hamilton, OH."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate the site's topography, soil conditions, and drainage patterns to develop a customized grading plan."
+    },
+    {
+      "step": "Grading and Earthmoving",
+      "description": "Using heavy machinery, we reshape the land to achieve the desired slope and elevation, ensuring proper drainage and stability."
+    },
+    {
+      "step": "Compaction",
+      "description": "We compact the soil to create a solid and stable base for construction or landscaping."
+    },
+    {
+      "step": "Erosion Control",
+      "description": "We implement erosion control measures to prevent soil loss and protect the surrounding environment."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the grading meets all specifications and regulations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $5,000",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions",
+      "Amount of earthmoving required",
+      "Erosion control measures",
+      "Permitting fees"
+    ],
+    "note": "These prices are estimates. Contact us for a free, accurate quote based on your specific project requirements in Hamilton, OH."
+  },
+  "faqs": [
+    {
+      "question": "What is grading and earthwork?",
+      "answer": "Grading and earthwork involve reshaping the land surface to achieve a desired slope, elevation, or drainage pattern. It's essential for preparing sites for construction, landscaping, and other projects."
+    },
+    {
+      "question": "Why is grading important?",
+      "answer": "Proper grading ensures a stable foundation, prevents water damage, controls erosion, and enhances the aesthetics of your property."
+    },
+    {
+      "question": "How much does grading cost in Hamilton, OH?",
+      "answer": "The cost of grading varies depending on the project size, soil conditions, and other factors. Our pricing typically starts at $500, with an average range of $1,500 to $5,000. Contact us for a free estimate."
+    },
+    {
+      "question": "Do I need a permit for grading?",
+      "answer": "In many cases, yes. It's important to check with the City of Hamilton's engineering department to determine if a permit is required for your grading project."
+    },
+    {
+      "question": "How long does grading take?",
+      "answer": "The duration of a grading project depends on its complexity and size. Simple grading projects may take a day or two, while larger projects can take several days or weeks."
+    },
+    {
+      "question": "What equipment do you use for grading?",
+      "answer": "We use a variety of heavy machinery, including bulldozers, excavators, graders, and compactors, to perform grading and earthwork efficiently and effectively."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:07:30.255Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,116 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Grading & Earthwork",
+  "slug": "grading-burlington-ky",
+  "metaTitle": "Grading & Earthwork in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Expert grading and earthwork services in Burlington, KY by Liteworks Co. Ensure proper site preparation, drainage, and stability for your construction project.",
+  "h1": "Grading & Earthwork Services in Burlington, KY",
+  "heroText": "Liteworks Co. provides professional grading and earthwork services in Burlington, Kentucky, and the surrounding areas. We specialize in preparing your site for construction, ensuring proper drainage, and creating a stable foundation for your project. From residential developments to commercial construction, we have the experience and equipment to handle any grading and earthwork challenge in Burlington.",
+  "localContext": {
+    "terrain": "Burlington, KY, features rolling hills and gently sloping landscapes typical of Northern Kentucky.",
+    "soilConditions": "The soil in Burlington is primarily composed of clay, with some areas containing shale and limestone deposits. This can create challenges related to drainage and soil stability, requiring careful grading and compaction.",
+    "commonProjects": [
+      "Residential foundation grading",
+      "Driveway and parking lot grading",
+      "Land clearing and leveling for new construction",
+      "Erosion control and drainage solutions",
+      "Retaining wall installation",
+      "Backfill and compaction for utility trenches"
+    ],
+    "seasonalNotes": "Burlington experiences seasonal temperature variations that can impact earthwork. Spring and fall often bring heavy rainfall, which can affect soil compaction and stability. Winter can cause frozen ground, making excavation more difficult. Proper planning and site management are essential to mitigate these seasonal challenges.",
+    "localRegulations": "Grading and earthwork projects in Burlington, KY, are subject to local regulations and permitting requirements. It is essential to consult with the Boone County Planning Commission and obtain the necessary permits before commencing any work. Liteworks Co. can assist you in navigating these regulations and ensuring compliance."
+  },
+  "benefits": [
+    {
+      "title": "Proper Site Drainage",
+      "description": "Ensure water flows away from your foundation to prevent water damage and costly repairs."
+    },
+    {
+      "title": "Stable Foundation",
+      "description": "Create a solid base for your construction project, minimizing the risk of settling or structural issues."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Implement effective erosion control measures to protect your property and the surrounding environment."
+    },
+    {
+      "title": "Enhanced Property Value",
+      "description": "Proper grading and landscaping can significantly improve the aesthetic appeal and value of your property."
+    },
+    {
+      "title": "Code Compliance",
+      "description": "Ensure your project meets all local regulations and permitting requirements."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough evaluation of your property to understand the existing topography, soil conditions, and drainage patterns."
+    },
+    {
+      "step": "Grading Plan Development",
+      "description": "Based on our assessment, we create a detailed grading plan that outlines the necessary cuts, fills, and slopes to achieve the desired elevation and drainage."
+    },
+    {
+      "step": "Earthmoving and Compaction",
+      "description": "Using our specialized equipment, we carefully move and compact the soil to create a stable and level surface."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install drainage systems, such as swales, culverts, and French drains, to manage stormwater runoff and prevent erosion."
+    },
+    {
+      "step": "Final Grading and Seeding",
+      "description": "We complete the project with final grading to ensure a smooth and aesthetically pleasing surface, followed by seeding or sodding to establish vegetation."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $15,000",
+    "factors": [
+      "Project size and complexity",
+      "Volume of earthwork required",
+      "Soil conditions and accessibility",
+      "Drainage system installation",
+      "Permitting fees"
+    ],
+    "note": "These prices are estimates. Contact Liteworks Co. for a free, detailed quote specific to your project in Burlington, KY."
+  },
+  "faqs": [
+    {
+      "question": "What is the purpose of grading and earthwork?",
+      "answer": "Grading and earthwork are essential for preparing a site for construction by creating a level and stable surface, ensuring proper drainage, and preventing erosion."
+    },
+    {
+      "question": "How do I know if I need grading and earthwork services?",
+      "answer": "If you are planning to build a new structure, install a driveway, or address drainage issues on your property, you likely need grading and earthwork services."
+    },
+    {
+      "question": "How long does a typical grading and earthwork project take?",
+      "answer": "The duration of a grading and earthwork project depends on the size and complexity of the project. A small residential project may take a few days, while a larger commercial project may take several weeks."
+    },
+    {
+      "question": "What equipment do you use for grading and earthwork?",
+      "answer": "We use a variety of equipment, including bulldozers, excavators, skid steers, and compactors, to efficiently and effectively complete grading and earthwork projects."
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured to provide grading and earthwork services in Burlington, KY."
+    },
+    {
+      "question": "Do I need a permit for grading and earthwork in Burlington?",
+      "answer": "Yes, most grading and earthwork projects in Burlington require a permit from the Boone County Planning Commission. We can assist you in obtaining the necessary permits."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:53:56.068Z",
+  "_model": "gemini-2.0-flash"
+}

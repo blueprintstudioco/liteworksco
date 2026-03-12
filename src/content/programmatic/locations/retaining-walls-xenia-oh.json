@@ -1,0 +1,114 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Retaining Walls",
+  "slug": "retaining-walls-xenia-oh",
+  "metaTitle": "Retaining Walls in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert retaining wall construction and repair in Xenia, OH. Protect your property with our durable and aesthetically pleasing retaining wall solutions.",
+  "h1": "Retaining Walls in Xenia, OH",
+  "heroText": "Liteworks Co. offers professional retaining wall services in Xenia, Ohio, and the surrounding Greene County area. We specialize in designing and building retaining walls that are both functional and visually appealing, protecting your property from erosion and enhancing its landscape. Our experienced team understands the specific needs of Xenia properties and delivers reliable, long-lasting solutions.",
+  "localContext": {
+    "terrain": "Xenia is located in a relatively flat to gently rolling area of the Miami Valley. Some areas have slight slopes and changes in elevation, particularly near the Little Miami River.",
+    "soilConditions": "The soil in Xenia and Greene County is primarily composed of clay loam and silty clay loam, with some areas containing shale closer to bedrock. These soils can present challenges for construction due to their tendency to expand and contract with changes in moisture content.",
+    "commonProjects": [
+      "Residential retaining walls for landscaping",
+      "Erosion control along slopes",
+      "Retaining walls for driveway support",
+      "Garden retaining walls",
+      "Commercial property retaining walls"
+    ],
+    "seasonalNotes": "Spring and fall are ideal for retaining wall construction in Xenia, as the ground is workable but not overly saturated. Winter can bring frozen ground, delaying projects, while summer can bring periods of heavy rainfall and potential delays.",
+    "localRegulations": "Retaining walls over 4 feet in height typically require a building permit in Xenia, OH. It's important to check with the City of Xenia Building Department for specific requirements and regulations regarding setbacks, materials, and engineering specifications."
+  },
+  "benefits": [
+    {
+      "title": "Erosion Control",
+      "description": "Retaining walls effectively prevent soil erosion, protecting your property and landscaping from damage caused by rain and runoff, which is crucial in areas with sloped terrain around Xenia."
+    },
+    {
+      "title": "Property Stabilization",
+      "description": "Stabilize slopes and prevent landslides with a properly designed and constructed retaining wall, ensuring the long-term integrity of your property in Greene County's varying landscapes."
+    },
+    {
+      "title": "Increased Usable Space",
+      "description": "Create more usable space on your property by leveling uneven terrain with retaining walls, allowing for patios, gardens, and other outdoor features in Xenia."
+    },
+    {
+      "title": "Enhanced Aesthetics",
+      "description": "Add visual appeal to your landscape with a well-designed retaining wall that complements your home's architecture and surrounding environment, increasing property value in Xenia neighborhoods."
+    },
+    {
+      "title": "Prevention of Water Damage",
+      "description": "Retaining walls can help divert water away from your foundation, preventing costly water damage and maintaining the structural integrity of your home in Xenia, OH."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment & Design",
+      "description": "We assess your property in Xenia, taking into account soil conditions, slope, and drainage patterns to design a retaining wall that meets your specific needs and local regulations."
+    },
+    {
+      "step": "Excavation & Grading",
+      "description": "Our team carefully excavates the site, ensuring proper grading and compaction to create a stable base for the retaining wall. We manage the clay soil common in Xenia to ensure proper drainage."
+    },
+    {
+      "step": "Wall Construction",
+      "description": "We construct the retaining wall using high-quality materials and proven techniques, ensuring its structural integrity and longevity. We consider local climate conditions in Greene County during construction."
+    },
+    {
+      "step": "Backfilling & Drainage",
+      "description": "We backfill the wall with appropriate materials and install a proper drainage system to prevent water buildup and ensure the long-term stability of the retaining wall."
+    },
+    {
+      "step": "Final Grading & Landscaping",
+      "description": "We complete the project with final grading and landscaping, blending the retaining wall seamlessly into your property's existing landscape in Xenia."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$35 per square foot",
+    "averageRange": "$45 - $75 per square foot",
+    "factors": [
+      "Wall height and length",
+      "Materials used (concrete, stone, timber)",
+      "Site accessibility and soil conditions",
+      "Drainage requirements",
+      "Permitting and engineering costs"
+    ],
+    "note": "These prices are estimates for the Xenia, OH area. Contact us for a free, personalized quote."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for a retaining wall in Xenia?",
+      "answer": "In Xenia, a permit is generally required for retaining walls exceeding 4 feet in height. Check with the City of Xenia Building Department for specific requirements."
+    },
+    {
+      "question": "How long will it take to build a retaining wall?",
+      "answer": "The duration depends on the size and complexity of the project. A small residential retaining wall may take a few days, while a larger commercial project could take several weeks."
+    },
+    {
+      "question": "What materials are best for retaining walls in Xenia's climate?",
+      "answer": "Concrete, natural stone, and treated timber are all suitable options. The best choice depends on your budget, aesthetic preferences, and the specific requirements of your project. We consider the freeze-thaw cycle common in Xenia."
+    },
+    {
+      "question": "How do I maintain my retaining wall?",
+      "answer": "Regularly inspect the wall for cracks, drainage issues, and erosion. Clear any debris from the top and base of the wall, and ensure proper drainage to prevent water buildup."
+    },
+    {
+      "question": "What are the signs that my retaining wall needs repair?",
+      "answer": "Visible signs include leaning, bulging, cracking, and water seepage. If you notice any of these issues, contact a professional for an inspection and repair."
+    },
+    {
+      "question": "How deep does the foundation need to be for a retaining wall in Xenia?",
+      "answer": "The foundation depth depends on the height of the wall and the soil conditions. Generally, a foundation depth of at least 1-2 feet is required, but a professional engineer should determine the exact depth based on site-specific factors."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "springboro-oh"
+  ],
+  "_generated": "2026-03-12T14:29:09.691Z",
+  "_model": "gemini-2.0-flash"
+}

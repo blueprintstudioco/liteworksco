@@ -1,0 +1,116 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-hamilton-oh",
+  "metaTitle": "Foundation Work in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Expert foundation services in Hamilton, OH by Liteworks Co. Specializing in new foundations, repairs, and replacements. Call (513) 927-9675 for a free quote.",
+  "h1": "Hamilton, OH Foundation Services",
+  "heroText": "Liteworks Co. provides comprehensive foundation services in Hamilton, Ohio, and throughout Butler County. We handle everything from new construction foundations to repairs and replacements, ensuring a solid base for your home or business in the Hamilton area.",
+  "localContext": {
+    "terrain": "Hamilton, OH, features a mix of flat land near the Great Miami River and rolling hills further inland.",
+    "soilConditions": "The soil in Hamilton and Butler County is primarily glacial till, with clay and silt loam being common. Drainage can be an issue in some areas due to the clay content.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs for existing homes",
+      "Basement waterproofing",
+      "Foundation crack repair",
+      "Slab foundation installation",
+      "Foundation replacement"
+    ],
+    "seasonalNotes": "Spring rains can saturate the ground, potentially delaying excavation and increasing the risk of foundation issues. Winter brings freezing and thawing cycles, which can exacerbate existing cracks. The best time for foundation work in Hamilton is typically late spring through early fall.",
+    "localRegulations": "Foundation work in Hamilton, OH, requires permits and must adhere to the Butler County building codes. Inspections are required at various stages of the construction process. Liteworks Co. handles all permitting and ensures compliance."
+  },
+  "benefits": [
+    {
+      "title": "Solid Foundation",
+      "description": "Ensures a stable and long-lasting base for your structure, preventing costly future repairs."
+    },
+    {
+      "title": "Expert Craftsmanship",
+      "description": "Our experienced team provides quality workmanship, adhering to the highest industry standards."
+    },
+    {
+      "title": "Permitting and Compliance",
+      "description": "We manage all necessary permits and ensure compliance with local Hamilton and Butler County building codes."
+    },
+    {
+      "title": "Waterproofing Solutions",
+      "description": "Protect your basement from water damage with our comprehensive waterproofing services."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A properly installed and maintained foundation increases the value and appeal of your property in Hamilton."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "We assess the site conditions, soil type, and drainage to determine the best foundation solution for your project in Hamilton."
+    },
+    {
+      "step": "Excavation",
+      "description": "Careful excavation of the site, ensuring proper depth and dimensions for the foundation."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "Forming, pouring, and curing the concrete foundation according to engineering specifications and local codes."
+    },
+    {
+      "step": "Waterproofing & Backfilling",
+      "description": "Applying waterproofing membranes and backfilling around the foundation to protect it from water damage."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "A thorough inspection to ensure the foundation meets all quality and safety standards."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000+",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation required",
+      "Waterproofing needs",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact Liteworks Co. for a free, accurate quote specific to your project in Hamilton, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to build a foundation?",
+      "answer": "The duration depends on the size and complexity of the project, but typically ranges from one to three weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Hamilton?",
+      "answer": "Yes, a permit is required for most foundation work in Hamilton, OH. Liteworks Co. will handle the permitting process for you."
+    },
+    {
+      "question": "What type of foundation is best for my Hamilton home?",
+      "answer": "The best foundation type depends on several factors, including soil conditions, local building codes, and your budget. We can assess your site and recommend the most suitable option."
+    },
+    {
+      "question": "How do I know if my foundation needs repair?",
+      "answer": "Common signs of foundation problems include cracks in the walls or foundation, uneven floors, sticking doors or windows, and water in the basement."
+    },
+    {
+      "question": "What is the cost of repairing a foundation?",
+      "answer": "Foundation repair costs vary widely depending on the extent of the damage and the repair method required. Contact us for a free inspection and estimate."
+    },
+    {
+      "question": "Does Liteworks Co. offer foundation waterproofing services?",
+      "answer": "Yes, we offer comprehensive foundation waterproofing services to protect your basement from water damage."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:08:55.653Z",
+  "_model": "gemini-2.0-flash"
+}

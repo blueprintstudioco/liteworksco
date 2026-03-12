@@ -1,0 +1,145 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import fs from 'fs';
+import path from 'path';
+
+export async function getStaticPaths() {
+  const dir = path.join(process.cwd(), 'src', 'content', 'programmatic', 'problem-pages');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter(f => f.endsWith('.json')).map(file => {
+    const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+    return { params: { slug: data.slug }, props: { data } };
+  });
+}
+
+const { data } = Astro.props;
+
+const faqSchema = {
+  "@context": "https://schema.org", "@type": "FAQPage",
+  "mainEntity": data.faqs?.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } }))
+};
+---
+
+<Layout title={data.metaTitle} description={data.metaDescription}>
+  <Header client:load />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <main class="pt-20">
+    <!-- Hero -->
+    <section class="bg-secondary text-white py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <nav class="mb-6 text-sm text-white/50">
+          <a href="/" class="hover:text-primary">Home</a><span class="mx-2">›</span>
+          <a href="/solutions" class="hover:text-primary">Solutions</a><span class="mx-2">›</span>
+          <span class="text-white">{data.title}</span>
+        </nav>
+        <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">{data.h1}</h1>
+        <p class="text-xl text-white/70 max-w-3xl">{data.problemDescription}</p>
+      </div>
+    </section>
+
+    <!-- Causes -->
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-8">What Causes This?</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          {data.causes?.map(c => (
+            <div class="bg-muted rounded-xl p-6">
+              <h3 class="font-bold mb-2 font-heading text-lg">{c.cause}</h3>
+              <p class="text-secondary/70 text-sm">{c.explanation}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section class="py-16 bg-muted">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-8">Solutions — From DIY to Professional</h2>
+        <div class="space-y-6">
+          {data.solutions?.map((s, i) => (
+            <div class="bg-white rounded-xl p-6 border border-secondary/5">
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <h3 class="text-xl font-bold font-heading">{s.solution}</h3>
+                <span class={`flex-shrink-0 text-xs px-3 py-1 rounded-full font-semibold ${
+                  s.effectiveness === 'Permanent fix' ? 'bg-green-100 text-green-700' :
+                  s.effectiveness === 'Long-term' ? 'bg-blue-100 text-blue-700' :
+                  'bg-yellow-100 text-yellow-700'
+                }`}>{s.effectiveness}</span>
+              </div>
+              <p class="text-secondary/70 mb-4">{s.description}</p>
+              <div class="flex flex-wrap gap-6 text-sm text-secondary/60">
+                <span>💰 {s.estimatedCost}</span>
+                <span>⏱ {s.timeline}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Warning Signs -->
+    <section class="py-16">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <h2 class="text-3xl font-heading font-bold mb-8 text-red-600">🚨 Warning Signs: Act Now</h2>
+        <div class="space-y-3">
+          {data.warningSignsToActNow?.map(sign => (
+            <div class="flex items-start gap-3 bg-red-50 border border-red-100 rounded-xl p-4">
+              <span class="text-red-500 mt-0.5 flex-shrink-0">⚠️</span>
+              <p class="text-secondary/80">{sign}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Prevention -->
+    <section class="py-16 bg-muted">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <h2 class="text-3xl font-heading font-bold mb-8">🛡️ Prevention Tips</h2>
+        <div class="grid gap-4">
+          {data.preventionTips?.map((tip, i) => (
+            <div class="flex items-start gap-4 bg-white rounded-xl p-5 border border-secondary/5">
+              <div class="w-8 h-8 rounded-full bg-primary text-secondary font-bold flex items-center justify-center flex-shrink-0 text-sm">{i+1}</div>
+              <p class="text-secondary/80">{tip}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="py-16">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <h2 class="text-3xl font-heading font-bold mb-10">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          {data.faqs?.map(faq => (
+            <details class="group bg-muted rounded-xl overflow-hidden">
+              <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-secondary/5 transition-colors">
+                <span class="font-bold pr-4 font-heading">{faq.question}</span>
+                <svg class="w-5 h-5 text-secondary/40 transition-transform group-open:rotate-180 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 text-secondary/70">{faq.answer}</div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-secondary text-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-4">Need Help With This Problem?</h2>
+        <p class="text-white/60 mb-8 max-w-2xl mx-auto">We've fixed this hundreds of times. Get a free assessment and honest recommendation.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="/get-a-quote" class="px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-lg hover:bg-primary/90">Get a Free Quote</a>
+          <a href="tel:5139279675" class="px-10 py-4 border-2 border-white/30 text-white font-bold text-xl rounded-lg hover:border-primary hover:text-primary">Call (513) 927-9675</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

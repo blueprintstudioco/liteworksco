@@ -1,0 +1,136 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import fs from 'fs';
+import path from 'path';
+
+export async function getStaticPaths() {
+  const dir = path.join(process.cwd(), 'src', 'content', 'programmatic', 'cost-pages');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter(f => f.endsWith('.json')).map(file => {
+    const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+    return { params: { slug: data.slug }, props: { data } };
+  });
+}
+
+const { data } = Astro.props;
+
+const faqSchema = {
+  "@context": "https://schema.org", "@type": "FAQPage",
+  "mainEntity": data.faqs?.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } }))
+};
+---
+
+<Layout title={data.metaTitle} description={data.metaDescription}>
+  <Header client:load />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <main class="pt-20">
+    <section class="bg-secondary text-white py-16 md:py-24">
+      <div class="container mx-auto px-6">
+        <nav class="mb-6 text-sm text-white/50">
+          <a href="/" class="hover:text-primary">Home</a><span class="mx-2">›</span>
+          <a href="/cost" class="hover:text-primary">Cost Guides</a><span class="mx-2">›</span>
+          <span class="text-white">{data.title}</span>
+        </nav>
+        <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">{data.h1}</h1>
+        <p class="text-xl text-white/70 max-w-3xl">{data.intro}</p>
+      </div>
+    </section>
+
+    <!-- Cost Breakdown Table -->
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-8">Cost Breakdown</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead>
+              <tr class="border-b-2 border-secondary/10">
+                <th class="text-left py-3 px-4 font-heading font-bold">Category</th>
+                <th class="text-left py-3 px-4 font-heading font-bold text-green-600">Low End</th>
+                <th class="text-left py-3 px-4 font-heading font-bold text-primary">Average</th>
+                <th class="text-left py-3 px-4 font-heading font-bold text-red-500">High End</th>
+                <th class="text-left py-3 px-4 font-heading font-bold">Unit</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.costBreakdown?.map((c, i) => (
+                <tr class={`border-b border-secondary/5 ${i % 2 === 0 ? 'bg-muted/50' : ''}`}>
+                  <td class="py-3 px-4 font-medium">{c.category}</td>
+                  <td class="py-3 px-4 text-green-600 font-semibold">{c.lowEnd}</td>
+                  <td class="py-3 px-4 text-primary font-semibold">{c.average}</td>
+                  <td class="py-3 px-4 text-red-500 font-semibold">{c.highEnd}</td>
+                  <td class="py-3 px-4 text-secondary/60 text-sm">{c.unit}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div class="mt-6 space-y-2">
+          {data.costBreakdown?.map(c => c.notes && (
+            <p class="text-sm text-secondary/60"><strong>{c.category}:</strong> {c.notes}</p>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Factors -->
+    <section class="py-16 bg-muted">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-8">Factors That Affect Cost</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          {data.factorsAffectingCost?.map(f => (
+            <div class="bg-white rounded-xl p-6 border border-secondary/5">
+              <h3 class="font-bold mb-2 font-heading">{f.factor}</h3>
+              <p class="text-secondary/70 text-sm">{f.explanation}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Saving Tips -->
+    <section class="py-16">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <h2 class="text-3xl font-heading font-bold mb-8">💡 Money-Saving Tips</h2>
+        <div class="space-y-4">
+          {data.savingTips?.map((tip, i) => (
+            <div class="flex items-start gap-4 bg-primary/5 rounded-xl p-5 border border-primary/10">
+              <div class="w-8 h-8 rounded-full bg-primary text-secondary font-bold flex items-center justify-center flex-shrink-0">{i+1}</div>
+              <p class="text-secondary/80">{tip}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="py-16 bg-muted">
+      <div class="container mx-auto px-6 max-w-3xl">
+        <h2 class="text-3xl font-heading font-bold mb-10">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          {data.faqs?.map(faq => (
+            <details class="group bg-white rounded-xl overflow-hidden border border-secondary/5">
+              <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-muted/50 transition-colors">
+                <span class="font-bold pr-4 font-heading">{faq.question}</span>
+                <svg class="w-5 h-5 text-secondary/40 transition-transform group-open:rotate-180 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </summary>
+              <div class="px-5 pb-5 text-secondary/70">{faq.answer}</div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-secondary text-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-4">Get an Exact Quote for Your Project</h2>
+        <p class="text-white/60 mb-8 max-w-2xl mx-auto">These are estimates — your project is unique. Contact us for a free, detailed quote.</p>
+        <a href="/get-a-quote" class="inline-flex px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-lg hover:bg-primary/90">Get a Free Quote →</a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

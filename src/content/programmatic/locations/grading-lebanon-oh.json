@@ -1,0 +1,116 @@
+{
+  "city": "Lebanon",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-lebanon-oh",
+  "metaTitle": "Grading & Earthwork in Lebanon, OH | Liteworks Co.",
+  "metaDescription": "Professional grading and earthwork services in Lebanon, OH by Liteworks Co. Expert solutions for residential and commercial projects. Call (513) 927-9675 for a free quote.",
+  "h1": "Lebanon, OH Grading & Earthwork Services",
+  "heroText": "Liteworks Co. provides expert grading and earthwork services in Lebanon, Ohio, and throughout Warren County. We handle projects of all sizes, from residential landscaping to large-scale commercial site preparation. Our experienced team ensures precise grading and stable foundations, tailored to the specific needs of Lebanon's unique terrain.",
+  "localContext": {
+    "terrain": "Lebanon, OH, features a mix of gently rolling hills and flatter areas, typical of southwestern Ohio. The city is situated near the Little Miami River, influencing local drainage patterns.",
+    "soilConditions": "The soil in and around Lebanon is primarily composed of clay-rich glacial till, with areas of shale bedrock closer to the river. This can present challenges for construction and drainage, requiring careful planning and execution.",
+    "commonProjects": [
+      "Residential foundation grading",
+      "Commercial site preparation",
+      "Driveway and parking lot grading",
+      "Erosion control and stormwater management",
+      "Landscaping and yard grading",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Lebanon experiences distinct seasons, with wet springs that can saturate the clay soils and potentially cause erosion. Proper grading and drainage are crucial to prevent water damage. Winter brings freezing and thawing cycles that can also impact soil stability.",
+    "localRegulations": "Grading and earthwork projects in Lebanon are subject to Warren County and city regulations, including permitting requirements for erosion control, stormwater management, and floodplain development. Liteworks Co. is familiar with these regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Precise Grading",
+      "description": "We ensure accurate grading to create level surfaces, proper drainage, and stable foundations, preventing water damage and structural issues."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Our earthwork services include effective erosion control measures to protect your property and the surrounding environment from soil loss."
+    },
+    {
+      "title": "Experienced Team",
+      "description": "Our skilled operators have extensive experience working with Lebanon's soil conditions and terrain, ensuring quality workmanship."
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "From initial site assessment to final grading, we offer a full range of earthwork services to meet your project needs."
+    },
+    {
+      "title": "Permitting Assistance",
+      "description": "We can help you navigate local regulations and obtain the necessary permits for your grading and earthwork project."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate the site's topography, soil conditions, and drainage patterns to develop a customized grading plan."
+    },
+    {
+      "step": "Grading Plan Development",
+      "description": "Our team creates a detailed grading plan that outlines the cut and fill requirements, drainage solutions, and erosion control measures."
+    },
+    {
+      "step": "Earthwork and Grading",
+      "description": "Using specialized equipment, we perform the necessary excavation, fill, and compaction to achieve the desired grades and elevations."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install drainage systems to effectively manage stormwater runoff and prevent water accumulation."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure that the grading meets the project specifications and local regulations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Volume of earthwork required",
+      "Soil conditions and accessibility",
+      "Drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact us for a free, detailed quote tailored to your specific project in Lebanon, OH."
+  },
+  "faqs": [
+    {
+      "question": "What is the purpose of grading?",
+      "answer": "Grading creates level surfaces, ensures proper drainage, and provides a stable base for construction, landscaping, and other projects."
+    },
+    {
+      "question": "How do you handle erosion control?",
+      "answer": "We use a variety of erosion control methods, including silt fences, erosion blankets, and vegetation, to minimize soil loss and protect water quality."
+    },
+    {
+      "question": "Do I need a permit for grading?",
+      "answer": "Permitting requirements vary depending on the scope of the project and local regulations. We can help you determine if a permit is required and assist with the application process."
+    },
+    {
+      "question": "How long does a grading project take?",
+      "answer": "The duration of a grading project depends on the size and complexity of the work. We will provide you with an estimated timeline during the initial consultation."
+    },
+    {
+      "question": "What type of equipment do you use?",
+      "answer": "We use a range of equipment, including excavators, bulldozers, skid steers, and compactors, to handle all types of grading and earthwork projects."
+    },
+    {
+      "question": "Are you insured?",
+      "answer": "Yes, Liteworks Co. is fully insured, providing you with peace of mind."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:02:30.842Z",
+  "_model": "gemini-2.0-flash"
+}

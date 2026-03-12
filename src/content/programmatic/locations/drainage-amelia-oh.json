@@ -1,0 +1,112 @@
+{
+  "city": "Amelia",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-amelia-oh",
+  "metaTitle": "Drainage Solutions in Amelia, OH | Liteworks Co.",
+  "metaDescription": "Solve your drainage problems in Amelia, OH with Liteworks Co. Expert drainage solutions for residential and commercial properties. Call (513) 927-9675 for a quote!",
+  "h1": "Amelia, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides comprehensive drainage solutions in Amelia, Ohio, addressing everything from minor yard pooling to major erosion issues. We understand the unique challenges presented by Clermont County's terrain and soil conditions, ensuring effective and long-lasting results for your property in Amelia.",
+  "localContext": {
+    "terrain": "Amelia, OH is characterized by rolling hills and valleys, typical of Clermont County.",
+    "soilConditions": "The soil in Amelia is predominantly clay-based, which can lead to poor drainage and water accumulation if not properly managed. There can also be shale deposits.",
+    "commonProjects": [
+      "French drains",
+      "Surface grading",
+      "Downspout extensions",
+      "Sump pump installation",
+      "Retaining wall drainage",
+      "Erosion control"
+    ],
+    "seasonalNotes": "Spring and early summer often bring heavy rainfall to Amelia, making proper drainage crucial to prevent flooding and water damage. Winter freeze-thaw cycles can also exacerbate existing drainage problems.",
+    "localRegulations": "Clermont County and the Village of Amelia have specific regulations regarding stormwater management and erosion control. Liteworks Co. is familiar with these regulations and ensures all projects are compliant."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions protect your foundation, landscaping, and property from costly water damage."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Proper drainage prevents soil erosion, preserving the integrity of your land and preventing property loss."
+    },
+    {
+      "title": "Improved Property Value",
+      "description": "A well-drained property is more attractive and valuable to potential buyers."
+    },
+    {
+      "title": "Healthier Landscape",
+      "description": "Correcting drainage issues promotes healthier plant growth and prevents root rot caused by standing water."
+    },
+    {
+      "title": "Prevents Mosquito Breeding",
+      "description": "Eliminating standing water reduces mosquito breeding grounds, creating a more enjoyable outdoor space."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your property to identify drainage problems and their root causes."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on the assessment, we develop a customized drainage plan tailored to your specific needs and budget."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs the drainage system with precision and care, ensuring optimal performance."
+    },
+    {
+      "step": "Quality Assurance",
+      "description": "We inspect the completed project to ensure it meets our high standards and provides effective drainage."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$800",
+    "averageRange": "$1,500 - $5,000",
+    "factors": [
+      "Project scope and complexity",
+      "Type of drainage system",
+      "Materials used",
+      "Site accessibility",
+      "Permitting requirements"
+    ],
+    "note": "These are estimates only. Contact us for a free, personalized quote for your Amelia drainage project."
+  },
+  "faqs": [
+    {
+      "question": "How do I know if I need drainage solutions?",
+      "answer": "Signs include standing water after rain, soggy areas in your yard, erosion, and water in your basement."
+    },
+    {
+      "question": "What are common drainage solutions?",
+      "answer": "Common solutions include French drains, surface grading, downspout extensions, and sump pumps."
+    },
+    {
+      "question": "How long does drainage installation take?",
+      "answer": "The duration depends on the project's complexity, but most residential projects are completed within a few days."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Depending on the scope of the project, a permit may be required by Clermont County or the Village of Amelia. We can assist with the permitting process."
+    },
+    {
+      "question": "How much does drainage solutions cost?",
+      "answer": "The cost varies depending on the project scope and complexity. Contact us for a free estimate."
+    },
+    {
+      "question": "What maintenance is required for drainage systems?",
+      "answer": "Regular inspection and cleaning of drains and outlets are recommended to ensure optimal performance. We can provide maintenance services as needed."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:39:06.835Z",
+  "_model": "gemini-2.0-flash"
+}

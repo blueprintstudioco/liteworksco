@@ -1,0 +1,116 @@
+{
+  "city": "Milford",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-milford-oh",
+  "metaTitle": "Foundation Work in Milford, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert foundation services in Milford, OH. We handle everything from new construction foundations to repairs. Call (513) 927-9675 for a free quote.",
+  "h1": "Foundation Work in Milford, OH",
+  "heroText": "Liteworks Co. is your trusted partner for all foundation work in Milford, Ohio. We provide comprehensive foundation services for residential and commercial properties, ensuring a solid and stable base for your structure. From new construction to repairs and replacements, we have the expertise and equipment to handle any project in the Milford area.",
+  "localContext": {
+    "terrain": "Milford, OH, is characterized by rolling hills and river valleys, situated along the Little Miami River. The topography can present challenges for foundation construction, requiring careful site preparation and grading.",
+    "soilConditions": "The soil in Milford is typically a mix of clay, silt, and gravel, with areas of shale bedrock closer to the river. Clay soils can expand and contract with moisture changes, potentially impacting foundation stability if not properly addressed.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs and underpinning",
+      "Basement waterproofing",
+      "Foundation replacements",
+      "Slab foundation construction",
+      "Retaining wall foundations"
+    ],
+    "seasonalNotes": "Milford experiences distinct seasons, with freeze-thaw cycles in winter that can put stress on foundations. Spring rains can also saturate the soil, increasing the risk of hydrostatic pressure. Proper drainage and waterproofing are crucial, especially during these times.",
+    "localRegulations": "Foundation work in Milford, OH, is subject to Clermont County building codes and permitting requirements. Liteworks Co. is familiar with these regulations and will ensure that your project complies with all applicable standards."
+  },
+  "benefits": [
+    {
+      "title": "Solid Foundation",
+      "description": "Ensure the structural integrity of your building with a properly designed and constructed foundation."
+    },
+    {
+      "title": "Expert Workmanship",
+      "description": "Our experienced team delivers high-quality foundation services, adhering to industry best practices."
+    },
+    {
+      "title": "Local Expertise",
+      "description": "We understand the unique soil conditions and building codes in Milford, OH, providing tailored solutions for your property."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-maintained foundation enhances the value and longevity of your home or business."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "Rest assured that your foundation is in good hands with our reliable and professional services."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "We assess the soil conditions, topography, and drainage patterns of your property to determine the best foundation solution."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "We prepare the site by excavating to the required depth and grading the surrounding area to ensure proper drainage."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "We construct the foundation using reinforced concrete, ensuring it meets all structural requirements and building codes."
+    },
+    {
+      "step": "Waterproofing and Drainage",
+      "description": "We apply waterproofing membranes and install drainage systems to protect the foundation from water damage."
+    },
+    {
+      "step": "Backfilling and Compaction",
+      "description": "We backfill around the foundation and compact the soil to provide support and stability."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000+",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation",
+      "Required permits and inspections",
+      "Additional services such as waterproofing or drainage"
+    ],
+    "note": "Pricing can vary significantly based on the specifics of each project. Contact us for a free, detailed estimate."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work take?",
+      "answer": "The duration of foundation work depends on the scope of the project. A simple repair might take a few days, while a new foundation construction can take several weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Milford?",
+      "answer": "Yes, most foundation work requires a permit from the Clermont County Building Department. We can assist you with the permitting process."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs include cracks in walls or floors, sticking doors and windows, uneven floors, and water leakage in the basement."
+    },
+    {
+      "question": "How can I prevent foundation problems?",
+      "answer": "Proper drainage, regular inspections, and timely repairs can help prevent foundation issues. Ensure that gutters are clean and water is directed away from the foundation."
+    },
+    {
+      "question": "What type of foundations do you build?",
+      "answer": "We construct various types of foundations, including poured concrete walls, block walls, and slab foundations."
+    },
+    {
+      "question": "Do you offer foundation repair services?",
+      "answer": "Yes, we provide comprehensive foundation repair services, including crack repair, underpinning, and stabilization."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "batavia-oh"
+  ],
+  "_generated": "2026-03-12T13:59:02.656Z",
+  "_model": "gemini-2.0-flash"
+}

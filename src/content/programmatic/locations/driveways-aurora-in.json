@@ -1,0 +1,116 @@
+{
+  "city": "Aurora",
+  "state": "IN",
+  "service": "Driveway Construction",
+  "slug": "driveways-aurora-in",
+  "metaTitle": "Driveway Construction in Aurora, IN | Liteworks Co.",
+  "metaDescription": "Expert driveway construction services in Aurora, IN. Liteworks Co. delivers durable, beautiful driveways tailored to Southeast Indiana's unique landscape.",
+  "h1": "Driveway Construction in Aurora, IN",
+  "heroText": "Liteworks Co. provides top-quality driveway construction services in Aurora, Indiana, and throughout Southeast Indiana. We understand the specific challenges and opportunities presented by the local terrain to build driveways that last.",
+  "localContext": {
+    "terrain": "Aurora, Indiana, is characterized by rolling hills and river valleys, influenced by its proximity to the Ohio River. The terrain can present challenges for driveway construction, requiring careful grading and drainage solutions.",
+    "soilConditions": "The soil in Aurora and Southeast Indiana generally consists of clay-rich soil, often with shale or limestone bedrock close to the surface. This can lead to drainage issues and requires proper compaction and base preparation for driveway construction.",
+    "commonProjects": [
+      "New driveway installation for homes",
+      "Driveway replacement and widening",
+      "Gravel driveway construction",
+      "Asphalt driveway paving",
+      "Concrete driveway construction",
+      "Driveway repair and resurfacing"
+    ],
+    "seasonalNotes": "Aurora experiences distinct seasons, with freeze-thaw cycles in winter that can damage improperly constructed driveways. Spring brings heavy rains that can exacerbate drainage problems. Proper planning and construction techniques are crucial to withstand these conditions.",
+    "localRegulations": "Driveway construction in Aurora, IN, is subject to local zoning and permitting regulations. It's essential to check with the city of Aurora and Dearborn County for specific requirements regarding driveway placement, materials, and drainage to ensure compliance."
+  },
+  "benefits": [
+    {
+      "title": "Enhanced Curb Appeal",
+      "description": "A well-constructed driveway significantly improves the appearance and value of your Aurora property."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A durable and aesthetically pleasing driveway is a valuable asset that can increase your home's market value."
+    },
+    {
+      "title": "Improved Drainage",
+      "description": "Proper driveway construction ensures effective water runoff, preventing damage to your property and foundation."
+    },
+    {
+      "title": "Long-Lasting Durability",
+      "description": "Our expert construction techniques and quality materials guarantee a driveway that withstands the test of time and the Southeast Indiana climate."
+    },
+    {
+      "title": "Customized Solutions",
+      "description": "We tailor our driveway construction services to your specific needs and preferences, ensuring a perfect fit for your property and lifestyle."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment & Planning",
+      "description": "We begin with a thorough assessment of your property, considering soil conditions, drainage patterns, and local regulations in Aurora to develop a customized plan."
+    },
+    {
+      "step": "Excavation & Grading",
+      "description": "Our team carefully excavates and grades the area to ensure a stable base and proper slope for drainage."
+    },
+    {
+      "step": "Base Preparation",
+      "description": "We install a compacted gravel or aggregate base to provide a solid foundation for your driveway, preventing settling and cracking."
+    },
+    {
+      "step": "Driveway Installation",
+      "description": "Whether you choose asphalt, concrete, or gravel, we install your driveway with precision and attention to detail, ensuring a smooth and durable surface."
+    },
+    {
+      "step": "Final Inspection & Cleanup",
+      "description": "We conduct a final inspection to ensure your complete satisfaction and leave your property clean and tidy."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$5 per square foot",
+    "averageRange": "$7 - $12 per square foot",
+    "factors": [
+      "Driveway size and shape",
+      "Material selection (asphalt, concrete, gravel)",
+      "Site preparation requirements (excavation, grading)",
+      "Drainage solutions",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact us for a free, accurate quote specific to your Aurora, IN, driveway project."
+  },
+  "faqs": [
+    {
+      "question": "How long does driveway construction take?",
+      "answer": "The duration depends on the size and complexity of the project, but most residential driveways in Aurora can be completed within 1-3 days."
+    },
+    {
+      "question": "Do I need a permit for driveway construction in Aurora?",
+      "answer": "Yes, a permit is typically required. We can assist you with the permitting process to ensure compliance with local regulations."
+    },
+    {
+      "question": "What type of driveway material is best for Aurora's climate?",
+      "answer": "Asphalt and concrete are both popular choices, offering durability and longevity. Gravel is a more economical option but requires more maintenance."
+    },
+    {
+      "question": "How can I prevent driveway damage from freeze-thaw cycles?",
+      "answer": "Proper drainage and a well-compacted base are crucial to prevent water from seeping under the driveway and causing damage during freeze-thaw cycles."
+    },
+    {
+      "question": "How often should I seal my asphalt driveway?",
+      "answer": "It is recommended to seal your asphalt driveway every 2-3 years to protect it from the elements and extend its lifespan."
+    },
+    {
+      "question": "What kind of warranty do you offer on driveway construction?",
+      "answer": "We offer a [Number]-year warranty on our driveway construction services, covering materials and workmanship. Please contact us for specific warranty details."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:59:20.455Z",
+  "_model": "gemini-2.0-flash"
+}

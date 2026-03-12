@@ -1,0 +1,108 @@
+{
+  "city": "Hillsboro",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-hillsboro-oh",
+  "metaTitle": "Drainage Solutions in Hillsboro, OH | Liteworks Co.",
+  "metaDescription": "Solve your Hillsboro, OH drainage problems with Liteworks Co. Expert solutions for wet basements, yard drainage, and erosion control. Call (513) 927-9675 for a quote!",
+  "h1": "Hillsboro, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions in Hillsboro, Ohio, and throughout Highland County. We address a range of drainage issues, from wet basements and standing water to erosion control and stormwater management. Our experienced team will assess your property and design a customized drainage system to protect your home and landscape.",
+  "localContext": {
+    "terrain": "Hillsboro and Highland County feature rolling hills and valleys, contributing to potential drainage challenges.",
+    "soilConditions": "The soil in the Hillsboro area is primarily composed of clay and shale, which can lead to poor drainage and water accumulation.",
+    "commonProjects": [
+      "French drains to redirect water away from foundations",
+      "Surface grading to improve water runoff",
+      "Installation of catch basins and drainage pipes",
+      "Downspout extensions to direct water away from the house",
+      "Erosion control measures on sloped properties",
+      "Basement waterproofing to prevent water intrusion"
+    ],
+    "seasonalNotes": "Spring and fall rains can saturate the ground in Hillsboro, making proper drainage crucial. Winter freeze-thaw cycles can also exacerbate existing drainage problems.",
+    "localRegulations": "Drainage projects in Hillsboro may be subject to local building codes and regulations. Liteworks Co. ensures all projects comply with Highland County requirements."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Proper drainage protects your home's foundation, basement, and landscaping from costly water damage."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Say goodbye to mosquito breeding grounds and unsightly puddles in your yard."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Prevent soil erosion and protect your property's landscape from washing away during heavy rains."
+    },
+    {
+      "title": "Increase Property Value",
+      "description": "A well-drained property is more attractive to potential buyers and can increase your home's value."
+    },
+    {
+      "title": "Improve Soil Health",
+      "description": "Proper drainage promotes healthy soil conditions for lawns and gardens."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Site Assessment",
+      "description": "We thoroughly assess your property in Hillsboro to identify drainage problems and potential solutions."
+    },
+    {
+      "step": "2. Custom Design",
+      "description": "Our team designs a customized drainage system tailored to your specific needs and property conditions."
+    },
+    {
+      "step": "3. Professional Installation",
+      "description": "We use high-quality materials and expert techniques to ensure a durable and effective drainage solution."
+    },
+    {
+      "step": "4. Final Inspection",
+      "description": "We conduct a final inspection to ensure the system is functioning properly and meets your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Size and complexity of the drainage problem",
+      "Type of drainage system installed",
+      "Materials used",
+      "Accessibility of the property",
+      "Permitting fees, if applicable"
+    ],
+    "note": "These prices are estimates only. Contact Liteworks Co. for a free, personalized quote for your Hillsboro drainage project."
+  },
+  "faqs": [
+    {
+      "question": "How do I know if I have a drainage problem?",
+      "answer": "Signs of a drainage problem include standing water in your yard, wet basement, soil erosion, and water damage to your foundation."
+    },
+    {
+      "question": "What are the different types of drainage systems?",
+      "answer": "Common drainage systems include French drains, surface drains, catch basins, and downspout extensions."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time varies depending on the complexity of the project, but most drainage systems can be installed in 1-3 days."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Permit requirements vary depending on the scope of the project and local regulations in Hillsboro. We can assist you with the permitting process."
+    },
+    {
+      "question": "How much does a drainage system cost?",
+      "answer": "The cost of a drainage system depends on several factors, including the size of the project, the type of system installed, and the materials used. Contact us for a free estimate."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:33:59.386Z",
+  "_model": "gemini-2.0-flash"
+}

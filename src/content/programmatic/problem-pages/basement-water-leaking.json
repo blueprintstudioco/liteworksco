@@ -1,0 +1,113 @@
+{
+  "slug": "basement-water-leaking",
+  "title": "Basement Leaking Water During Rain? Here's What To Do!",
+  "metaTitle": "Basement Leaking Water During Rain? Solutions & Prevention",
+  "metaDescription": "Discover why your basement leaks during rain & explore DIY to professional solutions. Liteworks Co. provides expert excavation services in Cincinnati, Northern KY, & SE Indiana. Call (513) 927-9675.",
+  "h1": "Basement Leaking Water During Rain? Let's Fix It!",
+  "problemDescription": "Ugh, not again! Every time it rains, my basement turns into a swamp. I'm so tired of mopping up water and worrying about mold. It's frustrating, stressful, and feels like a never-ending battle. I need to figure out why this is happening and, more importantly, how to stop it for good. I'm looking for real solutions, not just temporary fixes.",
+  "causes": [
+    {
+      "cause": "Poor Grading",
+      "explanation": "If the ground around your foundation slopes towards your house, rainwater will naturally flow towards your basement walls."
+    },
+    {
+      "cause": "Clogged Gutters and Downspouts",
+      "explanation": "When gutters are full of leaves and debris, rainwater overflows and can pool around your foundation."
+    },
+    {
+      "cause": "Foundation Cracks",
+      "explanation": "Even small cracks in your foundation walls or floor can allow water to seep into your basement."
+    },
+    {
+      "cause": "Hydrostatic Pressure",
+      "explanation": "The soil surrounding your foundation can become saturated with water, creating pressure that forces water through the concrete."
+    },
+    {
+      "cause": "Failed Sump Pump",
+      "explanation": "If you have a sump pump, it may not be functioning correctly, leading to water accumulation in your basement."
+    },
+    {
+      "cause": "Damaged Waterproofing Membrane",
+      "explanation": "Over time, the exterior waterproofing membrane applied to your foundation can degrade, allowing water to penetrate."
+    }
+  ],
+  "solutions": [
+    {
+      "solution": "Clean Gutters and Downspouts",
+      "description": "Remove all leaves, debris, and obstructions from your gutters and downspouts to ensure proper water flow away from your foundation.",
+      "estimatedCost": "$0 - $50 (DIY) / $75 - $200 (Professional)",
+      "timeline": "1-2 hours",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Improve Grading",
+      "description": "Reshape the soil around your foundation to create a slope that directs water away from your house. Add soil as needed to achieve a proper grade.",
+      "estimatedCost": "$50 - $500 (DIY) / $500 - $2,000 (Professional)",
+      "timeline": "1 day (DIY) / 1 day (Professional)",
+      "effectiveness": "Long-term"
+    },
+    {
+      "solution": "Seal Foundation Cracks",
+      "description": "Use hydraulic cement or epoxy injection to seal any visible cracks in your foundation walls or floor. This prevents water from entering through these openings.",
+      "estimatedCost": "$20 - $100 (DIY) / $200 - $1,000 (Professional)",
+      "timeline": "Few hours (DIY) / Few hours (Professional)",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Install or Upgrade Sump Pump",
+      "description": "Install a sump pump in your basement to automatically remove any accumulated water. If you already have a sump pump, ensure it is functioning correctly and consider upgrading to a more powerful model or adding a backup pump.",
+      "estimatedCost": "$100 - $300 (DIY) / $300 - $1,500 (Professional)",
+      "timeline": "1 day (DIY) / 1 day (Professional)",
+      "effectiveness": "Long-term"
+    },
+    {
+      "solution": "Exterior Waterproofing",
+      "description": "This involves excavating around your foundation, repairing any cracks, and applying a waterproof membrane to the exterior walls. It may also include installing a French drain to redirect water away from the foundation. This is a job best left to professionals.",
+      "estimatedCost": "$5,000 - $15,000+",
+      "timeline": "3-7 days",
+      "effectiveness": "Permanent fix"
+    }
+  ],
+  "warningSignsToActNow": [
+    "Standing water in your basement after every rain.",
+    "Visible mold growth on walls or floors.",
+    "A musty odor that persists even after drying the basement.",
+    "Cracks in your foundation walls are widening or shifting.",
+    "Water is actively flowing or spraying into your basement."
+  ],
+  "preventionTips": [
+    "Regularly inspect and clean your gutters and downspouts.",
+    "Ensure proper grading around your foundation.",
+    "Seal any cracks in your foundation promptly.",
+    "Monitor your sump pump and ensure it is functioning correctly.",
+    "Consider professional exterior waterproofing if you have persistent problems."
+  ],
+  "faqs": [
+    {
+      "question": "Why is my basement leaking only when it rains?",
+      "answer": "This usually indicates that the source of the water is rainwater runoff. It could be due to poor grading, clogged gutters, or cracks in your foundation."
+    },
+    {
+      "question": "Can I fix a basement leak myself?",
+      "answer": "Minor issues like cleaning gutters or sealing small cracks can often be handled DIY. However, more serious problems like foundation damage or hydrostatic pressure require professional expertise."
+    },
+    {
+      "question": "How much does basement waterproofing cost?",
+      "answer": "The cost varies depending on the extent of the problem and the chosen solution. Simple fixes like crack sealing might cost a few hundred dollars, while full exterior waterproofing can range from $5,000 to $15,000 or more."
+    },
+    {
+      "question": "What is a French drain?",
+      "answer": "A French drain is a trench filled with gravel that contains a perforated pipe. It's installed around the perimeter of your foundation to collect and redirect groundwater away from your basement."
+    },
+    {
+      "question": "How do I know if I need a sump pump?",
+      "answer": "If you experience frequent water accumulation in your basement, or if you live in an area with a high water table, a sump pump is highly recommended."
+    },
+    {
+      "question": "Does Liteworks Co. offer basement waterproofing services?",
+      "answer": "Yes, Liteworks Co. provides comprehensive excavation and waterproofing services to address basement leaks. We serve Greater Cincinnati, Northern KY, and SE Indiana. Call us at (513) 927-9675 for an assessment."
+    }
+  ],
+  "_generated": "2026-03-12T13:34:48.949Z",
+  "_model": "gemini-2.0-flash"
+}

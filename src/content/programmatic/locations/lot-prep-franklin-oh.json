@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-franklin-oh",
+  "metaTitle": "Lot Preparation in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Professional lot preparation services in Franklin, OH by Liteworks Co. Expert excavation, grading, and site clearing for residential and commercial projects.",
+  "h1": "Lot Preparation Services in Franklin, OH",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in Franklin, OH, ensuring your construction project starts on solid ground. We handle everything from initial site clearing to final grading, tailored to the unique terrain and soil conditions of the Warren County area.",
+  "localContext": {
+    "terrain": "Franklin, Ohio, features a mix of gently rolling hills and flatter areas, particularly closer to the Great Miami River. This varied topography can influence lot preparation needs.",
+    "soilConditions": "The soil in and around Franklin typically consists of clay loam, with some areas having shale bedrock close to the surface. Drainage can be a concern due to the clay content, requiring careful grading and drainage solutions.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial building development",
+      "Landscaping projects",
+      "Installation of septic systems",
+      "Construction of outbuildings and garages",
+      "Driveway and parking area construction"
+    ],
+    "seasonalNotes": "Franklin experiences distinct seasons, with frozen ground in winter affecting excavation and grading. Spring brings increased moisture, requiring effective drainage solutions. The drier months of summer and fall are ideal for major lot preparation work.",
+    "localRegulations": "Lot preparation in Franklin, OH, is subject to Warren County and city regulations. These include zoning laws, stormwater management requirements, and permitting for excavation, grading, and land disturbance. Liteworks Co. ensures all projects comply with local codes."
+  },
+  "benefits": [
+    {
+      "title": "Proper Grading and Drainage",
+      "description": "We ensure your lot is properly graded to manage water runoff, preventing erosion and potential water damage to your property and foundation."
+    },
+    {
+      "title": "Thorough Site Clearing",
+      "description": "Our team efficiently removes trees, brush, and debris, creating a clean and safe site for construction."
+    },
+    {
+      "title": "Stable Foundation Preparation",
+      "description": "We prepare a solid and level base for your foundation, ensuring the long-term structural integrity of your building."
+    },
+    {
+      "title": "Compliance with Local Regulations",
+      "description": "Liteworks Co. handles all necessary permits and ensures your lot preparation project meets all Franklin and Warren County regulations."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-prepared lot enhances the value and appeal of your property, making it more attractive to potential buyers."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Site Assessment",
+      "description": "We meet with you to discuss your project goals and conduct a thorough assessment of the site, including soil testing and topographic surveys."
+    },
+    {
+      "step": "Site Clearing and Demolition",
+      "description": "We remove any existing structures, trees, vegetation, and debris from the lot."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "We grade the land to achieve the desired slope and elevation, excavating for foundations, utilities, and other necessary features."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install drainage systems to manage water runoff and prevent erosion, including French drains, culverts, and swales."
+    },
+    {
+      "step": "Final Compaction and Preparation",
+      "description": "We compact the soil to provide a stable base for construction and ensure the lot is ready for the next phase of your project."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$3,500 - $15,000",
+    "factors": [
+      "Lot size and complexity",
+      "Amount of clearing required",
+      "Extent of grading and excavation",
+      "Drainage system requirements",
+      "Soil conditions and necessary remediation"
+    ],
+    "note": "Pricing varies depending on the specific requirements of each project. Contact us for a free, detailed estimate."
+  },
+  "faqs": [
+    {
+      "question": "What is included in lot preparation?",
+      "answer": "Lot preparation typically includes site clearing, grading, excavation, drainage installation, and soil compaction to prepare the land for construction."
+    },
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project, but it generally takes between one week and several weeks."
+    },
+    {
+      "question": "Do I need a permit for lot preparation in Franklin, OH?",
+      "answer": "Yes, permits are typically required for excavation, grading, and land disturbance in Franklin and Warren County. We can assist you with the permitting process."
+    },
+    {
+      "question": "How do you handle drainage issues?",
+      "answer": "We assess the site's drainage needs and install appropriate drainage systems, such as French drains, culverts, and swales, to manage water runoff and prevent erosion."
+    },
+    {
+      "question": "What type of equipment do you use for lot preparation?",
+      "answer": "We use a variety of heavy equipment, including excavators, bulldozers, graders, and compactors, to efficiently and effectively prepare your lot."
+    },
+    {
+      "question": "What if you encounter unsuitable soil conditions?",
+      "answer": "If we encounter unsuitable soil conditions, such as unstable clay or excessive moisture, we will recommend soil stabilization techniques, such as soil amendment or geotextile reinforcement."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:25:27.378Z",
+  "_model": "gemini-2.0-flash"
+}

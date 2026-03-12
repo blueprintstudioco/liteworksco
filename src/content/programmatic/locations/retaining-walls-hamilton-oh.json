@@ -1,0 +1,115 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Retaining Walls",
+  "slug": "retaining-walls-hamilton-oh",
+  "metaTitle": "Retaining Walls in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Expert retaining wall installation and repair services in Hamilton, OH. Liteworks Co. provides durable and aesthetically pleasing solutions for your property. Call (513) 927-9675.",
+  "h1": "Retaining Walls in Hamilton, OH",
+  "heroText": "Liteworks Co. offers professional retaining wall services in Hamilton, Ohio, and throughout Butler County. We design and build retaining walls that are both functional and visually appealing, protecting your property from erosion and enhancing its landscape. Our team understands the specific needs of Hamilton properties, delivering tailored solutions for every project.",
+  "localContext": {
+    "terrain": "Hamilton, OH, features a mix of flat land near the Great Miami River and gently rolling hills as you move further from the riverfront. This varied terrain often requires retaining walls to manage slopes and prevent soil erosion.",
+    "soilConditions": "The soil in Hamilton is primarily composed of clay and silty loam, with some areas containing glacial till. These soil conditions can present challenges for retaining wall construction, requiring proper drainage and soil stabilization techniques.",
+    "commonProjects": [
+      "Erosion control on sloped properties",
+      "Landscape terracing for residential gardens",
+      "Retaining walls for driveway support",
+      "Foundation stabilization on hillside homes",
+      "Commercial property landscaping and erosion prevention",
+      "Retaining walls for water management near the Great Miami River"
+    ],
+    "seasonalNotes": "Hamilton experiences freeze-thaw cycles during the winter, which can put stress on retaining walls. Proper drainage is crucial to prevent water buildup and potential damage. Spring brings increased rainfall, making erosion control a priority.",
+    "localRegulations": "Retaining walls in Hamilton, OH, may require permits depending on their height and location. It's essential to check with the City of Hamilton's building department for specific requirements and regulations before starting any construction project. Liteworks Co. can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Erosion Control",
+      "description": "Protect your property from soil erosion and landslides with a properly designed and constructed retaining wall."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "Enhance the aesthetic appeal and functionality of your property, increasing its overall value."
+    },
+    {
+      "title": "Improved Land Use",
+      "description": "Create usable space on sloped properties by terracing with retaining walls."
+    },
+    {
+      "title": "Water Management",
+      "description": "Direct water flow away from your home's foundation, preventing water damage and basement flooding."
+    },
+    {
+      "title": "Aesthetic Enhancement",
+      "description": "Add visual interest and curb appeal to your landscape with a variety of retaining wall materials and designs."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate your property's soil conditions, slope, and drainage patterns to determine the best retaining wall solution."
+    },
+    {
+      "step": "Design and Planning",
+      "description": "Our team creates a custom retaining wall design that meets your specific needs and aesthetic preferences, while also adhering to Hamilton building codes."
+    },
+    {
+      "step": "Permitting",
+      "description": "We handle the necessary permitting process with the City of Hamilton to ensure your project is compliant."
+    },
+    {
+      "step": "Construction",
+      "description": "Our experienced crew constructs your retaining wall using high-quality materials and proven techniques for long-lasting durability."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the retaining wall meets our strict quality standards and your complete satisfaction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$35 per square foot",
+    "averageRange": "$45 - $75 per square foot",
+    "factors": [
+      "Wall height",
+      "Material selection (wood, concrete, stone)",
+      "Site accessibility",
+      "Soil conditions and drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "These prices are estimates for the Hamilton, OH area. Contact Liteworks Co. for a free, accurate quote tailored to your specific project."
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to build a retaining wall?",
+      "answer": "The duration depends on the size and complexity of the project, but most residential retaining walls in Hamilton can be completed within 1-2 weeks."
+    },
+    {
+      "question": "Do I need a permit for a retaining wall in Hamilton?",
+      "answer": "Yes, retaining walls over a certain height (typically 4 feet) require a permit from the City of Hamilton. We can assist you with the permitting process."
+    },
+    {
+      "question": "What materials are commonly used for retaining walls?",
+      "answer": "Common materials include treated lumber, concrete blocks, natural stone, and interlocking concrete pavers. The best choice depends on your budget, aesthetic preferences, and the specific requirements of your project."
+    },
+    {
+      "question": "How much does a retaining wall cost in Hamilton, OH?",
+      "answer": "The cost varies depending on several factors, including the size, materials, and complexity of the project. Contact us for a free estimate."
+    },
+    {
+      "question": "What type of maintenance is required for a retaining wall?",
+      "answer": "Regular inspections are recommended to identify any signs of damage or deterioration. Proper drainage is essential to prevent water buildup behind the wall."
+    },
+    {
+      "question": "What are the signs that my retaining wall needs repair?",
+      "answer": "Cracking, bulging, leaning, and water seepage are all signs that your retaining wall may need repair. Contact Liteworks Co. for an inspection."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:08:02.397Z",
+  "_model": "gemini-2.0-flash"
+}

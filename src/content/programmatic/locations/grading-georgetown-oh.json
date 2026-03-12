@@ -1,0 +1,116 @@
+{
+  "city": "Georgetown",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-georgetown-oh",
+  "metaTitle": "Grading & Earthwork in Georgetown, OH | Liteworks Co.",
+  "metaDescription": "Expert grading and earthwork services in Georgetown, OH by Liteworks Co. Leveling, site preparation, and drainage solutions for your Brown County property.",
+  "h1": "Georgetown, OH Grading & Earthwork Services",
+  "heroText": "Liteworks Co. provides professional grading and earthwork services to Georgetown, Ohio, and the surrounding areas. We specialize in preparing sites for construction, improving drainage, and ensuring the stability of your land. Our experienced team understands the unique challenges of Brown County's terrain and soil conditions, delivering reliable and cost-effective solutions for residential and commercial projects.",
+  "localContext": {
+    "terrain": "Georgetown, OH, is located in the rolling hills of Brown County, with varying elevations and slopes that require careful grading and earthwork planning.",
+    "soilConditions": "The soil in Georgetown is predominantly clay-rich, with areas of shale bedrock closer to the surface. This can present challenges for drainage and foundation stability, requiring proper compaction and soil stabilization techniques.",
+    "commonProjects": [
+      "New home site preparation",
+      "Driveway and parking area grading",
+      "Erosion control and drainage improvements",
+      "Retaining wall construction",
+      "Land clearing for agricultural or development purposes",
+      "Foundation excavation and backfilling"
+    ],
+    "seasonalNotes": "Spring and fall often bring heavy rainfall to Georgetown, making proper drainage crucial. Winter can cause ground freezing and thawing, which can affect soil stability. Careful planning and execution are essential during these seasons.",
+    "localRegulations": "Brown County and Georgetown adhere to Ohio EPA regulations regarding erosion and sediment control. Permits may be required for significant earthwork projects, especially those near waterways. Liteworks Co. can assist with navigating local regulations and obtaining necessary permits."
+  },
+  "benefits": [
+    {
+      "title": "Improved Drainage",
+      "description": "Proper grading directs water away from your foundation and prevents water damage, erosion, and standing water issues."
+    },
+    {
+      "title": "Stable Foundations",
+      "description": "Accurate grading ensures a level and compacted base for building foundations, preventing settling and structural problems."
+    },
+    {
+      "title": "Enhanced Property Value",
+      "description": "Professional earthwork and landscaping improve the aesthetics and functionality of your property, increasing its overall value."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Grading and erosion control measures protect your land from soil loss, preserving its integrity and preventing environmental damage."
+    },
+    {
+      "title": "Site Preparation",
+      "description": "We prepare your site for construction by clearing, leveling, and compacting the ground, ensuring a smooth and efficient building process."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate your property's topography, soil conditions, and drainage patterns to develop a customized grading plan."
+    },
+    {
+      "step": "Permitting (if needed)",
+      "description": "We help you obtain any necessary permits from Brown County or the Village of Georgetown to ensure compliance with local regulations."
+    },
+    {
+      "step": "Grading and Earthmoving",
+      "description": "Using our specialized equipment, we reshape the land to achieve the desired contours and elevations, ensuring proper drainage and stability."
+    },
+    {
+      "step": "Compaction and Stabilization",
+      "description": "We compact the soil to the appropriate density to prevent settling and erosion, ensuring a solid foundation for your project."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure that the grading meets all specifications and that the site is ready for the next phase of construction or landscaping."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $15,000+",
+    "factors": [
+      "Project size and complexity",
+      "Amount of excavation or fill required",
+      "Soil conditions and accessibility",
+      "Permitting and regulatory requirements",
+      "Erosion control measures"
+    ],
+    "note": "These are estimates only. Contact us for a free, detailed quote tailored to your specific project in Georgetown, OH."
+  },
+  "faqs": [
+    {
+      "question": "What is grading and earthwork?",
+      "answer": "Grading and earthwork involve reshaping the land's surface to create a level or sloped area for construction, drainage, or landscaping purposes. It includes excavation, filling, and compaction of soil."
+    },
+    {
+      "question": "Do I need a permit for grading in Georgetown?",
+      "answer": "Permits may be required for significant earthwork projects, especially those affecting drainage or located near waterways. We can help you determine if a permit is necessary and assist with the application process."
+    },
+    {
+      "question": "How long does grading and earthwork take?",
+      "answer": "The duration depends on the size and complexity of the project. Smaller residential grading jobs may take a few days, while larger commercial projects can take several weeks."
+    },
+    {
+      "question": "What type of equipment do you use?",
+      "answer": "We use a variety of equipment, including excavators, bulldozers, skid steers, and compactors, to handle different types of grading and earthwork projects efficiently."
+    },
+    {
+      "question": "How do you handle erosion control?",
+      "answer": "We implement various erosion control measures, such as silt fences, erosion blankets, and temporary seeding, to prevent soil loss during and after grading."
+    },
+    {
+      "question": "What factors affect the cost of grading and earthwork?",
+      "answer": "Factors include the size of the project, the amount of soil to be moved, soil conditions, accessibility, and any required permits or erosion control measures."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:36:21.638Z",
+  "_model": "gemini-2.0-flash"
+}

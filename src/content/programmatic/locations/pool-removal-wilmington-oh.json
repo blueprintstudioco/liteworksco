@@ -1,0 +1,116 @@
+{
+  "city": "Wilmington",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-wilmington-oh",
+  "metaTitle": "Pool Removal in Wilmington, OH | Liteworks Co.",
+  "metaDescription": "Expert pool removal services in Wilmington, OH by Liteworks Co. Safe, efficient, and cost-effective pool demolition and site restoration. Call (513) 927-9675 for a free quote.",
+  "h1": "Wilmington, OH Pool Removal Services",
+  "heroText": "Liteworks Co. provides professional pool removal services in Wilmington, OH, and throughout Clinton County. We handle everything from initial assessment and permitting to complete demolition and site restoration, ensuring a seamless and stress-free experience for homeowners. Let us help you reclaim your backyard.",
+  "localContext": {
+    "terrain": "Wilmington, OH, is characterized by gently rolling hills and flat plains, typical of southwestern Ohio. The region is part of the Little Miami River watershed.",
+    "soilConditions": "The soil conditions in Wilmington are primarily clay-based, with areas of silty loam. Drainage can be an issue due to the clay content, which impacts excavation and requires careful planning for pool removal projects.",
+    "commonProjects": [
+      "Inground pool removals",
+      "Above-ground pool removals",
+      "Pool deck demolition",
+      "Site grading and restoration",
+      "Concrete removal",
+      "Landscaping and lawn installation"
+    ],
+    "seasonalNotes": "Wilmington experiences distinct seasons, with wet springs and potential for frozen ground in winter. The best time for pool removal is typically late spring through early fall when the ground is workable and weather conditions are favorable.",
+    "localRegulations": "Pool removal in Wilmington, OH, requires permits from the Clinton County Building Department and adherence to local zoning regulations. Liteworks Co. will handle all necessary permitting to ensure compliance."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property value and make your backyard more appealing to potential buyers."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the safety hazards associated with an unused or poorly maintained pool, protecting your family and neighbors from potential accidents."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard and create more usable space for recreation, gardening, or outdoor living areas."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Say goodbye to the ongoing costs of pool maintenance, including chemicals, cleaning, and repairs."
+    },
+    {
+      "title": "Environmental Benefits",
+      "description": "Proper pool removal prevents potential environmental hazards associated with stagnant water and deteriorating pool materials."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Initial Consultation and Assessment",
+      "description": "We'll visit your Wilmington property to assess the pool, discuss your goals, and provide a detailed estimate."
+    },
+    {
+      "step": "2. Permitting and Planning",
+      "description": "Liteworks Co. will obtain all necessary permits from the Clinton County Building Department and develop a comprehensive removal plan."
+    },
+    {
+      "step": "3. Pool Demolition",
+      "description": "Our experienced team will safely and efficiently demolish the pool, removing all concrete, liner, and associated materials."
+    },
+    {
+      "step": "4. Site Restoration",
+      "description": "We'll fill the excavation with compacted soil, grade the area to ensure proper drainage, and prepare it for landscaping or other uses."
+    },
+    {
+      "step": "5. Final Inspection and Cleanup",
+      "description": "We'll conduct a final inspection to ensure the site meets all requirements and leave your property clean and ready for your next project."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$5,000 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above-ground)",
+      "Accessibility to the pool area",
+      "Materials used in pool construction (concrete, fiberglass, vinyl)",
+      "Extent of site restoration required",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact Liteworks Co. for a free, no-obligation quote specific to your Wilmington, OH, property."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "Most pool removal projects in Wilmington, OH, take between 1-2 weeks, depending on the size and complexity of the pool and the extent of site restoration."
+    },
+    {
+      "question": "Do I need a permit to remove my pool?",
+      "answer": "Yes, a permit is required from the Clinton County Building Department to ensure compliance with local regulations."
+    },
+    {
+      "question": "What happens to the debris from the pool?",
+      "answer": "We haul away all debris and dispose of it responsibly at a licensed recycling or disposal facility."
+    },
+    {
+      "question": "Will you fill in the hole left by the pool?",
+      "answer": "Yes, we fill the excavation with compacted soil to ensure stability and proper drainage."
+    },
+    {
+      "question": "Can you restore the area to look like it was never a pool?",
+      "answer": "Yes, we offer complete site restoration services, including grading, topsoil, and seeding, to restore your backyard to its original condition."
+    },
+    {
+      "question": "Is pool removal messy?",
+      "answer": "Pool removal can be a messy process, but we take precautions to minimize dust and disruption to your property. We also thoroughly clean up the site after the project is complete."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "lebanon-oh",
+    "west-chester-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:32:52.863Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,116 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-xenia-oh",
+  "metaTitle": "Grading & Earthwork in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Professional grading and earthwork services in Xenia, OH by Liteworks Co. Expert site preparation, drainage solutions, and land leveling for residential and commercial projects.",
+  "h1": "Grading & Earthwork Services in Xenia, OH",
+  "heroText": "Liteworks Co. provides expert grading and earthwork services in Xenia, Ohio. We understand the unique soil conditions and terrain of Greene County, ensuring your project's foundation is solid. From residential landscaping to commercial site development, we deliver reliable and efficient grading solutions throughout Xenia.",
+  "localContext": {
+    "terrain": "Xenia is characterized by gently rolling hills and flat plains, typical of the Miami Valley region. The area features a mix of agricultural land, residential neighborhoods, and developing commercial zones.",
+    "soilConditions": "The soil in Xenia is predominantly composed of silty clay loam, with areas of glacial till and some limestone bedrock closer to the surface. Drainage can be an issue in certain low-lying areas due to the clay content.",
+    "commonProjects": [
+      "Residential foundation grading",
+      "Commercial site preparation",
+      "Driveway and parking lot grading",
+      "Drainage system installation",
+      "Land leveling for landscaping",
+      "Erosion control projects"
+    ],
+    "seasonalNotes": "Spring and fall often bring the highest demand for grading services in Xenia due to favorable weather conditions. Winter can present challenges with frozen ground, while summer may see occasional delays due to heavy rainfall.",
+    "localRegulations": "Grading projects in Xenia may require permits from the City of Xenia and Greene County, especially those involving significant changes to land elevation or drainage patterns. Compliance with local zoning and environmental regulations is essential."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundations",
+      "description": "Proper grading ensures a level and stable base for buildings, preventing structural issues and costly repairs down the line."
+    },
+    {
+      "title": "Effective Drainage",
+      "description": "We design and implement grading solutions that channel water away from your property, minimizing the risk of flooding and water damage."
+    },
+    {
+      "title": "Enhanced Aesthetics",
+      "description": "Precise grading creates smooth and visually appealing landscapes, improving the overall curb appeal of your property."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Our earthwork services include erosion control measures to protect topsoil and prevent sediment runoff, preserving the environment."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "Professional grading and landscaping can significantly increase the value of your property by creating usable outdoor spaces and improving its overall appearance."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough evaluation of your property, including soil analysis, topographic surveys, and identification of potential drainage issues."
+    },
+    {
+      "step": "Grading Plan Development",
+      "description": "Based on the site assessment, we create a detailed grading plan that outlines the scope of work, including cut and fill calculations, drainage design, and erosion control measures."
+    },
+    {
+      "step": "Earthmoving and Grading",
+      "description": "Our experienced operators use heavy equipment to reshape the land according to the grading plan, ensuring proper slopes and elevations."
+    },
+    {
+      "step": "Compaction and Stabilization",
+      "description": "We compact the soil to achieve the required density, providing a solid and stable base for construction or landscaping."
+    },
+    {
+      "step": "Final Inspection and Approval",
+      "description": "Upon completion, we conduct a final inspection to ensure the grading meets all specifications and regulatory requirements."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Project size and complexity",
+      "Volume of earth moved",
+      "Soil conditions",
+      "Drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary based on the specific requirements of each project. Contact us for a free, no-obligation estimate."
+  },
+  "faqs": [
+    {
+      "question": "What is the purpose of grading?",
+      "answer": "Grading is the process of reshaping the land surface to achieve a desired slope or elevation. It is essential for proper drainage, foundation stability, and aesthetic appeal."
+    },
+    {
+      "question": "Do I need a permit for grading?",
+      "answer": "Permit requirements vary depending on the scope of the project and local regulations. Generally, projects involving significant changes to land elevation or drainage patterns require permits from the City of Xenia and Greene County."
+    },
+    {
+      "question": "How long does a grading project take?",
+      "answer": "The duration of a grading project depends on its size and complexity. Simple residential grading projects may take a few days, while larger commercial projects can take several weeks."
+    },
+    {
+      "question": "What type of equipment do you use for grading?",
+      "answer": "We use a variety of heavy equipment for grading, including bulldozers, excavators, graders, and compactors, depending on the specific requirements of the project."
+    },
+    {
+      "question": "How do you handle drainage issues?",
+      "answer": "We design and implement drainage solutions that effectively channel water away from your property, minimizing the risk of flooding and water damage. This may include installing swales, French drains, or underground drainage systems."
+    },
+    {
+      "question": "What is the best time of year for grading?",
+      "answer": "Spring and fall are generally the best times of year for grading in Xenia, as the weather is typically mild and the ground is not frozen. However, grading can be performed year-round with proper planning and precautions."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "dayton-oh",
+    "springfield-oh"
+  ],
+  "_generated": "2026-03-12T14:28:35.693Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,116 @@
+{
+  "city": "Lebanon",
+  "state": "OH",
+  "service": "Excavation",
+  "slug": "excavation-lebanon-oh",
+  "metaTitle": "Excavation in Lebanon, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert excavation services in Lebanon, OH. From site preparation to foundation work, we deliver reliable and affordable solutions. Call (513) 927-9675 for a free quote.",
+  "h1": "Excavation Services in Lebanon, OH",
+  "heroText": "Liteworks Co. is your trusted excavation partner in Lebanon, Ohio. We provide comprehensive excavation services for residential and commercial projects, ensuring precision and efficiency. Our experienced team understands the unique soil conditions and terrain of Warren County, delivering reliable results every time.",
+  "localContext": {
+    "terrain": "Lebanon, OH, is characterized by rolling hills and gentle slopes, part of the Little Miami River valley. The area features a mix of suburban and rural landscapes.",
+    "soilConditions": "The soil in Lebanon and Warren County typically consists of clay, shale, and glacial till. This can present challenges for excavation, requiring proper soil stabilization and drainage solutions.",
+    "commonProjects": [
+      "Residential foundation excavation",
+      "Basement excavation",
+      "Driveway and road grading",
+      "Septic system installation",
+      "Land clearing for new construction",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Lebanon experiences distinct seasons, with potential for frozen ground in winter and heavy rainfall in spring. Excavation projects are best scheduled during the drier months of summer and fall to avoid delays and ensure optimal soil conditions.",
+    "localRegulations": "Excavation projects in Lebanon, OH, require adherence to local building codes and permitting regulations. Liteworks Co. ensures full compliance with all Warren County and city requirements, including utility marking (Ohio Utilities Protection Service - OUPS) and erosion control measures."
+  },
+  "benefits": [
+    {
+      "title": "Precise and Accurate Excavation",
+      "description": "We utilize advanced equipment and techniques to ensure precise excavation, minimizing errors and ensuring projects are completed to exact specifications."
+    },
+    {
+      "title": "Experienced and Qualified Team",
+      "description": "Our team has extensive experience working in Lebanon's unique soil conditions, providing reliable and effective excavation solutions."
+    },
+    {
+      "title": "Cost-Effective Solutions",
+      "description": "We offer competitive pricing and transparent quotes, ensuring you receive the best value for your excavation needs in Warren County."
+    },
+    {
+      "title": "Timely Project Completion",
+      "description": "We understand the importance of deadlines and strive to complete all excavation projects on time and within budget."
+    },
+    {
+      "title": "Full Regulatory Compliance",
+      "description": "We handle all necessary permits and ensure full compliance with local regulations, providing peace of mind and avoiding potential delays or fines."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Site Assessment",
+      "description": "We begin with a thorough consultation to understand your project requirements and assess the site conditions in Lebanon, OH."
+    },
+    {
+      "step": "Detailed Planning and Permitting",
+      "description": "We develop a detailed excavation plan and obtain all necessary permits from Warren County and the City of Lebanon."
+    },
+    {
+      "step": "Safe and Efficient Excavation",
+      "description": "Our experienced team performs the excavation work using state-of-the-art equipment, adhering to strict safety standards."
+    },
+    {
+      "step": "Site Grading and Stabilization",
+      "description": "We ensure proper site grading and soil stabilization to prepare the area for construction or landscaping."
+    },
+    {
+      "step": "Final Inspection and Cleanup",
+      "description": "We conduct a final inspection to ensure the excavation meets all requirements and leave the site clean and ready for the next phase of your project."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions and accessibility",
+      "Depth of excavation",
+      "Permitting requirements",
+      "Equipment and labor costs"
+    ],
+    "note": "These are estimates only. Contact Liteworks Co. for a free, accurate quote based on your specific excavation needs in Lebanon, OH."
+  },
+  "faqs": [
+    {
+      "question": "What types of excavation services do you offer in Lebanon, OH?",
+      "answer": "We offer a wide range of excavation services, including site preparation, foundation excavation, land clearing, grading, drainage solutions, and septic system installation."
+    },
+    {
+      "question": "Do I need a permit for excavation in Lebanon?",
+      "answer": "Yes, most excavation projects in Lebanon require permits. We handle the permitting process for you, ensuring full compliance with local regulations."
+    },
+    {
+      "question": "How long does an excavation project typically take?",
+      "answer": "The duration of an excavation project depends on the size and complexity of the job, as well as soil conditions and weather. We provide a timeline estimate during the initial consultation."
+    },
+    {
+      "question": "How much does excavation cost in Lebanon, OH?",
+      "answer": "Excavation costs vary depending on several factors. Contact us for a free, no-obligation quote tailored to your specific project requirements."
+    },
+    {
+      "question": "Are you insured and licensed to perform excavation work in Lebanon?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to provide excavation services in Lebanon, OH, and Warren County."
+    },
+    {
+      "question": "What safety measures do you take during excavation?",
+      "answer": "Safety is our top priority. We adhere to strict safety protocols, including utility marking, erosion control, and proper equipment operation, to ensure a safe work environment."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:02:19.000Z",
+  "_model": "gemini-2.0-flash"
+}

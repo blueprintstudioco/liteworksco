@@ -1,0 +1,115 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Demolition",
+  "slug": "demolition-xenia-oh",
+  "metaTitle": "Demolition in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Professional demolition services in Xenia, OH by Liteworks Co. Safe, efficient, and reliable demolition for residential and commercial projects. Call (513) 927-9675.",
+  "h1": "Demolition Services in Xenia, OH",
+  "heroText": "Liteworks Co. provides expert demolition services in Xenia, Ohio and throughout Greene County. We handle a variety of demolition projects, from residential structures to commercial buildings, always prioritizing safety and environmental responsibility. Our experienced team ensures efficient and thorough demolition, preparing your site for its next phase.",
+  "localContext": {
+    "terrain": "Xenia and the surrounding areas feature gently rolling hills and flatlands, typical of southwestern Ohio. The area is part of the Miami Valley.",
+    "soilConditions": "The soil in Xenia is primarily composed of silty clay loam, with areas of glacial till and some limestone bedrock closer to the Little Miami River. Drainage can be an issue in flatter areas.",
+    "commonProjects": [
+      "Residential house demolition",
+      "Garage and shed removal",
+      "Commercial building demolition",
+      "Concrete and asphalt removal (driveways, patios)",
+      "Selective demolition for renovations",
+      "Barn and outbuilding demolition"
+    ],
+    "seasonalNotes": "Winter weather in Xenia can cause delays due to freezing temperatures and snowfall, affecting demolition timelines and safety. Spring brings increased moisture, potentially impacting soil stability and requiring additional erosion control measures. Fall offers the most stable weather for demolition projects.",
+    "localRegulations": "Demolition projects in Xenia require permits from the City of Xenia and potentially Greene County. Regulations cover proper disposal of debris, asbestos abatement if necessary, and site safety. Liteworks Co. ensures full compliance with all local regulations."
+  },
+  "benefits": [
+    {
+      "title": "Safety First",
+      "description": "We prioritize safety in every demolition project, implementing strict protocols and using experienced personnel to protect workers, the public, and the environment."
+    },
+    {
+      "title": "Efficient Project Completion",
+      "description": "Our team is equipped to handle demolition projects of all sizes efficiently, minimizing downtime and ensuring your project stays on schedule."
+    },
+    {
+      "title": "Proper Waste Disposal",
+      "description": "We adhere to all local and state regulations regarding debris removal and disposal, ensuring environmentally responsible practices."
+    },
+    {
+      "title": "Site Preparation",
+      "description": "Following demolition, we can handle site clearing and grading to prepare the land for its next use."
+    },
+    {
+      "title": "Comprehensive Insurance Coverage",
+      "description": "Liteworks Co. carries comprehensive insurance, providing you with peace of mind throughout the demolition process."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough site assessment to identify potential hazards, environmental concerns, and structural considerations."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "We obtain all necessary permits from the City of Xenia and Greene County and develop a detailed demolition plan."
+    },
+    {
+      "step": "Demolition",
+      "description": "Our experienced team executes the demolition plan, utilizing appropriate equipment and techniques to safely and efficiently remove the structure."
+    },
+    {
+      "step": "Debris Removal",
+      "description": "We remove all debris from the site, transporting it to approved disposal facilities in compliance with environmental regulations."
+    },
+    {
+      "step": "Site Clearing and Grading",
+      "description": "We clear and grade the site, preparing it for future construction or landscaping."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,000",
+    "averageRange": "$5,000 - $25,000",
+    "factors": [
+      "Size and complexity of the structure",
+      "Materials used in construction",
+      "Presence of hazardous materials (e.g., asbestos)",
+      "Accessibility of the site",
+      "Debris disposal costs"
+    ],
+    "note": "These prices are estimates. Contact Liteworks Co. for a free, detailed quote specific to your demolition project in Xenia, OH."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for demolition in Xenia?",
+      "answer": "Yes, demolition projects in Xenia, OH require permits from the City of Xenia and potentially Greene County. We can handle the permitting process for you."
+    },
+    {
+      "question": "How long does a demolition project take?",
+      "answer": "The duration of a demolition project depends on the size and complexity of the structure. Simple projects may take a few days, while larger projects can take several weeks."
+    },
+    {
+      "question": "What happens to the debris after demolition?",
+      "answer": "We transport all debris to approved disposal facilities, ensuring proper recycling and disposal in accordance with environmental regulations."
+    },
+    {
+      "question": "Is asbestos testing required before demolition?",
+      "answer": "If the structure was built before 1981, asbestos testing is highly recommended and may be required by local regulations. We can arrange for asbestos testing and abatement if necessary."
+    },
+    {
+      "question": "Are you insured for demolition work?",
+      "answer": "Yes, Liteworks Co. carries comprehensive insurance, including liability and workers' compensation, to protect you and our team during the demolition process."
+    },
+    {
+      "question": "Can you handle selective demolition?",
+      "answer": "Yes, we offer selective demolition services for renovations and remodeling projects, carefully removing specific portions of a structure while leaving others intact."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "dayton-oh"
+  ],
+  "_generated": "2026-03-12T14:29:33.094Z",
+  "_model": "gemini-2.0-flash"
+}

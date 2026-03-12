@@ -1,0 +1,112 @@
+{
+  "city": "Lebanon",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-lebanon-oh",
+  "metaTitle": "Drainage Solutions in Lebanon, OH | Liteworks Co.",
+  "metaDescription": "Expert drainage solutions in Lebanon, OH by Liteworks Co. Protect your property from water damage with our grading, French drains, and more. Call (513) 927-9675.",
+  "h1": "Lebanon, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides comprehensive drainage solutions to homeowners and businesses in Lebanon, Ohio. We understand the unique challenges presented by Warren County's terrain and soil conditions, and we're dedicated to protecting your property from water damage with effective and affordable drainage systems.",
+  "localContext": {
+    "terrain": "Lebanon, OH, is characterized by rolling hills and gently sloping landscapes, contributing to potential drainage issues if not properly managed.",
+    "soilConditions": "The soil in Lebanon and Warren County typically consists of clay-rich glacial till, which can impede water infiltration and lead to standing water, erosion, and foundation problems.",
+    "commonProjects": [
+      "French drain installation",
+      "Grading and re-sloping",
+      "Downspout extensions and management",
+      "Surface drainage improvements",
+      "Erosion control measures",
+      "Sump pump installation and repair"
+    ],
+    "seasonalNotes": "Spring and early summer bring the highest risk of heavy rainfall and flooding in Lebanon. Winter freeze-thaw cycles can also exacerbate drainage issues and cause damage to existing systems.",
+    "localRegulations": "Lebanon, OH, adheres to Warren County regulations regarding stormwater management and drainage. Permits may be required for certain drainage projects, especially those affecting waterways or involving significant earthwork. Liteworks Co. is familiar with local codes and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions prevent costly water damage to your foundation, landscaping, and property structure."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Proper drainage prevents soil erosion and protects your valuable topsoil, preserving the beauty and stability of your landscape."
+    },
+    {
+      "title": "Improved Property Value",
+      "description": "A well-drained property is more attractive to potential buyers and can increase your property value."
+    },
+    {
+      "title": "Healthier Landscape",
+      "description": "Effective drainage prevents waterlogged soil, creating a healthier environment for your plants and lawn."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "Knowing that your property is protected from water damage provides peace of mind, especially during heavy rain events."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your property to identify drainage problems and potential solutions."
+    },
+    {
+      "step": "Custom Design",
+      "description": "We design a custom drainage system tailored to your specific needs and budget, considering the unique characteristics of your property."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care, ensuring optimal performance and longevity."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure that your drainage system is functioning properly and meets your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Type of drainage system",
+      "Size of the affected area",
+      "Soil conditions",
+      "Accessibility",
+      "Permitting requirements"
+    ],
+    "note": "Pricing can vary depending on the complexity of the project. Contact us for a free estimate."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs of poor drainage include standing water, soggy soil, erosion, foundation cracks, and water in your basement."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of drainage solutions, including French drains, surface drains, downspout extensions, grading, and sump pump installation."
+    },
+    {
+      "question": "How much does drainage solutions cost?",
+      "answer": "The cost of drainage solutions varies depending on the scope of the project. We offer free estimates to provide you with an accurate price."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Permits may be required for certain drainage projects in Lebanon, OH. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project. Most drainage systems can be installed within a few days."
+    },
+    {
+      "question": "What is a French drain?",
+      "answer": "A French drain is a trench filled with gravel or rock that contains a perforated pipe. It redirects surface and groundwater away from an area."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:02:41.375Z",
+  "_model": "gemini-2.0-flash"
+}

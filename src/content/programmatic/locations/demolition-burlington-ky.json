@@ -1,0 +1,116 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Demolition",
+  "slug": "demolition-burlington-ky",
+  "metaTitle": "Demolition in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Safe and reliable demolition services in Burlington, KY by Liteworks Co. Specializing in residential and commercial demolition projects. Call (513) 927-9675 for a free quote.",
+  "h1": "Demolition Services in Burlington, KY",
+  "heroText": "Liteworks Co. provides expert demolition services to Burlington, KY, and the surrounding Northern Kentucky area. We handle everything from selective interior demolition to complete building removals, always prioritizing safety and environmental responsibility. Our experienced team ensures efficient and thorough demolition, preparing your site for its next phase.",
+  "localContext": {
+    "terrain": "Burlington, KY, features gently rolling hills and valleys characteristic of Boone County, situated near the Ohio River.",
+    "soilConditions": "The soil in Burlington is typically a mix of clay and silt, with some areas containing shale. Drainage can be an issue in certain low-lying areas.",
+    "commonProjects": [
+      "Residential demolition for new construction",
+      "Commercial building demolition for redevelopment",
+      "Selective interior demolition for renovations",
+      "Concrete removal (driveways, patios, foundations)",
+      "Barn and outbuilding demolition",
+      "Swimming pool removal"
+    ],
+    "seasonalNotes": "Wet spring weather can impact demolition timelines due to muddy conditions. Winter can bring frozen ground, requiring specialized equipment for certain projects. Fall is often an ideal time for demolition in Burlington.",
+    "localRegulations": "Demolition projects in Burlington, KY, require permits from the Boone County Building Department. Regulations address proper disposal of debris and environmental protection measures. Liteworks Co. handles all permitting to ensure compliance."
+  },
+  "benefits": [
+    {
+      "title": "Safety First",
+      "description": "We prioritize safety on every demolition project, adhering to strict protocols and utilizing experienced personnel."
+    },
+    {
+      "title": "Environmental Responsibility",
+      "description": "We properly dispose of all demolition debris, recycling materials whenever possible to minimize environmental impact."
+    },
+    {
+      "title": "Efficient Project Management",
+      "description": "Our team manages all aspects of the demolition process, from permitting to site cleanup, ensuring a smooth and timely completion."
+    },
+    {
+      "title": "Experienced Professionals",
+      "description": "Liteworks Co. has a proven track record of successful demolition projects in Northern Kentucky."
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "We offer a full range of demolition services, including selective demolition, complete building removal, and site clearing."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough site assessment to identify potential hazards and develop a detailed demolition plan."
+    },
+    {
+      "step": "Permitting and Approvals",
+      "description": "We obtain all necessary permits and approvals from the Boone County Building Department."
+    },
+    {
+      "step": "Demolition",
+      "description": "Our experienced crew safely and efficiently demolishes the structure according to the approved plan."
+    },
+    {
+      "step": "Debris Removal",
+      "description": "We remove all demolition debris and transport it to a licensed disposal facility, recycling materials whenever possible."
+    },
+    {
+      "step": "Site Clearing",
+      "description": "We clear and grade the site, preparing it for its next use."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,000",
+    "averageRange": "$5,000 - $25,000+",
+    "factors": [
+      "Size and complexity of the structure",
+      "Materials used in construction",
+      "Accessibility of the site",
+      "Presence of hazardous materials (asbestos, lead paint)",
+      "Permitting fees and disposal costs"
+    ],
+    "note": "These are general estimates. Contact us for a free, detailed quote specific to your Burlington demolition project."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for demolition in Burlington, KY?",
+      "answer": "Yes, demolition projects in Burlington require permits from the Boone County Building Department. Liteworks Co. can handle the permitting process for you."
+    },
+    {
+      "question": "How long does a demolition project typically take?",
+      "answer": "The duration of a demolition project depends on the size and complexity of the structure. A small residential demolition may take a few days, while a larger commercial project could take several weeks."
+    },
+    {
+      "question": "What happens to the debris after demolition?",
+      "answer": "We properly dispose of all demolition debris at licensed disposal facilities. We also recycle materials whenever possible to minimize environmental impact."
+    },
+    {
+      "question": "Is Liteworks Co. insured?",
+      "answer": "Yes, Liteworks Co. is fully insured, providing liability and worker's compensation coverage for all our projects."
+    },
+    {
+      "question": "Do you handle asbestos or lead paint removal?",
+      "answer": "We can coordinate with licensed asbestos and lead paint abatement professionals if these materials are present in the structure. We prioritize safety and compliance with all environmental regulations."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "We provide demolition services throughout Northern Kentucky, including Burlington, Florence, Union, and Hebron."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:54:48.688Z",
+  "_model": "gemini-2.0-flash"
+}

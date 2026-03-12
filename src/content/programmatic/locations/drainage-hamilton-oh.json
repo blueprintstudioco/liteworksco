@@ -1,0 +1,116 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-hamilton-oh",
+  "metaTitle": "Drainage Solutions in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Solve your Hamilton, OH drainage problems with Liteworks Co.! Expert drainage solutions for soggy yards, foundation issues, and more. Call (513) 927-9675 for a quote.",
+  "h1": "Hamilton, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions in Hamilton, Ohio, addressing issues from standing water to foundation damage. We understand the unique challenges presented by Butler County's landscape and offer tailored solutions to protect your property. If you're experiencing drainage issues in Hamilton, contact Liteworks Co. for reliable and effective solutions.",
+  "localContext": {
+    "terrain": "Hamilton's terrain is characterized by rolling hills and the Great Miami River valley. This topography can lead to drainage issues if not properly managed.",
+    "soilConditions": "The soil conditions in Hamilton and Butler County are primarily composed of clay-rich glacial till. This type of soil retains water, which can contribute to drainage problems and potential erosion.",
+    "commonProjects": [
+      "French drains",
+      "Surface grading",
+      "Sump pump installation",
+      "Downspout extensions",
+      "Retaining wall drainage",
+      "Erosion control"
+    ],
+    "seasonalNotes": "Spring and early summer often bring heavy rainfall to Hamilton, exacerbating drainage problems. Winter freeze-thaw cycles can also damage existing drainage systems, requiring repair or replacement.",
+    "localRegulations": "Hamilton follows Butler County regulations regarding stormwater management and drainage. Permits may be required for certain drainage projects, especially those affecting waterways or involving significant earthmoving. Liteworks Co. can assist with navigating these regulations."
+  },
+  "benefits": [
+    {
+      "title": "Prevents Foundation Damage",
+      "description": "Proper drainage directs water away from your Hamilton home's foundation, preventing costly damage and structural issues."
+    },
+    {
+      "title": "Eliminates Standing Water",
+      "description": "Our drainage solutions eliminate standing water in your yard, reducing mosquito breeding grounds and creating a more usable outdoor space."
+    },
+    {
+      "title": "Controls Erosion",
+      "description": "Effective drainage prevents soil erosion on your property, protecting landscaping and preventing sediment runoff into local waterways."
+    },
+    {
+      "title": "Increases Property Value",
+      "description": "Addressing drainage issues improves the overall condition and value of your Hamilton property."
+    },
+    {
+      "title": "Protects Landscaping",
+      "description": "Proper drainage prevents waterlogged soil, which can damage or kill plants and grass."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your Hamilton property to identify the source and extent of the drainage problem."
+    },
+    {
+      "step": "Solution Design",
+      "description": "Based on the assessment, we design a customized drainage solution tailored to your specific needs and budget."
+    },
+    {
+      "step": "Permitting (If Required)",
+      "description": "We handle all necessary permitting requirements with Butler County to ensure compliance."
+    },
+    {
+      "step": "Installation",
+      "description": "Our experienced team installs the drainage system using quality materials and proven techniques."
+    },
+    {
+      "step": "Final Inspection and Cleanup",
+      "description": "We conduct a final inspection to ensure the system is functioning properly and leave your property clean and tidy."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Scope of the project",
+      "Type of drainage system",
+      "Materials used",
+      "Site accessibility",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact Liteworks Co. for a free, personalized quote for your Hamilton drainage project."
+  },
+  "faqs": [
+    {
+      "question": "How do I know if I have a drainage problem?",
+      "answer": "Signs of a drainage problem include standing water, soggy areas, foundation cracks, basement leaks, and soil erosion."
+    },
+    {
+      "question": "What are the different types of drainage solutions?",
+      "answer": "Common drainage solutions include French drains, surface grading, downspout extensions, sump pumps, and retaining walls."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time varies depending on the complexity of the project, but most residential drainage projects can be completed in 1-3 days."
+    },
+    {
+      "question": "Do I need a permit for drainage work in Hamilton?",
+      "answer": "Permits may be required for certain drainage projects, especially those affecting waterways or involving significant earthmoving. We can help determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How much does a drainage solution cost?",
+      "answer": "The cost of a drainage solution depends on several factors, including the scope of the project and the type of system installed. Contact us for a free estimate."
+    },
+    {
+      "question": "What maintenance is required for a drainage system?",
+      "answer": "Regular maintenance, such as removing debris from drains and inlets, is essential to ensure the system functions properly. We can provide maintenance recommendations specific to your system."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "oxford-oh"
+  ],
+  "_generated": "2026-03-12T14:07:40.904Z",
+  "_model": "gemini-2.0-flash"
+}

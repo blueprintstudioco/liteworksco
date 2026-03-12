@@ -1,0 +1,112 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Drainage Solutions",
+  "slug": "drainage-burlington-ky",
+  "metaTitle": "Drainage Solutions in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Solve your Burlington, KY drainage problems with Liteworks Co. Expert solutions for yards, foundations, and more. Call (513) 927-9675 for a quote!",
+  "h1": "Burlington, KY Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions in Burlington, KY, addressing everything from standing water in your yard to foundation drainage issues. We understand the unique challenges presented by Northern Kentucky's terrain and soil conditions, and we're here to protect your property from water damage.",
+  "localContext": {
+    "terrain": "Burlington and the surrounding areas of Boone County are characterized by rolling hills and valleys, with varying elevations that can contribute to drainage issues.",
+    "soilConditions": "The soil in Burlington is primarily clay-based, which can retain water and lead to poor drainage if not properly managed. Shale bedrock is also common.",
+    "commonProjects": [
+      "French drains",
+      "Surface grading",
+      "Downspout extensions",
+      "Sump pump installation",
+      "Erosion control",
+      "Yard drainage systems"
+    ],
+    "seasonalNotes": "Spring and early summer are particularly wet in Burlington, making proper drainage crucial to prevent flooding and water damage. Winter freeze-thaw cycles can also exacerbate existing drainage problems.",
+    "localRegulations": "Boone County and the City of Burlington have regulations regarding stormwater management and erosion control. Liteworks Co. is familiar with these regulations and will ensure that all drainage projects comply with local codes and permitting requirements."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Foundation Damage",
+      "description": "Proper drainage diverts water away from your foundation, preventing costly cracks, leaks, and structural problems."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Say goodbye to mosquito breeding grounds and unsightly puddles in your yard with effective drainage solutions."
+    },
+    {
+      "title": "Protect Your Landscaping",
+      "description": "Excess water can damage or kill your plants and grass. Our drainage solutions ensure healthy growth and a beautiful landscape."
+    },
+    {
+      "title": "Increase Property Value",
+      "description": "A well-drained property is more attractive to potential buyers and can increase the overall value of your home."
+    },
+    {
+      "title": "Reduce Erosion",
+      "description": "Control erosion and prevent soil loss with strategically designed drainage systems that stabilize slopes and prevent runoff."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough evaluation of your property to identify drainage problems and potential solutions, considering Burlington's specific topography and soil conditions."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on our assessment, we design a customized drainage system tailored to your specific needs and budget, selecting the most appropriate methods for your situation."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care, ensuring proper grading, pipe placement, and connections for optimal performance."
+    },
+    {
+      "step": "Final Inspection and Testing",
+      "description": "We conduct a final inspection and test the system to ensure it is functioning correctly and effectively diverting water away from your property."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Project complexity",
+      "Size of the affected area",
+      "Type of drainage system",
+      "Materials used",
+      "Accessibility to the site"
+    ],
+    "note": "These are estimates only. Contact us for a free, personalized quote for your Burlington drainage project."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Common signs include standing water, soggy areas, erosion, water in your basement, and foundation cracks."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of solutions, including French drains, surface grading, downspout extensions, sump pump installation, and yard drainage systems."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project, but most residential drainage projects can be completed in a few days."
+    },
+    {
+      "question": "Do you offer warranties on your work?",
+      "answer": "Yes, we offer warranties on our workmanship and materials. Contact us for details."
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured to provide excavation and drainage services in Burlington, KY."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Depending on the scope of the project, a permit may be required. We will handle the permitting process for you to ensure compliance with local regulations."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:54:05.468Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,115 @@
+{
+  "city": "West Chester",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-west-chester-oh",
+  "metaTitle": "Foundation Work in West Chester, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert foundation services in West Chester, OH. We handle everything from new foundations to repairs. Call (513) 927-9675 for a quote.",
+  "h1": "Foundation Work in West Chester, OH",
+  "heroText": "Liteworks Co. is your trusted partner for all foundation work in West Chester, Ohio. We understand the unique soil conditions and building requirements of the area, ensuring a solid and reliable foundation for your home or business. From new construction to foundation repairs and replacements, we provide quality workmanship and lasting results throughout West Chester, including neighborhoods like Beckett Ridge and Olde West Chester.",
+  "localContext": {
+    "terrain": "West Chester is characterized by gently rolling hills and suburban landscapes.",
+    "soilConditions": "The soil in West Chester is primarily composed of glacial till, which includes clay, silt, sand, and gravel. Clay-rich soils are common, which can expand and contract with moisture changes, impacting foundation stability if not properly addressed.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs (cracks, settling)",
+      "Foundation replacements",
+      "Basement waterproofing",
+      "Foundation extensions for additions",
+      "Slab foundation construction"
+    ],
+    "seasonalNotes": "West Chester experiences distinct seasons, with freezing temperatures and significant precipitation in winter and hot, humid summers. Proper foundation drainage is crucial to prevent water damage during heavy rains and snowmelt. Spring thaw can also cause soil shifting that impacts foundation stability.",
+    "localRegulations": "Foundation work in West Chester, OH, must comply with Butler County building codes and regulations. Permits are typically required for new foundations, major repairs, and replacements. Liteworks Co. is familiar with local regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Solid Foundation, Lasting Results",
+      "description": "We ensure your foundation is built to last, providing a stable base for your structure for years to come."
+    },
+    {
+      "title": "Expertise in Local Soil Conditions",
+      "description": "Our team understands the specific soil challenges in West Chester and employs proven techniques to mitigate potential problems."
+    },
+    {
+      "title": "Comprehensive Foundation Services",
+      "description": "From initial excavation to final inspection, we handle every aspect of your foundation project with precision and care."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-built and maintained foundation enhances the value and appeal of your home or business."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "Knowing your foundation is in good hands allows you to focus on other aspects of your project with confidence."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Site Evaluation and Planning",
+      "description": "We assess the soil conditions, topography, and project requirements to develop a customized foundation plan."
+    },
+    {
+      "step": "2. Excavation and Grading",
+      "description": "Our team carefully excavates the site to the required depth and ensures proper grading for drainage."
+    },
+    {
+      "step": "3. Foundation Construction",
+      "description": "We construct the foundation using high-quality materials and proven techniques, adhering to all building codes and regulations."
+    },
+    {
+      "step": "4. Inspection and Approval",
+      "description": "We work with local inspectors to ensure the foundation meets all requirements and obtain necessary approvals."
+    },
+    {
+      "step": "5. Backfilling and Site Restoration",
+      "description": "After inspection, we backfill around the foundation and restore the site to its original condition, or better."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000+",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation",
+      "Material costs",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary significantly depending on the specifics of your project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to build a foundation?",
+      "answer": "The timeline varies depending on the size and complexity of the project, but typically ranges from one to three weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work?",
+      "answer": "Yes, in most cases, a permit is required for new foundations, major repairs, and replacements in West Chester, OH."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs include cracks in walls or floors, uneven floors, sticking doors or windows, and water intrusion in the basement."
+    },
+    {
+      "question": "How can I prevent foundation problems?",
+      "answer": "Proper drainage, maintaining consistent soil moisture levels, and addressing any signs of damage promptly can help prevent foundation problems."
+    },
+    {
+      "question": "What type of foundations do you build?",
+      "answer": "We build all common types of foundations including poured concrete, block, and slab foundations."
+    },
+    {
+      "question": "Do you offer foundation repair services?",
+      "answer": "Yes, we offer comprehensive foundation repair services, including crack repair, leveling, and waterproofing."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T13:51:31.711Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,112 @@
+{
+  "city": "Harrison",
+  "state": "OH",
+  "service": "Demolition",
+  "slug": "demolition-harrison-oh",
+  "metaTitle": "Demolition in Harrison, OH | Liteworks Co.",
+  "metaDescription": "Safe and reliable demolition services in Harrison, OH by Liteworks Co. Specializing in residential and commercial demolition projects. Call (513) 927-9675 for a free quote.",
+  "h1": "Demolition Services in Harrison, OH",
+  "heroText": "Liteworks Co. provides professional demolition services in Harrison, Ohio, and the surrounding areas. We handle a variety of demolition projects, from small residential structures to larger commercial buildings. Our experienced team ensures safe and efficient demolition while adhering to all local regulations.",
+  "localContext": {
+    "terrain": "Harrison, OH, features a mix of rolling hills and flatter areas along the Great Miami River. The city is located in southwestern Ohio, with a generally temperate climate.",
+    "soilConditions": "The soil conditions in Harrison are typically a mix of clay and shale, which can affect demolition project planning and execution. Proper soil stabilization and erosion control measures are essential.",
+    "commonProjects": [
+      "Residential house demolition",
+      "Garage and shed removal",
+      "Commercial building demolition",
+      "Concrete and asphalt removal",
+      "Interior demolition and gutting",
+      "Barn and outbuilding demolition"
+    ],
+    "seasonalNotes": "Weather conditions in Harrison can impact demolition projects. Winter brings potential for frozen ground and snow, while spring can be wet. Summer and fall generally provide the most favorable conditions.",
+    "localRegulations": "Demolition projects in Harrison, OH, are subject to local regulations and permitting requirements. It's important to obtain the necessary permits and follow all safety guidelines to ensure compliance. Contact the City of Harrison Planning and Zoning Department for specific requirements."
+  },
+  "benefits": [
+    {
+      "title": "Safety First",
+      "description": "We prioritize safety in every demolition project, employing industry best practices and adhering to all safety regulations to protect our team and your property."
+    },
+    {
+      "title": "Efficient Project Management",
+      "description": "Our experienced project managers ensure that your demolition project is completed on time and within budget, with minimal disruption to your property."
+    },
+    {
+      "title": "Environmental Responsibility",
+      "description": "We are committed to environmentally responsible demolition practices, including proper disposal of debris and recycling of materials whenever possible."
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "From initial assessment and permitting to complete site cleanup, we offer comprehensive demolition services to handle every aspect of your project."
+    },
+    {
+      "title": "Experienced Professionals",
+      "description": "Our team of skilled demolition experts has the knowledge and experience to handle even the most challenging demolition projects with precision and care."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation",
+      "description": "We begin with a thorough consultation to understand your demolition needs and assess the project site."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "We handle all necessary permits and develop a detailed demolition plan, including safety protocols and environmental considerations."
+    },
+    {
+      "step": "Demolition Execution",
+      "description": "Our skilled team executes the demolition plan efficiently and safely, using the appropriate equipment and techniques."
+    },
+    {
+      "step": "Debris Removal and Site Cleanup",
+      "description": "We remove all debris from the site and ensure it is properly disposed of or recycled. We leave the site clean and ready for your next project."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$5,000",
+    "averageRange": "$7,500 - $25,000",
+    "factors": [
+      "Size and complexity of the structure",
+      "Materials used in construction",
+      "Accessibility of the site",
+      "Presence of hazardous materials (asbestos, lead)",
+      "Permitting fees and disposal costs"
+    ],
+    "note": "These are estimates only. Contact us for a free, accurate quote based on your specific demolition needs in Harrison, OH."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for demolition in Harrison, OH?",
+      "answer": "Yes, a demolition permit is typically required for most demolition projects in Harrison, OH. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does a typical demolition project take?",
+      "answer": "The duration of a demolition project depends on the size and complexity of the structure, but most residential demolitions can be completed within a few days."
+    },
+    {
+      "question": "Are you insured and licensed?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to provide demolition services in Ohio."
+    },
+    {
+      "question": "What happens to the debris after demolition?",
+      "answer": "We prioritize recycling and responsible disposal of demolition debris. We work with local recycling facilities to minimize waste and ensure proper disposal."
+    },
+    {
+      "question": "Do you handle asbestos removal?",
+      "answer": "We are not asbestos removal experts, but we can coordinate with qualified asbestos abatement professionals to ensure safe removal before demolition, if necessary."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "We provide demolition services in Harrison, OH, and throughout Hamilton County."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:44:46.800Z",
+  "_model": "gemini-2.0-flash"
+}

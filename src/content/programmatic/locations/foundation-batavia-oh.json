@@ -1,0 +1,115 @@
+{
+  "city": "Batavia",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-batavia-oh",
+  "metaTitle": "Foundation Work in Batavia, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert foundation services in Batavia, OH. From new construction to repairs, we ensure solid foundations for your property. Call (513) 927-9675.",
+  "h1": "Batavia, OH Foundation Services",
+  "heroText": "Liteworks Co. delivers reliable foundation services in Batavia, Ohio, and throughout Clermont County. We handle everything from new foundation construction to repairs and replacements, ensuring the structural integrity of your property. Our expertise addresses the specific soil conditions and regulations in the Batavia area.",
+  "localContext": {
+    "terrain": "Batavia, OH, features rolling hills and valleys, typical of the Clermont County landscape. The East Fork Little Miami River and its tributaries have shaped the local topography.",
+    "soilConditions": "The soil in Batavia is primarily composed of clay and shale, which can expand and contract with moisture changes. This can create challenges for foundations if not properly addressed during construction.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs and crack sealing",
+      "Basement waterproofing",
+      "Foundation replacements",
+      "Slab foundation construction",
+      "Pier and beam foundations"
+    ],
+    "seasonalNotes": "Batavia experiences freeze-thaw cycles in the winter, which can put stress on foundations. Spring brings heavy rains that can saturate the soil, increasing the risk of foundation issues. Proper drainage is crucial year-round.",
+    "localRegulations": "Foundation work in Batavia, OH, must comply with Clermont County building codes and regulations. Permits are typically required for new construction and major foundation repairs. Liteworks Co. can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Structural Integrity",
+      "description": "A properly built and maintained foundation ensures the long-term stability and safety of your building."
+    },
+    {
+      "title": "Prevents Water Damage",
+      "description": "Our foundation services include waterproofing solutions that protect your basement and crawl space from moisture intrusion."
+    },
+    {
+      "title": "Increases Property Value",
+      "description": "A solid foundation is a valuable asset that enhances the resale value of your home or business."
+    },
+    {
+      "title": "Expert Workmanship",
+      "description": "Liteworks Co. employs experienced professionals who use quality materials and proven techniques to deliver exceptional results."
+    },
+    {
+      "title": "Local Expertise",
+      "description": "We understand the unique soil conditions and building codes in Batavia, OH, ensuring your foundation is built to last."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "We conduct a thorough assessment of your property to determine the best foundation solution for your needs."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "Our team prepares the site by excavating the soil and ensuring proper grading for drainage."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "We build the foundation according to engineered plans, using reinforced concrete and other durable materials."
+    },
+    {
+      "step": "Waterproofing and Backfilling",
+      "description": "We apply waterproofing membranes and backfill the foundation to protect it from moisture and soil pressure."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the foundation meets all quality standards and building codes."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$7,500",
+    "averageRange": "$10,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Type of foundation (slab, basement, crawl space)",
+      "Required permits and inspections",
+      "Waterproofing and drainage solutions"
+    ],
+    "note": "These prices are estimates. Contact Liteworks Co. for a free, personalized quote for your foundation project in Batavia, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to build a foundation?",
+      "answer": "The timeline varies depending on the size and complexity of the project, but most residential foundations can be completed in 1-2 weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work?",
+      "answer": "Yes, in most cases, a building permit is required for new foundation construction and major repairs in Batavia, OH. We can assist you with the permitting process."
+    },
+    {
+      "question": "What type of foundation is best for my property?",
+      "answer": "The best foundation type depends on several factors, including soil conditions, topography, and your budget. We can assess your property and recommend the most suitable option."
+    },
+    {
+      "question": "How can I prevent foundation problems?",
+      "answer": "Proper drainage, regular inspections, and prompt repairs are essential for preventing foundation issues. Keep gutters clean and ensure that water flows away from your foundation."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs include cracks in walls or floors, sticking doors and windows, and uneven floors. If you notice these issues, contact us for an inspection."
+    },
+    {
+      "question": "Does Liteworks Co. offer foundation repair services?",
+      "answer": "Yes, we offer a full range of foundation repair services, including crack sealing, waterproofing, and structural repairs."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "milford-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:01:22.975Z",
+  "_model": "gemini-2.0-flash"
+}

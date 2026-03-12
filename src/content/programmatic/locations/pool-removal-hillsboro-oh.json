@@ -1,0 +1,116 @@
+{
+  "city": "Hillsboro",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-hillsboro-oh",
+  "metaTitle": "Pool Removal in Hillsboro, OH | Liteworks Co.",
+  "metaDescription": "Professional pool removal services in Hillsboro, OH. Liteworks Co. provides safe and efficient inground and above ground pool demolition and removal. Get a free quote today!",
+  "h1": "Pool Removal Hillsboro, OH",
+  "heroText": "Liteworks Co. offers comprehensive pool removal services to residents of Hillsboro, OH, and the surrounding Highland County. Whether you're dealing with an aging, unwanted, or damaged pool, our expert team can safely and efficiently handle the entire removal process, restoring your yard and increasing your property value.",
+  "localContext": {
+    "terrain": "Hillsboro and Highland County are characterized by rolling hills and valleys, typical of the Appalachian foothills region.",
+    "soilConditions": "The soil in Hillsboro is predominantly composed of clay and shale, which can impact excavation and demolition processes. Proper drainage and erosion control are essential considerations.",
+    "commonProjects": [
+      "Inground pool removal",
+      "Above ground pool demolition",
+      "Pool fill-in and landscaping",
+      "Erosion control projects",
+      "Drainage solutions",
+      "Foundation excavation"
+    ],
+    "seasonalNotes": "Hillsboro experiences distinct seasons, with potential for heavy rainfall in spring and summer, and freezing temperatures in winter. Pool removal projects are best scheduled during the drier months of late spring, summer, or early fall to avoid weather-related delays.",
+    "localRegulations": "Pool removal in Hillsboro, OH, may require permits from the Highland County Building Department. Regulations typically cover proper demolition procedures, waste disposal, and backfilling requirements to ensure safety and environmental protection. Liteworks Co. will handle all permit coordination on your behalf."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property value and make your yard more appealing to potential buyers."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the risk of accidents and liabilities associated with an unused or poorly maintained pool, especially important if you have young children or pets."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard and create more usable space for recreation, gardening, or other outdoor activities."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Stop throwing money away on costly pool maintenance, repairs, and chemical treatments for a pool you no longer use."
+    },
+    {
+      "title": "Environmental Benefits",
+      "description": "Proper pool removal prevents potential environmental hazards associated with stagnant water, chemical runoff, and neglected pool structures."
+    }
+  ],
+  "process": [
+    {
+      "step": "Consultation and Assessment",
+      "description": "We begin with a thorough assessment of your pool and property to determine the best removal method and identify any potential challenges."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "We handle all necessary permits and develop a detailed removal plan that complies with local regulations in Hillsboro, OH."
+    },
+    {
+      "step": "Pool Demolition and Removal",
+      "description": "Our experienced team safely and efficiently demolishes the pool structure, removing all debris and materials from your property."
+    },
+    {
+      "step": "Backfilling and Compaction",
+      "description": "We backfill the excavated area with compacted soil, ensuring proper drainage and stability."
+    },
+    {
+      "step": "Site Restoration",
+      "description": "We restore the area to its original condition, including grading, seeding, and landscaping to create a seamless transition."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$5,000 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above ground)",
+      "Accessibility to the pool area",
+      "Local permit fees",
+      "Backfill material costs",
+      "Desired level of site restoration"
+    ],
+    "note": "These prices are estimates. Contact us for a free, no-obligation quote specific to your Hillsboro, OH, property."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "The duration of pool removal depends on the size and type of pool, as well as site conditions. Most projects in Hillsboro are completed within 3-7 days."
+    },
+    {
+      "question": "Do I need a permit to remove my pool?",
+      "answer": "Yes, a permit is typically required for pool removal in Hillsboro, OH. We will handle the permit application process for you."
+    },
+    {
+      "question": "What happens to the pool debris?",
+      "answer": "We dispose of all pool debris at a licensed recycling or disposal facility in compliance with Highland County regulations."
+    },
+    {
+      "question": "Will you damage my yard during the removal process?",
+      "answer": "We take every precaution to minimize disruption to your yard and surrounding landscaping. We will restore the area to its original condition or better."
+    },
+    {
+      "question": "Is it better to fill in a pool or completely remove it?",
+      "answer": "Complete pool removal is generally recommended as it eliminates potential future problems with settling or buried debris. However, filling in a pool may be a more cost-effective option in some cases."
+    },
+    {
+      "question": "How much does it cost to get a pool removal estimate?",
+      "answer": "Liteworks Co. provides free, no-obligation pool removal estimates to homeowners in Hillsboro, OH."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:35:26.318Z",
+  "_model": "gemini-2.0-flash"
+}

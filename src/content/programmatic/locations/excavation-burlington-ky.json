@@ -1,0 +1,116 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Excavation",
+  "slug": "excavation-burlington-ky",
+  "metaTitle": "Excavation in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Professional excavation services in Burlington, KY by Liteworks Co. Specializing in grading, drainage, land clearing, and more. Call (513) 927-9675 for a free quote!",
+  "h1": "Excavation Services in Burlington, KY",
+  "heroText": "Liteworks Co. provides expert excavation services in Burlington, Kentucky, and the surrounding Northern Kentucky region. We handle everything from site preparation and grading to drainage solutions and land clearing, ensuring your project starts on solid ground. Our experienced team understands the unique challenges of Burlington's terrain and soil conditions, delivering reliable and efficient excavation services tailored to your specific needs.",
+  "localContext": {
+    "terrain": "Burlington, KY, features rolling hills and valleys, typical of the Ohio River Valley region. The landscape is characterized by a mix of open fields and wooded areas.",
+    "soilConditions": "The soil in Burlington is primarily composed of clay and shale, with some areas containing limestone bedrock closer to the surface. Drainage can be an issue due to the clay content, requiring careful planning for excavation projects.",
+    "commonProjects": [
+      "Residential foundation excavation",
+      "Driveway and road grading",
+      "Drainage system installation",
+      "Retaining wall construction",
+      "Land clearing for new construction",
+      "Septic system installation"
+    ],
+    "seasonalNotes": "Wet weather in spring and winter can significantly impact excavation projects in Burlington. Proper site drainage and erosion control measures are essential to prevent delays and ensure stability. Frozen ground in winter can also pose challenges.",
+    "localRegulations": "Excavation projects in Burlington, KY, are subject to local building codes and permitting requirements. It's crucial to obtain the necessary permits and comply with regulations related to erosion control, stormwater management, and utility protection before starting any excavation work. Contact the City of Burlington Planning and Zoning Department for specific requirements."
+  },
+  "benefits": [
+    {
+      "title": "Precise Grading and Leveling",
+      "description": "Achieve accurate site preparation for foundations, driveways, and landscaping projects with our expert grading and leveling services."
+    },
+    {
+      "title": "Effective Drainage Solutions",
+      "description": "Prevent water damage and erosion with properly designed and installed drainage systems tailored to Burlington's soil conditions."
+    },
+    {
+      "title": "Safe and Efficient Land Clearing",
+      "description": "Clear land quickly and safely for construction or development, minimizing environmental impact and adhering to local regulations."
+    },
+    {
+      "title": "Solid Foundation Preparation",
+      "description": "Ensure a stable and long-lasting foundation for your home or building with our thorough excavation and soil compaction services."
+    },
+    {
+      "title": "Experienced and Reliable Team",
+      "description": "Benefit from our experienced team's knowledge of Burlington's terrain and soil, delivering reliable and efficient excavation services."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of your property in Burlington, KY, considering soil conditions, terrain, and project requirements."
+    },
+    {
+      "step": "Planning and Permitting",
+      "description": "We develop a detailed excavation plan and obtain all necessary permits from the City of Burlington to ensure compliance with local regulations."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "Our skilled operators use state-of-the-art equipment to excavate and grade the site according to the project specifications."
+    },
+    {
+      "step": "Drainage and Erosion Control",
+      "description": "We implement drainage solutions and erosion control measures to protect your property and the surrounding environment."
+    },
+    {
+      "step": "Site Cleanup and Restoration",
+      "description": "We complete the project with a thorough site cleanup, leaving your property in Burlington neat and ready for the next phase of construction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions and terrain",
+      "Depth of excavation",
+      "Equipment and labor requirements",
+      "Permitting fees"
+    ],
+    "note": "Pricing varies depending on the specific requirements of each project in Burlington, KY. Contact us for a free, no-obligation quote tailored to your needs."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for excavation in Burlington, KY?",
+      "answer": "Yes, most excavation projects in Burlington require a permit from the City of Burlington Planning and Zoning Department. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does excavation take?",
+      "answer": "The duration of an excavation project depends on the size and complexity of the job, as well as weather conditions. We provide realistic timelines during the initial consultation."
+    },
+    {
+      "question": "What type of equipment do you use?",
+      "answer": "We utilize a range of equipment, including excavators, bulldozers, skid steers, and graders, to handle various excavation tasks efficiently and effectively."
+    },
+    {
+      "question": "How do you handle drainage issues?",
+      "answer": "We design and install drainage systems, such as French drains and culverts, to manage stormwater runoff and prevent water damage."
+    },
+    {
+      "question": "Are you insured and licensed?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to provide excavation services in Burlington, KY, and the surrounding areas."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "We provide excavation services throughout Northern Kentucky, including Burlington, Florence, Hebron, and Union."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:53:45.706Z",
+  "_model": "gemini-2.0-flash"
+}

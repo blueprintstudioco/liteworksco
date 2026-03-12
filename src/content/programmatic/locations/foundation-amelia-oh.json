@@ -1,0 +1,116 @@
+{
+  "city": "Amelia",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-amelia-oh",
+  "metaTitle": "Foundation Work in Amelia, OH | Liteworks Co.",
+  "metaDescription": "Expert foundation services in Amelia, OH by Liteworks Co. Specializing in new foundations, repairs, and replacements. Call (513) 927-9675 for a free quote!",
+  "h1": "Foundation Work in Amelia, OH",
+  "heroText": "Liteworks Co. provides reliable and professional foundation services in Amelia, Ohio. We handle everything from new construction foundations to repairs and replacements, ensuring the structural integrity of your home or business in Clermont County.",
+  "localContext": {
+    "terrain": "Amelia, OH, is characterized by rolling hills and valleys, typical of the Clermont County landscape. This topography can present unique challenges for foundation construction and requires careful site preparation.",
+    "soilConditions": "The soil in Amelia is primarily composed of clay and shale, which can expand and contract with moisture changes. This can put stress on foundations, making proper drainage and soil stabilization crucial.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs for settling or cracking",
+      "Basement waterproofing",
+      "Foundation replacements",
+      "Pier and beam foundation work",
+      "Retaining wall foundations"
+    ],
+    "seasonalNotes": "Amelia experiences significant temperature fluctuations throughout the year. Winter freeze-thaw cycles can exacerbate foundation issues, while heavy spring rains can lead to soil saturation and hydrostatic pressure. Proper planning and preventative measures are essential.",
+    "localRegulations": "Foundation work in Amelia, OH, is subject to Clermont County building codes and permitting requirements. Liteworks Co. is experienced in navigating these regulations to ensure compliance and a smooth project process."
+  },
+  "benefits": [
+    {
+      "title": "Structural Integrity",
+      "description": "Ensure the long-term stability and safety of your property with a properly constructed and maintained foundation."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A solid foundation is a key selling point and can significantly increase the value of your home or business."
+    },
+    {
+      "title": "Prevention of Water Damage",
+      "description": "Proper foundation waterproofing and drainage can prevent costly water damage and mold growth in your basement or crawl space."
+    },
+    {
+      "title": "Expert Workmanship",
+      "description": "Liteworks Co. provides experienced and skilled foundation services, ensuring quality and durability."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "Knowing your foundation is solid and secure provides peace of mind and protects your investment."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "We begin with a thorough assessment of your property, including soil testing and elevation analysis, to determine the best foundation solution."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "Our team carefully excavates and grades the site to prepare for foundation construction, ensuring proper drainage and soil compaction."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "We use high-quality materials and proven techniques to build a strong and durable foundation that meets all local building codes."
+    },
+    {
+      "step": "Waterproofing and Drainage",
+      "description": "We install waterproofing membranes and drainage systems to protect your foundation from water damage and hydrostatic pressure."
+    },
+    {
+      "step": "Backfilling and Final Grading",
+      "description": "After the foundation is complete, we backfill the area and perform final grading to ensure proper water runoff and site aesthetics."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation required",
+      "Waterproofing and drainage needs",
+      "Permitting and inspection fees"
+    ],
+    "note": "These are estimates only. Contact us for a free, detailed quote specific to your project in Amelia, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work take?",
+      "answer": "The duration of foundation work varies depending on the scope of the project, but most projects take between 1-3 weeks to complete."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Amelia?",
+      "answer": "Yes, most foundation projects in Amelia, OH, require a building permit from Clermont County. We can assist you with the permitting process."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs include cracks in walls or floors, sticking doors or windows, uneven floors, and water intrusion in the basement."
+    },
+    {
+      "question": "How much does it cost to repair a foundation in Amelia?",
+      "answer": "Foundation repair costs vary widely depending on the extent of the damage. Simple crack repairs can cost a few hundred dollars, while more extensive repairs can cost several thousand."
+    },
+    {
+      "question": "What type of foundation is best for my Amelia home?",
+      "answer": "The best type of foundation depends on factors such as soil conditions, site topography, and your budget. We can help you determine the most suitable option for your property."
+    },
+    {
+      "question": "Do you offer foundation inspections?",
+      "answer": "Yes, we offer comprehensive foundation inspections to assess the condition of your foundation and identify any potential problems."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:40:22.408Z",
+  "_model": "gemini-2.0-flash"
+}

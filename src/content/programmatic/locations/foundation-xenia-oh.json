@@ -1,0 +1,115 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-xenia-oh",
+  "metaTitle": "Foundation Work in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Expert foundation excavation and sitework in Xenia, OH by Liteworks Co. Ensure a solid base for your construction project. Call (513) 927-9675 for a quote!",
+  "h1": "Foundation Work in Xenia, OH",
+  "heroText": "Liteworks Co. provides reliable foundation work services in Xenia, Ohio, ensuring a stable and secure base for your residential or commercial construction project. We understand the specific soil conditions and building requirements in Greene County, offering tailored solutions for every build. From excavation to precise grading, we're committed to delivering quality and durability.",
+  "localContext": {
+    "terrain": "Xenia and the surrounding areas of Greene County feature gently rolling terrain, with some flatter areas closer to the Little Miami River.",
+    "soilConditions": "The soil in Xenia is primarily composed of clay and silty loam, with some areas containing glacial till. Drainage can be a concern due to the clay content, requiring proper site preparation and foundation design.",
+    "commonProjects": [
+      "New home construction",
+      "Building additions",
+      "Commercial building foundations",
+      "Garage and outbuilding foundations",
+      "Foundation repair and replacement",
+      "Slab foundation installation"
+    ],
+    "seasonalNotes": "Spring in Xenia can bring heavy rains, which can impact excavation and foundation pouring. It's crucial to manage water runoff effectively. Winter can bring frozen ground conditions requiring specialized excavation techniques.",
+    "localRegulations": "Foundation work in Xenia, OH must adhere to the Greene County building codes and zoning regulations. Permits are typically required for new construction and significant foundation modifications. Inspections are performed to ensure compliance with structural and safety standards. We handle all permitting processes for you."
+  },
+  "benefits": [
+    {
+      "title": "Stable and Secure Foundations",
+      "description": "We ensure your foundation is built on a solid, properly prepared base, minimizing the risk of settling or structural issues."
+    },
+    {
+      "title": "Expert Site Preparation",
+      "description": "Our team handles all aspects of site preparation, including excavation, grading, and soil compaction, tailored to Xenia's unique soil conditions."
+    },
+    {
+      "title": "Compliance with Local Codes",
+      "description": "We are well-versed in Greene County building codes and ensure all our work meets or exceeds local requirements, streamlining the inspection process."
+    },
+    {
+      "title": "Efficient Project Management",
+      "description": "We manage your foundation project from start to finish, coordinating all necessary resources and ensuring timely completion."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A properly built foundation adds significant value to your property, providing long-term stability and peace of mind."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment & Planning",
+      "description": "We begin with a thorough assessment of your property in Xenia, considering soil conditions, drainage patterns, and project requirements. We then develop a detailed plan tailored to your specific needs."
+    },
+    {
+      "step": "Excavation",
+      "description": "Our experienced team excavates the site to the precise dimensions required for your foundation, ensuring proper depth and leveling."
+    },
+    {
+      "step": "Forming & Reinforcement",
+      "description": "We construct the necessary forms to create the foundation walls and install steel reinforcement to enhance structural integrity."
+    },
+    {
+      "step": "Concrete Pouring & Curing",
+      "description": "We pour high-quality concrete into the forms and allow it to cure properly, ensuring maximum strength and durability."
+    },
+    {
+      "step": "Backfilling & Grading",
+      "description": "After the concrete has cured, we remove the forms, backfill around the foundation, and grade the surrounding area to promote proper drainage."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Depth of excavation required",
+      "Soil conditions and the need for soil stabilization",
+      "Type of foundation (slab, crawl space, basement)",
+      "Permitting fees and inspection costs"
+    ],
+    "note": "These prices are estimates. Contact us for a detailed quote specific to your project in Xenia, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to build a foundation?",
+      "answer": "The duration varies depending on the size and complexity of the project, but typically ranges from one to three weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Xenia?",
+      "answer": "Yes, a building permit is generally required for new foundations and significant modifications to existing foundations in Xenia, OH. We can assist you with the permit application process."
+    },
+    {
+      "question": "What type of foundation is best for my property?",
+      "answer": "The best type of foundation depends on several factors, including soil conditions, budget, and building design. We can assess your property and recommend the most suitable option."
+    },
+    {
+      "question": "How do you handle drainage issues?",
+      "answer": "We address drainage issues through proper site grading, installation of drainage systems, and the use of waterproofing materials to protect the foundation."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs include cracks in the walls or foundation, uneven floors, sticking doors and windows, and water intrusion."
+    },
+    {
+      "question": "Are you insured and licensed to perform foundation work in Ohio?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to perform excavation and foundation work in the state of Ohio."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "springboro-oh"
+  ],
+  "_generated": "2026-03-12T14:30:06.300Z",
+  "_model": "gemini-2.0-flash"
+}

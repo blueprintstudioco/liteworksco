@@ -1,0 +1,116 @@
+{
+  "city": "Centerville",
+  "state": "OH",
+  "service": "Excavation",
+  "slug": "excavation-centerville-oh",
+  "metaTitle": "Excavation in Centerville, OH | Liteworks Co.",
+  "metaDescription": "Professional excavation services in Centerville, OH by Liteworks Co. Site preparation, grading, drainage solutions, and more. Call (513) 927-9675 for a free quote!",
+  "h1": "Excavation Services in Centerville, OH",
+  "heroText": "Liteworks Co. provides expert excavation services to Centerville, Ohio, and the surrounding Miami Valley. We handle projects of all sizes, from residential site preparation to commercial development, ensuring quality workmanship and efficient project completion. Our experienced team understands the unique challenges of Centerville's terrain and soil conditions.",
+  "localContext": {
+    "terrain": "Centerville features gently rolling hills and relatively flat areas, typical of the Miami Valley region.",
+    "soilConditions": "The soil in Centerville is predominantly clay-based, often mixed with glacial till. This can present challenges for drainage and foundation work, requiring careful planning and execution.",
+    "commonProjects": [
+      "New home construction site preparation",
+      "Basement excavation and foundation pouring",
+      "Drainage system installation and repair",
+      "Retaining wall construction",
+      "Driveway and patio excavation",
+      "Land clearing for development"
+    ],
+    "seasonalNotes": "Spring and fall in Centerville can bring increased rainfall, which can impact excavation projects. Proper water management and erosion control are crucial during these seasons. Winter can cause frozen ground conditions impacting timelines.",
+    "localRegulations": "Excavation projects in Centerville are subject to local building codes and permitting requirements. Liteworks Co. is familiar with these regulations and will ensure that all projects comply with local laws."
+  },
+  "benefits": [
+    {
+      "title": "Experienced Professionals",
+      "description": "Our team has years of experience in excavation and sitework, ensuring your project is handled with expertise and care."
+    },
+    {
+      "title": "Quality Workmanship",
+      "description": "We are committed to providing high-quality workmanship that meets or exceeds industry standards."
+    },
+    {
+      "title": "Efficient Project Management",
+      "description": "We manage projects efficiently, minimizing delays and ensuring timely completion."
+    },
+    {
+      "title": "Competitive Pricing",
+      "description": "We offer competitive pricing without compromising on quality or service."
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "From initial site preparation to final grading, we offer a full range of excavation and sitework services."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation",
+      "description": "We discuss your project requirements and provide a detailed estimate."
+    },
+    {
+      "step": "Site Assessment",
+      "description": "We assess the site conditions, including soil type and drainage, to develop a tailored excavation plan."
+    },
+    {
+      "step": "Excavation",
+      "description": "We perform the excavation work, adhering to safety standards and best practices."
+    },
+    {
+      "step": "Grading and Compaction",
+      "description": "We grade and compact the soil to ensure a stable and level surface."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure that the project meets your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions",
+      "Equipment requirements",
+      "Permitting fees",
+      "Depth of excavation"
+    ],
+    "note": "Pricing can vary significantly based on the specific requirements of each project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "What types of excavation services do you offer in Centerville?",
+      "answer": "We offer a wide range of excavation services, including site preparation, grading, drainage solutions, foundation excavation, and more."
+    },
+    {
+      "question": "How do I know if I need excavation services?",
+      "answer": "If you are planning to build a new structure, install a drainage system, or require land clearing, you will likely need excavation services."
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured to provide excavation services in Centerville, OH."
+    },
+    {
+      "question": "How long does an excavation project typically take?",
+      "answer": "The duration of an excavation project depends on the size and complexity of the project. We will provide you with an estimated timeline during the initial consultation."
+    },
+    {
+      "question": "Do I need a permit for excavation in Centerville?",
+      "answer": "In most cases, a permit is required for excavation work in Centerville. We can assist you with the permitting process."
+    },
+    {
+      "question": "What safety precautions do you take during excavation?",
+      "answer": "Safety is our top priority. We follow strict safety protocols, including site inspections, proper equipment operation, and erosion control measures."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "springboro-oh"
+  ],
+  "_generated": "2026-03-12T14:25:47.465Z",
+  "_model": "gemini-2.0-flash"
+}

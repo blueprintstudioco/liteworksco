@@ -1,0 +1,116 @@
+{
+  "city": "Aurora",
+  "state": "IN",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-aurora-in",
+  "metaTitle": "Lot Preparation in Aurora, IN | Liteworks Co.",
+  "metaDescription": "Comprehensive lot preparation services in Aurora, IN by Liteworks Co. Expert excavation, grading, and site clearing for residential and commercial projects.",
+  "h1": "Lot Preparation Services in Aurora, IN",
+  "heroText": "Liteworks Co. provides expert lot preparation services in Aurora, Indiana and throughout Southeast Indiana. We handle everything from initial land clearing and excavation to final grading and compaction, ensuring your site is ready for construction. Our team is familiar with the specific challenges and requirements of building in Aurora, IN.",
+  "localContext": {
+    "terrain": "Aurora, IN, is characterized by rolling hills and river valleys, being situated near the Ohio River. The terrain can vary significantly from relatively flat areas near the river to steeper slopes further inland.",
+    "soilConditions": "The soil conditions in Aurora typically consist of clay-rich soils, often with underlying shale and some limestone deposits. Drainage can be a significant factor due to the clay content, requiring careful site preparation.",
+    "commonProjects": [
+      "New Home Construction",
+      "Commercial Building Development",
+      "Landscaping Projects",
+      "Foundation Installation",
+      "Driveway and Parking Area Construction",
+      "Retaining Wall Installation"
+    ],
+    "seasonalNotes": "Aurora experiences distinct seasons, with wet springs that can complicate excavation and grading. Winter can bring freezing temperatures, impacting soil compaction. The best time for lot preparation is typically late spring through early fall when the ground is drier and temperatures are moderate.",
+    "localRegulations": "Lot preparation in Aurora, IN, must comply with local zoning and building codes. Permits are typically required for excavation, grading, and erosion control. It's important to consult with the Dearborn County Planning and Zoning office to ensure compliance."
+  },
+  "benefits": [
+    {
+      "title": "Proper Site Drainage",
+      "description": "We ensure proper grading and drainage solutions to prevent water damage and foundation issues, critical in Aurora's climate."
+    },
+    {
+      "title": "Stable Foundation",
+      "description": "Our lot preparation services provide a solid and stable base for your construction project, minimizing the risk of settling or structural problems."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "We implement effective erosion control measures to protect the environment and comply with local regulations, particularly important near the Ohio River."
+    },
+    {
+      "title": "Accurate Grading",
+      "description": "Precise grading ensures proper water runoff and a level building surface, saving you time and money during construction."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-prepared lot enhances the overall value and appeal of your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of your property to understand the existing conditions, including soil type, topography, and drainage patterns."
+    },
+    {
+      "step": "Land Clearing & Excavation",
+      "description": "We remove trees, brush, and other obstructions, and excavate the site to the required depth for your project."
+    },
+    {
+      "step": "Grading & Compaction",
+      "description": "We grade the land to create a level building surface and ensure proper drainage. Soil is then compacted to provide a stable base."
+    },
+    {
+      "step": "Erosion Control",
+      "description": "We implement erosion control measures to prevent soil loss and protect nearby waterways."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "A final inspection is conducted to ensure the lot meets all requirements and is ready for construction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$3,500 - $15,000",
+    "factors": [
+      "Lot Size",
+      "Topography",
+      "Soil Conditions",
+      "Amount of Clearing Required",
+      "Required Grading and Compaction"
+    ],
+    "note": "Pricing can vary widely based on the specific requirements of the project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "What permits are required for lot preparation in Aurora, IN?",
+      "answer": "Permits are typically required for excavation, grading, and erosion control. Contact the Dearborn County Planning and Zoning office for specific requirements."
+    },
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project. Most projects can be completed within 1-2 weeks."
+    },
+    {
+      "question": "What type of equipment do you use?",
+      "answer": "We use a variety of heavy equipment, including excavators, bulldozers, graders, and compactors, to ensure efficient and effective lot preparation."
+    },
+    {
+      "question": "How do you handle erosion control?",
+      "answer": "We use a combination of techniques, including silt fences, erosion control blankets, and vegetation, to prevent soil erosion."
+    },
+    {
+      "question": "Do you offer free estimates?",
+      "answer": "Yes, we offer free, no-obligation estimates for all of our lot preparation services."
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured to provide lot preparation services in Aurora, IN."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T15:00:58.217Z",
+  "_model": "gemini-2.0-flash"
+}

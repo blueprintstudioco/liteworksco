@@ -1,0 +1,113 @@
+{
+  "slug": "yard-flooding-after-rain",
+  "title": "Yard Flooding After Rain? Solutions for Cincinnati Homeowners",
+  "metaTitle": "Yard Flooding Solutions - Cincinnati, Northern KY, SE Indiana",
+  "metaDescription": "Is your yard a swamp after every rain? Liteworks Co. provides expert solutions for yard flooding in the Greater Cincinnati area. Stop the water damage!",
+  "h1": "Why is My Yard Flooding After It Rains?",
+  "problemDescription": "Ugh, not again! Every time it rains, my yard turns into a lake. I'm so tired of soggy grass, muddy shoes, and the constant worry about water seeping into my foundation. It's not just annoying; I'm concerned about the long-term damage this standing water is causing to my property and even my neighbor's. I need a solution, and fast! I'm looking for real answers and reliable help to get my yard back to normal.",
+  "causes": [
+    {
+      "cause": "Poor Soil Drainage",
+      "explanation": "Clay-heavy soil doesn't absorb water well, leading to runoff and puddling."
+    },
+    {
+      "cause": "Compacted Soil",
+      "explanation": "Foot traffic, construction, and even mowing can compress the soil, reducing its ability to absorb water."
+    },
+    {
+      "cause": "Improper Grading",
+      "explanation": "If your yard slopes towards your house instead of away, water will naturally collect around the foundation."
+    },
+    {
+      "cause": "Clogged Gutters and Downspouts",
+      "explanation": "When gutters are full of leaves and debris, rainwater overflows and concentrates around the foundation."
+    },
+    {
+      "cause": "High Water Table",
+      "explanation": "In some areas, the water table is naturally high, making it difficult for the ground to absorb excess rainfall."
+    },
+    {
+      "cause": "Nearby Construction",
+      "explanation": "New construction can alter the landscape and drainage patterns, leading to flooding on neighboring properties."
+    }
+  ],
+  "solutions": [
+    {
+      "solution": "Clean Gutters and Downspouts",
+      "description": "Remove leaves, debris, and any obstructions from your gutters and downspouts to ensure proper water flow away from your house.",
+      "estimatedCost": "$0 - $100 (DIY or professional cleaning)",
+      "timeline": "A few hours",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Aerate Your Lawn",
+      "description": "Use a core aerator to create small holes in the soil, improving drainage and allowing water to penetrate more easily. This is especially helpful for compacted soil.",
+      "estimatedCost": "$50 - $200 (DIY rental or professional service)",
+      "timeline": "A day",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Install a Rain Garden",
+      "description": "Create a shallow depression in your yard planted with native, water-loving plants. This will help to collect and absorb excess rainwater, reducing runoff.",
+      "estimatedCost": "$200 - $1,000+ (depending on size and plants)",
+      "timeline": "1-3 days",
+      "effectiveness": "Long-term"
+    },
+    {
+      "solution": "Regrade Your Yard",
+      "description": "Reshape the slope of your yard to direct water away from your house and towards a designated drainage area. This often requires professional excavation and grading services.",
+      "estimatedCost": "$1,000 - $5,000+",
+      "timeline": "1-5 days",
+      "effectiveness": "Permanent fix"
+    },
+    {
+      "solution": "Install a French Drain",
+      "description": "A French drain is a trench filled with gravel and a perforated pipe that redirects water away from your house. This is an effective solution for severe flooding problems but requires professional installation.",
+      "estimatedCost": "$2,000 - $7,000+",
+      "timeline": "2-7 days",
+      "effectiveness": "Permanent fix"
+    }
+  ],
+  "warningSignsToActNow": [
+    "Water pooling directly against your foundation",
+    "Water seeping into your basement or crawl space",
+    "Mold or mildew growth on exterior walls",
+    "Cracks in your foundation",
+    "Erosion or soil loss around your foundation"
+  ],
+  "preventionTips": [
+    "Regularly clean your gutters and downspouts.",
+    "Aerate your lawn annually.",
+    "Avoid overwatering your lawn.",
+    "Extend downspouts to direct water further away from your foundation.",
+    "Consider planting trees and shrubs to absorb excess water."
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if my yard has poor drainage?",
+      "answer": "If water consistently pools in your yard for more than 24 hours after a rain, you likely have a drainage problem."
+    },
+    {
+      "question": "Can I fix yard flooding myself?",
+      "answer": "Simple solutions like cleaning gutters and aerating your lawn can be DIY projects. However, more complex issues like regrading or installing French drains often require professional expertise."
+    },
+    {
+      "question": "How much does it cost to fix yard flooding?",
+      "answer": "The cost varies greatly depending on the severity of the problem and the chosen solution. It can range from a few dollars for gutter cleaning to several thousand dollars for professional excavation and drainage installation."
+    },
+    {
+      "question": "How long does it take to fix yard flooding?",
+      "answer": "The timeline depends on the solution. Simple fixes can be completed in a day, while more complex projects can take several days or even weeks."
+    },
+    {
+      "question": "When should I call a professional?",
+      "answer": "If you're experiencing severe flooding, water damage to your foundation, or are unsure about the best solution for your yard, it's best to consult with a professional excavation contractor like Liteworks Co. We serve Greater Cincinnati, Northern KY, and SE Indiana. Call us at (513) 927-9675."
+    },
+    {
+      "question": "What is a French drain and how does it help?",
+      "answer": "A French drain is an underground drainage system that redirects water away from your home. It consists of a trench filled with gravel and a perforated pipe, providing a pathway for water to flow away from the problem area."
+    }
+  ],
+  "_generated": "2026-03-12T13:33:59.140Z",
+  "_model": "gemini-2.0-flash"
+}

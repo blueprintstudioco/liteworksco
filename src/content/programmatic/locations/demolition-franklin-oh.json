@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Demolition",
+  "slug": "demolition-franklin-oh",
+  "metaTitle": "Demolition in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Safe and reliable demolition services in Franklin, OH by Liteworks Co. We handle residential and commercial projects. Call (513) 927-9675 for a free quote.",
+  "h1": "Demolition Services in Franklin, OH",
+  "heroText": "Liteworks Co. provides professional demolition services in Franklin, Ohio, and the surrounding areas. Whether you need a shed, garage, or entire house removed, our experienced team ensures safe and efficient demolition, site clearing, and debris removal. We are committed to serving the Franklin community with reliable and cost-effective solutions.",
+  "localContext": {
+    "terrain": "Franklin, OH, is characterized by gently rolling hills and flatlands along the Great Miami River. The area's topography influences drainage patterns and can impact demolition project planning.",
+    "soilConditions": "The soil in Franklin is primarily composed of silty loam and clay, with areas closer to the river potentially having alluvial deposits. These soil conditions can affect foundation stability and require careful consideration during demolition and site preparation.",
+    "commonProjects": [
+      "Residential demolition (houses, garages, sheds)",
+      "Commercial building demolition",
+      "Concrete removal (driveways, patios, foundations)",
+      "Selective demolition for renovations",
+      "Mobile home demolition",
+      "Barn and outbuilding removal"
+    ],
+    "seasonalNotes": "Franklin experiences distinct seasons, with cold winters and warm, humid summers. Demolition projects are best scheduled during the drier months of late spring, summer, and early fall to avoid delays due to rain or frozen ground. Winter demolition can be more challenging and may incur additional costs.",
+    "localRegulations": "Demolition projects in Franklin, OH, require permits from the city's building department. Regulations address safety, environmental concerns (such as asbestos abatement), and proper disposal of debris. Liteworks Co. ensures full compliance with all local regulations and handles permit acquisition for our clients."
+  },
+  "benefits": [
+    {
+      "title": "Safety First",
+      "description": "We prioritize safety in every demolition project, adhering to strict protocols and using experienced personnel to minimize risks."
+    },
+    {
+      "title": "Efficient Project Management",
+      "description": "From initial assessment to final debris removal, we manage every aspect of the demolition process efficiently and professionally."
+    },
+    {
+      "title": "Environmentally Responsible",
+      "description": "We are committed to environmentally responsible demolition practices, including recycling and proper disposal of hazardous materials."
+    },
+    {
+      "title": "Permitting and Compliance",
+      "description": "We handle all necessary permits and ensure full compliance with local regulations, saving you time and hassle."
+    },
+    {
+      "title": "Comprehensive Site Clearing",
+      "description": "Our services include complete site clearing, leaving your property ready for its next phase of development."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Site Assessment",
+      "description": "We begin with a thorough assessment of the project site, discussing your needs and identifying any potential challenges."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "We obtain all necessary permits and develop a detailed demolition plan, including safety measures and environmental considerations."
+    },
+    {
+      "step": "Demolition Execution",
+      "description": "Our experienced team executes the demolition process safely and efficiently, using appropriate equipment and techniques."
+    },
+    {
+      "step": "Debris Removal and Site Clearing",
+      "description": "We remove all demolition debris and clear the site, leaving it clean and ready for future use."
+    },
+    {
+      "step": "Final Inspection and Project Completion",
+      "description": "We conduct a final inspection to ensure the project meets our high standards and your complete satisfaction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $15,000+",
+    "factors": [
+      "Size and complexity of the structure",
+      "Materials used in construction",
+      "Presence of hazardous materials (e.g., asbestos)",
+      "Site accessibility",
+      "Debris disposal costs"
+    ],
+    "note": "Pricing varies based on the specifics of each project. Contact us for a free, detailed estimate."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for demolition in Franklin, OH?",
+      "answer": "Yes, a demolition permit is required by the City of Franklin. Liteworks Co. can handle the permit application process for you."
+    },
+    {
+      "question": "How long does a typical demolition project take?",
+      "answer": "The duration of a demolition project depends on the size and complexity of the structure, but most residential demolitions are completed within a few days."
+    },
+    {
+      "question": "What happens to the debris after demolition?",
+      "answer": "We prioritize recycling and responsible disposal. Debris is sorted, and recyclable materials are taken to appropriate facilities. Non-recyclable materials are disposed of at licensed landfills."
+    },
+    {
+      "question": "Is Liteworks Co. insured and licensed?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to perform demolition services in Franklin, OH."
+    },
+    {
+      "question": "What if asbestos is found during the demolition?",
+      "answer": "If asbestos is suspected or found, we will halt demolition and engage a certified asbestos abatement company to safely remove the material before proceeding."
+    },
+    {
+      "question": "Do you offer selective demolition services?",
+      "answer": "Yes, we offer selective demolition services for renovations and remodeling projects, carefully removing specific portions of a structure while preserving the rest."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:24:25.524Z",
+  "_model": "gemini-2.0-flash"
+}

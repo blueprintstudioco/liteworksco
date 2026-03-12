@@ -1,0 +1,111 @@
+{
+  "slug": "french-drain-vs-catch-basin",
+  "title": "French Drain vs. Catch Basin: Which is Best for Your Cincinnati Property?",
+  "metaTitle": "French Drain vs. Catch Basin: A Cincinnati Homeowner's Guide",
+  "metaDescription": "French drains and catch basins both manage water, but which is right for your Cincinnati property? Liteworks Co. breaks down the pros, cons, and costs.",
+  "h1": "French Drain vs. Catch Basin: What's the Difference?",
+  "intro": "Dealing with standing water in your yard? French drains and catch basins are two common solutions, but they work in fundamentally different ways. As excavation experts serving the Greater Cincinnati area, Liteworks Co. can help you determine the best approach for your specific drainage needs. Let's dive into the details.",
+  "optionA": {
+    "name": "French Drain",
+    "description": "A French drain is a trench filled with gravel or rock that contains a perforated pipe. It works by collecting water over a large area and redirecting it away from the problem area using gravity.",
+    "pros": [
+      "Effective for widespread, shallow water problems",
+      "Relatively low maintenance",
+      "Can be aesthetically integrated into landscaping",
+      "Handles large volumes of water over time"
+    ],
+    "cons": [
+      "Can clog over time if not properly installed with filter fabric",
+      "Not ideal for concentrated water flow",
+      "Requires a gradual slope for proper drainage",
+      "Can be more labor-intensive to install initially"
+    ],
+    "costRange": "$15-$30 per linear foot installed in Cincinnati",
+    "bestFor": "Gradual yard drainage, preventing foundation water damage, managing runoff from downspouts over a wide area."
+  },
+  "optionB": {
+    "name": "Catch Basin",
+    "description": "A catch basin is a box-like structure with a grate on top that collects surface water. It's connected to an underground pipe that carries the water away to a storm sewer or other designated drainage area.",
+    "pros": [
+      "Excellent for managing concentrated water flow (e.g., driveway runoff)",
+      "Quickly removes standing water",
+      "Relatively easy to clean and maintain",
+      "Effective in areas with limited space"
+    ],
+    "cons": [
+      "Can become clogged with debris if not regularly maintained",
+      "Less effective for widespread drainage issues",
+      "Can be an eyesore if not properly integrated into landscaping",
+      "May require permits depending on local regulations"
+    ],
+    "costRange": "$500-$1500 per catch basin installed in Cincinnati",
+    "bestFor": "Collecting water from paved surfaces like driveways and patios, preventing localized flooding, managing water near downspouts with high flow."
+  },
+  "comparisonTable": [
+    {
+      "factor": "Water Collection",
+      "optionAValue": "Collects water over a wide area",
+      "optionBValue": "Collects water from a specific point or area"
+    },
+    {
+      "factor": "Ideal Use Case",
+      "optionAValue": "Yard drainage, foundation protection",
+      "optionBValue": "Driveway runoff, localized flooding"
+    },
+    {
+      "factor": "Maintenance",
+      "optionAValue": "Lower maintenance, but requires occasional inspection",
+      "optionBValue": "Requires regular cleaning to prevent clogs"
+    },
+    {
+      "factor": "Installation Complexity",
+      "optionAValue": "More labor-intensive initial installation",
+      "optionBValue": "Easier to install, but requires proper connection to drainage system"
+    },
+    {
+      "factor": "Aesthetic Impact",
+      "optionAValue": "Can be hidden and integrated into landscaping",
+      "optionBValue": "Can be visible, requires careful placement for aesthetics"
+    },
+    {
+      "factor": "Cost",
+      "optionAValue": "Lower cost per foot, but longer runs can add up",
+      "optionBValue": "Higher upfront cost per unit"
+    },
+    {
+      "factor": "Flow Rate",
+      "optionAValue": "Handles large volumes of water over time",
+      "optionBValue": "Quickly removes standing water"
+    },
+    {
+      "factor": "Best for",
+      "optionAValue": "Gradual yard drainage",
+      "optionBValue": "Concentrated water flow"
+    }
+  ],
+  "verdict": "While both systems have their place, for most Cincinnati homeowners dealing with general yard drainage issues, a French drain is the superior solution. Its ability to manage water over a larger area and its lower long-term maintenance requirements make it a more effective and cost-efficient choice in the long run. However, if you have a specific area with concentrated runoff, a catch basin is the way to go.",
+  "faqs": [
+    {
+      "question": "Can I install a French drain or catch basin myself?",
+      "answer": "While DIY installation is possible, it's generally recommended to hire a professional like Liteworks Co. Proper installation is crucial for the system's effectiveness and longevity. Improper installation can lead to clogs, drainage issues, and costly repairs."
+    },
+    {
+      "question": "How do I know which system is right for my property?",
+      "answer": "The best way to determine the right solution is to have a professional drainage assessment. Liteworks Co. can evaluate your property's specific needs and recommend the most effective and cost-efficient drainage system."
+    },
+    {
+      "question": "How long do French drains and catch basins last?",
+      "answer": "With proper installation and maintenance, both systems can last for many years. French drains typically last 10-20 years, while catch basins can last even longer. Regular cleaning and inspection are essential for maximizing their lifespan."
+    },
+    {
+      "question": "Do I need a permit to install a French drain or catch basin in Cincinnati?",
+      "answer": "Permit requirements vary depending on the scope of the project and local regulations. It's always best to check with your local municipality or a professional like Liteworks Co. to ensure compliance."
+    },
+    {
+      "question": "What maintenance is required for French drains and catch basins?",
+      "answer": "French drains require occasional inspection to ensure they are not clogged. Catch basins need regular cleaning to remove debris and prevent blockages. Both systems should be inspected after heavy rainfall to ensure they are functioning properly."
+    }
+  ],
+  "_generated": "2026-03-12T13:41:58.063Z",
+  "_model": "gemini-2.0-flash"
+}

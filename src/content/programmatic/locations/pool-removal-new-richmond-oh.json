@@ -1,0 +1,117 @@
+{
+  "city": "New Richmond",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-new-richmond-oh",
+  "metaTitle": "Pool Removal in New Richmond, OH | Liteworks Co.",
+  "metaDescription": "Professional pool removal services in New Richmond, OH by Liteworks Co. We handle everything from permits to site restoration. Get a free quote today!",
+  "h1": "Pool Removal New Richmond, OH",
+  "heroText": "Liteworks Co. provides comprehensive pool removal services in New Richmond, Ohio. We manage the entire process, from initial assessment and permitting to complete removal and site restoration. Our team is equipped to handle any size pool, ensuring a safe and efficient project.",
+  "localContext": {
+    "terrain": "New Richmond is situated in the rolling hills along the Ohio River, contributing to varied elevations and potential drainage challenges.",
+    "soilConditions": "The soil in the New Richmond area is primarily composed of clay and shale, which can affect excavation and require specific techniques for pool removal and backfilling.",
+    "commonProjects": [
+      "Inground pool removals",
+      "Above-ground pool removals",
+      "Pool demolition and disposal",
+      "Backfill and grading",
+      "Site restoration (seeding, landscaping)",
+      "Concrete patio removal around pools"
+    ],
+    "seasonalNotes": "Spring and fall are ideal for pool removal in New Richmond, avoiding the extreme heat of summer and potential frozen ground in winter. Rain can impact excavation, so proper planning is crucial.",
+    "localRegulations": "Pool removal in New Richmond requires permits from the Clermont County Building Department. Liteworks Co. handles all necessary permit applications and ensures compliance with local regulations and safety standards."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property value and appeal to potential buyers."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the safety hazards associated with an unused or poorly maintained pool, protecting children and pets."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard space for other activities, landscaping, or outdoor living areas."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Say goodbye to the ongoing expenses of pool maintenance, chemicals, and repairs."
+    },
+    {
+      "title": "Environmental Benefits",
+      "description": "Proper pool removal and disposal prevents potential environmental contamination and promotes responsible waste management."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Quote",
+      "description": "We assess your pool removal needs, discuss your options, and provide a detailed, transparent quote."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "We obtain all necessary permits from the Clermont County Building Department and develop a comprehensive removal plan."
+    },
+    {
+      "step": "Pool Draining and Demolition",
+      "description": "We safely drain the pool and demolish the structure, adhering to all safety regulations."
+    },
+    {
+      "step": "Debris Removal and Backfilling",
+      "description": "We remove all debris from the site and backfill the area with compacted soil, ensuring proper drainage."
+    },
+    {
+      "step": "Site Restoration",
+      "description": "We restore the area to its original condition or prepare it for new landscaping or construction, according to your preferences."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$5,000 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above-ground)",
+      "Accessibility to the pool area",
+      "Materials used in pool construction (concrete, vinyl, fiberglass)",
+      "Complexity of demolition and removal",
+      "Backfilling and site restoration requirements",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary depending on the specific requirements of your project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit to remove my pool in New Richmond?",
+      "answer": "Yes, a permit is required from the Clermont County Building Department for pool removal. Liteworks Co. can handle the permitting process for you."
+    },
+    {
+      "question": "How long does pool removal typically take?",
+      "answer": "The duration of pool removal depends on the size and complexity of the project, but it usually takes between 3-7 days."
+    },
+    {
+      "question": "What happens to the debris from the pool?",
+      "answer": "We haul away all debris and dispose of it responsibly at a licensed recycling or disposal facility."
+    },
+    {
+      "question": "Will you restore my yard after removing the pool?",
+      "answer": "Yes, we offer complete site restoration services, including backfilling, grading, seeding, and landscaping."
+    },
+    {
+      "question": "Is Liteworks Co. insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured, providing you with peace of mind."
+    },
+    {
+      "question": "How much does it cost to remove a pool?",
+      "answer": "Pool removal costs vary, but typically range from $5,000 to $12,000. Contact us for a free estimate specific to your pool."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:43:03.839Z",
+  "_model": "gemini-2.0-flash"
+}

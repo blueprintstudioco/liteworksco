@@ -1,0 +1,107 @@
+{
+  "city": "Wilmington",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-wilmington-oh",
+  "metaTitle": "Drainage Solutions in Wilmington, OH | Liteworks Co.",
+  "metaDescription": "Solve your Wilmington, OH property's drainage issues with Liteworks Co. Expert drainage solutions for Clinton County's unique landscape. Call (513) 927-9675 for a quote.",
+  "h1": "Wilmington, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions for residential and commercial properties in Wilmington, Ohio. We understand the unique challenges posed by Clinton County's landscape and soil conditions, and we're dedicated to providing effective and lasting drainage solutions to protect your property from water damage.",
+  "localContext": {
+    "terrain": "Wilmington and the surrounding areas of Clinton County are characterized by gently rolling hills and flat plains. The terrain contributes to drainage challenges, as water can accumulate in low-lying areas.",
+    "soilConditions": "The soil in Wilmington, OH, is primarily composed of clay loam, which can be poorly draining. This, combined with periods of heavy rainfall, can lead to waterlogged yards, foundation issues, and erosion problems.",
+    "commonProjects": [
+      "French drains",
+      "Surface grading",
+      "Downspout extensions",
+      "Sump pump installation",
+      "Erosion control",
+      "Retaining wall drainage"
+    ],
+    "seasonalNotes": "Spring and summer bring the heaviest rainfall in Wilmington, making these crucial seasons for ensuring proper drainage. Frozen ground in winter can also exacerbate drainage issues as snow melts.",
+    "localRegulations": "Clinton County and the City of Wilmington have specific regulations regarding stormwater management and drainage. Liteworks Co. is familiar with these regulations and will ensure your drainage project complies with all local requirements."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions protect your foundation, landscaping, and property from costly water damage."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Proper drainage prevents soil erosion, preserving the integrity of your land and preventing sediment runoff."
+    },
+    {
+      "title": "Improve Property Value",
+      "description": "Addressing drainage issues enhances the value and curb appeal of your Wilmington property."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Say goodbye to mosquito breeding grounds and unsightly puddles with our drainage solutions."
+    },
+    {
+      "title": "Protect Landscaping",
+      "description": "Prevent root rot and oversaturation by directing water away from your plants and lawn."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of your property to identify drainage problems and their causes."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on our assessment, we design a tailored drainage solution to address your specific needs and budget."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care, minimizing disruption to your property."
+    },
+    {
+      "step": "Quality Assurance",
+      "description": "We conduct thorough testing to ensure your drainage system is functioning effectively and meeting your expectations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$2,500 - $7,500",
+    "factors": [
+      "Project complexity",
+      "Materials used",
+      "Property size",
+      "Accessibility"
+    ],
+    "note": "These are estimates only. Contact us for a free, personalized quote for your Wilmington drainage project."
+  },
+  "faqs": [
+    {
+      "question": "How do I know if I need drainage solutions?",
+      "answer": "Signs include standing water after rain, soggy areas in your yard, foundation cracks, and water in your basement."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of solutions, including French drains, surface grading, downspout extensions, sump pump installation, and more."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project, but most projects can be completed within a few days."
+    },
+    {
+      "question": "Do you offer warranties on your drainage systems?",
+      "answer": "Yes, we offer warranties on both materials and workmanship to ensure your peace of mind."
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured to provide drainage solutions in Wilmington, OH, and Clinton County."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "loveland-oh"
+  ],
+  "_generated": "2026-03-12T14:31:25.559Z",
+  "_model": "gemini-2.0-flash"
+}

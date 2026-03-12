@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Concrete Removal",
+  "slug": "concrete-removal-franklin-oh",
+  "metaTitle": "Concrete Removal in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Professional concrete removal services in Franklin, OH by Liteworks Co. serving Warren County. We offer safe, efficient, and affordable concrete demolition and removal.",
+  "h1": "Concrete Removal in Franklin, OH",
+  "heroText": "Liteworks Co. provides expert concrete removal services in Franklin, Ohio, and throughout Warren County. Whether you're located near downtown Franklin, in one of the newer developments, or on a rural property, we can handle your concrete demolition and removal needs efficiently and safely. We ensure minimal disruption and proper disposal, leaving your site clean and ready for its next phase.",
+  "localContext": {
+    "terrain": "Franklin, OH is situated in a relatively flat area within the Great Miami River valley, with some gently rolling hills surrounding the city.",
+    "soilConditions": "The soil in and around Franklin typically consists of clay loam, with underlying layers of glacial till and some shale deposits. Drainage can be an issue in areas with heavy clay content.",
+    "commonProjects": [
+      "Driveway removal and replacement",
+      "Patio and walkway demolition",
+      "Foundation removal for renovations",
+      "Concrete slab removal for new construction",
+      "Removal of old concrete steps and sidewalks",
+      "Concrete removal for pool demolition"
+    ],
+    "seasonalNotes": "Spring rains and winter freezes can affect concrete removal projects in Franklin. Wet soil conditions may require additional stabilization measures. It is recommended to schedule projects during drier months for optimal efficiency.",
+    "localRegulations": "Concrete disposal in Franklin and Warren County must adhere to local environmental regulations. Liteworks Co. ensures proper recycling and disposal at approved facilities. Permits may be required for certain concrete removal projects, especially those involving significant structural elements. We can assist with the permit application process."
+  },
+  "benefits": [
+    {
+      "title": "Safe and Efficient Removal",
+      "description": "We use the right equipment and techniques to safely and efficiently remove concrete, minimizing risks to your property and our crew."
+    },
+    {
+      "title": "Proper Disposal and Recycling",
+      "description": "Liteworks Co. is committed to environmentally responsible practices. We ensure that removed concrete is properly disposed of or recycled whenever possible."
+    },
+    {
+      "title": "Site Preparation",
+      "description": "After concrete removal, we can prepare the site for your next project, including grading, leveling, and backfilling."
+    },
+    {
+      "title": "Experienced Professionals",
+      "description": "Our team has extensive experience in concrete removal projects of all sizes, ensuring quality workmanship and reliable service."
+    },
+    {
+      "title": "Competitive Pricing",
+      "description": "We offer competitive pricing for concrete removal services in Franklin, OH, with transparent quotes and no hidden fees."
+    }
+  ],
+  "process": [
+    {
+      "step": "Assessment and Quote",
+      "description": "We evaluate the scope of the concrete removal project and provide a detailed, transparent quote."
+    },
+    {
+      "step": "Planning and Preparation",
+      "description": "We develop a removal plan, obtain necessary permits, and prepare the site for demolition."
+    },
+    {
+      "step": "Concrete Removal",
+      "description": "Using appropriate equipment, we carefully break up and remove the concrete."
+    },
+    {
+      "step": "Site Cleanup",
+      "description": "We remove all debris and clean the site, leaving it ready for your next project."
+    },
+    {
+      "step": "Disposal and Recycling",
+      "description": "We transport the removed concrete to a recycling facility or approved disposal site."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3 per square foot",
+    "averageRange": "$3 - $8 per square foot",
+    "factors": [
+      "Thickness of concrete",
+      "Reinforcement (rebar or mesh)",
+      "Accessibility of the site",
+      "Disposal fees",
+      "Permitting requirements"
+    ],
+    "note": "Pricing can vary based on the specific project requirements. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "How long does concrete removal take?",
+      "answer": "The duration of a concrete removal project depends on the size and complexity of the job. A small patio removal might take a day, while a larger foundation removal could take several days."
+    },
+    {
+      "question": "Do I need a permit for concrete removal?",
+      "answer": "Permit requirements vary depending on the scope of the project and local regulations in Franklin, OH. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "What happens to the concrete after it's removed?",
+      "answer": "We prioritize environmentally responsible disposal. Whenever possible, we recycle the concrete at approved facilities. If recycling is not feasible, we dispose of it at a licensed landfill."
+    },
+    {
+      "question": "Can you remove concrete in hard-to-reach areas?",
+      "answer": "Yes, we have specialized equipment and techniques to remove concrete in challenging locations, such as basements, backyards with limited access, and areas with overhead obstructions."
+    },
+    {
+      "question": "Do you offer other excavation services?",
+      "answer": "Yes, Liteworks Co. offers a full range of excavation and sitework services in Franklin, OH, including grading, drainage, land clearing, and more."
+    },
+    {
+      "question": "How much does concrete removal cost in Franklin, OH?",
+      "answer": "The cost varies based on the size, thickness, and location of the concrete. Our pricing typically ranges from $3 to $8 per square foot. Contact us for a free estimate."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:24:36.152Z",
+  "_model": "gemini-2.0-flash"
+}

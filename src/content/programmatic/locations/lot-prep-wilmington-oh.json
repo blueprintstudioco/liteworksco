@@ -1,0 +1,116 @@
+{
+  "city": "Wilmington",
+  "state": "OH",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-wilmington-oh",
+  "metaTitle": "Lot Preparation in Wilmington, OH | Liteworks Co.",
+  "metaDescription": "Expert lot preparation services in Wilmington, OH by Liteworks Co. Ensure a solid foundation for your construction project. Call (513) 927-9675 for a free quote.",
+  "h1": "Wilmington, OH Lot Preparation Services",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in Wilmington, Ohio, ensuring your construction project starts on solid ground. We handle everything from initial clearing and grading to soil stabilization, adhering to Clinton County regulations and best practices.",
+  "localContext": {
+    "terrain": "Wilmington, OH, is characterized by gently rolling hills and flat areas, typical of the southwestern Ohio landscape.",
+    "soilConditions": "The soil in the Wilmington area primarily consists of clay loam, with some areas exhibiting shale bedrock close to the surface. Proper soil testing and amendment are crucial for successful construction.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial building development",
+      "Agricultural land improvement",
+      "Equestrian facility construction",
+      "Residential additions and expansions",
+      "Parking lot construction"
+    ],
+    "seasonalNotes": "Wilmington experiences distinct seasons, with frozen ground common in winter. Spring and fall often bring heavy rainfall, which can impact grading and compaction efforts. Proper drainage is essential year-round.",
+    "localRegulations": "Lot preparation in Wilmington, OH, must comply with Clinton County building codes and zoning regulations, including erosion control measures and stormwater management plans. Liteworks Co. is familiar with these requirements and ensures full compliance."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundation",
+      "description": "Proper lot preparation ensures a stable and level base for your construction project, preventing future structural issues."
+    },
+    {
+      "title": "Optimal Drainage",
+      "description": "Correct grading and drainage solutions prevent water accumulation, protecting your property from water damage and erosion."
+    },
+    {
+      "title": "Cost-Effective",
+      "description": "Addressing potential issues early on during lot preparation saves time and money in the long run by preventing costly repairs."
+    },
+    {
+      "title": "Regulatory Compliance",
+      "description": "We ensure your project adheres to all local and state regulations, avoiding potential fines and delays."
+    },
+    {
+      "title": "Enhanced Property Value",
+      "description": "A well-prepared lot increases the overall value and appeal of your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough evaluation of the site, including soil testing, surveying, and identifying potential challenges."
+    },
+    {
+      "step": "Clearing and Grubbing",
+      "description": "Vegetation, trees, and debris are removed to prepare the land for grading and construction."
+    },
+    {
+      "step": "Grading and Leveling",
+      "description": "The land is carefully graded and leveled to achieve the desired slope and elevation, ensuring proper drainage."
+    },
+    {
+      "step": "Soil Stabilization",
+      "description": "Soil is compacted and stabilized to provide a solid foundation for construction. This may involve soil amendment or the use of geotextiles."
+    },
+    {
+      "step": "Erosion Control",
+      "description": "Erosion control measures are implemented to prevent soil erosion and protect surrounding areas during and after construction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$5,000 - $15,000",
+    "factors": [
+      "Lot size and complexity",
+      "Amount of clearing required",
+      "Soil conditions and necessary amendments",
+      "Grading and leveling requirements",
+      "Drainage solutions"
+    ],
+    "note": "Pricing varies based on the specific requirements of each project. Contact us for a free, detailed estimate."
+  },
+  "faqs": [
+    {
+      "question": "What is included in lot preparation?",
+      "answer": "Lot preparation typically includes clearing, grubbing, grading, leveling, soil stabilization, and erosion control to prepare a site for construction."
+    },
+    {
+      "question": "Why is lot preparation important?",
+      "answer": "Proper lot preparation ensures a stable foundation, prevents water damage, complies with regulations, and enhances property value."
+    },
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project, but it typically takes between 1 to 5 days."
+    },
+    {
+      "question": "Do I need a permit for lot preparation in Wilmington?",
+      "answer": "Yes, depending on the scope of the project, you may need permits from Clinton County. We can assist you with the permitting process."
+    },
+    {
+      "question": "How do you handle soil stabilization?",
+      "answer": "We use a variety of methods for soil stabilization, including compaction, soil amendment, and the use of geotextiles, depending on the soil conditions."
+    },
+    {
+      "question": "What if there are unforeseen issues during lot preparation?",
+      "answer": "We communicate any unforeseen issues promptly and work with you to develop effective solutions, ensuring minimal delays and added costs."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "loveland-oh"
+  ],
+  "_generated": "2026-03-12T14:33:14.453Z",
+  "_model": "gemini-2.0-flash"
+}

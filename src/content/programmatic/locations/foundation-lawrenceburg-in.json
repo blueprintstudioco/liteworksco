@@ -1,0 +1,116 @@
+{
+  "city": "Lawrenceburg",
+  "state": "IN",
+  "service": "Foundation Work",
+  "slug": "foundation-lawrenceburg-in",
+  "metaTitle": "Foundation Work in Lawrenceburg, IN | Liteworks Co.",
+  "metaDescription": "Expert foundation excavation and sitework in Lawrenceburg, IN. Liteworks Co. provides reliable foundation services for residential and commercial projects.",
+  "h1": "Foundation Work in Lawrenceburg, IN",
+  "heroText": "Liteworks Co. provides expert foundation work in Lawrenceburg, Indiana, and the surrounding areas. We understand the unique challenges of building in Southeast Indiana and ensure your foundation is solid and built to last. From excavation to backfilling, we handle every step with precision.",
+  "localContext": {
+    "terrain": "Lawrenceburg is located in the rolling hills of Southeast Indiana, near the Ohio River. The terrain can vary, with some areas being relatively flat and others having significant slopes.",
+    "soilConditions": "The soil in Lawrenceburg is typically a mix of clay, silt, and some gravel, influenced by the Ohio River. Drainage can be an issue in areas with heavy clay content. Some areas may have fill from previous development.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs and replacements",
+      "Basement excavation",
+      "Concrete slab preparation",
+      "Commercial building foundations",
+      "Additions and extensions"
+    ],
+    "seasonalNotes": "Spring can be particularly wet, affecting excavation and compaction. Winter brings freezing temperatures, requiring precautions for concrete pouring and soil stabilization. Fall is generally the best time for foundation work, with drier conditions and moderate temperatures.",
+    "localRegulations": "Foundation work in Lawrenceburg is subject to local building codes and permitting requirements. It's important to ensure compliance with Dearborn County regulations, including inspections and setbacks."
+  },
+  "benefits": [
+    {
+      "title": "Solid Foundation",
+      "description": "We ensure your foundation is properly excavated, poured, and backfilled, providing a solid base for your structure."
+    },
+    {
+      "title": "Experienced Team",
+      "description": "Our team has extensive experience working with the soil conditions and terrain specific to Lawrenceburg and Southeast Indiana."
+    },
+    {
+      "title": "Proper Drainage",
+      "description": "We implement effective drainage solutions to prevent water damage and ensure the longevity of your foundation."
+    },
+    {
+      "title": "Code Compliance",
+      "description": "We handle all permitting and inspections, ensuring your foundation meets all local building codes and regulations."
+    },
+    {
+      "title": "Timely Completion",
+      "description": "We understand the importance of staying on schedule and work efficiently to complete your foundation project on time."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "We assess the soil conditions, topography, and any potential challenges at your Lawrenceburg property."
+    },
+    {
+      "step": "Excavation",
+      "description": "We carefully excavate the site according to the foundation plans, ensuring proper depth and dimensions."
+    },
+    {
+      "step": "Forming and Pouring",
+      "description": "We set up the forms and pour the concrete, ensuring proper reinforcement and curing."
+    },
+    {
+      "step": "Backfilling and Grading",
+      "description": "We backfill around the foundation and grade the surrounding area to promote proper drainage away from the structure."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the foundation meets all specifications and local building codes."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation",
+      "Required drainage solutions",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact us for a free, detailed quote specific to your Lawrenceburg project."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work typically take?",
+      "answer": "The duration of foundation work depends on the size and complexity of the project, but it typically takes between 1 to 3 weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Lawrenceburg?",
+      "answer": "Yes, a building permit is typically required for foundation work in Lawrenceburg. We can assist you with the permitting process."
+    },
+    {
+      "question": "What type of foundations do you build?",
+      "answer": "We build various types of foundations, including slab-on-grade, crawl space, and full basement foundations."
+    },
+    {
+      "question": "How do you ensure proper drainage around the foundation?",
+      "answer": "We use a combination of grading, drainage pipes, and waterproofing to ensure proper drainage around the foundation."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Signs of foundation problems include cracks in the walls, uneven floors, and sticking doors or windows."
+    },
+    {
+      "question": "What type of soil testing do you perform?",
+      "answer": "We can perform soil testing to check for compaction and stability."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:57:51.463Z",
+  "_model": "gemini-2.0-flash"
+}

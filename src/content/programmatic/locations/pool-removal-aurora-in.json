@@ -1,0 +1,117 @@
+{
+  "city": "Aurora",
+  "state": "IN",
+  "service": "Pool Removal",
+  "slug": "pool-removal-aurora-in",
+  "metaTitle": "Pool Removal in Aurora, IN | Liteworks Co.",
+  "metaDescription": "Expert pool removal services in Aurora, IN by Liteworks Co. We handle everything from demolition to site restoration. Get a free quote today!",
+  "h1": "Pool Removal in Aurora, Indiana",
+  "heroText": "Liteworks Co. provides professional pool removal services to homeowners in Aurora, Indiana and throughout Southeast Indiana. We specialize in both inground and above-ground pool demolition and removal, ensuring a safe and complete restoration of your property. Trust our experienced team to handle every aspect of the project, from initial permitting to final grading.",
+  "localContext": {
+    "terrain": "Aurora, Indiana is characterized by rolling hills and river valleys, situated along the Ohio River. The topography can present unique challenges for excavation and demolition projects.",
+    "soilConditions": "The soil in and around Aurora typically consists of clay-rich topsoil with underlying layers of shale and limestone bedrock. This can affect demolition timelines and require specialized equipment for pool removal.",
+    "commonProjects": [
+      "Inground pool removal",
+      "Above-ground pool demolition",
+      "Pool filling and compaction",
+      "Site grading and restoration",
+      "Concrete patio removal around pools",
+      "Landscaping after pool removal"
+    ],
+    "seasonalNotes": "Weather in Aurora, IN can significantly impact pool removal projects. Winter brings freezing temperatures and potential delays due to frozen ground. Spring and fall offer more favorable conditions, while summer can bring periods of heavy rain.",
+    "localRegulations": "Pool removal in Aurora, IN requires permits from the city's building department. Regulations cover proper demolition techniques, backfilling procedures, and site restoration to ensure safety and environmental compliance. Liteworks Co. handles all permitting processes for you."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted pool can increase your property value by opening up space for other amenities and eliminating potential liabilities."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the risk of accidents and injuries associated with unused or poorly maintained pools, especially important for families with young children."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard and create more space for gardening, recreation, or outdoor living areas."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Say goodbye to the ongoing costs of pool maintenance, including chemicals, cleaning, and repairs."
+    },
+    {
+      "title": "Complete Site Restoration",
+      "description": "We handle everything from demolition to grading and seeding, leaving your yard ready for its next chapter."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Consultation and Quote",
+      "description": "We assess your pool removal needs and provide a detailed, transparent quote."
+    },
+    {
+      "step": "2. Permitting",
+      "description": "We obtain all necessary permits from the City of Aurora to ensure compliance."
+    },
+    {
+      "step": "3. Demolition and Removal",
+      "description": "Our team safely demolishes and removes the pool, hauling away all debris."
+    },
+    {
+      "step": "4. Filling and Compaction",
+      "description": "We properly fill the excavation with compacted soil to prevent settling."
+    },
+    {
+      "step": "5. Site Restoration",
+      "description": "We grade the area and restore it to its original condition, including seeding or sodding."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$4,500 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above-ground)",
+      "Accessibility to the pool area",
+      "Materials used for pool construction (concrete, vinyl, fiberglass)",
+      "Depth of the pool",
+      "Amount of debris to be hauled away",
+      "Extent of site restoration required"
+    ],
+    "note": "These are estimates only. Contact us for a free, no-obligation quote specific to your Aurora, IN property."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "Most pool removal projects in Aurora, IN take between 3-7 days, depending on the pool's size and complexity, and weather conditions."
+    },
+    {
+      "question": "Do I need a permit to remove my pool?",
+      "answer": "Yes, a permit is required by the City of Aurora for pool removal. Liteworks Co. will handle the permit application process for you."
+    },
+    {
+      "question": "What is the difference between a partial and complete pool removal?",
+      "answer": "A partial pool removal involves demolishing the top portion of the pool and filling the remaining space with soil. A complete removal involves removing all pool materials and backfilling the entire area. Complete removals are generally recommended for long-term stability."
+    },
+    {
+      "question": "Will my yard be damaged during the pool removal process?",
+      "answer": "We take precautions to minimize damage to your yard. However, some disruption is inevitable. We will restore the area to its original condition as part of our service."
+    },
+    {
+      "question": "Is Liteworks Co. insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured, protecting you from liability during the pool removal process."
+    },
+    {
+      "question": "What happens to the pool debris?",
+      "answer": "We haul away all pool debris and dispose of it at a licensed recycling or disposal facility in accordance with local regulations."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T15:00:38.486Z",
+  "_model": "gemini-2.0-flash"
+}

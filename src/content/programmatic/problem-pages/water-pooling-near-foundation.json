@@ -1,0 +1,113 @@
+{
+  "slug": "water-pooling-near-foundation",
+  "title": "Water Pooling Around Foundation: Causes, Solutions, and Prevention",
+  "metaTitle": "Water Pooling Around Foundation? Causes, Solutions & Prevention Tips",
+  "metaDescription": "Is water pooling around your foundation causing you stress? Learn the causes, DIY & professional solutions, and prevention tips to protect your home.",
+  "h1": "Water Pooling Around Your Foundation? Here's What To Do",
+  "problemDescription": "Ugh, water pooling around your foundation is a homeowner's nightmare. It's frustrating to see standing water after every rain, and the worry about potential damage is constant. You're probably wondering what's causing it and how to fix it before it leads to costly repairs. It feels like your home is vulnerable, and you just want a dry, secure foundation again.",
+  "causes": [
+    {
+      "cause": "Poor Grading",
+      "explanation": "The ground around your foundation should slope away from the house. If it slopes towards the house, water will naturally flow towards the foundation."
+    },
+    {
+      "cause": "Clogged Gutters and Downspouts",
+      "explanation": "When gutters are clogged, rainwater overflows and can pool around the foundation instead of being directed away."
+    },
+    {
+      "cause": "Improper Downspout Extension",
+      "explanation": "Downspouts that are too short release water too close to the foundation, leading to pooling."
+    },
+    {
+      "cause": "Compacted Soil",
+      "explanation": "Compacted soil doesn't allow water to drain properly, causing it to sit on the surface and pool near the foundation."
+    },
+    {
+      "cause": "Foundation Cracks",
+      "explanation": "Existing cracks in your foundation can allow water to seep in, exacerbating the pooling issue and potentially causing structural damage."
+    },
+    {
+      "cause": "Lack of Proper Drainage System",
+      "explanation": "A missing or inadequate drainage system, such as French drains, can contribute to water accumulation around the foundation."
+    }
+  ],
+  "solutions": [
+    {
+      "solution": "Clean Gutters and Downspouts",
+      "description": "Remove leaves, debris, and any other obstructions from your gutters and downspouts to ensure proper water flow. Make sure downspouts are securely attached and undamaged.",
+      "estimatedCost": "$0 - $100 (DIY or professional cleaning)",
+      "timeline": "1-2 hours",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Extend Downspouts",
+      "description": "Install downspout extensions to direct water further away from the foundation. Aim for at least 4-6 feet of extension.",
+      "estimatedCost": "$20 - $100 (DIY or professional installation)",
+      "timeline": "1-3 hours",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Regrade the Soil",
+      "description": "Reshape the soil around your foundation to create a positive slope away from the house. This can be done manually or with the help of a professional landscaper.",
+      "estimatedCost": "$100 - $1,000+ (depending on the extent of regrading)",
+      "timeline": "1 day - 1 week",
+      "effectiveness": "Long-term"
+    },
+    {
+      "solution": "Install a French Drain",
+      "description": "A French drain is a trench filled with gravel and a perforated pipe that redirects water away from the foundation. This is a more involved project that often requires professional excavation.",
+      "estimatedCost": "$1,000 - $5,000+",
+      "timeline": "1-3 days",
+      "effectiveness": "Permanent fix"
+    },
+    {
+      "solution": "Foundation Waterproofing",
+      "description": "Apply a waterproof sealant to the exterior of your foundation walls to prevent water from seeping in. This is best done by professionals.",
+      "estimatedCost": "$3,000 - $10,000+",
+      "timeline": "2-5 days",
+      "effectiveness": "Permanent fix"
+    }
+  ],
+  "warningSignsToActNow": [
+    "Visible cracks in the foundation walls",
+    "Water stains or dampness in the basement",
+    "Mold or mildew growth near the foundation",
+    "Shifting or settling of the foundation",
+    "Efflorescence (white, powdery deposits) on foundation walls"
+  ],
+  "preventionTips": [
+    "Regularly clean gutters and downspouts.",
+    "Ensure proper grading around the foundation.",
+    "Extend downspouts to direct water away from the house.",
+    "Monitor for cracks in the foundation and repair them promptly.",
+    "Consider installing a French drain in areas prone to water accumulation."
+  ],
+  "faqs": [
+    {
+      "question": "How urgent is water pooling around my foundation?",
+      "answer": "It depends on the severity and the underlying cause. Minor pooling after heavy rain might be manageable with simple solutions. However, persistent pooling or signs of foundation damage require immediate attention."
+    },
+    {
+      "question": "Can I fix water pooling myself?",
+      "answer": "Simple solutions like cleaning gutters, extending downspouts, and minor regrading can be DIY projects. However, more complex issues like foundation cracks, French drain installation, or extensive regrading require professional expertise."
+    },
+    {
+      "question": "How much does it cost to fix water pooling?",
+      "answer": "The cost varies greatly depending on the solution. Simple fixes like gutter cleaning might cost under $100, while more extensive solutions like French drains or foundation waterproofing can range from $1,000 to $10,000+."
+    },
+    {
+      "question": "What are the long-term consequences of ignoring water pooling?",
+      "answer": "Ignoring water pooling can lead to foundation damage, basement flooding, mold growth, structural issues, and decreased property value."
+    },
+    {
+      "question": "How do I know if I need a professional?",
+      "answer": "If you notice any warning signs like foundation cracks, water stains, or mold growth, it's best to consult with a foundation repair specialist. Also, if you're uncomfortable performing the necessary repairs yourself, a professional can ensure the job is done correctly."
+    },
+    {
+      "question": "Does Liteworks Co. provide foundation drainage solutions?",
+      "answer": "Yes! Liteworks Co. in Loveland, OH (513-927-9675) serves Greater Cincinnati, Northern KY, and SE Indiana. We specialize in excavation and drainage solutions to protect your foundation from water damage. Contact us for an assessment and a customized plan!"
+    }
+  ],
+  "_generated": "2026-03-12T13:36:56.490Z",
+  "_model": "gemini-2.0-flash"
+}

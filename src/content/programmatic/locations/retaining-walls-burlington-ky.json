@@ -1,0 +1,115 @@
+{
+  "city": "Burlington",
+  "state": "KY",
+  "service": "Retaining Walls",
+  "slug": "retaining-walls-burlington-ky",
+  "metaTitle": "Retaining Walls in Burlington, KY | Liteworks Co.",
+  "metaDescription": "Expert retaining wall design and installation in Burlington, KY by Liteworks Co. Protect your property from erosion and enhance its beauty. Call (513) 927-9675 for a free estimate.",
+  "h1": "Retaining Walls in Burlington, KY",
+  "heroText": "Liteworks Co. provides expert retaining wall solutions in Burlington, Kentucky. We design and build durable, aesthetically pleasing retaining walls to protect your property from erosion, manage slopes, and enhance your landscape. Our experienced team understands the unique soil conditions and terrain of Northern Kentucky, ensuring long-lasting results.",
+  "localContext": {
+    "terrain": "Burlington, KY, features rolling hills and valleys characteristic of Northern Kentucky. Many properties have significant slopes that require stabilization.",
+    "soilConditions": "The soil in Burlington is primarily clay-based, with some areas containing shale. This clay soil can be prone to expansion and contraction with changes in moisture, making proper retaining wall design and construction crucial.",
+    "commonProjects": [
+      "Erosion control on sloped properties",
+      "Garden and landscape retaining walls",
+      "Driveway and parking area support",
+      "Foundation stabilization",
+      "Water runoff management"
+    ],
+    "seasonalNotes": "Burlington experiences freeze-thaw cycles in the winter, which can put stress on retaining walls. Proper drainage is essential to prevent water buildup and potential damage. Spring rains can also saturate the clay soils, increasing the risk of erosion.",
+    "localRegulations": "Boone County and the City of Burlington have specific regulations regarding retaining wall construction, including permitting requirements and height restrictions. Liteworks Co. is familiar with these regulations and will ensure your project complies with all local codes."
+  },
+  "benefits": [
+    {
+      "title": "Erosion Control",
+      "description": "Prevent soil erosion and protect your property from damage caused by runoff."
+    },
+    {
+      "title": "Slope Stabilization",
+      "description": "Stabilize slopes and prevent landslides, ensuring the safety and integrity of your land."
+    },
+    {
+      "title": "Increased Usable Space",
+      "description": "Create level areas for patios, gardens, and other outdoor living spaces."
+    },
+    {
+      "title": "Enhanced Aesthetics",
+      "description": "Add visual appeal to your landscape with a professionally designed and built retaining wall."
+    },
+    {
+      "title": "Property Value",
+      "description": "Increase your property value with a functional and attractive retaining wall."
+    }
+  ],
+  "process": [
+    {
+      "step": "Consultation and Design",
+      "description": "We'll assess your property, discuss your needs, and create a custom retaining wall design."
+    },
+    {
+      "step": "Permitting",
+      "description": "We will handle all necessary permitting with Boone County and the City of Burlington."
+    },
+    {
+      "step": "Excavation and Site Preparation",
+      "description": "We'll prepare the site by excavating and grading the area, ensuring a stable base for your wall."
+    },
+    {
+      "step": "Construction and Installation",
+      "description": "Our experienced team will build your retaining wall using high-quality materials and proven construction techniques."
+    },
+    {
+      "step": "Backfilling and Drainage",
+      "description": "We'll backfill the wall with appropriate materials and install a proper drainage system to prevent water buildup."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$35 per square foot",
+    "averageRange": "$45 - $75 per square foot",
+    "factors": [
+      "Wall height",
+      "Materials used (concrete, timber, stone)",
+      "Site accessibility",
+      "Drainage requirements",
+      "Engineering and permitting costs"
+    ],
+    "note": "These prices are estimates. Contact us for a free, personalized quote for your retaining wall project in Burlington, KY."
+  },
+  "faqs": [
+    {
+      "question": "How long does it take to build a retaining wall?",
+      "answer": "The timeline depends on the size and complexity of the project, but most retaining walls can be completed within a few days to a couple of weeks."
+    },
+    {
+      "question": "Do I need a permit for a retaining wall in Burlington?",
+      "answer": "Yes, in most cases a permit is required for retaining walls in Burlington, KY. We will handle the permitting process for you."
+    },
+    {
+      "question": "What materials do you use for retaining walls?",
+      "answer": "We offer a variety of materials, including concrete blocks, timber, and natural stone. We'll help you choose the best option for your needs and budget."
+    },
+    {
+      "question": "How do I maintain my retaining wall?",
+      "answer": "Regularly inspect your wall for cracks or damage, and ensure that the drainage system is functioning properly. Keep vegetation from growing on the wall's surface."
+    },
+    {
+      "question": "What type of warranty do you offer?",
+      "answer": "We offer a [Number] year warranty on our retaining wall construction, covering materials and workmanship."
+    },
+    {
+      "question": "How deep does the foundation need to be?",
+      "answer": "Foundation depth depends on the height of the wall and soil conditions. We will ensure the foundation is properly engineered and installed."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:54:26.972Z",
+  "_model": "gemini-2.0-flash"
+}

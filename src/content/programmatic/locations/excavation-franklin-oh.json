@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Excavation",
+  "slug": "excavation-franklin-oh",
+  "metaTitle": "Excavation in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert excavation services in Franklin, OH. Specializing in grading, drainage, foundations, and more. Call (513) 927-9675 for a free quote.",
+  "h1": "Franklin, OH Excavation Services",
+  "heroText": "Liteworks Co. delivers professional excavation services to the Franklin, OH community. We handle projects of all sizes, from residential grading and drainage to commercial site preparation. Trust us to get the job done right, on time, and within budget in Franklin.",
+  "localContext": {
+    "terrain": "Franklin, OH, is situated in the rolling hills of the Miami Valley, with varying elevations and gentle slopes leading to the Great Miami River.",
+    "soilConditions": "The soil conditions in Franklin typically consist of clay loam, with areas of shale closer to the river. Proper soil testing is crucial before any excavation to determine stability and drainage needs.",
+    "commonProjects": [
+      "Residential foundation excavation",
+      "Drainage solutions for water runoff",
+      "Driveway grading and installation",
+      "Retaining wall construction",
+      "Septic system installation and repair",
+      "Land clearing for new construction"
+    ],
+    "seasonalNotes": "Franklin experiences distinct seasons, with potential for frozen ground in winter and heavy rainfall in spring. Excavation projects are best scheduled during drier months to avoid delays and ensure optimal soil conditions.",
+    "localRegulations": "Excavation projects in Franklin, OH, are subject to local regulations and require permits from the city and Warren County. Liteworks Co. is familiar with these regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Precise Grading and Leveling",
+      "description": "Achieve accurate and stable surfaces for construction and landscaping projects, preventing future structural issues."
+    },
+    {
+      "title": "Efficient Drainage Solutions",
+      "description": "Protect your property from water damage with properly designed and installed drainage systems."
+    },
+    {
+      "title": "Solid Foundation Preparation",
+      "description": "Ensure a strong and stable base for buildings and structures with expert foundation excavation."
+    },
+    {
+      "title": "Safe and Environmentally Responsible Practices",
+      "description": "We adhere to strict safety standards and minimize environmental impact throughout the excavation process."
+    },
+    {
+      "title": "Experienced and Reliable Team",
+      "description": "Benefit from our extensive knowledge and commitment to quality workmanship on every project."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Site Assessment",
+      "description": "We discuss your project goals and conduct a thorough site evaluation to determine the scope of work and potential challenges."
+    },
+    {
+      "step": "Detailed Planning and Permitting",
+      "description": "We develop a comprehensive excavation plan and obtain all necessary permits from the City of Franklin and Warren County."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "Our skilled operators use state-of-the-art equipment to perform precise excavation and grading according to the project specifications."
+    },
+    {
+      "step": "Drainage and Erosion Control",
+      "description": "We implement effective drainage solutions and erosion control measures to protect the site and surrounding environment."
+    },
+    {
+      "step": "Site Cleanup and Restoration",
+      "description": "We ensure the site is clean, safe, and ready for the next phase of your project."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions and accessibility",
+      "Equipment and labor requirements",
+      "Permitting fees",
+      "Drainage and erosion control measures"
+    ],
+    "note": "These are estimates only. Contact us for a free, detailed quote specific to your Franklin, OH excavation project."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for excavation in Franklin, OH?",
+      "answer": "Yes, most excavation projects in Franklin require permits from the city and Warren County. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does excavation typically take?",
+      "answer": "The duration of an excavation project depends on the size and complexity of the job. We will provide you with a realistic timeline during the initial consultation."
+    },
+    {
+      "question": "What type of equipment do you use?",
+      "answer": "We use a variety of equipment, including excavators, bulldozers, skid steers, and graders, to handle projects of all sizes."
+    },
+    {
+      "question": "How do you handle soil erosion?",
+      "answer": "We implement erosion control measures such as silt fences, erosion blankets, and temporary seeding to minimize soil loss."
+    },
+    {
+      "question": "Are you insured and licensed?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to provide excavation services in Ohio."
+    },
+    {
+      "question": "What areas around Franklin do you serve?",
+      "answer": "Besides Franklin, we provide excavation services to the entire Warren County area."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:23:20.954Z",
+  "_model": "gemini-2.0-flash"
+}

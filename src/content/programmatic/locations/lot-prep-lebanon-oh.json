@@ -1,0 +1,116 @@
+{
+  "city": "Lebanon",
+  "state": "OH",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-lebanon-oh",
+  "metaTitle": "Lot Preparation in Lebanon, OH | Liteworks Co.",
+  "metaDescription": "Professional lot preparation services in Lebanon, OH by Liteworks Co. Expert excavation, grading, and site clearing for residential and commercial projects. Call (513) 927-9675.",
+  "h1": "Lebanon, OH Lot Preparation Services",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in Lebanon, Ohio, and the surrounding areas. We handle everything from initial clearing and grading to ensuring proper drainage and soil stabilization, setting the stage for successful construction projects in Warren County.",
+  "localContext": {
+    "terrain": "Lebanon, OH, features gently rolling hills and flat areas along the Little Miami River. The terrain is typical of southwestern Ohio, with a mix of wooded areas and open fields.",
+    "soilConditions": "The soil in Lebanon and Warren County generally consists of clay loam, with areas of shale and limestone closer to the river. Proper soil testing and amendment are crucial for stable foundations and effective drainage.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial building site preparation",
+      "Land clearing for development",
+      "Driveway and parking lot installation",
+      "Grading and drainage improvements",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Lebanon experiences distinct seasons, with potential for frozen ground in winter and heavy rainfall in spring. Site preparation is best scheduled during drier months to avoid delays and ensure optimal soil compaction.",
+    "localRegulations": "Lot preparation in Lebanon, OH, must adhere to Warren County and city regulations regarding erosion control, stormwater management, and zoning ordinances. Liteworks Co. ensures all projects comply with local requirements."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundation",
+      "description": "Proper lot preparation ensures a solid and level base for your construction project, minimizing the risk of settling or structural issues."
+    },
+    {
+      "title": "Effective Drainage",
+      "description": "We grade and contour the land to promote proper water runoff, preventing water damage and erosion."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Our techniques minimize soil erosion during and after construction, protecting the environment and preventing costly repairs."
+    },
+    {
+      "title": "Code Compliance",
+      "description": "We ensure your lot preparation meets all local regulations and requirements, avoiding potential fines or delays."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-prepared lot enhances the overall appeal and value of your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate the existing conditions of your lot, including soil type, topography, and drainage patterns."
+    },
+    {
+      "step": "Clearing and Grubbing",
+      "description": "We remove trees, brush, and other vegetation to create a clean and accessible building site."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "We level the land, excavate for foundations, and contour the site for proper drainage."
+    },
+    {
+      "step": "Soil Stabilization",
+      "description": "We compact and stabilize the soil to provide a solid base for construction."
+    },
+    {
+      "step": "Erosion Control Measures",
+      "description": "We implement erosion control measures such as silt fencing and sediment traps to protect the surrounding environment."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$5,000 - $15,000",
+    "factors": [
+      "Lot size and topography",
+      "Amount of clearing required",
+      "Soil conditions and stabilization needs",
+      "Drainage requirements",
+      "Permitting and regulatory fees"
+    ],
+    "note": "Pricing varies depending on the specific requirements of each project. Contact us for a free, no-obligation estimate."
+  },
+  "faqs": [
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project. Most projects take between one week and one month to complete."
+    },
+    {
+      "question": "Do I need a permit for lot preparation?",
+      "answer": "In most cases, a permit is required for lot preparation in Lebanon, OH. We can assist you with the permitting process."
+    },
+    {
+      "question": "What is the best time of year for lot preparation?",
+      "answer": "The best time of year for lot preparation is typically during the drier months of spring, summer, or fall."
+    },
+    {
+      "question": "How do you handle erosion control?",
+      "answer": "We use a variety of erosion control measures, including silt fencing, sediment traps, and temporary seeding, to minimize soil erosion."
+    },
+    {
+      "question": "What type of equipment do you use?",
+      "answer": "We use a variety of heavy equipment, including excavators, bulldozers, graders, and compactors, to ensure efficient and effective lot preparation."
+    },
+    {
+      "question": "Are you insured and licensed?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to provide lot preparation services in Lebanon, OH."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:04:26.203Z",
+  "_model": "gemini-2.0-flash"
+}

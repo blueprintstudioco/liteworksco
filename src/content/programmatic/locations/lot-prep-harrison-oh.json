@@ -1,0 +1,116 @@
+{
+  "city": "Harrison",
+  "state": "OH",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-harrison-oh",
+  "metaTitle": "Lot Preparation in Harrison, OH | Liteworks Co.",
+  "metaDescription": "Expert lot preparation services in Harrison, OH by Liteworks Co. Ensure a solid foundation for your construction project. Call (513) 927-9675 for a free quote.",
+  "h1": "Lot Preparation Services in Harrison, OH",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in Harrison, Ohio, ensuring your construction project starts on solid ground. We handle everything from land clearing to precise grading, tailored to the unique terrain and soil conditions of Hamilton County.",
+  "localContext": {
+    "terrain": "Harrison, OH, is characterized by rolling hills and valleys, typical of the southwestern Ohio landscape. The area is part of the Great Miami River watershed.",
+    "soilConditions": "The soil in Harrison is primarily composed of glacial till, often containing clay, silt, and some gravel. Drainage can be an issue in areas with high clay content. Bedrock is typically shale and limestone.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial building development",
+      "Landscaping projects",
+      "Erosion control measures",
+      "Driveway and parking lot installation",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Spring and fall often bring increased rainfall, which can impact excavation and grading. Winter can cause frozen ground, potentially delaying projects. Summer is generally the best time for lot preparation in Harrison.",
+    "localRegulations": "Lot preparation in Harrison, OH, must comply with Hamilton County regulations, including zoning laws, stormwater management permits, and erosion control measures. It's essential to obtain the necessary permits before starting any work."
+  },
+  "benefits": [
+    {
+      "title": "Solid Foundation",
+      "description": "Proper lot preparation ensures a stable and level base for your construction project, preventing future structural issues."
+    },
+    {
+      "title": "Proper Drainage",
+      "description": "We address drainage issues during lot preparation to prevent water damage and erosion, protecting your investment."
+    },
+    {
+      "title": "Efficient Construction",
+      "description": "A well-prepared lot streamlines the construction process, saving you time and money."
+    },
+    {
+      "title": "Compliance with Regulations",
+      "description": "Liteworks Co. ensures your lot preparation meets all local and county regulations, avoiding costly fines and delays."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A properly prepared lot enhances the overall value and appeal of your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate the site's topography, soil conditions, and potential challenges, such as drainage issues or existing structures."
+    },
+    {
+      "step": "Land Clearing",
+      "description": "We remove trees, vegetation, and debris from the lot, preparing it for grading and excavation."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "We level the land and excavate as needed to create the desired elevation and foundation base, ensuring proper drainage."
+    },
+    {
+      "step": "Soil Stabilization",
+      "description": "We compact the soil and implement erosion control measures to prevent settling and erosion."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the lot meets all specifications and regulations."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$5,000 - $15,000",
+    "factors": [
+      "Lot size",
+      "Amount of clearing required",
+      "Extent of grading and excavation",
+      "Soil conditions",
+      "Drainage requirements"
+    ],
+    "note": "Pricing varies depending on the specific requirements of the project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project, but it typically takes between 1 to 5 days."
+    },
+    {
+      "question": "Do I need a permit for lot preparation?",
+      "answer": "Yes, in most cases, a permit is required for lot preparation in Harrison, OH. We can assist you with the permit application process."
+    },
+    {
+      "question": "What is the best time of year for lot preparation?",
+      "answer": "Summer is generally the best time for lot preparation in Harrison, as the weather is typically dry and stable."
+    },
+    {
+      "question": "How do you handle drainage issues?",
+      "answer": "We use various techniques to address drainage issues, including grading, installing drainage pipes, and creating swales."
+    },
+    {
+      "question": "What type of equipment do you use for lot preparation?",
+      "answer": "We use a variety of heavy equipment, including bulldozers, excavators, graders, and compactors, to ensure efficient and effective lot preparation."
+    },
+    {
+      "question": "Are you insured and licensed?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to provide lot preparation services in Harrison, OH."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:45:50.459Z",
+  "_model": "gemini-2.0-flash"
+}

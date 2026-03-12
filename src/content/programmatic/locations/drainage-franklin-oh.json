@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-franklin-oh",
+  "metaTitle": "Drainage Solutions in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Solve your Franklin, OH drainage problems with Liteworks Co. Expert drainage solutions for yards, foundations, and properties in Warren County. Call (513) 927-9675.",
+  "h1": "Franklin, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions for properties in Franklin, Ohio, and the surrounding Warren County area. We address standing water, erosion, and foundation issues with effective and long-lasting drainage systems, protecting your property's value and preventing costly damage.",
+  "localContext": {
+    "terrain": "Franklin, OH, is situated in a region with rolling hills and relatively flat areas near the Great Miami River. This varied topography can contribute to drainage challenges for homeowners.",
+    "soilConditions": "The soil conditions in Franklin are typically a mix of clay and silty loam, with some areas having a higher clay content. This clay-rich soil can impede water infiltration, leading to drainage problems.",
+    "commonProjects": [
+      "French drains to redirect water away from foundations",
+      "Surface grading to improve water runoff",
+      "Installation of catch basins and drainage pipes",
+      "Sump pump installation and repair",
+      "Erosion control measures on sloping properties",
+      "Yard drainage improvements to eliminate standing water"
+    ],
+    "seasonalNotes": "Spring and early summer are the wettest seasons in Franklin, increasing the need for effective drainage solutions. Heavy rainfall and melting snow can overwhelm existing drainage systems.",
+    "localRegulations": "Drainage projects in Franklin, OH, may be subject to local regulations and permitting requirements, especially if they involve work within easements or near waterways. Liteworks Co. is familiar with these regulations and can ensure compliance."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Foundation Damage",
+      "description": "Proper drainage protects your Franklin home's foundation from water damage, preventing costly repairs and maintaining its structural integrity."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Our drainage solutions eliminate standing water in your yard, reducing mosquito breeding grounds and improving usability."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "We implement erosion control measures to protect your property from soil loss and maintain its landscape."
+    },
+    {
+      "title": "Increase Property Value",
+      "description": "Effective drainage systems enhance the value and curb appeal of your Franklin property."
+    },
+    {
+      "title": "Prevent Basement Flooding",
+      "description": "Proper drainage prevents water from entering your basement, protecting your belongings and preventing mold growth."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your property in Franklin to identify drainage issues and develop a customized solution."
+    },
+    {
+      "step": "System Design",
+      "description": "Our team designs a drainage system tailored to your specific needs and the unique characteristics of your property."
+    },
+    {
+      "step": "Installation",
+      "description": "We install the drainage system with precision and care, using high-quality materials and proven techniques."
+    },
+    {
+      "step": "Testing and Inspection",
+      "description": "We thoroughly test the system to ensure it is functioning properly and meets our high standards."
+    },
+    {
+      "step": "Final Grading & Restoration",
+      "description": "We complete the project by grading the area and restoring the landscape to its original condition (or better!)."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Type of drainage system",
+      "Size of the affected area",
+      "Complexity of the project",
+      "Materials used",
+      "Accessibility of the site in Franklin"
+    ],
+    "note": "These are estimates only. Contact us for a free, accurate quote for your drainage project in Franklin, OH."
+  },
+  "faqs": [
+    {
+      "question": "How do I know if I need drainage solutions?",
+      "answer": "Signs include standing water, soggy areas, erosion, basement leaks, and foundation cracks."
+    },
+    {
+      "question": "What are common drainage solutions?",
+      "answer": "French drains, surface grading, catch basins, sump pumps, and downspout extensions are all common solutions."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time varies depending on the complexity of the project but typically ranges from a few days to a week."
+    },
+    {
+      "question": "Do I need a permit for drainage work in Franklin?",
+      "answer": "Depending on the scope of the project, a permit may be required. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How much does drainage solutions cost?",
+      "answer": "The cost depends on several factors, including the type of system, the size of the area, and the complexity of the project. Contact us for a free estimate."
+    },
+    {
+      "question": "What maintenance is required for a drainage system?",
+      "answer": "Regular maintenance includes cleaning out catch basins, inspecting drainage pipes, and ensuring proper grading."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:23:42.099Z",
+  "_model": "gemini-2.0-flash"
+}

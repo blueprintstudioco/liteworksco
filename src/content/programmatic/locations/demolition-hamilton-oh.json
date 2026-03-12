@@ -1,0 +1,116 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Demolition",
+  "slug": "demolition-hamilton-oh",
+  "metaTitle": "Demolition in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Safe and reliable demolition services in Hamilton, OH by Liteworks Co. Specializing in residential and commercial demolition projects. Call (513) 927-9675 for a free quote.",
+  "h1": "Demolition Services in Hamilton, OH",
+  "heroText": "Liteworks Co. provides expert demolition services in Hamilton, Ohio, and surrounding Butler County. We handle everything from selective interior demolition to complete building removals, ensuring safety, efficiency, and minimal environmental impact. Trust us to get the job done right.",
+  "localContext": {
+    "terrain": "Hamilton, OH, features a mix of flat land near the Great Miami River and rolling hills further inland. The area is part of the Miami Valley.",
+    "soilConditions": "The soil in Hamilton is typically composed of clay, silt, and gravel deposits due to its proximity to the river. This can impact demolition projects, particularly foundation removal.",
+    "commonProjects": [
+      "Residential house demolition",
+      "Commercial building demolition",
+      "Garage and shed removal",
+      "Concrete and asphalt removal",
+      "Interior demolition for renovations",
+      "Selective demolition for remodeling projects"
+    ],
+    "seasonalNotes": "Winters in Hamilton can bring freezing temperatures and snow, potentially delaying demolition projects. Spring and fall offer more favorable conditions. Summer can be hot and humid.",
+    "localRegulations": "Demolition projects in Hamilton, OH, require permits from the city and must adhere to local environmental regulations regarding asbestos and lead abatement. Contact the City of Hamilton Planning Department for specific requirements."
+  },
+  "benefits": [
+    {
+      "title": "Safety First",
+      "description": "We prioritize safety in all our demolition projects, adhering to strict protocols and regulations to protect our team, your property, and the surrounding environment."
+    },
+    {
+      "title": "Experienced Professionals",
+      "description": "Our team has extensive experience in demolition, ensuring efficient and reliable service."
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "From initial assessment to debris removal, we handle every aspect of the demolition process."
+    },
+    {
+      "title": "Environmentally Responsible",
+      "description": "We are committed to environmentally responsible demolition practices, including recycling and proper disposal of hazardous materials."
+    },
+    {
+      "title": "Licensed and Insured",
+      "description": "Liteworks Co. is fully licensed and insured, providing you with peace of mind."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of the site to identify potential hazards and develop a detailed demolition plan."
+    },
+    {
+      "step": "Permitting and Planning",
+      "description": "We obtain all necessary permits from the City of Hamilton and create a comprehensive demolition plan that meets local regulations."
+    },
+    {
+      "step": "Demolition",
+      "description": "Our skilled team executes the demolition plan efficiently and safely, using the appropriate equipment and techniques."
+    },
+    {
+      "step": "Debris Removal",
+      "description": "We remove all debris from the site and dispose of it properly, ensuring the area is clean and ready for the next phase of your project."
+    },
+    {
+      "step": "Site Restoration",
+      "description": "We can provide site restoration services, including grading and leveling, to prepare the area for future construction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $15,000",
+    "factors": [
+      "Size and complexity of the structure",
+      "Presence of hazardous materials (asbestos, lead)",
+      "Accessibility of the site",
+      "Permitting fees",
+      "Debris disposal costs"
+    ],
+    "note": "These are estimates only. Contact us for a free, accurate quote tailored to your specific demolition project in Hamilton, OH."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for demolition in Hamilton, OH?",
+      "answer": "Yes, a demolition permit is required by the City of Hamilton for most demolition projects. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does a demolition project typically take?",
+      "answer": "The duration of a demolition project depends on the size and complexity of the structure, but most projects can be completed within a few days to a week."
+    },
+    {
+      "question": "What happens to the debris after demolition?",
+      "answer": "We dispose of all debris in accordance with local regulations, prioritizing recycling and responsible disposal methods."
+    },
+    {
+      "question": "Are you insured for demolition projects?",
+      "answer": "Yes, Liteworks Co. is fully insured for all demolition projects, providing you with complete protection."
+    },
+    {
+      "question": "Do you handle asbestos removal?",
+      "answer": "We are certified to handle asbestos removal. If asbestos is present, we will take the necessary steps to remove it safely and legally before proceeding with the demolition."
+    },
+    {
+      "question": "What areas around Hamilton do you serve?",
+      "answer": "We provide demolition services throughout Butler County, including West Chester, Liberty Township, and Fairfield."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:08:22.946Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,116 @@
+{
+  "city": "Independence",
+  "state": "KY",
+  "service": "Foundation Work",
+  "slug": "foundation-independence-ky",
+  "metaTitle": "Foundation Work in Independence, KY | Liteworks Co.",
+  "metaDescription": "Expert foundation services in Independence, KY by Liteworks Co. Specializing in new foundations, repairs, and replacements. Call (513) 927-9675 for a free quote.",
+  "h1": "Foundation Work in Independence, KY",
+  "heroText": "Liteworks Co. provides comprehensive foundation services in Independence, Kentucky. We handle everything from new construction foundations to repairs and replacements, ensuring the structural integrity of your property in Independence and throughout Northern Kentucky. Our experienced team is familiar with the unique soil conditions and building codes of Kenton County, ensuring your foundation is built to last.",
+  "localContext": {
+    "terrain": "Independence, KY, is characterized by rolling hills and valleys, typical of the Northern Kentucky region.",
+    "soilConditions": "The soil in Independence is predominantly clay-rich, with underlying shale and limestone bedrock. This can lead to issues with drainage and soil stability, affecting foundation integrity if not properly addressed.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs and underpinning",
+      "Basement waterproofing",
+      "Foundation replacements",
+      "Slab foundation construction",
+      "Retaining wall foundations"
+    ],
+    "seasonalNotes": "Wet spring seasons can exacerbate soil expansion and contraction, putting added stress on foundations. Proper drainage and soil stabilization are crucial, especially during these times.",
+    "localRegulations": "Foundation work in Independence, KY, must adhere to the Kenton County building codes and regulations. Permits are typically required for new construction, major repairs, and replacements. Liteworks Co. can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Structural Integrity",
+      "description": "Ensure the long-term stability and safety of your building with a properly installed and maintained foundation."
+    },
+    {
+      "title": "Expertise in Local Conditions",
+      "description": "We understand the specific soil challenges in Independence, KY, and tailor our methods accordingly."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A solid foundation is a key selling point and protects your investment for years to come."
+    },
+    {
+      "title": "Prevention of Costly Repairs",
+      "description": "Addressing foundation issues early can prevent more extensive and expensive repairs down the road."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "Knowing your foundation is in good hands allows you to focus on other priorities."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation & Soil Testing",
+      "description": "We begin with a thorough assessment of your site, including soil testing to determine the best foundation approach."
+    },
+    {
+      "step": "Excavation & Grading",
+      "description": "Proper excavation and grading are essential for creating a stable base for your foundation."
+    },
+    {
+      "step": "Forming & Pouring",
+      "description": "We use high-quality materials and precise techniques to form and pour the foundation according to your specifications."
+    },
+    {
+      "step": "Waterproofing & Backfilling",
+      "description": "To protect against water damage, we apply waterproofing and backfill the foundation, ensuring proper drainage."
+    },
+    {
+      "step": "Inspection & Approval",
+      "description": "We work closely with local inspectors to ensure your foundation meets all code requirements."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $35,000+",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation required",
+      "Materials used (concrete, rebar, etc.)",
+      "Need for additional services (waterproofing, drainage)"
+    ],
+    "note": "These are estimates only. Contact Liteworks Co. for a detailed quote specific to your Independence, KY project."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work typically take?",
+      "answer": "The duration depends on the project's scope, but most residential foundation projects in Independence, KY, take between 1-3 weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work?",
+      "answer": "Yes, in most cases, a building permit is required for new foundations, major repairs, and replacements in Independence, KY. We can assist you with this process."
+    },
+    {
+      "question": "What type of foundation is best for my property?",
+      "answer": "The best type of foundation depends on soil conditions, the building design, and your budget. We can help you determine the most suitable option."
+    },
+    {
+      "question": "How can I tell if my foundation needs repair?",
+      "answer": "Common signs include cracks in walls or floors, sticking doors or windows, and uneven floors. Call us for an inspection if you notice any of these issues."
+    },
+    {
+      "question": "What areas of Independence do you serve?",
+      "answer": "We provide foundation services throughout Independence, KY, including neighborhoods near Memorial Park, Simon Kenton High School, and along Madison Pike."
+    },
+    {
+      "question": "What steps do you take to ensure proper drainage around my foundation?",
+      "answer": "We install drainage systems, such as French drains and proper grading, to direct water away from the foundation and prevent water damage."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:52:49.074Z",
+  "_model": "gemini-2.0-flash"
+}

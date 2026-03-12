@@ -1,0 +1,116 @@
+{
+  "city": "Aurora",
+  "state": "IN",
+  "service": "Foundation Work",
+  "slug": "foundation-aurora-in",
+  "metaTitle": "Foundation Work in Aurora, IN | Liteworks Co.",
+  "metaDescription": "Expert foundation excavation and sitework services in Aurora, IN. Liteworks Co. provides reliable and cost-effective solutions for new construction and repairs.",
+  "h1": "Foundation Work in Aurora, IN",
+  "heroText": "Liteworks Co. provides professional foundation excavation and sitework services in Aurora, Indiana, and throughout Southeast Indiana. We understand the unique challenges of building in this region and offer reliable solutions for new construction, additions, and foundation repairs. Our experienced team ensures a stable and durable foundation for your project.",
+  "localContext": {
+    "terrain": "Aurora, IN, is characterized by rolling hills and river valleys, situated along the Ohio River. The topography can present challenges for foundation construction, requiring careful planning and execution.",
+    "soilConditions": "The soil conditions in Aurora typically consist of clay-rich soils, often with shale bedrock closer to the surface. These soils can be prone to expansion and contraction with moisture changes, making proper foundation design and drainage crucial.",
+    "commonProjects": [
+      "New home construction foundations",
+      "Foundation repair and stabilization",
+      "Basement excavation",
+      "Additions and expansions",
+      "Retaining wall foundations",
+      "Garage and outbuilding foundations"
+    ],
+    "seasonalNotes": "Aurora experiences distinct seasons, with freeze-thaw cycles in winter impacting soil stability. Spring rains can also saturate the ground, increasing the risk of foundation issues. Proper site preparation and drainage are essential year-round, but particularly important during these seasons.",
+    "localRegulations": "Foundation construction in Aurora is subject to local building codes and regulations. Permits are typically required for new foundations, repairs, and modifications. Liteworks Co. is familiar with these regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Stable and Durable Foundations",
+      "description": "We ensure your foundation is built to withstand the specific soil conditions and climate of Aurora, IN, providing long-lasting stability."
+    },
+    {
+      "title": "Expert Excavation and Grading",
+      "description": "Our experienced team provides precise excavation and grading services, critical for a level and properly prepared foundation site."
+    },
+    {
+      "title": "Proper Drainage Solutions",
+      "description": "We implement effective drainage systems to protect your foundation from water damage, a common concern in Southeast Indiana."
+    },
+    {
+      "title": "Compliance with Local Codes",
+      "description": "We ensure all foundation work meets Aurora's building codes and regulations, avoiding costly delays and ensuring safety."
+    },
+    {
+      "title": "Cost-Effective Solutions",
+      "description": "We offer competitive pricing and efficient project management to deliver quality foundation work within your budget."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation and Planning",
+      "description": "We assess the site's soil conditions, topography, and drainage patterns to develop a customized foundation plan."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "We carefully excavate the site to the required depth and grade, ensuring a level and stable base for the foundation."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "We construct the foundation according to the approved plans, using high-quality materials and proven techniques."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install drainage systems to divert water away from the foundation, preventing water damage and soil erosion."
+    },
+    {
+      "step": "Backfilling and Compaction",
+      "description": "We backfill around the foundation and compact the soil to provide additional support and stability."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation",
+      "Drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "These prices are estimates. Contact us for a free, no-obligation quote specific to your project in Aurora, IN."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work typically take?",
+      "answer": "The duration of foundation work depends on the project's complexity, but most projects in Aurora, IN, are completed within 1-3 weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Aurora?",
+      "answer": "Yes, permits are generally required for new foundations, significant repairs, and modifications. We can assist you with the permitting process."
+    },
+    {
+      "question": "What type of foundation is best for my Aurora property?",
+      "answer": "The best foundation type depends on the soil conditions, topography, and the design of your structure. We can assess your property and recommend the most suitable option."
+    },
+    {
+      "question": "How can I prevent foundation problems?",
+      "answer": "Proper drainage, regular inspections, and prompt repairs are essential for preventing foundation problems. Address any signs of water damage or soil erosion immediately."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs include cracks in walls or floors, sticking doors and windows, uneven floors, and water intrusion."
+    },
+    {
+      "question": "Is foundation work covered by homeowners insurance?",
+      "answer": "Homeowners insurance may cover foundation repairs if the damage is caused by a covered peril, such as a sudden water leak. However, it typically does not cover damage due to normal settling or soil conditions."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T15:00:27.477Z",
+  "_model": "gemini-2.0-flash"
+}

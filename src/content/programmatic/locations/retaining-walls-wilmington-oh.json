@@ -1,0 +1,115 @@
+{
+  "city": "Wilmington",
+  "state": "OH",
+  "service": "Retaining Walls",
+  "slug": "retaining-walls-wilmington-oh",
+  "metaTitle": "Retaining Walls in Wilmington, OH | Liteworks Co.",
+  "metaDescription": "Expert retaining wall design and construction in Wilmington, OH by Liteworks Co. Protect your property from erosion and enhance your landscape. Call (513) 927-9675.",
+  "h1": "Retaining Wall Solutions in Wilmington, OH",
+  "heroText": "Liteworks Co. provides professional retaining wall services in Wilmington, Ohio, and throughout Clinton County. We design and build durable, aesthetically pleasing retaining walls to address soil erosion, create usable space, and enhance the beauty of your property. Our expertise ensures your retaining wall is built to last, considering the specific soil conditions and landscape features of the Wilmington area.",
+  "localContext": {
+    "terrain": "Wilmington, OH, is characterized by gently rolling hills and flat areas along the numerous creeks and streams in Clinton County.",
+    "soilConditions": "The soil in the Wilmington area typically consists of clay loam, with varying degrees of shale content in some locations. Proper soil testing and compaction are crucial for stable retaining wall construction.",
+    "commonProjects": [
+      "Erosion control on sloped properties",
+      "Creating level areas for patios and gardens",
+      "Stabilizing creek banks and drainage areas",
+      "Building retaining walls for driveway support",
+      "Constructing decorative retaining walls for landscaping"
+    ],
+    "seasonalNotes": "Freezing and thawing cycles during Wilmington's winters can put stress on retaining walls. Proper drainage is essential to prevent water buildup and potential damage. Spring brings increased rainfall, making erosion control a key concern.",
+    "localRegulations": "Retaining wall construction in Wilmington, OH, may be subject to local building codes and permit requirements. It's essential to check with the Clinton County Building Department to ensure compliance before starting any project."
+  },
+  "benefits": [
+    {
+      "title": "Erosion Control",
+      "description": "Retaining walls prevent soil erosion on sloped properties, protecting your landscape and foundation from damage."
+    },
+    {
+      "title": "Increased Usable Space",
+      "description": "Create level areas for patios, gardens, and other outdoor living spaces by building retaining walls."
+    },
+    {
+      "title": "Improved Drainage",
+      "description": "Properly designed retaining walls can improve drainage and prevent water buildup behind the wall, ensuring its stability."
+    },
+    {
+      "title": "Enhanced Aesthetics",
+      "description": "Retaining walls can add beauty and value to your property by creating visually appealing landscape features."
+    },
+    {
+      "title": "Long-Term Stability",
+      "description": "Our expert construction ensures your retaining wall is built to last, with proper foundations and drainage systems."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment & Design",
+      "description": "We evaluate your property, assess soil conditions, and design a retaining wall that meets your specific needs and local regulations."
+    },
+    {
+      "step": "Excavation & Foundation",
+      "description": "We excavate the site and build a solid foundation to support the retaining wall, ensuring its stability."
+    },
+    {
+      "step": "Wall Construction",
+      "description": "We construct the retaining wall using high-quality materials, such as concrete blocks, timber, or natural stone, depending on your preference and budget."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install a drainage system behind the wall to prevent water buildup and ensure long-term stability."
+    },
+    {
+      "step": "Backfilling & Compaction",
+      "description": "We backfill the area behind the wall with compacted soil to provide additional support and prevent settling."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$35 per square foot",
+    "averageRange": "$45 - $75 per square foot",
+    "factors": [
+      "Wall height and length",
+      "Materials used (concrete, timber, stone)",
+      "Site accessibility and complexity",
+      "Drainage requirements",
+      "Permit fees"
+    ],
+    "note": "These prices are estimates. Contact us for a free, accurate quote based on your specific project requirements in Wilmington, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long will it take to build a retaining wall?",
+      "answer": "The construction time depends on the size and complexity of the wall. A small residential retaining wall can typically be completed in a few days, while larger projects may take several weeks."
+    },
+    {
+      "question": "Do I need a permit to build a retaining wall in Wilmington?",
+      "answer": "Permit requirements vary depending on the wall's height and location. Contact the Clinton County Building Department to determine if a permit is required for your project."
+    },
+    {
+      "question": "What materials are best for retaining walls in this area?",
+      "answer": "The best material depends on your budget, aesthetic preferences, and the wall's structural requirements. Common materials include concrete blocks, treated timber, and natural stone. We can help you choose the best option for your needs."
+    },
+    {
+      "question": "How do I maintain my retaining wall?",
+      "answer": "Regularly inspect your retaining wall for signs of damage, such as cracks or bulging. Ensure the drainage system is functioning properly and clear any debris that may accumulate behind the wall."
+    },
+    {
+      "question": "What are the signs that my retaining wall needs repair?",
+      "answer": "Signs of damage include leaning, cracking, bulging, and water seepage. If you notice any of these issues, contact us for an inspection and repair services."
+    },
+    {
+      "question": "How deep does the foundation need to be?",
+      "answer": "The foundation depth depends on the height of the wall, the soil type, and local building codes. Generally, the foundation should extend below the frost line to prevent movement due to freezing and thawing."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:31:48.732Z",
+  "_model": "gemini-2.0-flash"
+}

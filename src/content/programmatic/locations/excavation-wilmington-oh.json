@@ -1,0 +1,116 @@
+{
+  "city": "Wilmington",
+  "state": "OH",
+  "service": "Excavation",
+  "slug": "excavation-wilmington-oh",
+  "metaTitle": "Excavation in Wilmington, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert excavation services in Wilmington, OH. We handle grading, drainage, demolition, and more. Call (513) 927-9675 for a free quote!",
+  "h1": "Excavation Services in Wilmington, OH",
+  "heroText": "Liteworks Co. is your trusted partner for excavation services in Wilmington, Ohio, and throughout Clinton County. We bring years of experience and specialized equipment to every project, ensuring efficient and reliable results for residential, commercial, and agricultural needs. From site preparation to complex earthmoving, we've got you covered.",
+  "localContext": {
+    "terrain": "Wilmington and Clinton County are characterized by gently rolling hills and flat plains, typical of southwestern Ohio.",
+    "soilConditions": "The soil conditions in Wilmington are primarily glacial till, consisting of clay, silt, sand, and gravel. Drainage can be an issue in areas with high clay content. Some areas may also have shale bedrock close to the surface.",
+    "commonProjects": [
+      "Residential foundation excavation",
+      "Driveway and parking lot grading",
+      "Drainage system installation",
+      "Land clearing for new construction",
+      "Septic system installation and repair",
+      "Pond and water feature excavation"
+    ],
+    "seasonalNotes": "Wet spring conditions can significantly impact excavation projects in Wilmington, leading to delays and increased costs. Frozen ground in winter can also pose challenges. The optimal time for excavation is typically late spring through early fall.",
+    "localRegulations": "Excavation projects in Wilmington, OH, are subject to local and state regulations, including permitting requirements for grading, stormwater management, and utility line protection. It's essential to check with the City of Wilmington and Clinton County Building Department before starting any excavation work. Projects disturbing one or more acres may require an NPDES permit."
+  },
+  "benefits": [
+    {
+      "title": "Precise Grading and Site Preparation",
+      "description": "We ensure accurate grading and site preparation for stable foundations, proper drainage, and successful construction outcomes."
+    },
+    {
+      "title": "Effective Drainage Solutions",
+      "description": "Our expertise in drainage systems prevents water damage and protects your property from erosion and flooding, crucial in Clinton County's varied terrain."
+    },
+    {
+      "title": "Safe and Efficient Demolition",
+      "description": "We handle demolition projects safely and efficiently, minimizing disruption and preparing your site for its next phase."
+    },
+    {
+      "title": "Experienced Septic System Installation",
+      "description": "We provide reliable septic system installation and repair services, adhering to all local regulations and ensuring proper functionality."
+    },
+    {
+      "title": "Foundation Expertise",
+      "description": "Liteworks Co. provides expert residential and commercial foundation services, including excavation, backfilling, and repairs."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Site Assessment and Planning",
+      "description": "We thoroughly assess your Wilmington property, considering soil conditions, drainage patterns, and project requirements to develop a detailed excavation plan."
+    },
+    {
+      "step": "2. Permitting and Compliance",
+      "description": "We handle all necessary permits and ensure compliance with local regulations, streamlining the excavation process."
+    },
+    {
+      "step": "3. Excavation and Grading",
+      "description": "Using state-of-the-art equipment, we perform precise excavation and grading to meet your project specifications."
+    },
+    {
+      "step": "4. Drainage Installation",
+      "description": "We install effective drainage systems to manage stormwater runoff and protect your property from water damage."
+    },
+    {
+      "step": "5. Site Cleanup and Restoration",
+      "description": "We leave your Wilmington property clean and ready for the next phase of your project, ensuring minimal disruption to the surrounding environment."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions and accessibility",
+      "Permitting requirements",
+      "Equipment and labor costs",
+      "Drainage system needs"
+    ],
+    "note": "Pricing varies depending on the specifics of your project. Contact us for a free, no-obligation quote tailored to your Wilmington excavation needs."
+  },
+  "faqs": [
+    {
+      "question": "What type of excavation services do you offer in Wilmington?",
+      "answer": "We provide a wide range of excavation services, including site preparation, grading, drainage installation, demolition, septic system work, and foundation excavation."
+    },
+    {
+      "question": "Do I need a permit for excavation in Wilmington?",
+      "answer": "Permit requirements vary depending on the scope of the project. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How long does an excavation project typically take?",
+      "answer": "The duration of an excavation project depends on its complexity and size. We will provide you with a realistic timeline during the initial consultation."
+    },
+    {
+      "question": "What factors affect the cost of excavation in Wilmington?",
+      "answer": "The cost of excavation is influenced by factors such as project size, soil conditions, accessibility, permitting fees, and equipment requirements."
+    },
+    {
+      "question": "Are you insured and licensed to perform excavation work in Wilmington?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to perform excavation services in Wilmington, Ohio."
+    },
+    {
+      "question": "How do I get a quote for my excavation project?",
+      "answer": "Simply contact us at (513) 927-9675 to schedule a free consultation. We'll assess your project needs and provide you with a detailed quote."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:31:03.919Z",
+  "_model": "gemini-2.0-flash"
+}

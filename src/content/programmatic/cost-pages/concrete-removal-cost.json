@@ -1,0 +1,134 @@
+{
+  "slug": "concrete-removal-cost",
+  "title": "Concrete Removal Cost Per Square Foot (2024-2025)",
+  "metaTitle": "Concrete Removal Cost Per Square Foot in Cincinnati, OH",
+  "metaDescription": "Understand concrete removal costs in Cincinnati, OH. Liteworks Co. provides a detailed cost guide for concrete removal, including factors, tips, and FAQs.",
+  "h1": "Concrete Removal Cost Per Square Foot: Cincinnati, OH (2024-2025)",
+  "intro": "Removing concrete can be a necessary step for various construction and landscaping projects. Whether you're dealing with an old driveway, patio, or foundation, understanding the costs involved is crucial for budgeting. Liteworks Co., serving the Greater Cincinnati and Northern Kentucky area, provides professional concrete removal services. This guide breaks down the average concrete removal cost per square foot, factors influencing the price, and tips to potentially save money on your project.",
+  "costBreakdown": [
+    {
+      "category": "Small Slab Removal (Patio, Sidewalk)",
+      "lowEnd": "$3",
+      "average": "$5",
+      "highEnd": "$8",
+      "unit": "per square foot",
+      "notes": "Removal of smaller concrete slabs, typically less than 4 inches thick. Includes basic demolition and debris removal."
+    },
+    {
+      "category": "Driveway Removal",
+      "lowEnd": "$4",
+      "average": "$6",
+      "highEnd": "$10",
+      "unit": "per square foot",
+      "notes": "Removal of a standard residential driveway. Prices vary based on thickness and reinforcement."
+    },
+    {
+      "category": "Foundation Removal",
+      "lowEnd": "$8",
+      "average": "$12",
+      "highEnd": "$20",
+      "unit": "per square foot",
+      "notes": "Removal of concrete foundations. This is a more complex process requiring specialized equipment and often involves dealing with underground utilities."
+    },
+    {
+      "category": "Reinforced Concrete Removal",
+      "lowEnd": "$6",
+      "average": "$9",
+      "highEnd": "$15",
+      "unit": "per square foot",
+      "notes": "Removal of concrete containing rebar or other reinforcement. Requires more effort and specialized cutting equipment."
+    },
+    {
+      "category": "Hauling and Disposal",
+      "lowEnd": "$50",
+      "average": "$75",
+      "highEnd": "$150",
+      "unit": "per cubic yard",
+      "notes": "Cost to haul away and dispose of the removed concrete. Prices vary based on distance to disposal site and local landfill fees."
+    },
+    {
+      "category": "Permits",
+      "lowEnd": "$50",
+      "average": "$150",
+      "highEnd": "$500",
+      "unit": "per project",
+      "notes": "Cost of obtaining necessary permits for concrete removal. Varies depending on the scope of the project and local regulations in Ohio, Kentucky and Indiana."
+    }
+  ],
+  "factorsAffectingCost": [
+    {
+      "factor": "Concrete Thickness",
+      "explanation": "Thicker concrete requires more labor and specialized equipment, increasing the cost."
+    },
+    {
+      "factor": "Reinforcement",
+      "explanation": "The presence of rebar or other reinforcement adds to the difficulty and cost of removal."
+    },
+    {
+      "factor": "Accessibility",
+      "explanation": "Limited access to the work site can increase labor costs and require smaller, more specialized equipment."
+    },
+    {
+      "factor": "Disposal Fees",
+      "explanation": "Landfill fees for concrete disposal vary by location, impacting the overall cost."
+    },
+    {
+      "factor": "Permitting Requirements",
+      "explanation": "Complex projects may require permits, adding to the overall expense."
+    },
+    {
+      "factor": "Location",
+      "explanation": "Urban areas like Cincinnati may have higher labor costs and stricter regulations than rural areas."
+    },
+    {
+      "factor": "Project Size",
+      "explanation": "Larger projects may benefit from economies of scale, but also require more time and resources."
+    },
+    {
+      "factor": "Equipment Required",
+      "explanation": "The need for specialized equipment like jackhammers, concrete saws, or excavators will increase costs."
+    }
+  ],
+  "savingTips": [
+    "Obtain multiple quotes from different contractors.",
+    "Consider removing the concrete yourself if the project is small and manageable.",
+    "Check for local recycling options for concrete disposal to reduce landfill fees.",
+    "Ensure proper site access to minimize labor costs.",
+    "Bundle concrete removal with other services, such as excavation or grading, to potentially negotiate a better price.",
+    "Plan your project during the off-season when contractors may offer lower rates."
+  ],
+  "faqs": [
+    {
+      "question": "How is concrete removal cost calculated?",
+      "answer": "Concrete removal costs are typically calculated based on the square footage of the concrete to be removed, the thickness of the concrete, the presence of reinforcement, and disposal fees."
+    },
+    {
+      "question": "Do I need a permit for concrete removal?",
+      "answer": "Permit requirements vary depending on your location and the scope of the project. Contact your local building department to determine if a permit is necessary."
+    },
+    {
+      "question": "What equipment is used for concrete removal?",
+      "answer": "Common equipment includes jackhammers, concrete saws, excavators, and skid steers. The specific equipment required depends on the size and complexity of the project."
+    },
+    {
+      "question": "How long does concrete removal take?",
+      "answer": "The duration of concrete removal depends on the size and complexity of the project. A small patio removal may take a day, while a large foundation removal could take several days or weeks."
+    },
+    {
+      "question": "What happens to the removed concrete?",
+      "answer": "Removed concrete is typically hauled to a landfill or recycling facility. Some companies may offer on-site crushing for reuse as fill material."
+    },
+    {
+      "question": "Does Liteworks Co. provide concrete removal services in my area?",
+      "answer": "Liteworks Co. provides concrete removal services throughout the Greater Cincinnati and Northern Kentucky area. Contact us at (513) 927-9675 to discuss your project."
+    }
+  ],
+  "relatedServices": [
+    "excavation",
+    "demolition",
+    "driveways",
+    "pool-removal"
+  ],
+  "_generated": "2026-03-12T13:32:20.289Z",
+  "_model": "gemini-2.0-flash"
+}

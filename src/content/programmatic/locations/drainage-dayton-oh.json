@@ -1,0 +1,111 @@
+{
+  "city": "Dayton",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-dayton-oh",
+  "metaTitle": "Drainage Solutions in Dayton, OH | Liteworks Co.",
+  "metaDescription": "Solve your Dayton, OH drainage problems with Liteworks Co. Expert solutions for yard drainage, French drains, and more. Call (513) 927-9675 for a quote!",
+  "h1": "Dayton, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides expert drainage solutions for residential and commercial properties in Dayton, Ohio. We understand the unique challenges posed by the Miami Valley's landscape and soil conditions, and we're dedicated to providing effective and lasting drainage solutions to protect your property from water damage.",
+  "localContext": {
+    "terrain": "Dayton and the surrounding Miami Valley are characterized by a relatively flat topography with some rolling hills and river valleys. The Great Miami River and its tributaries play a significant role in the area's drainage patterns.",
+    "soilConditions": "The soil conditions in Dayton and the Miami Valley are predominantly clay-rich, which can lead to poor drainage and standing water issues. The presence of shale bedrock in some areas further complicates drainage.",
+    "commonProjects": [
+      "Yard drainage improvements",
+      "French drain installation",
+      "Downspout extensions and management",
+      "Surface grading for water runoff",
+      "Erosion control measures",
+      "Basement waterproofing"
+    ],
+    "seasonalNotes": "Dayton experiences significant rainfall throughout the year, with spring and early summer being the wettest seasons. Snowmelt in late winter can also contribute to drainage problems. Proper drainage is crucial to prevent water damage and foundation issues, especially during these peak seasons.",
+    "localRegulations": "Drainage projects in Dayton, OH, may be subject to local regulations and permitting requirements, especially if they involve altering natural waterways or impacting neighboring properties. It's important to check with the City of Dayton and Montgomery County for specific guidelines and necessary permits before starting any drainage work."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions protect your foundation, landscaping, and property from costly water damage."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Say goodbye to soggy lawns and mosquito breeding grounds with proper drainage systems."
+    },
+    {
+      "title": "Protect Your Foundation",
+      "description": "Proper water management safeguards your foundation from hydrostatic pressure and potential cracks."
+    },
+    {
+      "title": "Improve Property Value",
+      "description": "A well-drained property is more attractive and valuable to potential buyers."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Prevent soil erosion and maintain the integrity of your landscape with effective drainage solutions."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your property to identify drainage problems and potential solutions."
+    },
+    {
+      "step": "Custom Design",
+      "description": "We design a customized drainage system tailored to your specific needs and property conditions."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care, ensuring optimal performance."
+    },
+    {
+      "step": "Quality Assurance",
+      "description": "We conduct thorough testing and inspections to ensure your drainage system is functioning properly and effectively."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Project scope and complexity",
+      "Type of drainage system",
+      "Materials used",
+      "Site accessibility",
+      "Permitting requirements"
+    ],
+    "note": "Pricing can vary significantly based on the specific needs of your property. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs of poor drainage include standing water, soggy areas in your yard, water pooling near your foundation, basement leaks, and soil erosion."
+    },
+    {
+      "question": "What is a French drain?",
+      "answer": "A French drain is a trench filled with gravel and a perforated pipe that redirects surface and groundwater away from your property."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project, but most residential drainage systems can be installed within a few days."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Depending on the scope of the project and local regulations, you may need a permit for drainage work. We can help you navigate the permitting process."
+    },
+    {
+      "question": "How much does a drainage solution cost?",
+      "answer": "The cost of a drainage solution varies depending on the specific needs of your property. We offer free estimates to provide you with an accurate quote."
+    },
+    {
+      "question": "What maintenance is required for a drainage system?",
+      "answer": "Regular maintenance, such as removing debris from grates and inlets, is essential to ensure the proper functioning of your drainage system."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "springboro-oh"
+  ],
+  "_generated": "2026-03-12T14:12:40.281Z",
+  "_model": "gemini-2.0-flash"
+}

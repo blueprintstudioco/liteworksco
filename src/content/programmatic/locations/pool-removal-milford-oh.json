@@ -1,0 +1,116 @@
+{
+  "city": "Milford",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-milford-oh",
+  "metaTitle": "Pool Removal in Milford, OH | Liteworks Co.",
+  "metaDescription": "Safe and efficient pool removal services in Milford, OH. Liteworks Co. provides expert pool demolition, filling, and site restoration. Get a free quote today!",
+  "h1": "Pool Removal in Milford, OH",
+  "heroText": "Liteworks Co. offers professional pool removal services in Milford, Ohio, and the surrounding areas. We handle everything from initial demolition to site restoration, ensuring a smooth and hassle-free process for homeowners in Milford. Let us help you reclaim your backyard space!",
+  "localContext": {
+    "terrain": "Milford, OH, features a mix of rolling hills and flatter areas along the Little Miami River.",
+    "soilConditions": "The soil in Milford is typically a mix of clay and shale, which can present challenges for excavation and demolition projects. Proper drainage and soil stabilization are important considerations.",
+    "commonProjects": [
+      "Pool removals and demolition",
+      "Residential excavation for new construction",
+      "Drainage solutions to address water runoff",
+      "Retaining wall installation for hillside properties",
+      "Driveway replacement and expansion",
+      "Septic system installation and repair"
+    ],
+    "seasonalNotes": "Milford experiences distinct seasons, with wet springs that can affect excavation projects. Winter can bring frozen ground, potentially delaying work. The best time for pool removal is typically late spring through early fall.",
+    "localRegulations": "Pool removal in Milford requires permits and adherence to local regulations regarding demolition, waste disposal, and backfilling. Liteworks Co. is familiar with these requirements and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property value and make your backyard more appealing to potential buyers."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the safety hazards associated with an unused or poorly maintained pool, especially if you have young children or pets."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard space for other uses, such as a garden, patio, or play area."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Stop spending money on pool maintenance, chemicals, and repairs for a pool you no longer use."
+    },
+    {
+      "title": "Eliminate Liability",
+      "description": "Reduce your liability risks associated with owning a pool, such as accidental drownings or injuries."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Consultation and Quote",
+      "description": "We'll assess your pool removal needs and provide a detailed, transparent quote."
+    },
+    {
+      "step": "2. Permitting",
+      "description": "We'll handle all necessary permits required by the city of Milford, OH."
+    },
+    {
+      "step": "3. Demolition and Removal",
+      "description": "Our experienced team will safely and efficiently demolish and remove the pool structure."
+    },
+    {
+      "step": "4. Backfilling and Compaction",
+      "description": "We'll backfill the area with compacted fill to ensure proper stability and drainage."
+    },
+    {
+      "step": "5. Site Restoration",
+      "description": "We'll restore the area to your specifications, including grading, topsoil, and seeding."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$5,000 - $12,000",
+    "factors": [
+      "Pool size and type (inground, above ground)",
+      "Pool material (concrete, vinyl liner)",
+      "Access to the pool area",
+      "Backfill material required",
+      "Site restoration requirements"
+    ],
+    "note": "These prices are estimates. Contact Liteworks Co. for a free, accurate quote specific to your Milford pool removal project."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "Most pool removal projects in Milford take between 3-7 days, depending on the size and complexity of the pool."
+    },
+    {
+      "question": "Do I need a permit to remove my pool?",
+      "answer": "Yes, a permit is required for pool removal in Milford, OH. Liteworks Co. can handle the permitting process for you."
+    },
+    {
+      "question": "What happens to the pool debris?",
+      "answer": "We responsibly dispose of all pool debris at a licensed landfill or recycling facility."
+    },
+    {
+      "question": "Will you damage my yard during the removal process?",
+      "answer": "We take precautions to minimize disruption to your yard and will restore the area to your satisfaction."
+    },
+    {
+      "question": "What type of fill material do you use?",
+      "answer": "We use compacted fill that meets local building codes to ensure proper stability and drainage."
+    },
+    {
+      "question": "Can you install a patio or other feature after removing the pool?",
+      "answer": "Yes, we offer a range of site restoration services, including patio installation, landscaping, and more."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "batavia-oh"
+  ],
+  "_generated": "2026-03-12T13:59:12.740Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,115 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Excavation",
+  "slug": "excavation-hamilton-oh",
+  "metaTitle": "Excavation in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert excavation services in Hamilton, OH. We handle everything from site prep to complex digs. Call (513) 927-9675 for a free quote!",
+  "h1": "Excavation Services in Hamilton, OH",
+  "heroText": "Liteworks Co. delivers professional excavation services to Hamilton, Ohio and surrounding Butler County. We are equipped to handle any excavation project, large or small, with precision and efficiency. Our expertise ensures your project starts on solid ground, adhering to all local regulations.",
+  "localContext": {
+    "terrain": "Hamilton, OH features a mix of flat land along the Great Miami River and rolling hills further inland.",
+    "soilConditions": "The soil in Hamilton is primarily composed of clay and silt, with some areas containing glacial till. Drainage can be an issue in clay-heavy areas, and proper soil compaction is crucial for stable foundations.",
+    "commonProjects": [
+      "Foundation excavation for new homes and additions",
+      "Basement excavation and waterproofing",
+      "Trenching for utility lines (water, sewer, electric)",
+      "Grading and site preparation for commercial developments",
+      "Drainage solutions for residential and commercial properties",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Hamilton experiences distinct seasons, with frozen ground in the winter impacting excavation timelines. Spring rains can also saturate the soil, requiring additional dewatering measures. The optimal time for excavation is typically late spring through early fall.",
+    "localRegulations": "Excavation projects in Hamilton, OH require permits from the city and county. These permits ensure compliance with zoning regulations, building codes, and environmental protection standards. Liteworks Co. is experienced in navigating the local permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Precise and Accurate Excavation",
+      "description": "We use advanced equipment and techniques to ensure accurate excavation depths and dimensions, minimizing errors and saving you time and money."
+    },
+    {
+      "title": "Experienced and Licensed Operators",
+      "description": "Our team consists of highly skilled and certified equipment operators with extensive experience in handling diverse excavation projects."
+    },
+    {
+      "title": "Comprehensive Site Preparation",
+      "description": "We handle all aspects of site preparation, including clearing, grading, and compaction, ensuring a stable and level base for your construction project."
+    },
+    {
+      "title": "Effective Drainage Solutions",
+      "description": "We design and implement effective drainage systems to prevent water damage and erosion, protecting your property and investment."
+    },
+    {
+      "title": "Adherence to Safety Standards",
+      "description": "Safety is our top priority. We follow strict safety protocols and regulations to ensure a safe working environment for our team and your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Site Assessment and Planning",
+      "description": "We conduct a thorough site assessment to understand the soil conditions, topography, and any potential challenges. We then develop a detailed excavation plan tailored to your project requirements."
+    },
+    {
+      "step": "2. Permitting and Regulatory Compliance",
+      "description": "We handle all necessary permits and ensure compliance with local regulations, saving you time and hassle."
+    },
+    {
+      "step": "3. Excavation and Grading",
+      "description": "Our experienced operators use state-of-the-art equipment to perform the excavation and grading work with precision and efficiency."
+    },
+    {
+      "step": "4. Soil Stabilization and Compaction",
+      "description": "We properly stabilize and compact the soil to provide a solid foundation for your construction project."
+    },
+    {
+      "step": "5. Site Cleanup and Restoration",
+      "description": "We clean up the site and restore it to its original condition, leaving your property neat and tidy."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $10,000+",
+    "factors": [
+      "Project size and complexity",
+      "Soil conditions and accessibility",
+      "Permitting requirements",
+      "Equipment and labor costs",
+      "Depth of excavation"
+    ],
+    "note": "Pricing can vary significantly depending on the specific requirements of your project. Contact us for a free, no-obligation quote."
+  },
+  "faqs": [
+    {
+      "question": "What types of excavation projects do you handle in Hamilton?",
+      "answer": "We handle a wide range of excavation projects, including foundation excavation, basement excavation, trenching for utilities, grading, and site preparation."
+    },
+    {
+      "question": "Do I need a permit for excavation in Hamilton, OH?",
+      "answer": "Yes, most excavation projects in Hamilton require permits. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does an excavation project typically take?",
+      "answer": "The duration of an excavation project depends on its size and complexity. We will provide you with an estimated timeline during the initial consultation."
+    },
+    {
+      "question": "What equipment do you use for excavation?",
+      "answer": "We use a variety of equipment, including excavators, bulldozers, loaders, and compactors, to ensure efficient and precise excavation."
+    },
+    {
+      "question": "How do you handle soil erosion during excavation?",
+      "answer": "We implement erosion control measures, such as silt fences and erosion blankets, to minimize soil erosion and protect the environment."
+    },
+    {
+      "question": "Are you insured and licensed to perform excavation work in Hamilton?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to perform excavation work in Hamilton, Ohio."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:07:21.957Z",
+  "_model": "gemini-2.0-flash"
+}

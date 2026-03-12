@@ -1,0 +1,115 @@
+{
+  "city": "Wilmington",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-wilmington-oh",
+  "metaTitle": "Foundation Work in Wilmington, OH | Liteworks Co.",
+  "metaDescription": "Liteworks Co. provides expert foundation services in Wilmington, OH. From site prep to concrete pouring, we ensure solid foundations for your construction projects. Call (513) 927-9675.",
+  "h1": "Wilmington, OH Foundation Work by Liteworks Co.",
+  "heroText": "Liteworks Co. delivers reliable foundation services throughout Wilmington, Ohio, and Clinton County. We understand the specific soil conditions and construction requirements in the area, ensuring a durable and stable foundation for your residential or commercial project. From initial excavation to final inspection, we handle every step with precision and care.",
+  "localContext": {
+    "terrain": "Rolling hills and flatlands, typical of southwestern Ohio.",
+    "soilConditions": "Primarily clay-rich soils with shale bedrock in some areas. Drainage can be a concern due to the clay content.",
+    "commonProjects": [
+      "New home construction",
+      "Foundation repair and replacement",
+      "Commercial building foundations",
+      "Additions and extensions",
+      "Barn and outbuilding foundations",
+      "Concrete slab installation"
+    ],
+    "seasonalNotes": "Wet spring weather can impact excavation and concrete pouring schedules. Winter brings freezing temperatures, requiring special precautions for concrete work. Fall is generally the best time for foundation projects due to drier conditions.",
+    "localRegulations": "Foundation work in Wilmington, OH, requires permits and inspections from the Clinton County Building Department. Projects must adhere to the Ohio Building Code and local zoning regulations."
+  },
+  "benefits": [
+    {
+      "title": "Solid and Stable Foundations",
+      "description": "We ensure your foundation is built to last, providing a stable base for your structure and preventing costly problems down the road."
+    },
+    {
+      "title": "Experienced Professionals",
+      "description": "Our team has years of experience working with the specific soil conditions and building codes in Wilmington, OH."
+    },
+    {
+      "title": "Comprehensive Services",
+      "description": "From excavation and grading to concrete pouring and waterproofing, we handle every aspect of your foundation project."
+    },
+    {
+      "title": "Permitting and Compliance",
+      "description": "We manage all necessary permits and ensure your project complies with local regulations, saving you time and hassle."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-built foundation adds significant value to your property and provides peace of mind."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation and Planning",
+      "description": "We assess the site, soil conditions, and project requirements to develop a comprehensive plan."
+    },
+    {
+      "step": "Excavation and Grading",
+      "description": "We prepare the site by excavating to the proper depth and grading for proper drainage."
+    },
+    {
+      "step": "Forming and Reinforcement",
+      "description": "We construct forms and install reinforcing steel to create a strong and durable foundation structure."
+    },
+    {
+      "step": "Concrete Pouring and Finishing",
+      "description": "We pour high-quality concrete and finish the surface to ensure a smooth and level foundation."
+    },
+    {
+      "step": "Inspection and Backfilling",
+      "description": "We arrange for inspections and backfill around the foundation to provide support and insulation."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000",
+    "factors": [
+      "Foundation size and complexity",
+      "Soil conditions and site accessibility",
+      "Concrete volume and reinforcement requirements",
+      "Permitting and inspection fees",
+      "Additional services like waterproofing"
+    ],
+    "note": "These are estimates only. Contact us for a detailed quote specific to your Wilmington, OH, project."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work take?",
+      "answer": "The duration depends on the size and complexity of the project, but most residential foundations in Wilmington, OH, take between 1-3 weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work?",
+      "answer": "Yes, a permit is required for most foundation projects in Wilmington, OH. We can assist you with the permitting process."
+    },
+    {
+      "question": "What type of foundation is best for my property?",
+      "answer": "The best foundation type depends on soil conditions, site topography, and building design. We can help you determine the most suitable option."
+    },
+    {
+      "question": "How do I prepare my property for foundation work?",
+      "answer": "Clear the area of any obstructions, ensure easy access for equipment, and contact utility companies to mark underground lines."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Cracks in walls or floors, sticking doors and windows, and uneven floors can indicate foundation issues."
+    },
+    {
+      "question": "Does Liteworks Co. offer foundation repair services?",
+      "answer": "Yes, we provide foundation repair services in Wilmington, OH, addressing issues such as cracks, settling, and water damage."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "lebanon-oh",
+    "west-chester-oh",
+    "loveland-oh"
+  ],
+  "_generated": "2026-03-12T14:32:42.056Z",
+  "_model": "gemini-2.0-flash"
+}

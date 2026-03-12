@@ -1,0 +1,116 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-xenia-oh",
+  "metaTitle": "Lot Preparation in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Expert lot preparation services in Xenia, OH by Liteworks Co. Ensure a solid foundation for your construction project with our grading, excavation, and soil stabilization solutions.",
+  "h1": "Lot Preparation Services in Xenia, OH",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in Xenia, Ohio, ensuring your construction project starts on solid ground. We handle everything from initial clearing and grading to soil stabilization and drainage, tailored to the specific needs of Greene County properties. Our experienced team understands the local terrain and soil conditions, delivering reliable and efficient lot preparation for residential, commercial, and industrial projects.",
+  "localContext": {
+    "terrain": "Xenia and the surrounding areas of Greene County feature gently rolling hills and flat plains, characteristic of the Miami Valley region.",
+    "soilConditions": "The soil in Xenia is predominantly composed of silty clay loam, with areas of shale closer to the Little Miami River. Proper soil testing and stabilization are crucial due to the clay content and potential for erosion.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial building development",
+      "Agricultural land leveling",
+      "Residential landscaping projects",
+      "Foundation preparation for additions",
+      "Driveway and parking area grading"
+    ],
+    "seasonalNotes": "Spring in Xenia often brings heavy rainfall, which can impact excavation and grading. It's essential to manage stormwater runoff during lot preparation. Winter can cause frozen ground, potentially delaying projects unless proper cold-weather techniques are employed.",
+    "localRegulations": "Lot preparation in Xenia is subject to Greene County building codes and zoning regulations. Permits are typically required for grading, excavation, and stormwater management. Liteworks Co. is familiar with these regulations and can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Solid Foundation",
+      "description": "Proper lot preparation ensures a stable and level base for your construction project, preventing future structural issues."
+    },
+    {
+      "title": "Optimal Drainage",
+      "description": "Effective grading and drainage solutions prevent water accumulation and potential damage to your property's foundation."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Our techniques minimize soil erosion, protecting the environment and preserving the integrity of your land."
+    },
+    {
+      "title": "Code Compliance",
+      "description": "We ensure your lot preparation meets all local regulations and building codes in Xenia and Greene County."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-prepared lot enhances the overall value and appeal of your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough evaluation of your property, including soil testing, topographic surveys, and drainage analysis."
+    },
+    {
+      "step": "Clearing and Grubbing",
+      "description": "We remove trees, vegetation, and debris from the site to prepare it for grading and excavation."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "We reshape the land to achieve the desired elevation and slope, ensuring proper drainage and stability."
+    },
+    {
+      "step": "Soil Stabilization",
+      "description": "We implement soil stabilization techniques, such as compaction or the addition of soil amendments, to improve soil bearing capacity."
+    },
+    {
+      "step": "Erosion Control Measures",
+      "description": "We install erosion control measures, such as silt fences and sediment basins, to protect the surrounding environment."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$3,500 - $15,000",
+    "factors": [
+      "Lot size and complexity",
+      "Amount of clearing and excavation required",
+      "Soil conditions and stabilization needs",
+      "Drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "Pricing varies depending on the specific requirements of each project. Contact us for a free estimate."
+  },
+  "faqs": [
+    {
+      "question": "What permits are required for lot preparation in Xenia?",
+      "answer": "Permits may be required from Greene County for grading, excavation, and stormwater management. We can assist you in determining the necessary permits and navigating the application process."
+    },
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project, as well as weather conditions. Simple projects may take a few days, while more complex projects can take several weeks."
+    },
+    {
+      "question": "What is soil stabilization, and why is it important?",
+      "answer": "Soil stabilization improves the load-bearing capacity and stability of the soil, preventing settling and structural issues. It's particularly important in areas with clay-rich soils like those found in Xenia."
+    },
+    {
+      "question": "How do you handle drainage during lot preparation?",
+      "answer": "We use grading techniques and drainage systems to ensure proper water runoff and prevent water accumulation on your property. This may include installing swales, French drains, or culverts."
+    },
+    {
+      "question": "Do you offer lot clearing services?",
+      "answer": "Yes, we provide comprehensive lot clearing services, including tree removal, vegetation removal, and debris removal."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "We provide lot preparation services throughout Greene County, including Xenia, Beavercreek, Fairborn, and Yellow Springs."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "dayton-oh",
+    "springfield-oh"
+  ],
+  "_generated": "2026-03-12T14:30:39.801Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,116 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-hamilton-oh",
+  "metaTitle": "Pool Removal in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Professional pool removal services in Hamilton, OH by Liteworks Co. We handle everything from demolition to site restoration. Get a free quote today!",
+  "h1": "Hamilton, OH Pool Removal Services",
+  "heroText": "Liteworks Co. provides expert pool removal services in Hamilton, Ohio, and throughout Butler County. Whether you're dealing with an old, unused pool or need to reclaim your backyard space, our team ensures a safe and efficient removal process, followed by thorough site restoration. We're committed to delivering quality workmanship and exceptional customer service to Hamilton residents.",
+  "localContext": {
+    "terrain": "Hamilton, OH is characterized by rolling hills and flatlands along the Great Miami River. The area features a mix of residential, commercial, and industrial properties.",
+    "soilConditions": "The soil conditions in Hamilton typically consist of clay loam, with areas closer to the river potentially having alluvial deposits and a higher water table. Drainage can be a concern in some areas due to the clay content.",
+    "commonProjects": [
+      "Inground pool removals",
+      "Above-ground pool demolitions",
+      "Pool filling and compaction",
+      "Backyard grading and landscaping",
+      "Concrete patio and deck removal",
+      "Foundation repair due to pool proximity"
+    ],
+    "seasonalNotes": "Hamilton experiences distinct seasons, with pool removals being most favorable during the drier months of late spring, summer, and early fall. Winter projects are possible but may be subject to weather delays.",
+    "localRegulations": "Pool removal in Hamilton, OH, requires adherence to local building codes and permitting processes. It's essential to disconnect utilities properly and follow guidelines for demolition and site restoration. Liteworks Co. handles all necessary permits and ensures compliance with Hamilton regulations."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted pool can increase your property value by making your backyard more appealing to potential buyers."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the safety hazards associated with an unused or poorly maintained pool, especially important for families with young children."
+    },
+    {
+      "title": "Reclaim Your Backyard",
+      "description": "Gain valuable outdoor space for recreation, gardening, or other landscaping projects."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Stop spending money on pool maintenance, chemicals, and repairs for a pool you no longer use."
+    },
+    {
+      "title": "Environmental Benefits",
+      "description": "Prevent potential water contamination and reduce the risk of stagnant water issues."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Consultation and Site Assessment",
+      "description": "We begin with a thorough assessment of your pool and property to determine the best removal approach."
+    },
+    {
+      "step": "2. Permitting and Utility Disconnection",
+      "description": "Liteworks Co. handles all necessary permits and ensures proper disconnection of utilities to comply with Hamilton regulations."
+    },
+    {
+      "step": "3. Pool Demolition and Removal",
+      "description": "Our team carefully demolishes the pool structure and removes all debris from the site."
+    },
+    {
+      "step": "4. Filling and Compaction",
+      "description": "We fill the excavation with compacted soil to ensure stability and prevent settling."
+    },
+    {
+      "step": "5. Site Restoration",
+      "description": "We restore the area to your specifications, including grading, topsoil, and seeding or landscaping."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$5,000 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above-ground)",
+      "Accessibility to the pool area",
+      "Materials used for pool construction (concrete, vinyl, fiberglass)",
+      "Desired level of site restoration (grading, seeding, landscaping)",
+      "Permitting fees and disposal costs"
+    ],
+    "note": "These are estimates only. Contact us for a free, personalized quote for your Hamilton pool removal project."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "Most pool removal projects in Hamilton take between 3-7 days, depending on the complexity and size of the pool."
+    },
+    {
+      "question": "Do I need a permit to remove my pool in Hamilton?",
+      "answer": "Yes, a permit is typically required for pool removal in Hamilton, OH. Liteworks Co. will handle the permitting process for you."
+    },
+    {
+      "question": "What is the difference between a partial and full pool removal?",
+      "answer": "A partial pool removal involves demolishing the top portion of the pool and filling the remaining space. A full pool removal involves completely removing all pool structures and debris."
+    },
+    {
+      "question": "What happens to the debris from the pool?",
+      "answer": "We haul away all debris and dispose of it responsibly at a licensed recycling or disposal facility."
+    },
+    {
+      "question": "Will you restore my backyard after the pool is removed?",
+      "answer": "Yes, we offer complete site restoration services, including grading, topsoil, seeding, and landscaping."
+    },
+    {
+      "question": "Is Liteworks Co. insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured for all pool removal and excavation services in Hamilton, OH."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:09:07.276Z",
+  "_model": "gemini-2.0-flash"
+}

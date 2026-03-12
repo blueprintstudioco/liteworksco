@@ -1,0 +1,116 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Pool Removal",
+  "slug": "pool-removal-franklin-oh",
+  "metaTitle": "Pool Removal in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Professional pool removal services in Franklin, OH by Liteworks Co. Safe, efficient, and cost-effective pool demolition and site restoration. Call (513) 927-9675 for a free quote.",
+  "h1": "Franklin, OH Pool Removal Services",
+  "heroText": "Liteworks Co. provides expert pool removal services in Franklin, Ohio, and the surrounding Warren County area. We handle everything from draining and demolition to backfilling and site restoration, ensuring a smooth and hassle-free process for homeowners looking to reclaim their backyard space.",
+  "localContext": {
+    "terrain": "Franklin, OH, is situated in the rolling hills of southwestern Ohio, near the Great Miami River. The area features a mix of flatlands and gently sloping terrain.",
+    "soilConditions": "The soil in Franklin is typically a mix of clay and shale, which can present challenges for excavation and backfilling. Proper compaction is crucial for pool removal projects.",
+    "commonProjects": [
+      "Inground pool removal",
+      "Above-ground pool demolition",
+      "Pool filling and compaction",
+      "Site restoration and landscaping",
+      "Concrete pool deck removal",
+      "Underground utility capping"
+    ],
+    "seasonalNotes": "Wet spring weather can impact scheduling and increase the need for proper drainage during pool removal. Winter months may bring frozen ground conditions, potentially affecting excavation efficiency.",
+    "localRegulations": "Pool removal in Franklin, OH, may require permits from the city and adherence to specific safety regulations. Liteworks Co. ensures all projects comply with local codes and ordinances."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Removing an unwanted or dilapidated pool can significantly increase your property value and make your yard more appealing to potential buyers."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Eliminate the risk of accidents, especially for families with young children or pets, by removing a pool that is no longer in use."
+    },
+    {
+      "title": "More Usable Space",
+      "description": "Reclaim your backyard and create more space for outdoor activities, gardening, or simply relaxing."
+    },
+    {
+      "title": "Reduced Maintenance Costs",
+      "description": "Say goodbye to the ongoing expenses of pool maintenance, including chemicals, cleaning, and repairs."
+    },
+    {
+      "title": "Professional and Reliable Service",
+      "description": "Liteworks Co. provides expert pool removal services with a focus on safety, efficiency, and customer satisfaction."
+    }
+  ],
+  "process": [
+    {
+      "step": "1. Consultation and Assessment",
+      "description": "We begin with a thorough assessment of your pool and property to determine the best removal approach and provide an accurate quote."
+    },
+    {
+      "step": "2. Permitting and Preparation",
+      "description": "We handle all necessary permits and prepare the site for demolition, including disconnecting utilities and ensuring proper safety measures."
+    },
+    {
+      "step": "3. Pool Demolition and Removal",
+      "description": "Our experienced team carefully demolishes the pool structure and removes all debris from the site."
+    },
+    {
+      "step": "4. Backfilling and Compaction",
+      "description": "We backfill the excavated area with appropriate materials, compacting the soil to ensure stability and prevent settling."
+    },
+    {
+      "step": "5. Site Restoration",
+      "description": "We restore the area to your desired condition, including grading, topsoil, and seeding or sodding."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$3,500",
+    "averageRange": "$4,500 - $12,000",
+    "factors": [
+      "Pool size and type (inground vs. above-ground)",
+      "Accessibility to the pool area",
+      "Materials used for backfilling",
+      "Complexity of demolition",
+      "Extent of site restoration"
+    ],
+    "note": "Pricing can vary based on the specific requirements of each project. Contact us for a free, personalized quote."
+  },
+  "faqs": [
+    {
+      "question": "How long does pool removal take?",
+      "answer": "The duration of a pool removal project typically ranges from 3-7 days, depending on the size and complexity of the pool and the extent of site restoration."
+    },
+    {
+      "question": "Do I need a permit for pool removal in Franklin, OH?",
+      "answer": "Yes, a permit is generally required for pool removal in Franklin. Liteworks Co. can assist you with the permitting process."
+    },
+    {
+      "question": "What happens to the pool debris?",
+      "answer": "We dispose of all pool debris in an environmentally responsible manner, adhering to local regulations and guidelines."
+    },
+    {
+      "question": "Will removing my pool damage my yard?",
+      "answer": "We take precautions to minimize disruption to your yard and restore the area to your desired condition after pool removal."
+    },
+    {
+      "question": "Is it better to fill in a pool or completely remove it?",
+      "answer": "Complete pool removal is generally recommended as it eliminates potential future issues, such as settling or drainage problems. Filling in a pool can be a less expensive option, but it may not provide the same long-term stability."
+    },
+    {
+      "question": "How much does it cost to get an above ground pool removed?",
+      "answer": "Above ground pool removals are less intensive and generally cost less than in-ground pool removals. Prices typically range from $1,500 to $4,000 depending on size, material, and complexity."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "loveland-oh"
+  ],
+  "_generated": "2026-03-12T14:25:07.438Z",
+  "_model": "gemini-2.0-flash"
+}

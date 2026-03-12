@@ -1,0 +1,116 @@
+{
+  "city": "New Richmond",
+  "state": "OH",
+  "service": "Grading & Earthwork",
+  "slug": "grading-new-richmond-oh",
+  "metaTitle": "Grading & Earthwork in New Richmond, OH | Liteworks Co.",
+  "metaDescription": "Expert grading and earthwork services in New Richmond, OH by Liteworks Co. Ensure proper site preparation for construction and landscaping projects.",
+  "h1": "Grading & Earthwork Services in New Richmond, OH",
+  "heroText": "Liteworks Co. provides professional grading and earthwork services in New Richmond, Ohio. We specialize in preparing sites for construction, landscaping, and other projects, ensuring proper drainage and stability. Our experienced team understands the unique soil conditions of Clermont County and delivers reliable results.",
+  "localContext": {
+    "terrain": "New Richmond is located along the Ohio River and features rolling hills and river bottom land. This varied terrain requires careful grading and earthwork to ensure stable building sites and proper drainage.",
+    "soilConditions": "The soil in the New Richmond area typically consists of clay, silt loam, and some shale deposits. These soils can present challenges with drainage and compaction, requiring specific techniques for effective grading and earthwork.",
+    "commonProjects": [
+      "Residential site preparation for new homes",
+      "Land grading for landscaping and gardens",
+      "Erosion control and drainage improvements",
+      "Driveway and parking area construction",
+      "Retaining wall installation",
+      "Foundation excavation and backfilling"
+    ],
+    "seasonalNotes": "Spring and fall often bring heavy rainfall in New Richmond, which can impact grading and earthwork projects. Proper planning and erosion control measures are essential during these seasons. Winter can bring frozen ground, which may delay projects.",
+    "localRegulations": "Grading and earthwork projects in New Richmond are subject to Clermont County regulations, including requirements for erosion control, stormwater management, and building permits. Liteworks Co. is familiar with these regulations and can ensure compliance."
+  },
+  "benefits": [
+    {
+      "title": "Proper Site Preparation",
+      "description": "Ensure a stable and level foundation for your construction or landscaping project with our expert grading services."
+    },
+    {
+      "title": "Improved Drainage",
+      "description": "Prevent water damage and erosion with properly designed and installed drainage systems."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Protect your property and the surrounding environment with effective erosion control measures."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "Enhance the aesthetic appeal and functionality of your property with professional grading and earthwork."
+    },
+    {
+      "title": "Compliance with Regulations",
+      "description": "Ensure your project meets all local and state regulations with our experienced team."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation",
+      "description": "We'll discuss your project goals, assess the site conditions, and provide a detailed estimate."
+    },
+    {
+      "step": "Site Survey and Planning",
+      "description": "Our team will conduct a thorough site survey and develop a comprehensive grading plan."
+    },
+    {
+      "step": "Grading and Earthwork",
+      "description": "We'll use the appropriate equipment and techniques to grade the site according to the plan, ensuring proper compaction and drainage."
+    },
+    {
+      "step": "Erosion Control Measures",
+      "description": "We'll implement erosion control measures to protect the site and surrounding areas from sediment runoff."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We'll conduct a final inspection to ensure the project meets our high standards and your satisfaction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$500",
+    "averageRange": "$1,500 - $5,000",
+    "factors": [
+      "Size of the project",
+      "Complexity of the grading",
+      "Soil conditions",
+      "Drainage requirements",
+      "Erosion control measures"
+    ],
+    "note": "These are estimates only. Contact us for a free, accurate quote based on your specific project needs in New Richmond, OH."
+  },
+  "faqs": [
+    {
+      "question": "What is grading and earthwork?",
+      "answer": "Grading and earthwork involve moving and shaping soil to create a level or sloped surface for construction, landscaping, or other purposes. It also includes ensuring proper drainage and stability."
+    },
+    {
+      "question": "Why is grading important?",
+      "answer": "Proper grading is crucial for preventing water damage, erosion, and foundation problems. It also ensures a stable base for construction and landscaping."
+    },
+    {
+      "question": "How much does grading cost in New Richmond?",
+      "answer": "The cost of grading varies depending on the size and complexity of the project. Contact us for a free, accurate quote."
+    },
+    {
+      "question": "Do I need a permit for grading?",
+      "answer": "In many cases, a permit is required for grading projects in New Richmond. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How long does grading take?",
+      "answer": "The duration of a grading project depends on the size and complexity of the project. We'll provide you with an estimated timeline during the initial consultation."
+    },
+    {
+      "question": "What type of equipment do you use for grading?",
+      "answer": "We use a variety of equipment, including bulldozers, excavators, skid steers, and graders, to ensure efficient and accurate grading."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:41:26.136Z",
+  "_model": "gemini-2.0-flash"
+}

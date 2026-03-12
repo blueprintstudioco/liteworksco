@@ -1,0 +1,113 @@
+{
+  "slug": "neighbor-runoff-flooding",
+  "title": "Neighbor's Runoff Flooding My Yard - Solutions | Liteworks Co.",
+  "metaTitle": "Neighbor's Runoff Flooding My Yard? Solutions Here!",
+  "metaDescription": "Is your neighbor's runoff causing flooding in your yard? Liteworks Co. provides expert solutions in Greater Cincinnati, Northern KY, and SE Indiana. Learn about causes, DIY fixes, and when to call a professional.",
+  "h1": "Help! My Neighbor's Runoff is Flooding My Yard!",
+  "problemDescription": "It's incredibly frustrating when your yard becomes a swamp after every rain because of water runoff from your neighbor's property. You work hard to maintain your property, and dealing with constant flooding can damage your landscaping, create mosquito breeding grounds, and even threaten your home's foundation. You're probably searching for answers and solutions to this annoying and potentially costly problem. You need a way to manage the water and protect your property, and you're hoping to find a solution that's both effective and affordable.",
+  "causes": [
+    {
+      "cause": "Property Grading Issues",
+      "explanation": "If your neighbor's property is graded in a way that directs water towards your yard, it can cause significant runoff issues."
+    },
+    {
+      "cause": "Lack of Proper Drainage",
+      "explanation": "Your neighbor's property may lack adequate drainage systems, such as gutters, downspouts, or French drains, leading to uncontrolled water flow."
+    },
+    {
+      "cause": "Impervious Surfaces",
+      "explanation": "Excessive paved areas (driveways, patios) on your neighbor's property can increase runoff volume as rainwater cannot be absorbed into the ground."
+    },
+    {
+      "cause": "Overwatering/Irrigation",
+      "explanation": "Excessive watering of lawns and gardens on your neighbor's property can contribute to runoff, especially if their irrigation system is poorly managed."
+    },
+    {
+      "cause": "Soil Compaction",
+      "explanation": "Compacted soil on your neighbor's property reduces water absorption, increasing the amount of runoff directed towards your yard."
+    },
+    {
+      "cause": "Altered Landscaping",
+      "explanation": "Changes to your neighbor's landscaping, such as removing trees or vegetation, can reduce water retention and increase runoff."
+    }
+  ],
+  "solutions": [
+    {
+      "solution": "Open Communication with Your Neighbor",
+      "description": "The first step is always to talk to your neighbor. They might not be aware of the problem or its impact on your property. A friendly conversation can often lead to a mutually agreeable solution. This is often the easiest and least expensive first step.",
+      "estimatedCost": "$0",
+      "timeline": "Ongoing",
+      "effectiveness": "Potentially temporary or permanent, depending on the outcome of the conversation"
+    },
+    {
+      "solution": "DIY Rain Garden or Swale",
+      "description": "Creating a rain garden or swale on your property can help capture and absorb runoff before it causes flooding. This involves digging a shallow depression and planting water-loving plants. This is a good option if the volume of water is not too great.",
+      "estimatedCost": "$100 - $500 (depending on size and materials)",
+      "timeline": "1-2 weekends",
+      "effectiveness": "Moderate, if properly designed and maintained"
+    },
+    {
+      "solution": "Install a French Drain",
+      "description": "A French drain is a trench filled with gravel and a perforated pipe that redirects water away from your property. This is a more involved DIY project but can be very effective. You'll need to research proper installation techniques.",
+      "estimatedCost": "$300 - $1000 (depending on length and materials)",
+      "timeline": "2-3 weekends",
+      "effectiveness": "High, if properly installed"
+    },
+    {
+      "solution": "Professional Grading and Drainage Correction",
+      "description": "A professional excavation company can assess the situation and implement a comprehensive drainage solution. This might involve regrading your property, installing subsurface drainage systems, or building retaining walls. This is often the best option for significant or persistent flooding problems.",
+      "estimatedCost": "$2,000 - $10,000+ (depending on the scope of the project)",
+      "timeline": "1-5 days",
+      "effectiveness": "Permanent fix"
+    },
+    {
+      "solution": "Legal Consultation",
+      "description": "If communication with your neighbor fails and the runoff problem persists, consulting with an attorney may be necessary. They can advise you on your legal options and potential recourse.",
+      "estimatedCost": "$200+ (for consultation)",
+      "timeline": "Ongoing",
+      "effectiveness": "Depends on legal outcome"
+    }
+  ],
+  "warningSignsToActNow": [
+    "Water pooling near your home's foundation",
+    "Erosion of soil around your foundation",
+    "Water entering your basement or crawl space",
+    "Visible cracks in your foundation",
+    "Standing water that persists for more than 24 hours after rainfall"
+  ],
+  "preventionTips": [
+    "Maintain healthy vegetation to absorb water.",
+    "Ensure your own gutters and downspouts are functioning correctly.",
+    "Direct downspouts away from your foundation.",
+    "Avoid overwatering your lawn and garden.",
+    "Consider installing permeable pavers for patios and walkways."
+  ],
+  "faqs": [
+    {
+      "question": "Who is responsible for water runoff between properties?",
+      "answer": "Generally, property owners are responsible for managing water runoff on their own land and preventing it from negatively impacting neighboring properties. Local ordinances may vary, so it's best to check with your city or county."
+    },
+    {
+      "question": "Can I force my neighbor to fix their drainage issues?",
+      "answer": "It depends on local laws and the severity of the problem. If you've tried communicating with your neighbor and the issue persists, consulting with an attorney is recommended to explore your legal options."
+    },
+    {
+      "question": "How do I know if I need professional help with drainage?",
+      "answer": "If you're experiencing significant flooding, foundation problems, or are unsure how to address the issue yourself, it's best to consult with a professional excavation or drainage company."
+    },
+    {
+      "question": "What is a French drain and how does it work?",
+      "answer": "A French drain is a trench filled with gravel and a perforated pipe that redirects water away from a specific area. Water flows into the gravel, then into the pipe, which carries it to a designated drainage point."
+    },
+    {
+      "question": "How much does it cost to fix water runoff problems?",
+      "answer": "The cost varies greatly depending on the severity of the problem and the chosen solution. DIY options like rain gardens are relatively inexpensive, while professional drainage correction can cost several thousand dollars."
+    },
+    {
+      "question": "Will my homeowner's insurance cover water runoff damage?",
+      "answer": "Typically, homeowner's insurance does not cover damage caused by surface water runoff. Flood insurance may be required in certain areas prone to flooding."
+    }
+  ],
+  "_generated": "2026-03-12T13:35:00.140Z",
+  "_model": "gemini-2.0-flash"
+}

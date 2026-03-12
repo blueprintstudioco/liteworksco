@@ -1,0 +1,112 @@
+{
+  "city": "New Richmond",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-new-richmond-oh",
+  "metaTitle": "Drainage Solutions in New Richmond, OH | Liteworks Co.",
+  "metaDescription": "Solve your drainage problems in New Richmond, OH with Liteworks Co. Expert drainage solutions for Clermont County properties. Call (513) 927-9675 for a quote!",
+  "h1": "Drainage Solutions in New Richmond, OH",
+  "heroText": "Liteworks Co. provides expert drainage solutions for residential and commercial properties in New Richmond, Ohio, and throughout Clermont County. We understand the unique challenges presented by the local geography and soil conditions, and we're committed to providing effective and long-lasting drainage solutions to protect your property.",
+  "localContext": {
+    "terrain": "New Richmond is located along the Ohio River and characterized by rolling hills and river valleys. This topography can lead to significant drainage challenges for properties in the area.",
+    "soilConditions": "The soil in the New Richmond area is predominantly clay-rich, which can be poorly draining and contribute to water accumulation and erosion issues.",
+    "commonProjects": [
+      "French drains",
+      "Surface grading",
+      "Downspout extensions",
+      "Sump pump installation",
+      "Retaining wall drainage",
+      "Erosion control"
+    ],
+    "seasonalNotes": "Spring rains and snowmelt can saturate the ground in New Richmond, making it crucial to have effective drainage systems in place to prevent water damage. Heavy summer storms can also cause flash flooding and erosion if drainage is inadequate.",
+    "localRegulations": "Clermont County and the City of New Richmond have regulations regarding stormwater management and drainage. Liteworks Co. is familiar with these regulations and will ensure that all drainage projects are compliant."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions prevent water from pooling around your foundation, protecting your home from costly water damage, mold growth, and structural issues."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Proper drainage helps to stabilize slopes and prevent soil erosion, protecting your landscape and property from damage."
+    },
+    {
+      "title": "Improve Property Value",
+      "description": "Addressing drainage issues can significantly improve the value and curb appeal of your New Richmond property."
+    },
+    {
+      "title": "Prevent Mosquito Breeding",
+      "description": "Eliminating standing water reduces mosquito breeding grounds, creating a more enjoyable and healthy outdoor environment."
+    },
+    {
+      "title": "Protect Landscaping",
+      "description": "Proper drainage prevents waterlogged soil, which can damage or kill plants, trees, and lawns."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your property to identify drainage problems, evaluate soil conditions, and determine the best solutions."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on our assessment, we design a custom drainage system tailored to your specific needs and budget."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care, using high-quality materials and proven techniques."
+    },
+    {
+      "step": "Final Inspection & Testing",
+      "description": "We conduct a final inspection and testing to ensure that your drainage system is functioning properly and effectively."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Type of drainage system",
+      "Size of the affected area",
+      "Soil conditions",
+      "Accessibility",
+      "Materials used"
+    ],
+    "note": "These are estimated costs. Contact us for a free, no-obligation quote specific to your New Richmond property."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of a drainage problem?",
+      "answer": "Signs include standing water, soggy areas, erosion, foundation cracks, and water in your basement."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a variety of solutions, including French drains, surface grading, downspout extensions, sump pump installation, and retaining wall drainage."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project, but most projects can be completed within a few days."
+    },
+    {
+      "question": "Do you offer warranties on your drainage systems?",
+      "answer": "Yes, we offer warranties on our workmanship and materials. Contact us for details."
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "Yes, Liteworks Co. is fully licensed and insured to provide drainage solutions in New Richmond, OH, and throughout Clermont County."
+    },
+    {
+      "question": "How much does a drainage project cost?",
+      "answer": "Drainage project costs vary greatly. Call us today for a free estimate."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:41:36.148Z",
+  "_model": "gemini-2.0-flash"
+}

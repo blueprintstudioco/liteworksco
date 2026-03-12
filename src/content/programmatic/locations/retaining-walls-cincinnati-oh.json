@@ -1,0 +1,115 @@
+{
+  "city": "Cincinnati",
+  "state": "OH",
+  "service": "Retaining Walls",
+  "slug": "retaining-walls-cincinnati-oh",
+  "metaTitle": "Retaining Walls in Cincinnati, OH | Liteworks Co.",
+  "metaDescription": "Expert retaining wall installation and repair in Cincinnati, OH. Liteworks Co. provides durable, aesthetically pleasing retaining wall solutions tailored to Cincinnati's unique landscape.",
+  "h1": "Retaining Walls in Cincinnati, OH",
+  "heroText": "Liteworks Co. specializes in designing and building retaining walls throughout Cincinnati, Ohio. We understand the unique challenges posed by Cincinnati's hilly terrain and varied soil conditions. Our retaining walls are engineered for stability and longevity, protecting your property and enhancing its curb appeal.",
+  "localContext": {
+    "terrain": "Cincinnati is characterized by rolling hills, river valleys, and steep slopes, particularly in areas like Mount Adams, Clifton, and Price Hill.",
+    "soilConditions": "The soil in Cincinnati is predominantly clay, with shale bedrock. This can lead to issues with drainage and soil stability, making proper retaining wall design and construction crucial.",
+    "commonProjects": [
+      "Erosion control on sloped properties",
+      "Terracing gardens and landscapes",
+      "Stabilizing hillsides for new construction",
+      "Creating level areas for patios and outdoor living spaces",
+      "Preventing soil runoff near the Ohio River and its tributaries"
+    ],
+    "seasonalNotes": "Cincinnati experiences freeze-thaw cycles during the winter, which can put stress on retaining walls. Proper drainage is essential to prevent water buildup and potential damage. Spring rains can also exacerbate erosion issues if retaining walls are not properly maintained.",
+    "localRegulations": "Retaining walls in Cincinnati are subject to local building codes and permitting requirements, especially those exceeding a certain height. Liteworks Co. is familiar with these regulations and can ensure your project is compliant."
+  },
+  "benefits": [
+    {
+      "title": "Erosion Control",
+      "description": "Protect your Cincinnati property from soil erosion and landslides, common issues given the city's hilly topography."
+    },
+    {
+      "title": "Increased Usable Space",
+      "description": "Create level areas for gardens, patios, or other outdoor living spaces on sloped terrain."
+    },
+    {
+      "title": "Improved Property Value",
+      "description": "Enhance the aesthetic appeal and functionality of your property with a well-designed and constructed retaining wall."
+    },
+    {
+      "title": "Water Management",
+      "description": "Direct water flow away from your foundation and prevent water damage."
+    },
+    {
+      "title": "Structural Support",
+      "description": "Provide vital support to unstable slopes and prevent soil movement that could damage buildings or infrastructure."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We evaluate your Cincinnati property, considering soil conditions, slope, drainage, and local regulations."
+    },
+    {
+      "step": "Design & Planning",
+      "description": "Our team develops a customized retaining wall design that meets your specific needs and aesthetic preferences."
+    },
+    {
+      "step": "Material Selection",
+      "description": "We help you choose the right materials for your retaining wall, considering durability, cost, and appearance. Options include concrete blocks, natural stone, and timber."
+    },
+    {
+      "step": "Construction",
+      "description": "Our experienced crew carefully constructs your retaining wall, ensuring proper drainage and structural integrity."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a thorough inspection to ensure your retaining wall meets our high standards and local building codes."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$30 per square foot",
+    "averageRange": "$45 - $75 per square foot",
+    "factors": [
+      "Wall height",
+      "Materials used",
+      "Site accessibility",
+      "Drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "These are estimates only. Contact us for a free, no-obligation quote specific to your Cincinnati retaining wall project."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for a retaining wall in Cincinnati?",
+      "answer": "Yes, in most cases, a permit is required for retaining walls exceeding a certain height. We can help you navigate the permitting process."
+    },
+    {
+      "question": "What type of materials are best for retaining walls in Cincinnati?",
+      "answer": "The best material depends on your budget, aesthetic preferences, and site conditions. Common options include concrete blocks, natural stone, and treated timber."
+    },
+    {
+      "question": "How long does it take to build a retaining wall?",
+      "answer": "The construction time varies depending on the size and complexity of the project. A small retaining wall may take a few days, while a larger wall could take several weeks."
+    },
+    {
+      "question": "What is the lifespan of a retaining wall?",
+      "answer": "With proper construction and maintenance, a retaining wall can last for many years. The lifespan depends on the materials used and the environmental conditions."
+    },
+    {
+      "question": "How important is drainage for a retaining wall?",
+      "answer": "Proper drainage is crucial to prevent water buildup behind the wall, which can lead to instability and failure. We always incorporate effective drainage solutions into our retaining wall designs."
+    },
+    {
+      "question": "What areas of Cincinnati do you serve?",
+      "answer": "We provide retaining wall services throughout the Greater Cincinnati area, including Hyde Park, Oakley, Mount Lookout, Anderson Township, and more."
+    }
+  ],
+  "nearbyAreas": [
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh",
+    "batavia-oh"
+  ],
+  "_generated": "2026-03-12T13:45:30.148Z",
+  "_model": "gemini-2.0-flash"
+}

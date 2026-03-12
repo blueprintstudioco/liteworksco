@@ -1,0 +1,112 @@
+{
+  "city": "Franklin",
+  "state": "OH",
+  "service": "Land Clearing",
+  "slug": "land-clearing-franklin-oh",
+  "metaTitle": "Land Clearing in Franklin, OH | Liteworks Co.",
+  "metaDescription": "Need land clearing in Franklin, OH? Liteworks Co. provides expert land clearing services for residential and commercial properties. Call (513) 927-9675 for a free quote!",
+  "h1": "Land Clearing in Franklin, OH",
+  "heroText": "Liteworks Co. offers professional land clearing services in Franklin, Ohio, and the surrounding areas. We handle everything from small residential lots to large commercial properties, ensuring efficient and environmentally responsible clearing for your next project.",
+  "localContext": {
+    "terrain": "Franklin, Ohio, features a mix of rolling hills and flatlands, particularly near the Great Miami River. The area is characterized by a transition from agricultural land to developing residential and commercial zones.",
+    "soilConditions": "The soil in Franklin is primarily composed of silty loam with clay subsoil. Drainage can be an issue in certain areas, especially after heavy rainfall. Some areas may also contain gravel deposits.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial development",
+      "Agricultural land preparation",
+      "Erosion control projects",
+      "Utility installation",
+      "Pond and water feature creation"
+    ],
+    "seasonalNotes": "Spring and fall are ideal for land clearing in Franklin, avoiding the extreme heat of summer and the frozen ground of winter. Wet spring conditions can sometimes delay projects, so proper planning is essential. Leaf removal is a major part of fall clearing.",
+    "localRegulations": "Land clearing in Franklin, OH, is subject to local zoning and environmental regulations. Permits may be required for tree removal, erosion control, and stormwater management. It's important to check with the City of Franklin Planning and Zoning Department before starting any land clearing project."
+  },
+  "benefits": [
+    {
+      "title": "Increased Property Value",
+      "description": "Clearing land can significantly increase your property's value, making it more attractive for development or sale."
+    },
+    {
+      "title": "Enhanced Safety",
+      "description": "Removing trees, brush, and debris reduces the risk of fire, pest infestations, and other hazards."
+    },
+    {
+      "title": "Improved Aesthetics",
+      "description": "A cleared and well-maintained property enhances its visual appeal and creates a more welcoming environment."
+    },
+    {
+      "title": "Optimal Site Preparation",
+      "description": "Proper land clearing ensures a solid foundation for construction, landscaping, or other development projects."
+    },
+    {
+      "title": "Environmentally Responsible Practices",
+      "description": "Liteworks Co. employs environmentally conscious land clearing techniques to minimize impact on the local ecosystem."
+    }
+  ],
+  "process": [
+    {
+      "step": "Initial Consultation and Site Assessment",
+      "description": "We begin with a thorough site assessment to understand your specific needs and identify any potential challenges, such as soil conditions or environmental concerns."
+    },
+    {
+      "step": "Planning and Permitting",
+      "description": "We develop a detailed land clearing plan and obtain all necessary permits from the City of Franklin to ensure compliance with local regulations."
+    },
+    {
+      "step": "Clearing and Removal",
+      "description": "Our experienced team uses specialized equipment to safely and efficiently remove trees, brush, and other vegetation from the site."
+    },
+    {
+      "step": "Debris Disposal and Site Preparation",
+      "description": "We handle all debris disposal in an environmentally responsible manner and prepare the site for your intended use, including grading and erosion control measures."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$2,500 - $15,000+",
+    "factors": [
+      "Size of the area to be cleared",
+      "Density and type of vegetation",
+      "Soil conditions and terrain",
+      "Accessibility of the site",
+      "Debris disposal requirements"
+    ],
+    "note": "These are estimates only. Contact Liteworks Co. for a free, accurate quote based on your specific land clearing needs in Franklin, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does land clearing take?",
+      "answer": "The duration of a land clearing project depends on the size and complexity of the site. Small residential lots can often be cleared in a few days, while larger commercial properties may take several weeks."
+    },
+    {
+      "question": "Do I need a permit for land clearing in Franklin?",
+      "answer": "Yes, in most cases, a permit is required for land clearing in Franklin, OH. Liteworks Co. can assist you with the permitting process to ensure compliance with local regulations."
+    },
+    {
+      "question": "What happens to the debris after land clearing?",
+      "answer": "Liteworks Co. is committed to environmentally responsible debris disposal. We recycle materials whenever possible and dispose of non-recyclable debris at approved facilities."
+    },
+    {
+      "question": "Can you handle erosion control during land clearing?",
+      "answer": "Yes, we provide comprehensive erosion control services to protect the soil and prevent runoff during and after land clearing."
+    },
+    {
+      "question": "What types of properties do you clear?",
+      "answer": "We clear land for a variety of properties, including residential lots, commercial developments, agricultural land, and more."
+    },
+    {
+      "question": "How much does land clearing cost?",
+      "answer": "The cost of land clearing varies depending on several factors, including the size of the area, the density of vegetation, and the complexity of the project. Contact us for a free quote."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "lebanon-oh",
+    "middletown-oh"
+  ],
+  "_generated": "2026-03-12T14:24:15.491Z",
+  "_model": "gemini-2.0-flash"
+}

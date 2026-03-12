@@ -1,0 +1,113 @@
+{
+  "slug": "standing-water-in-backyard",
+  "title": "Standing Water in Backyard? Solutions for Cincinnati Homeowners",
+  "metaTitle": "Standing Water in Backyard? Solutions - Liteworks Co.",
+  "metaDescription": "Is standing water ruining your Cincinnati backyard? Liteworks Co. offers expert drainage solutions. Explore DIY fixes & when to call a pro. Call (513) 927-9675.",
+  "h1": "Help! My Backyard is a Swamp!",
+  "problemDescription": "Ugh, I'm so frustrated! Every time it rains, my backyard turns into a muddy mess. The water just sits there for days, attracting mosquitoes and killing my grass. I can't even let my kids play outside. It's not only an eyesore but I'm worried about the long-term damage to my property. I need to find a solution, and fast!",
+  "causes": [
+    {
+      "cause": "Poor Soil Drainage",
+      "explanation": "Clay-heavy soil doesn't allow water to percolate through easily, leading to surface accumulation."
+    },
+    {
+      "cause": "Compacted Soil",
+      "explanation": "Foot traffic, construction, or heavy machinery can compress the soil, reducing its ability to absorb water."
+    },
+    {
+      "cause": "Improper Grading",
+      "explanation": "If your yard slopes towards your house or has low-lying areas, water will naturally collect there."
+    },
+    {
+      "cause": "Clogged Gutters and Downspouts",
+      "explanation": "When gutters are full of leaves and debris, rainwater overflows and can overwhelm your yard's drainage capacity."
+    },
+    {
+      "cause": "High Water Table",
+      "explanation": "A high water table means the groundwater level is close to the surface, making it difficult for rainwater to drain."
+    },
+    {
+      "cause": "Underground Springs",
+      "explanation": "While less common, underground springs can seep to the surface and cause localized pooling."
+    }
+  ],
+  "solutions": [
+    {
+      "solution": "Clear Gutters and Downspouts",
+      "description": "Remove leaves, twigs, and other debris from your gutters and downspouts to ensure proper water flow away from your foundation.",
+      "estimatedCost": "$0 - $50 (DIY) / $75 - $200 (Professional)",
+      "timeline": "1-2 hours",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Aerate Your Lawn",
+      "description": "Use a core aerator to create small holes in your lawn, improving soil drainage and allowing water to penetrate more easily.",
+      "estimatedCost": "$50 - $100 (DIY Rental) / $100 - $300 (Professional)",
+      "timeline": "1 day",
+      "effectiveness": "Temporary"
+    },
+    {
+      "solution": "Regrade Your Yard",
+      "description": "Reshape the landscape to create a gentle slope away from your house, directing water away from the foundation. This often requires professional expertise.",
+      "estimatedCost": "$1,000 - $5,000+",
+      "timeline": "1-3 days",
+      "effectiveness": "Permanent fix"
+    },
+    {
+      "solution": "Install a French Drain",
+      "description": "A French drain is a trench filled with gravel and a perforated pipe that redirects surface and groundwater away from your house. This is best left to professionals.",
+      "estimatedCost": "$1,500 - $6,000+",
+      "timeline": "1-3 days",
+      "effectiveness": "Permanent fix"
+    },
+    {
+      "solution": "Install a Dry Well",
+      "description": "A dry well is an underground storage tank that collects excess water and slowly releases it back into the soil. Professional installation is highly recommended.",
+      "estimatedCost": "$2,000 - $7,000+",
+      "timeline": "2-4 days",
+      "effectiveness": "Permanent fix"
+    }
+  ],
+  "warningSignsToActNow": [
+    "Water pooling directly against your foundation",
+    "Water seeping into your basement or crawl space",
+    "Noticeable cracks in your foundation",
+    "Standing water that persists for more than 24-48 hours after rainfall",
+    "Foul odors emanating from the standing water (indicating bacterial growth)"
+  ],
+  "preventionTips": [
+    "Regularly clean your gutters and downspouts (at least twice a year).",
+    "Aerate your lawn annually to improve soil drainage.",
+    "Avoid overwatering your lawn.",
+    "Direct downspouts away from your foundation.",
+    "Consider planting water-loving plants in areas prone to standing water."
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if I have a drainage problem?",
+      "answer": "If you consistently have standing water in your yard for more than a day or two after it rains, you likely have a drainage problem."
+    },
+    {
+      "question": "Can standing water damage my foundation?",
+      "answer": "Yes, prolonged exposure to water can weaken your foundation, leading to cracks and other structural problems."
+    },
+    {
+      "question": "Is it safe to let my kids play in standing water?",
+      "answer": "No, standing water can contain harmful bacteria, parasites, and chemicals. It's best to keep children away from it."
+    },
+    {
+      "question": "How much does it cost to fix a drainage problem?",
+      "answer": "The cost varies depending on the severity of the problem and the chosen solution. Simple fixes like cleaning gutters are inexpensive, while more complex solutions like installing a French drain can cost several thousand dollars."
+    },
+    {
+      "question": "When should I call a professional?",
+      "answer": "If you've tried DIY solutions and the problem persists, or if you suspect a serious issue like foundation damage, it's best to consult with a professional drainage contractor like Liteworks Co. Give us a call at (513) 927-9675!"
+    },
+    {
+      "question": "Does Liteworks Co. offer free estimates?",
+      "answer": "Yes! We offer free, no-obligation estimates to homeowners in Greater Cincinnati, Northern Kentucky, and Southeast Indiana. Contact us today to schedule yours!"
+    }
+  ],
+  "_generated": "2026-03-12T13:34:11.218Z",
+  "_model": "gemini-2.0-flash"
+}

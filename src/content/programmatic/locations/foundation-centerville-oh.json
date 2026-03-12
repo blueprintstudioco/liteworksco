@@ -1,0 +1,115 @@
+{
+  "city": "Centerville",
+  "state": "OH",
+  "service": "Foundation Work",
+  "slug": "foundation-centerville-oh",
+  "metaTitle": "Foundation Work in Centerville, OH | Liteworks Co.",
+  "metaDescription": "Expert foundation services in Centerville, OH by Liteworks Co. Specializing in new foundations, repairs, and replacements. Call (513) 927-9675 for a free quote.",
+  "h1": "Foundation Work in Centerville, OH",
+  "heroText": "Liteworks Co. provides comprehensive foundation services in Centerville, Ohio, ensuring the stability and longevity of your structure. We understand the unique challenges presented by Centerville's soil conditions and offer tailored solutions for new construction, repairs, and replacements. Trust our experienced team to deliver exceptional results for your home or business.",
+  "localContext": {
+    "terrain": "Gently rolling hills and flat plains characterize Centerville's terrain, influenced by its location in the Miami Valley.",
+    "soilConditions": "The soil in Centerville is predominantly clay-rich, with areas of shale bedrock closer to the surface. This can lead to issues with drainage and soil stability, requiring careful consideration during foundation work.",
+    "commonProjects": [
+      "New home foundations",
+      "Foundation repairs and crack sealing",
+      "Foundation waterproofing",
+      "Basement underpinning",
+      "Slab foundation installation",
+      "Foundation inspections"
+    ],
+    "seasonalNotes": "Centerville experiences freeze-thaw cycles during winter, which can put stress on foundations. Spring rains can also saturate the soil, increasing the risk of hydrostatic pressure. Proper drainage and waterproofing are essential.",
+    "localRegulations": "Foundation work in Centerville, OH, must adhere to the Montgomery County building codes and regulations. Permits are typically required for new foundations and significant repairs. Liteworks Co. can assist with the permitting process."
+  },
+  "benefits": [
+    {
+      "title": "Structural Integrity",
+      "description": "A solid foundation is crucial for the overall stability and safety of your building. Our expert foundation work ensures long-term structural integrity."
+    },
+    {
+      "title": "Waterproofing & Drainage",
+      "description": "We implement effective waterproofing and drainage solutions to protect your foundation from water damage and prevent costly repairs."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-maintained foundation enhances the value and appeal of your property."
+    },
+    {
+      "title": "Expert Craftsmanship",
+      "description": "Our skilled team uses quality materials and proven techniques to deliver exceptional workmanship on every project."
+    },
+    {
+      "title": "Peace of Mind",
+      "description": "With Liteworks Co., you can rest assured that your foundation is in capable hands, providing you with long-term peace of mind."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "We conduct a thorough assessment of the site, including soil testing and analysis, to determine the best foundation solution for your specific needs."
+    },
+    {
+      "step": "Excavation & Grading",
+      "description": "Our team carefully excavates and grades the site, ensuring proper drainage and a level surface for the foundation."
+    },
+    {
+      "step": "Foundation Construction",
+      "description": "We construct the foundation using high-quality materials and precise techniques, adhering to all local building codes and regulations."
+    },
+    {
+      "step": "Waterproofing & Backfilling",
+      "description": "We apply waterproofing membranes and backfill the foundation, ensuring proper drainage and protection from water damage."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure the foundation meets our high standards and your complete satisfaction."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $30,000",
+    "factors": [
+      "Size and complexity of the foundation",
+      "Soil conditions and site accessibility",
+      "Depth of excavation required",
+      "Materials used (concrete, steel, etc.)",
+      "Waterproofing and drainage systems"
+    ],
+    "note": "These are estimates only. Contact us for a free, personalized quote based on your specific project requirements in Centerville, OH."
+  },
+  "faqs": [
+    {
+      "question": "How long does foundation work typically take?",
+      "answer": "The duration of foundation work depends on the size and complexity of the project, but most projects are completed within 1-3 weeks."
+    },
+    {
+      "question": "Do I need a permit for foundation work in Centerville?",
+      "answer": "Yes, permits are typically required for new foundations and significant foundation repairs. Liteworks Co. can assist you with the permitting process."
+    },
+    {
+      "question": "What are the signs of foundation problems?",
+      "answer": "Common signs of foundation problems include cracks in walls or floors, sticking doors and windows, and uneven floors."
+    },
+    {
+      "question": "How can I prevent foundation problems?",
+      "answer": "Proper drainage, maintaining consistent soil moisture levels, and regular foundation inspections can help prevent foundation problems."
+    },
+    {
+      "question": "What type of foundations do you install?",
+      "answer": "We install a variety of foundations including poured concrete, block, and slab foundations, depending on the project requirements and soil conditions."
+    },
+    {
+      "question": "Do you offer foundation inspections?",
+      "answer": "Yes, we offer comprehensive foundation inspections to assess the condition of your foundation and identify any potential problems."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "springboro-oh"
+  ],
+  "_generated": "2026-03-12T14:27:28.107Z",
+  "_model": "gemini-2.0-flash"
+}

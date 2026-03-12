@@ -1,0 +1,115 @@
+{
+  "city": "New Richmond",
+  "state": "OH",
+  "service": "Retaining Walls",
+  "slug": "retaining-walls-new-richmond-oh",
+  "metaTitle": "Retaining Walls in New Richmond, OH | Liteworks Co.",
+  "metaDescription": "Durable and beautiful retaining walls in New Richmond, OH by Liteworks Co. Protect your property from erosion and enhance your landscape. Call (513) 927-9675 for a free quote.",
+  "h1": "Retaining Walls in New Richmond, OH",
+  "heroText": "Liteworks Co. provides expert retaining wall construction services in New Richmond, Ohio. We understand the unique challenges posed by the local terrain and soil conditions, ensuring your retaining wall is both functional and aesthetically pleasing. Whether you're in Historic Downtown New Richmond or a newer development, we're ready to help.",
+  "localContext": {
+    "terrain": "New Richmond is situated along the Ohio River, characterized by sloping terrain and varying elevations. This topography can make retaining walls a necessity for property stabilization and erosion control.",
+    "soilConditions": "The soil in the New Richmond area typically consists of a mix of clay, silt, and some gravel, often with shale bedrock close to the surface. This can present challenges for excavation and foundation work, requiring careful planning and proper drainage solutions.",
+    "commonProjects": [
+      "Erosion control on riverfront properties",
+      "Terracing sloped yards for usable space",
+      "Driveway and parking area support",
+      "Garden and landscape retaining walls",
+      "Foundation stabilization"
+    ],
+    "seasonalNotes": "Spring rains and winter freeze-thaw cycles can significantly impact soil stability in New Richmond. Proper drainage is crucial for retaining wall longevity, especially during these periods.",
+    "localRegulations": "Retaining walls in New Richmond are subject to local building codes and permitting requirements, particularly those exceeding a certain height. Liteworks Co. ensures all projects comply with Clermont County regulations."
+  },
+  "benefits": [
+    {
+      "title": "Erosion Control",
+      "description": "Protect your property from soil erosion caused by rainfall and runoff, preserving your landscape and preventing costly damage."
+    },
+    {
+      "title": "Increased Usable Space",
+      "description": "Transform sloped or uneven terrain into functional areas for patios, gardens, or other outdoor living spaces."
+    },
+    {
+      "title": "Enhanced Property Value",
+      "description": "A well-designed and constructed retaining wall adds aesthetic appeal and structural integrity to your property, increasing its overall value."
+    },
+    {
+      "title": "Improved Drainage",
+      "description": "Properly engineered retaining walls incorporate drainage systems to prevent water buildup and ensure long-term stability."
+    },
+    {
+      "title": "Structural Support",
+      "description": "Provide essential support for driveways, walkways, and other structures built on unstable slopes."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment & Design",
+      "description": "We evaluate your property's specific needs, considering soil conditions, drainage requirements, and aesthetic preferences. We then create a custom design that meets all applicable codes and regulations."
+    },
+    {
+      "step": "Excavation & Foundation",
+      "description": "Our team carefully excavates the site, preparing a solid and level foundation for the retaining wall. Proper compaction and base materials are essential for long-term stability."
+    },
+    {
+      "step": "Wall Construction",
+      "description": "We use high-quality materials such as concrete blocks, natural stone, or timber to construct the retaining wall according to the approved design. We pay close attention to detail, ensuring proper alignment and structural integrity."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "A critical step is installing a proper drainage system behind the wall to prevent water buildup. This typically involves gravel backfill and perforated pipes to redirect water away from the structure."
+    },
+    {
+      "step": "Backfilling & Compaction",
+      "description": "We carefully backfill the area behind the wall with suitable materials, compacting it in layers to ensure stability and prevent settling."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$35 per square foot",
+    "averageRange": "$45 - $75 per square foot",
+    "factors": [
+      "Wall height and length",
+      "Materials used (concrete, stone, timber)",
+      "Site accessibility and excavation requirements",
+      "Drainage system complexity",
+      "Permitting fees"
+    ],
+    "note": "These prices are estimates. Contact Liteworks Co. for a free, detailed quote specific to your New Richmond property."
+  },
+  "faqs": [
+    {
+      "question": "How long will it take to build a retaining wall?",
+      "answer": "The duration depends on the size and complexity of the project, but most residential retaining walls in New Richmond can be completed within 1-2 weeks."
+    },
+    {
+      "question": "Do I need a permit for a retaining wall in New Richmond?",
+      "answer": "Yes, typically any retaining wall over 4 feet in height requires a permit from Clermont County. We can assist you with the permitting process."
+    },
+    {
+      "question": "What materials are best for retaining walls in this area?",
+      "answer": "Concrete blocks, natural stone, and treated timber are all suitable options, depending on your budget, aesthetic preferences, and the specific requirements of your project. We can advise on the best choice for your needs."
+    },
+    {
+      "question": "How important is drainage for a retaining wall?",
+      "answer": "Proper drainage is absolutely crucial for the long-term stability of a retaining wall. Without adequate drainage, water pressure can build up behind the wall, leading to cracking, bulging, or even collapse."
+    },
+    {
+      "question": "How do I maintain my retaining wall?",
+      "answer": "Regularly inspect the wall for cracks, bulges, or other signs of damage. Ensure that drainage systems are clear of debris and functioning properly. Address any issues promptly to prevent further damage."
+    },
+    {
+      "question": "What factors affect the cost of a retaining wall?",
+      "answer": "The cost is influenced by the wall's size, materials, site accessibility, soil conditions, and any necessary permits."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:41:57.206Z",
+  "_model": "gemini-2.0-flash"
+}

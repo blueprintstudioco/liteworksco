@@ -1,0 +1,116 @@
+{
+  "city": "New Richmond",
+  "state": "OH",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-new-richmond-oh",
+  "metaTitle": "Lot Preparation in New Richmond, OH | Liteworks Co.",
+  "metaDescription": "Expert lot preparation services in New Richmond, OH by Liteworks Co. Ensure a solid foundation for your construction project. Call (513) 927-9675 for a quote.",
+  "h1": "Lot Preparation Services in New Richmond, OH",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in New Richmond, Ohio, ensuring your construction project starts on solid ground. We handle everything from initial clearing and grading to soil stabilization and drainage, tailored to the unique landscape of Clermont County.",
+  "localContext": {
+    "terrain": "New Richmond is situated in the rolling hills of Clermont County, near the Ohio River. The terrain is characterized by slopes and varying elevations.",
+    "soilConditions": "The soil in and around New Richmond typically consists of clay and shale, which can present challenges for construction. Proper soil testing and stabilization are crucial.",
+    "commonProjects": [
+      "New home construction",
+      "Land clearing for development",
+      "Driveway and road construction",
+      "Erosion control projects",
+      "Septic system installation",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Spring and fall often bring increased rainfall, which can impact excavation and grading. Proper drainage solutions are essential to manage water runoff. Winter can bring frozen ground conditions.",
+    "localRegulations": "Lot preparation in New Richmond, OH, is subject to Clermont County building codes and regulations. Permits are typically required for grading, excavation, and erosion control. Liteworks Co. can assist with navigating these requirements."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundation",
+      "description": "Proper lot preparation ensures a stable and level base for your construction project, preventing future structural issues."
+    },
+    {
+      "title": "Effective Drainage",
+      "description": "We implement effective drainage solutions to manage water runoff and prevent erosion, protecting your property from water damage."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Our erosion control measures minimize soil loss and protect the surrounding environment during and after construction."
+    },
+    {
+      "title": "Regulatory Compliance",
+      "description": "We ensure your lot preparation project complies with all local regulations and permitting requirements in New Richmond."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-prepared lot enhances the value and appeal of your property, making it more attractive to potential buyers."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your lot, including soil testing, topographic surveys, and identification of potential challenges."
+    },
+    {
+      "step": "Clearing and Grubbing",
+      "description": "We remove trees, vegetation, and debris from the site to prepare it for grading and excavation."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "We grade the lot to achieve the desired slope and elevation, and excavate for foundations, basements, or other underground structures."
+    },
+    {
+      "step": "Soil Stabilization",
+      "description": "We stabilize the soil using compaction, geotextiles, or other methods to ensure a solid and stable base."
+    },
+    {
+      "step": "Drainage Installation",
+      "description": "We install drainage systems, such as French drains or culverts, to manage water runoff and prevent erosion."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$5,000 - $15,000",
+    "factors": [
+      "Lot size and complexity",
+      "Amount of clearing and grading required",
+      "Soil conditions and stabilization needs",
+      "Drainage requirements",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary based on the specific requirements of your project. Contact Liteworks Co. for a detailed estimate."
+  },
+  "faqs": [
+    {
+      "question": "What permits are required for lot preparation in New Richmond?",
+      "answer": "Permits may be required for grading, excavation, erosion control, and stormwater management, depending on the scope of the project. Liteworks Co. can help you determine the necessary permits and assist with the application process."
+    },
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project, as well as weather conditions. Most projects can be completed within a few days to a few weeks."
+    },
+    {
+      "question": "Why is soil testing important?",
+      "answer": "Soil testing helps identify soil composition, stability, and drainage characteristics, allowing us to develop the most effective lot preparation plan for your site."
+    },
+    {
+      "question": "What is erosion control?",
+      "answer": "Erosion control involves implementing measures to prevent soil loss and protect the surrounding environment during and after construction. This may include silt fences, erosion blankets, and vegetation."
+    },
+    {
+      "question": "Do you handle demolition of existing structures?",
+      "answer": "Yes, Liteworks Co. offers demolition services as part of our lot preparation services. We can safely and efficiently remove existing structures and prepare the site for new construction."
+    },
+    {
+      "question": "What happens if unforeseen issues arise during lot preparation?",
+      "answer": "We maintain open communication with our clients throughout the project and address any unforeseen issues promptly and effectively. We'll discuss any necessary changes to the plan and provide transparent pricing updates."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:43:24.414Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,116 @@
+{
+  "city": "Aurora",
+  "state": "IN",
+  "service": "Drainage Solutions",
+  "slug": "drainage-aurora-in",
+  "metaTitle": "Drainage Solutions in Aurora, IN | Liteworks Co.",
+  "metaDescription": "Solve your drainage problems in Aurora, IN with Liteworks Co. Expert drainage solutions for homes and businesses. Call (513) 927-9675 for a free quote!",
+  "h1": "Drainage Solutions in Aurora, IN",
+  "heroText": "Liteworks Co. provides expert drainage solutions for residential and commercial properties in Aurora, Indiana. We understand the unique challenges presented by Southeast Indiana's topography and soil conditions, and we're committed to providing effective and long-lasting drainage solutions to protect your property from water damage.",
+  "localContext": {
+    "terrain": "Aurora is located in the rolling hills of Southeast Indiana, near the Ohio River. This topography can create natural drainage challenges.",
+    "soilConditions": "The soil in Aurora is predominantly clay-rich, which can compact easily and impede water infiltration, leading to standing water and erosion issues. Some areas may also have shale bedrock close to the surface.",
+    "commonProjects": [
+      "French drains",
+      "Surface grading and swales",
+      "Downspout extensions",
+      "Sump pump installation",
+      "Retaining wall drainage",
+      "Erosion control"
+    ],
+    "seasonalNotes": "Spring and early summer are the wettest seasons in Aurora, making drainage issues more apparent. Frozen ground in winter can also exacerbate existing problems as snow melts.",
+    "localRegulations": "Aurora adheres to Indiana state regulations regarding stormwater management and erosion control. Depending on the scope of the project, permits may be required from the city or county. We can help navigate these requirements."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions protect your foundation, landscaping, and property from costly water damage."
+    },
+    {
+      "title": "Control Erosion",
+      "description": "Proper drainage helps prevent soil erosion and maintains the integrity of your land."
+    },
+    {
+      "title": "Eliminate Standing Water",
+      "description": "Say goodbye to mosquito breeding grounds and unsightly puddles with our tailored drainage solutions."
+    },
+    {
+      "title": "Improve Property Value",
+      "description": "A well-drained property is more attractive to potential buyers and can increase your property value."
+    },
+    {
+      "title": "Protect Your Investment",
+      "description": "Investing in drainage solutions is an investment in the long-term health and stability of your property."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation",
+      "description": "We begin with a thorough assessment of your property to identify drainage issues and potential solutions."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on our evaluation, we design a customized drainage plan that addresses your specific needs and budget."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs your drainage system with precision and care, using high-quality materials."
+    },
+    {
+      "step": "Final Inspection",
+      "description": "We conduct a final inspection to ensure your drainage system is working effectively and meets our high standards."
+    },
+    {
+      "step": "Maintenance & Support",
+      "description": "We offer ongoing maintenance and support to keep your drainage system functioning optimally for years to come."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$2,500 - $7,500",
+    "factors": [
+      "Type of drainage system",
+      "Size of the affected area",
+      "Soil conditions",
+      "Accessibility",
+      "Permitting requirements"
+    ],
+    "note": "Pricing can vary significantly based on the complexity and scope of the project. Contact us for a free, no-obligation quote tailored to your specific needs in Aurora, IN."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs include standing water, soggy areas, soil erosion, foundation cracks, and water in your basement."
+    },
+    {
+      "question": "How can I tell if I need a drainage system?",
+      "answer": "If you consistently experience any of the signs of poor drainage, it's likely you need a drainage solution. A professional evaluation can confirm this."
+    },
+    {
+      "question": "What types of drainage systems do you install?",
+      "answer": "We install a variety of drainage systems, including French drains, surface drains, downspout extensions, and sump pumps."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time depends on the complexity of the project, but most projects can be completed within a few days."
+    },
+    {
+      "question": "Do I need a permit for drainage work in Aurora?",
+      "answer": "Depending on the scope of the project, a permit may be required. We can help you determine if a permit is necessary and assist with the application process."
+    },
+    {
+      "question": "How much does a drainage solution cost?",
+      "answer": "The cost of a drainage solution varies depending on the specific needs of your property. Contact us for a free estimate."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "milford-oh"
+  ],
+  "_generated": "2026-03-12T14:59:09.467Z",
+  "_model": "gemini-2.0-flash"
+}

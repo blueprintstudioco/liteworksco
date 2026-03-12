@@ -1,0 +1,115 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Concrete Removal",
+  "slug": "concrete-removal-xenia-oh",
+  "metaTitle": "Concrete Removal in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Expert concrete removal services in Xenia, OH by Liteworks Co. Specializing in efficient and safe concrete demolition and removal for residential and commercial projects.",
+  "h1": "Concrete Removal in Xenia, OH",
+  "heroText": "Liteworks Co. provides professional concrete removal services in Xenia, Ohio, and throughout Greene County. We handle everything from small residential concrete demolition projects to larger commercial site clearing, ensuring efficient and environmentally responsible removal. Our experienced team is equipped to manage all types of concrete removal, tailored to the specific needs of Xenia properties.",
+  "localContext": {
+    "terrain": "Xenia and Greene County feature gently rolling hills and flat plains, influenced by the Miami River and its tributaries. The terrain is conducive to both residential and commercial development, often requiring concrete work for foundations, driveways, and patios.",
+    "soilConditions": "The soil in Xenia is primarily composed of silty clay loam, with areas of shale closer to the river. This soil type can present challenges for concrete work, requiring proper site preparation and drainage to prevent settling and cracking.",
+    "commonProjects": [
+      "Driveway removal and replacement",
+      "Patio and walkway demolition",
+      "Foundation removal for renovations",
+      "Concrete slab removal for new construction",
+      "Removal of concrete steps and retaining walls",
+      "Sidewalk and curb removal"
+    ],
+    "seasonalNotes": "Winters in Xenia can bring freezing temperatures and snow, which can affect concrete removal projects. Spring and fall offer the most favorable conditions. Summer can be hot and humid, potentially impacting project timelines.",
+    "localRegulations": "Concrete removal projects in Xenia may be subject to local regulations regarding permitting, disposal, and environmental impact. It's important to ensure compliance with Greene County and City of Xenia guidelines, especially concerning proper disposal at designated facilities."
+  },
+  "benefits": [
+    {
+      "title": "Safe and Efficient Removal",
+      "description": "We prioritize safety and efficiency in every concrete removal project, minimizing disruption to your property and the surrounding environment."
+    },
+    {
+      "title": "Proper Disposal",
+      "description": "Liteworks Co. ensures that all removed concrete is disposed of responsibly at designated recycling or disposal facilities in compliance with local regulations."
+    },
+    {
+      "title": "Experienced Team",
+      "description": "Our team has extensive experience in concrete removal throughout Greene County, understanding the specific challenges and requirements of the local terrain and soil conditions."
+    },
+    {
+      "title": "Site Preparation",
+      "description": "We can also handle site preparation for your next project, including grading and excavation, after the concrete removal is complete."
+    },
+    {
+      "title": "Minimized Disruption",
+      "description": "We use the right equipment and techniques to minimize noise and dust during the concrete removal process, respecting your neighbors and the surrounding community."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough assessment of the concrete removal project, evaluating the scope, location, and any potential challenges."
+    },
+    {
+      "step": "Planning and Permitting",
+      "description": "We develop a detailed removal plan and obtain any necessary permits from the City of Xenia or Greene County."
+    },
+    {
+      "step": "Concrete Demolition",
+      "description": "Using appropriate equipment, we carefully demolish the concrete structure, minimizing noise and dust."
+    },
+    {
+      "step": "Removal and Disposal",
+      "description": "We remove the broken concrete and transport it to a designated recycling or disposal facility."
+    },
+    {
+      "step": "Site Cleanup",
+      "description": "We clean the site, ensuring it is free of debris and ready for your next project."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$4 per square foot",
+    "averageRange": "$4 - $8 per square foot",
+    "factors": [
+      "Thickness of concrete",
+      "Accessibility of the site",
+      "Amount of reinforcement (rebar)",
+      "Disposal fees",
+      "Permitting requirements"
+    ],
+    "note": "These prices are estimates. Contact us for a free, accurate quote based on your specific concrete removal needs in Xenia, OH."
+  },
+  "faqs": [
+    {
+      "question": "Do I need a permit for concrete removal in Xenia?",
+      "answer": "Depending on the scope and location of the project, a permit may be required. We can help you determine if a permit is needed and assist with the application process."
+    },
+    {
+      "question": "How long does concrete removal take?",
+      "answer": "The duration of the project depends on the size and complexity of the concrete structure. We will provide you with an estimated timeline during the initial assessment."
+    },
+    {
+      "question": "How do you dispose of the concrete?",
+      "answer": "We dispose of concrete at licensed recycling and disposal facilities in compliance with all local regulations. We prioritize recycling whenever possible."
+    },
+    {
+      "question": "What type of equipment do you use for concrete removal?",
+      "answer": "We use a variety of equipment, including jackhammers, excavators, and concrete saws, depending on the specific requirements of the project."
+    },
+    {
+      "question": "Are you insured and licensed?",
+      "answer": "Yes, Liteworks Co. is fully insured and licensed to provide concrete removal services in Xenia, OH and surrounding areas."
+    },
+    {
+      "question": "Do you offer any other services?",
+      "answer": "Yes, we offer a full suite of excavation and sitework services, including grading, drainage, driveways, retaining walls, land clearing, demolition, septic systems, and foundation work."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "lebanon-oh",
+    "dayton-oh"
+  ],
+  "_generated": "2026-03-12T14:29:45.499Z",
+  "_model": "gemini-2.0-flash"
+}

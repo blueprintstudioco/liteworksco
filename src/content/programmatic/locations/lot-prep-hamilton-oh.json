@@ -1,0 +1,116 @@
+{
+  "city": "Hamilton",
+  "state": "OH",
+  "service": "Lot Preparation",
+  "slug": "lot-prep-hamilton-oh",
+  "metaTitle": "Lot Preparation in Hamilton, OH | Liteworks Co.",
+  "metaDescription": "Expert lot preparation services in Hamilton, OH by Liteworks Co. Ensure a solid foundation for your construction project with our professional site work.",
+  "h1": "Lot Preparation Services in Hamilton, OH",
+  "heroText": "Liteworks Co. provides comprehensive lot preparation services in Hamilton, OH, ensuring your construction project starts on solid ground. We handle everything from initial clearing and grading to soil stabilization and utility preparation, tailored to the specific needs of your Hamilton property.",
+  "localContext": {
+    "terrain": "Hamilton, OH, features a mix of gently rolling hills and flatter areas along the Great Miami River. The topography can influence drainage and foundation requirements.",
+    "soilConditions": "The soil in Hamilton and Butler County is primarily composed of clay loam, with areas of glacial till and alluvial deposits near the river. Proper soil testing and compaction are crucial for stable construction.",
+    "commonProjects": [
+      "New home construction",
+      "Commercial building development",
+      "Landscaping and hardscaping projects",
+      "Foundation repair and replacement",
+      "Driveway and parking lot installation",
+      "Retaining wall construction"
+    ],
+    "seasonalNotes": "Winters in Hamilton can bring freezing temperatures and snowfall, potentially delaying excavation work. Spring and fall offer ideal conditions, but heavy rains can impact soil stability. Summer provides the most stable working conditions.",
+    "localRegulations": "Lot preparation in Hamilton must adhere to Butler County building codes and zoning regulations. Permits are typically required for excavation, grading, and utility connections. Liteworks Co. can assist with navigating these requirements."
+  },
+  "benefits": [
+    {
+      "title": "Stable Foundation",
+      "description": "Proper lot preparation ensures a stable and level base for your construction project, preventing costly structural issues down the line."
+    },
+    {
+      "title": "Optimal Drainage",
+      "description": "We grade your lot to promote effective water runoff, protecting your property from water damage and erosion."
+    },
+    {
+      "title": "Code Compliance",
+      "description": "Liteworks Co. ensures your lot preparation meets all local Hamilton and Butler County regulations, avoiding potential fines and delays."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A well-prepared lot enhances the overall value and appeal of your property, making it more attractive to potential buyers."
+    },
+    {
+      "title": "Reduced Future Costs",
+      "description": "By addressing potential issues early on, we help you avoid costly repairs and maintenance in the future."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We conduct a thorough assessment of your Hamilton property, including soil testing, topographical surveys, and utility mapping."
+    },
+    {
+      "step": "Clearing and Grubbing",
+      "description": "We remove trees, brush, and other vegetation from the lot, as well as any underground obstructions like roots and debris."
+    },
+    {
+      "step": "Grading and Excavation",
+      "description": "We grade the lot to the desired level and slope, excavating for foundations, basements, and other underground structures."
+    },
+    {
+      "step": "Soil Stabilization",
+      "description": "We compact the soil to ensure stability and prevent settling, adding soil amendments as needed to improve drainage and load-bearing capacity."
+    },
+    {
+      "step": "Utility Preparation",
+      "description": "We prepare the site for utility connections, including water, sewer, gas, and electricity."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$2,500",
+    "averageRange": "$5,000 - $15,000",
+    "factors": [
+      "Lot size and topography",
+      "Amount of clearing and excavation required",
+      "Soil conditions and stabilization needs",
+      "Utility preparation requirements",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary significantly based on the complexity of the project. Contact us for a free, detailed estimate for your Hamilton, OH, lot preparation needs."
+  },
+  "faqs": [
+    {
+      "question": "What permits are required for lot preparation in Hamilton, OH?",
+      "answer": "Permits are typically required from Butler County for excavation, grading, and utility connections. We can assist you with the permitting process."
+    },
+    {
+      "question": "How long does lot preparation take?",
+      "answer": "The duration of lot preparation depends on the size and complexity of the project, but it typically takes between one and three weeks."
+    },
+    {
+      "question": "What type of equipment do you use for lot preparation?",
+      "answer": "We use a variety of heavy equipment, including excavators, bulldozers, graders, and compactors, to ensure efficient and precise lot preparation."
+    },
+    {
+      "question": "Do you offer soil testing services?",
+      "answer": "Yes, we offer comprehensive soil testing services to determine the composition and stability of your soil."
+    },
+    {
+      "question": "What is soil stabilization?",
+      "answer": "Soil stabilization is the process of improving the strength and stability of the soil to support construction activities. This can involve compaction, soil amendments, and other techniques."
+    },
+    {
+      "question": "Do you handle demolition of existing structures?",
+      "answer": "Yes, Liteworks Co. offers demolition services as part of our lot preparation process, if needed."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:09:27.714Z",
+  "_model": "gemini-2.0-flash"
+}

@@ -1,0 +1,115 @@
+{
+  "city": "Xenia",
+  "state": "OH",
+  "service": "Septic System Installation",
+  "slug": "septic-xenia-oh",
+  "metaTitle": "Septic System Installation in Xenia, OH | Liteworks Co.",
+  "metaDescription": "Professional septic system installation services in Xenia, OH by Liteworks Co. Expert excavation, grading, and installation for residential and commercial properties.",
+  "h1": "Septic System Installation in Xenia, OH",
+  "heroText": "Liteworks Co. provides expert septic system installation services in Xenia, Ohio, and surrounding Greene County. We handle everything from initial site assessment and excavation to final inspection, ensuring a reliable and code-compliant septic system tailored to your property's specific needs. Our experienced team understands Xenia's unique soil conditions and regulations, delivering dependable septic solutions.",
+  "localContext": {
+    "terrain": "Xenia, OH, features gently rolling terrain, typical of southwestern Ohio. The area is part of the Miami Valley region.",
+    "soilConditions": "The soil in Xenia and Greene County is primarily composed of clay and silty loam, with some areas having shale bedrock close to the surface. Proper soil testing and analysis are crucial for successful septic system installation.",
+    "commonProjects": [
+      "New septic system installation for new construction homes",
+      "Septic system replacement for failing or outdated systems",
+      "Septic tank and leach field repair",
+      "Installation of advanced treatment systems",
+      "Septic system inspections and maintenance"
+    ],
+    "seasonalNotes": "Spring and fall are ideal for septic system installation in Xenia, avoiding the frozen ground of winter and the heavy rains of summer that can saturate the soil. Dry conditions are necessary for proper soil percolation testing.",
+    "localRegulations": "Septic system installation in Xenia, OH, is governed by the Greene County Public Health Department. Permits are required, and systems must meet specific Ohio EPA regulations. Liteworks Co. is well-versed in these local regulations and will ensure your system meets all requirements."
+  },
+  "benefits": [
+    {
+      "title": "Expert Installation",
+      "description": "Our experienced team ensures your septic system is installed correctly, adhering to all local codes and regulations."
+    },
+    {
+      "title": "Proper Site Evaluation",
+      "description": "We conduct thorough site evaluations to determine the best septic system design for your property's soil conditions and usage."
+    },
+    {
+      "title": "Increased Property Value",
+      "description": "A properly functioning and well-maintained septic system can increase your property value."
+    },
+    {
+      "title": "Environmentally Responsible",
+      "description": "We install septic systems that are designed to protect the environment and prevent groundwater contamination."
+    },
+    {
+      "title": "Long-Term Reliability",
+      "description": "We use high-quality materials and proven installation techniques to ensure your septic system provides reliable performance for years to come."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Evaluation and Design",
+      "description": "We assess your property's soil conditions, topography, and water table to design a septic system that meets your specific needs and complies with local regulations."
+    },
+    {
+      "step": "Permitting",
+      "description": "We handle all necessary permitting with the Greene County Public Health Department, ensuring a smooth and compliant installation process."
+    },
+    {
+      "step": "Excavation and Installation",
+      "description": "Our experienced team performs the excavation, tank installation, and leach field construction with precision and care."
+    },
+    {
+      "step": "Inspection",
+      "description": "We coordinate with the Greene County Health Department for final inspection and approval of the installed septic system."
+    },
+    {
+      "step": "Backfilling and Site Restoration",
+      "description": "We backfill the excavated areas and restore the site to its original condition, leaving your property clean and tidy."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$8,000",
+    "averageRange": "$12,000 - $25,000",
+    "factors": [
+      "System size and type",
+      "Soil conditions and site accessibility",
+      "Tank material (concrete, plastic)",
+      "Leach field design and size",
+      "Permitting fees"
+    ],
+    "note": "Pricing can vary significantly depending on the specific requirements of your property and the complexity of the installation. Contact us for a free, detailed estimate."
+  },
+  "faqs": [
+    {
+      "question": "How do I know if I need a new septic system?",
+      "answer": "Signs of a failing septic system include slow drains, sewage backups, foul odors, and unusually lush grass growth over the leach field. A professional inspection can confirm the need for replacement."
+    },
+    {
+      "question": "How long does septic system installation take?",
+      "answer": "The installation process typically takes 3-7 days, depending on the complexity of the system and site conditions."
+    },
+    {
+      "question": "What permits are required for septic system installation in Xenia, OH?",
+      "answer": "A permit from the Greene County Public Health Department is required for all septic system installations and repairs. We handle the permitting process for you."
+    },
+    {
+      "question": "How often should I have my septic system inspected?",
+      "answer": "It is recommended to have your septic system inspected every 3-5 years to ensure proper functioning and prevent costly repairs."
+    },
+    {
+      "question": "What type of septic system is best for my property?",
+      "answer": "The best type of septic system depends on several factors, including soil conditions, lot size, and household water usage. We will assess your property and recommend the most suitable system for your needs."
+    },
+    {
+      "question": "What can I do to maintain my septic system?",
+      "answer": "Conserve water, avoid flushing non-biodegradable items, and have your septic tank pumped regularly (every 3-5 years) to maintain your system."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "lebanon-oh"
+  ],
+  "_generated": "2026-03-12T14:29:55.796Z",
+  "_model": "gemini-2.0-flash"
+}

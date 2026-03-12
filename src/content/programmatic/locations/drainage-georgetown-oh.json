@@ -1,0 +1,116 @@
+{
+  "city": "Georgetown",
+  "state": "OH",
+  "service": "Drainage Solutions",
+  "slug": "drainage-georgetown-oh",
+  "metaTitle": "Drainage Solutions in Georgetown, OH | Liteworks Co.",
+  "metaDescription": "Expert drainage solutions in Georgetown, OH by Liteworks Co. Protect your property from water damage with our grading, French drains, and more. Call (513) 927-9675.",
+  "h1": "Georgetown, OH Drainage Solutions",
+  "heroText": "Liteworks Co. provides comprehensive drainage solutions in Georgetown, OH, and throughout Brown County. We address standing water, erosion, and other water-related issues to protect your property's foundation and landscape. Our expertise ensures effective and long-lasting drainage systems tailored to Georgetown's unique environment.",
+  "localContext": {
+    "terrain": "Georgetown is characterized by rolling hills and valleys, typical of the Appalachian foothills. The area features a mix of farmland and wooded areas.",
+    "soilConditions": "The soil in and around Georgetown is predominantly clay-rich, which can lead to poor drainage and water accumulation. Shale bedrock is also common in the region.",
+    "commonProjects": [
+      "French drain installation",
+      "Grading and re-sloping",
+      "Culvert installation and repair",
+      "Erosion control measures",
+      "Surface water management",
+      "Foundation drainage systems"
+    ],
+    "seasonalNotes": "Spring and early summer often bring heavy rainfall to Georgetown, making proper drainage crucial to prevent flooding and water damage. Winter freeze-thaw cycles can also exacerbate drainage issues.",
+    "localRegulations": "Brown County and Georgetown adhere to Ohio EPA regulations regarding stormwater management and erosion control. Permits may be required for certain drainage projects, especially those affecting waterways or involving significant earth disturbance. Contact the Brown County Engineer's Office for specific requirements."
+  },
+  "benefits": [
+    {
+      "title": "Prevent Water Damage",
+      "description": "Effective drainage solutions prevent water from pooling around your foundation, protecting it from costly damage."
+    },
+    {
+      "title": "Erosion Control",
+      "description": "Proper drainage minimizes soil erosion, preserving the integrity of your landscape and preventing sediment runoff."
+    },
+    {
+      "title": "Improved Property Value",
+      "description": "A well-drained property is more attractive to potential buyers and can increase your property value."
+    },
+    {
+      "title": "Healthier Landscape",
+      "description": "By preventing waterlogging, drainage solutions promote healthier plant growth and reduce the risk of fungal diseases."
+    },
+    {
+      "title": "Reduced Mosquito Breeding",
+      "description": "Eliminating standing water reduces mosquito breeding grounds, creating a more comfortable outdoor environment."
+    }
+  ],
+  "process": [
+    {
+      "step": "Site Assessment",
+      "description": "We begin with a thorough evaluation of your property to identify drainage problems and assess soil conditions."
+    },
+    {
+      "step": "Custom Design",
+      "description": "Based on the assessment, we design a customized drainage solution tailored to your specific needs and the local terrain."
+    },
+    {
+      "step": "Professional Installation",
+      "description": "Our experienced team installs the drainage system using high-quality materials and proven techniques."
+    },
+    {
+      "step": "Quality Assurance",
+      "description": "We conduct a final inspection to ensure the system is functioning correctly and meets our high standards."
+    },
+    {
+      "step": "Follow-Up",
+      "description": "We offer ongoing support and maintenance to keep your drainage system working effectively for years to come."
+    }
+  ],
+  "pricingInfo": {
+    "startingAt": "$1,500",
+    "averageRange": "$3,000 - $10,000",
+    "factors": [
+      "Project complexity",
+      "Size of the affected area",
+      "Type of drainage system",
+      "Materials used",
+      "Accessibility of the site"
+    ],
+    "note": "These are estimates only. Contact us for a free, personalized quote based on your specific drainage needs in Georgetown, OH."
+  },
+  "faqs": [
+    {
+      "question": "What are the signs of poor drainage?",
+      "answer": "Signs include standing water, soggy soil, foundation cracks, basement leaks, and soil erosion."
+    },
+    {
+      "question": "What types of drainage solutions do you offer?",
+      "answer": "We offer a range of solutions, including French drains, surface drains, channel drains, grading, and culvert installation."
+    },
+    {
+      "question": "How long does it take to install a drainage system?",
+      "answer": "The installation time varies depending on the complexity of the project, but most projects can be completed within a few days."
+    },
+    {
+      "question": "Do I need a permit for drainage work?",
+      "answer": "Depending on the scope of the project and local regulations, a permit may be required. We can assist you with the permitting process."
+    },
+    {
+      "question": "How much does drainage work cost?",
+      "answer": "The cost depends on various factors, including the size of the area, the type of system, and the materials used. Contact us for a free estimate."
+    },
+    {
+      "question": "Do you offer a warranty on your work?",
+      "answer": "Yes, we offer a warranty on our workmanship and materials. Contact us for specific warranty details."
+    }
+  ],
+  "nearbyAreas": [
+    "cincinnati-oh",
+    "mason-oh",
+    "west-chester-oh",
+    "liberty-township-oh",
+    "loveland-oh",
+    "batavia-oh"
+  ],
+  "_generated": "2026-03-12T14:36:32.209Z",
+  "_model": "gemini-2.0-flash"
+}
