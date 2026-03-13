@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import fs from 'fs';
+import path from 'path';
+
+const dir = path.join(process.cwd(), 'src', 'content', 'programmatic', 'problem-pages');
+const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('.json')) : [];
+const pages = files.map(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).sort((a, b) => a.title.localeCompare(b.title));
+---
+
+<Layout title="Common Problems We Fix | Liteworks Co." description="Yard flooding, drainage issues, foundation problems, erosion — we've seen it all. Find solutions from Cincinnati's excavation experts.">
+  <Header client:load />
+  <main class="pt-20">
+    <section class="bg-secondary text-white py-16">
+      <div class="container mx-auto px-6">
+        <h1 class="text-4xl md:text-5xl font-heading font-bold mb-4">Common Problems We Fix</h1>
+        <p class="text-xl text-white/70 max-w-3xl">Sound familiar? We've fixed these hundreds of times. Find your problem below for causes, solutions, and costs.</p>
+      </div>
+    </section>
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          {pages.map(page => (
+            <a href={`/solutions/${page.slug}`} class="bg-muted rounded-xl p-6 border border-secondary/5 hover:border-primary/30 transition-colors group">
+              <h2 class="text-lg font-heading font-bold mb-2 group-hover:text-primary transition-colors">{page.title}</h2>
+              <p class="text-secondary/60 text-sm line-clamp-2">{page.problemDescription}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-secondary text-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-4">Dealing With One of These?</h2>
+        <p class="text-white/60 mb-8">We'll come take a look and give you an honest recommendation — free.</p>
+        <a href="/get-a-quote" class="inline-flex px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-lg hover:bg-primary/90">Get a Free Quote →</a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

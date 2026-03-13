@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer.astro';
+import fs from 'fs';
+import path from 'path';
+
+const dir = path.join(process.cwd(), 'src', 'content', 'programmatic', 'comparisons');
+const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('.json')) : [];
+const pages = files.map(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).sort((a, b) => a.title.localeCompare(b.title));
+---
+
+<Layout title="Comparisons | Liteworks Co." description="Side-by-side comparisons to help you choose the right solution for your excavation and sitework project.">
+  <Header client:load />
+  <main class="pt-20">
+    <section class="bg-secondary text-white py-16">
+      <div class="container mx-auto px-6">
+        <h1 class="text-4xl md:text-5xl font-heading font-bold mb-4">Comparisons</h1>
+        <p class="text-xl text-white/70 max-w-3xl">Not sure which option is right? We break down the pros, cons, and costs so you can decide.</p>
+      </div>
+    </section>
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          {pages.map(page => (
+            <a href={`/compare/${page.slug}`} class="bg-muted rounded-xl p-6 border border-secondary/5 hover:border-primary/30 transition-colors group">
+              <h2 class="text-lg font-heading font-bold mb-2 group-hover:text-primary transition-colors">{page.title}</h2>
+              <p class="text-secondary/60 text-sm line-clamp-2">{page.metaDescription}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-secondary text-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-4">Still Not Sure?</h2>
+        <p class="text-white/60 mb-8">We'll assess your property and recommend the best option for your situation — free.</p>
+        <a href="/get-a-quote" class="inline-flex px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-lg hover:bg-primary/90">Get a Free Quote →</a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

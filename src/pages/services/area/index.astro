@@ -1,0 +1,78 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer.astro';
+import fs from 'fs';
+import path from 'path';
+
+const dir = path.join(process.cwd(), 'src', 'content', 'programmatic', 'locations');
+const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('.json')) : [];
+const pages = files.map(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
+
+// Group by service
+const byService = {};
+pages.forEach(p => {
+  const svc = p.service || 'Other';
+  if (!byService[svc]) byService[svc] = [];
+  byService[svc].push(p);
+});
+
+// Sort each group by state then city
+Object.values(byService).forEach(group => group.sort((a, b) => {
+  if (a.state !== b.state) return a.state.localeCompare(b.state);
+  return a.city.localeCompare(b.city);
+}));
+
+const serviceNames = Object.keys(byService).sort();
+---
+
+<Layout title="Service Areas | Liteworks Co." description="Liteworks Co. serves Greater Cincinnati, Northern Kentucky, and Southeast Indiana with professional excavation and sitework services.">
+  <Header client:load />
+  <main class="pt-20">
+    <section class="bg-secondary text-white py-16">
+      <div class="container mx-auto px-6">
+        <h1 class="text-4xl md:text-5xl font-heading font-bold mb-4">Service Areas</h1>
+        <p class="text-xl text-white/70 max-w-3xl">Professional excavation and sitework across Greater Cincinnati, Northern Kentucky, and Southeast Indiana.</p>
+      </div>
+    </section>
+
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        {serviceNames.map(svc => {
+          const group = byService[svc];
+          const byState = {};
+          group.forEach(p => {
+            if (!byState[p.state]) byState[p.state] = [];
+            byState[p.state].push(p);
+          });
+          return (
+            <div class="mb-12">
+              <h2 class="text-2xl font-heading font-bold mb-6 text-primary">{svc}</h2>
+              {Object.entries(byState).sort(([a],[b]) => a.localeCompare(b)).map(([state, cities]) => (
+                <div class="mb-4">
+                  <h3 class="text-lg font-heading font-bold mb-3">{state === 'OH' ? 'Ohio' : state === 'KY' ? 'Kentucky' : 'Indiana'}</h3>
+                  <div class="flex flex-wrap gap-2 mb-4">
+                    {cities.map(c => (
+                      <a href={`/services/area/${c.slug}`} class="px-3 py-1.5 bg-muted rounded-lg text-sm hover:border-primary/50 hover:text-primary transition-colors border border-secondary/10">
+                        {c.city} →
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="py-16 bg-secondary text-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-heading font-bold mb-4">Don't See Your Area?</h2>
+        <p class="text-white/60 mb-8">We may still be able to help. Contact us for a free quote.</p>
+        <a href="/get-a-quote" class="inline-flex px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-lg hover:bg-primary/90">Get a Free Quote →</a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
