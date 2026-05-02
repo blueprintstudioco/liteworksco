@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header';
 import Footer from '../components/Footer.astro';
-import { Truck, MapPin, DollarSign, ClipboardList, CheckCircle } from 'lucide-react';
+import { ArrowRight, CheckCircle, ClipboardList, DollarSign, HardHat, MapPin, Phone, Shield, Star, Truck } from 'lucide-react';
 
 const schema = {
   "@context": "https://schema.org",
@@ -10,133 +10,200 @@ const schema = {
   "mainEntity": {
     "@type": "HomeAndConstructionBusiness",
     "name": "Liteworks Co.",
-    "description": "Greater Cincinnati's trusted excavation and sitework experts.",
+    "description": "Greater Cincinnati's excavation, grading, drainage, demolition, and residential sitework team.",
     "foundingDate": "2020",
     "areaServed": ["Greater Cincinnati", "Northern Kentucky", "Southeast Indiana"]
   }
 };
 
+const proofStats = [
+  { value: '150+', label: 'sitework projects completed' },
+  { value: '500+', label: 'acres cleared and reclaimed' },
+  { value: '10+', label: 'years around equipment and land work' },
+  { value: '5.0', label: 'reputation built on clean work' }
+];
+
 const differentiators = [
   {
     icon: Truck,
-    title: "Versatile Fleet",
-    description: "From compact track loaders to heavy excavators and forestry mulchers, we bring the right equipment for every job."
+    title: 'Right machine, right touch',
+    description: 'Heavy equipment when the job needs power. Smaller, controlled equipment when access, turf, trees, or nearby structures matter.'
   },
   {
     icon: MapPin,
-    title: "Local Expertise",
-    description: "We know Greater Cincinnati's soil, terrain, and regulations. Our local knowledge means better outcomes for your project."
+    title: 'Built for Cincinnati ground',
+    description: 'Clay soil, steep yards, wet basements, tight driveways, hidden utilities, and drainage problems are normal here. We plan around them.'
   },
   {
     icon: DollarSign,
-    title: "Transparent Pricing",
-    description: "No surprises. We provide detailed quotes upfront and communicate clearly about any changes during the project."
+    title: 'Scope before speed',
+    description: 'A cheap quote gets expensive when the plan is vague. We talk through access, spoil, drainage, cleanup, and handoff before work starts.'
   },
   {
     icon: ClipboardList,
-    title: "Proven Process",
-    description: "Our systematic approach ensures every project is completed safely, on time, and to your specifications."
+    title: 'A cleaner handoff',
+    description: 'The goal is not just moving dirt. It is leaving the property ready for the builder, landscaper, concrete crew, pool crew, or homeowner.'
   }
 ];
 
 const team = [
   {
-    name: "Alex Boyd",
-    role: "Co-Founder, Sales & Strategy",
-    bio: "Alex brings years of industry experience and a passion for helping property owners transform their land. He handles client relationships and project planning."
+    name: 'Alex Boyd',
+    role: 'Co-Founder, Sales & Strategy',
+    image: '/images/team/alex-boyd-liteworks.jpg',
+    bio: 'Alex handles consultations, project strategy, and the customer side of the work. His job is to understand what the property needs to do afterward, then make sure the scope is clear before equipment shows up.',
+    focus: ['Site walks and quoting', 'Customer communication', 'Project planning']
   },
   {
     name: "Zach O'Dell",
-    role: "Co-Founder, Head of Operations",
-    bio: "Zach oversees all field operations, equipment maintenance, and crew management. His hands-on approach ensures every job meets Liteworks standards."
+    role: 'Co-Founder, Head of Operations',
+    image: '/images/team/zach-odell-liteworks.jpg',
+    bio: 'Zach runs the field side: equipment, operators, staging, production, and finish. He is the reason jobs stay controlled when the ground is tight, wet, steep, or full of surprises.',
+    focus: ['Field operations', 'Equipment and crew management', 'Finish quality']
   }
+];
+
+const commitments = [
+  {
+    title: 'We find the constraint first',
+    description: 'Access, utilities, water, soil, slope, nearby structures, material movement, and cleanup all affect the price and result.'
+  },
+  {
+    title: 'We protect what should stay',
+    description: 'Good sitework is not just what gets removed or moved. It is what does not get damaged in the process.'
+  },
+  {
+    title: 'We communicate like adults',
+    description: 'Clear scope, clear expectations, and direct updates. No ghosting. No vague daily-rate guessing.'
+  },
+  {
+    title: 'We leave the next step easier',
+    description: 'Foundation, drainage, gravel, concrete, landscaping, or just a usable yard. The handoff matters.'
+  }
+];
+
+const standards = [
+  'Access route planned before equipment arrives',
+  'Drainage and grade considered before dirt moves',
+  'Utilities and keep-out zones respected',
+  'Spoil, debris, and cleanup included in the scope',
+  'Finish condition matched to the next phase'
 ];
 ---
 
 <Layout 
   title="About Liteworks Co. | Cincinnati Excavation & Sitework Experts" 
-  description="Learn about Liteworks Co., Greater Cincinnati's trusted excavation and sitework experts. Meet our team and discover what makes us different."
+  description="Meet Liteworks Co., Greater Cincinnati's excavation, grading, drainage, demolition, and residential sitework team. Heavy work with a light touch."
   schema={schema}
 >
   <Header client:load />
   
-  <main class="pt-20">
+  <main class="pt-20 bg-[#f5f5f0]">
     <!-- Hero Section -->
-    <section class="page-hero py-32">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-5xl md:text-6xl lg:text-7xl font-[Rajdhani] font-bold uppercase text-white mb-6">
-          About <span class="text-[#c4d931]">Liteworks</span>
-        </h1>
-        <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-          Heavy work. Light touch. That's not just a tagline—it's how we operate.
-        </p>
+    <section class="relative min-h-[78vh] bg-[#111111] text-white overflow-hidden flex items-center">
+      <div class="absolute inset-0">
+        <img src="/images/residential/excavation.png" alt="Liteworks equipment working on a residential site" class="w-full h-full object-cover opacity-45" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#111111] via-[#111111]/82 to-[#111111]/35"></div>
+        <div class="absolute inset-0 liteworks-grid opacity-60"></div>
       </div>
-    </section>
 
-    <!-- Why Liteworks Exists -->
-    <section class="py-20 bg-white">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto text-center">
-          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-8">
-            Why Liteworks Exists
-          </h2>
-          <div class="text-lg text-gray-600 space-y-6">
-            <p>
-              We started Liteworks because we saw a gap in the market. Too many contractors treat sitework as a commodity—show up, move dirt, leave. That approach leads to delays, miscommunication, and frustrating results for property owners.
+      <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div class="grid lg:grid-cols-[1.08fr_0.92fr] gap-12 items-end">
+          <div>
+            <p class="kicker mb-4">About Liteworks Co.</p>
+            <h1 class="text-6xl md:text-8xl lg:text-9xl font-[Rajdhani] font-bold uppercase leading-[0.85] tracking-tight mb-7">
+              Heavy Work.<br /><span class="text-[#c4d931]">Light Touch.</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 max-w-3xl leading-relaxed mb-8">
+              Excavation, drainage, grading, demolition, and site prep for homeowners who need the ground fixed without the property getting wrecked.
             </p>
-            <p>
-              We believe sitework should be different. Your excavation and land clearing project deserves the same professionalism and attention to detail you'd expect from any contractor working on your property.
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/get-a-quote" class="btn-primary text-base">Get a Free Quote <ArrowRight className="w-5 h-5 ml-2" /></a>
+              <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white font-[Rajdhani] font-semibold uppercase tracking-wide hover:border-[#c4d931] hover:text-[#c4d931] transition">
+                <Phone className="w-5 h-5 mr-2" /> (513) 927-9675
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-white/8 backdrop-blur border border-white/15 p-6 md:p-8 shadow-2xl">
+            <p class="text-[#c4d931] font-[Rajdhani] font-bold uppercase tracking-widest text-sm mb-4">The Liteworks standard</p>
+            <p class="text-2xl md:text-3xl font-[Rajdhani] font-bold uppercase leading-tight mb-5">
+              Not just dirt work. Outcome work.
             </p>
-            <p>
-              <strong class="text-[#1a1a1a]">Heavy Work. Light Touch.</strong> means we bring industrial-grade equipment and expertise to your project, but we treat your property—and you—with care and respect.
+            <p class="text-gray-300 leading-relaxed mb-6">
+              We think through the hidden parts first: access, water, grade, utilities, cleanup, and what the site needs to be ready for next.
             </p>
+            <div class="grid grid-cols-2 gap-3">
+              {proofStats.map((stat) => (
+                <div class="border border-white/10 bg-black/20 p-4">
+                  <div class="text-4xl font-[Rajdhani] font-bold text-[#c4d931] leading-none">{stat.value}</div>
+                  <p class="text-sm text-gray-300 mt-2 leading-tight">{stat.label}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Stats Section -->
-    <section class="py-20 bg-[#f5f5f0]">
+    <!-- Why Liteworks Exists -->
+    <section class="py-18 md:py-24 bg-white overflow-hidden">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div class="grid lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
           <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#c4d931] mb-2">150+</div>
-            <p class="text-gray-600 font-medium">Projects Completed</p>
+            <p class="kicker mb-3">Why Liteworks exists</p>
+            <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6">
+              Sitework should not feel like a gamble.
+            </h2>
+            <p class="text-xl text-gray-700 leading-relaxed mb-6">
+              Too many contractors treat residential sitework like a commodity. Show up, move dirt, send the invoice. That is how homeowners end up with ruts, drainage problems, vague scope, and a mess the next contractor has to fix.
+            </p>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Liteworks was built for the space between big commercial earthwork and small handyman work. Serious equipment. Clear communication. A finish that respects the property.
+            </p>
           </div>
-          <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#c4d931] mb-2">500+</div>
-            <p class="text-gray-600 font-medium">Acres Cleared</p>
-          </div>
-          <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#c4d931] mb-2">10+</div>
-            <p class="text-gray-600 font-medium">Years Experience</p>
-          </div>
-          <div>
-            <div class="text-5xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#c4d931] mb-2">100%</div>
-            <p class="text-gray-600 font-medium">Client Satisfaction</p>
+
+          <div class="relative">
+            <div class="absolute -inset-5 bg-[#c4d931]/25 blur-3xl"></div>
+            <div class="relative bg-[#111111] text-white p-8 md:p-10 shadow-2xl liteworks-grid border border-[#c4d931]/30">
+              <p class="kicker mb-5">How we judge the job</p>
+              <div class="space-y-5">
+                {standards.map((item, index) => (
+                  <div class="flex items-start gap-4 border-b border-white/10 pb-5 last:border-b-0 last:pb-0">
+                    <span class="w-10 h-10 bg-[#c4d931] text-[#111111] flex items-center justify-center font-[Rajdhani] font-bold text-lg flex-shrink-0">{String(index + 1).padStart(2, '0')}</span>
+                    <span class="text-lg text-gray-200 font-medium">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- What Makes Us Different -->
-    <section class="py-20 bg-white">
+    <section class="py-18 md:py-24 bg-[#111111] text-white liteworks-topo">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
-          What Makes Us Different
-        </h2>
-        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Four pillars that set Liteworks apart from the competition
-        </p>
+        <div class="grid lg:grid-cols-[0.75fr_1.25fr] gap-10 items-start mb-12">
+          <div>
+            <p class="kicker mb-3">What makes us different</p>
+            <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase leading-none">
+              The plan matters as much as the machine.
+            </h2>
+          </div>
+          <p class="text-xl text-gray-300 leading-relaxed max-w-3xl">
+            Anyone can advertise equipment. The difference is knowing when to use it, where to stage it, what not to damage, and how to leave the site ready for the next phase.
+          </p>
+        </div>
         
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
           {differentiators.map((item) => (
-            <div class="text-center p-6 bg-[#f5f5f0] rounded-sm border border-black/10">
-              <div class="w-16 h-16 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-6">
-                <item.icon className="w-8 h-8 text-[#1a1a1a]" />
+            <div class="bg-white/5 border border-white/10 p-7 min-h-[300px] flex flex-col hover:border-[#c4d931]/60 transition">
+              <div class="w-14 h-14 bg-[#c4d931] flex items-center justify-center mb-7">
+                <item.icon className="w-7 h-7 text-[#111111]" />
               </div>
-              <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-3">{item.title}</h3>
-              <p class="text-gray-600">{item.description}</p>
+              <h3 class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-3 leading-none">{item.title}</h3>
+              <p class="text-gray-400 leading-relaxed">{item.description}</p>
             </div>
           ))}
         </div>
@@ -144,94 +211,114 @@ const team = [
     </section>
 
     <!-- Team Section -->
-    <section class="py-20 bg-[#111111]">
+    <section class="py-18 md:py-24 bg-[#f5f5f0]">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-white mb-4">
-          Meet the Team
-        </h2>
-        <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          The people behind Liteworks Co.
-        </p>
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <p class="kicker mb-3">Meet the team</p>
+          <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-5">
+            The people responsible for the result.
+          </h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Liteworks is led by Alex Boyd and Zach O'Dell, the same operator-minded partnership behind Brushworks. The work is different, but the standard is the same: capable equipment, clear scope, clean finish.
+          </p>
+        </div>
         
-        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {team.map((member) => (
-            <div class="bg-[#252525] rounded-sm overflow-hidden">
-              <div class="aspect-square bg-[#1e1e1e] flex items-center justify-center">
-                <div class="w-40 h-40 rounded-full bg-[#c4d931] flex items-center justify-center">
-                  <span class="text-5xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a]">
-                    {member.name.split(' ').map((n: string) => n[0]).join('')}
-                  </span>
+            <article class="group bg-[#111111] text-white shadow-2xl overflow-hidden border border-black/10">
+              <div class="grid md:grid-cols-[0.92fr_1.08fr] h-full">
+                <div class="relative min-h-[420px] overflow-hidden bg-black">
+                  <img src={member.image} alt={`${member.name}, ${member.role} at Liteworks Co.`} class="absolute inset-0 w-full h-full object-cover grayscale-[20%] saturate-[0.72] contrast-110 group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#111111] via-transparent to-transparent"></div>
+                  <div class="absolute top-4 left-4 bg-[#c4d931] text-[#111111] px-4 py-2 font-[Rajdhani] font-bold uppercase tracking-wide text-sm">
+                    Liteworks Co.
+                  </div>
+                </div>
+                <div class="p-7 md:p-8 flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-4xl font-[Rajdhani] font-bold uppercase leading-none mb-2">{member.name}</h3>
+                    <p class="text-[#c4d931] font-semibold mb-5">{member.role}</p>
+                    <p class="text-gray-300 leading-relaxed mb-6">{member.bio}</p>
+                    <div class="space-y-3">
+                      {member.focus.map((item) => (
+                        <div class="flex items-center gap-3 text-gray-200">
+                          <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0" />
+                          <span>{item}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-white mb-1">{member.name}</h3>
-                <p class="text-[#c4d931] font-medium mb-3">{member.role}</p>
-                <p class="text-gray-400">{member.bio}</p>
-              </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>
     </section>
 
     <!-- Commitment Section -->
-    <section class="py-20 bg-white">
+    <section class="py-18 md:py-24 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
-          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-8">
-            Our Commitment to You
-          </h2>
+        <div class="grid lg:grid-cols-[0.8fr_1.2fr] gap-12 items-start">
+          <div class="sticky top-28">
+            <p class="kicker mb-3">Our commitment</p>
+            <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6">
+              We leave the property better prepared than we found it.
+            </h2>
+            <p class="text-lg text-gray-600 leading-relaxed mb-7">
+              The Liteworks promise is not fancy. It is practical: understand the site, do the work cleanly, communicate clearly, and make the next step easier.
+            </p>
+            <a href="/reviews" class="inline-flex items-center text-[#111111] font-[Rajdhani] font-bold uppercase tracking-wide hover:text-[#7a8d16] transition">
+              Read customer reviews <ArrowRight className="w-5 h-5 ml-2" />
+            </a>
+          </div>
           
-          <div class="space-y-4">
-            <div class="flex items-start gap-4 p-5 bg-[#f5f5f0] rounded-sm border border-black/10">
-              <CheckCircle className="w-6 h-6 text-[#c4d931] flex-shrink-0 mt-0.5" />
-              <div>
-                <h3 class="font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Clear Communication</h3>
-                <p class="text-gray-600">We keep you informed at every stage. No ghosting, no surprises.</p>
+          <div class="grid sm:grid-cols-2 gap-5">
+            {commitments.map((item) => (
+              <div class="bg-[#f5f5f0] border border-black/10 p-7 min-h-[230px]">
+                <div class="w-12 h-12 bg-[#111111] flex items-center justify-center mb-6">
+                  <Shield className="w-6 h-6 text-[#c4d931]" />
+                </div>
+                <h3 class="text-2xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-3">{item.title}</h3>
+                <p class="text-gray-600 leading-relaxed">{item.description}</p>
               </div>
-            </div>
-            <div class="flex items-start gap-4 p-5 bg-[#f5f5f0] rounded-sm border border-black/10">
-              <CheckCircle className="w-6 h-6 text-[#c4d931] flex-shrink-0 mt-0.5" />
-              <div>
-                <h3 class="font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Respect for Your Property</h3>
-                <p class="text-gray-600">We minimize disruption, protect what matters, and clean up when we're done.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4 p-5 bg-[#f5f5f0] rounded-sm border border-black/10">
-              <CheckCircle className="w-6 h-6 text-[#c4d931] flex-shrink-0 mt-0.5" />
-              <div>
-                <h3 class="font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Quality Workmanship</h3>
-                <p class="text-gray-600">We take pride in our work and stand behind every project we complete.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4 p-5 bg-[#f5f5f0] rounded-sm border border-black/10">
-              <CheckCircle className="w-6 h-6 text-[#c4d931] flex-shrink-0 mt-0.5" />
-              <div>
-                <h3 class="font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Fair Pricing</h3>
-                <p class="text-gray-600">Competitive rates with no hidden fees. What we quote is what you pay.</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-[#c4d931]">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6">
-          Ready to Work Together?
-        </h2>
-        <p class="text-xl text-[#1a1a1a]/80 mb-8 max-w-2xl mx-auto">
-          Let's discuss your project and see how Liteworks can help transform your property.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#111111] text-white font-[Rajdhani] font-semibold text-lg rounded hover:bg-black transition">
-            Get Your Free Quote
-          </a>
-          <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-lg rounded hover:bg-[#111111] hover:text-white transition">
-            Call (513) 927-9675
-          </a>
+    <section class="py-18 md:py-24 bg-[#c4d931] liteworks-grid-dark">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[1fr_0.8fr] gap-10 items-center">
+          <div>
+            <p class="font-[Rajdhani] font-bold uppercase tracking-widest text-[#111111]/70 mb-3">Ready when the site is not</p>
+            <h2 class="text-5xl md:text-7xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-5">
+              Tell us what needs fixed.
+            </h2>
+            <p class="text-xl text-[#111111]/75 max-w-2xl leading-relaxed">
+              Excavation, grading, drainage, demolition, utilities, clearing, driveways, ponds, walls, and the messy site problems that do not fit in a neat box.
+            </p>
+          </div>
+          <div class="bg-[#111111] text-white p-7 md:p-8 shadow-2xl">
+            <div class="flex items-center gap-2 text-yellow-400 mb-4">
+              {[1,2,3,4,5].map(() => <Star className="w-5 h-5 fill-current" />)}
+            </div>
+            <p class="text-2xl font-[Rajdhani] font-bold uppercase mb-5">Free quote. Straight answer. No pressure.</p>
+            <div class="flex flex-col gap-3">
+              <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#c4d931] text-[#111111] font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-white transition">
+                Get Your Free Quote <ArrowRight className="w-5 h-5 ml-2" />
+              </a>
+              <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/20 text-white font-[Rajdhani] font-bold uppercase tracking-wide hover:border-[#c4d931] hover:text-[#c4d931] transition">
+                <Phone className="w-5 h-5 mr-2" /> Call (513) 927-9675
+              </a>
+            </div>
+            <div class="flex flex-wrap gap-4 mt-6 text-sm text-gray-300">
+              <span class="flex items-center gap-1"><Shield className="w-4 h-4 text-[#c4d931]" /> Licensed & Insured</span>
+              <span class="flex items-center gap-1"><HardHat className="w-4 h-4 text-[#c4d931]" /> Sitework Specialists</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
