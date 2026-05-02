@@ -622,36 +622,79 @@ const excavationQuoteFactors = [
             {isExcavation ? 'Timeline, cost, and what is included' : 'What to Expect'}
           </h2>
           
-          <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <AnimateOnScroll client:visible delay={0}>
-              <div class={isExcavation ? "text-center bg-white rounded-sm border border-black/10 p-8 shadow-xl" : "text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8"}>
-                <SituationIcon client:visible icon="wrench" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
-                <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Timeline</div>
-                <p class="text-gray-600">{service.expectations!.timeline}</p>
+          {isExcavation ? (
+            <div class="max-w-6xl mx-auto grid lg:grid-cols-[0.78fr_1.22fr] gap-6 items-stretch">
+              <div class="grid sm:grid-cols-2 lg:grid-cols-1 gap-6">
+                <AnimateOnScroll client:visible delay={0}>
+                  <div class="h-full bg-white rounded-sm border border-black/10 p-8 shadow-xl flex flex-col justify-center">
+                    <SituationIcon client:visible icon="wrench" size={34} className="text-[#c4d931] mb-4" />
+                    <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#111111] mb-2">Timeline</div>
+                    <p class="text-gray-600 leading-relaxed">{service.expectations!.timeline}</p>
+                  </div>
+                </AnimateOnScroll>
+                <AnimateOnScroll client:visible delay={0.1}>
+                  <div class="h-full bg-[#111111] text-white rounded-sm border border-black/10 p-8 shadow-xl flex flex-col justify-center">
+                    <SituationIcon client:visible icon="scale" size={34} className="text-[#c4d931] mb-4" />
+                    <div class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-2">Typical Cost</div>
+                    <p class="text-gray-300 leading-relaxed">{service.expectations!.priceRange}</p>
+                  </div>
+                </AnimateOnScroll>
               </div>
-            </AnimateOnScroll>
-            <AnimateOnScroll client:visible delay={0.1}>
-              <div class={isExcavation ? "text-center bg-[#111111] text-white rounded-sm border border-black/10 p-8 shadow-xl" : "text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8"}>
-                <SituationIcon client:visible icon="scale" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
-                <div class={isExcavation ? "text-2xl font-[Rajdhani] font-bold uppercase text-white mb-1" : "text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1"}>Typical Cost</div>
-                <p class={isExcavation ? "text-gray-300" : "text-gray-600"}>{service.expectations!.priceRange}</p>
-              </div>
-            </AnimateOnScroll>
-            <AnimateOnScroll client:visible delay={0.2}>
-              <div class={isExcavation ? "text-center bg-white rounded-sm border border-black/10 p-8 shadow-xl" : "text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8"}>
-                <SituationIcon client:visible icon="home" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
-                <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Included</div>
-                <ul class="text-gray-600 text-sm text-left space-y-1">
-                  {service.expectations!.details.map((detail) => (
-                    <li class="flex items-start gap-2">
-                      <span class="text-[#c4d931] mt-0.5">✓</span>
-                      <span>{detail}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </AnimateOnScroll>
-          </div>
+
+              <AnimateOnScroll client:visible delay={0.2}>
+                <div class="h-full bg-white rounded-sm border border-black/10 p-8 md:p-10 shadow-2xl">
+                  <div class="flex items-start justify-between gap-6 mb-7">
+                    <div>
+                      <p class="kicker mb-2">Included in a clean dig</p>
+                      <h3 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none">The handoff checklist</h3>
+                    </div>
+                    <div class="hidden sm:flex w-16 h-16 bg-[#111111] items-center justify-center flex-shrink-0">
+                      <SituationIcon client:visible icon="home" size={34} className="text-[#c4d931]" />
+                    </div>
+                  </div>
+                  <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-4 text-left">
+                    {service.expectations!.details.map((detail) => (
+                      <li class="flex items-start gap-3 text-gray-700 leading-relaxed">
+                        <span class="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#c4d931] text-[#111111] text-xs font-bold flex-shrink-0">✓</span>
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </AnimateOnScroll>
+            </div>
+          ) : (
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <AnimateOnScroll client:visible delay={0}>
+                <div class="text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8">
+                  <SituationIcon client:visible icon="wrench" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
+                  <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Timeline</div>
+                  <p class="text-gray-600">{service.expectations!.timeline}</p>
+                </div>
+              </AnimateOnScroll>
+              <AnimateOnScroll client:visible delay={0.1}>
+                <div class="text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8">
+                  <SituationIcon client:visible icon="scale" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
+                  <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Typical Cost</div>
+                  <p class="text-gray-600">{service.expectations!.priceRange}</p>
+                </div>
+              </AnimateOnScroll>
+              <AnimateOnScroll client:visible delay={0.2}>
+                <div class="text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8">
+                  <SituationIcon client:visible icon="home" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
+                  <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Included</div>
+                  <ul class="text-gray-600 text-sm text-left space-y-1">
+                    {service.expectations!.details.map((detail) => (
+                      <li class="flex items-start gap-2">
+                        <span class="text-[#c4d931] mt-0.5">✓</span>
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </AnimateOnScroll>
+            </div>
+          )}
         </div>
       </section>
     ) : (
