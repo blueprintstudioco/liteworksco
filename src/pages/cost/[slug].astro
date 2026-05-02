@@ -27,14 +27,14 @@ const faqSchema = {
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
   <main class="pt-20">
-    <section class="bg-secondary text-white py-16 md:py-24">
+    <section class="page-hero text-white py-20 md:py-28">
       <div class="container mx-auto px-6">
         <nav class="mb-6 text-sm text-white/50">
           <a href="/" class="hover:text-primary">Home</a><span class="mx-2">›</span>
           <a href="/cost" class="hover:text-primary">Cost Guides</a><span class="mx-2">›</span>
           <span class="text-white">{data.title}</span>
         </nav>
-        <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">{data.h1}</h1>
+        <h1 class="text-4xl md:text-5xl font-heading font-bold uppercase mb-6">{data.h1}</h1>
         <p class="text-xl text-white/70 max-w-3xl">{data.intro}</p>
       </div>
     </section>
@@ -42,16 +42,16 @@ const faqSchema = {
     <!-- Cost Breakdown Table -->
     <section class="py-16">
       <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-heading font-bold mb-8">Cost Breakdown</h2>
+        <h2 class="text-3xl font-heading font-bold uppercase mb-8">Cost Breakdown</h2>
         <div class="overflow-x-auto">
           <table class="w-full">
             <thead>
               <tr class="border-b-2 border-secondary/10">
-                <th class="text-left py-3 px-4 font-heading font-bold">Category</th>
-                <th class="text-left py-3 px-4 font-heading font-bold text-green-600">Low End</th>
-                <th class="text-left py-3 px-4 font-heading font-bold text-primary">Average</th>
-                <th class="text-left py-3 px-4 font-heading font-bold text-red-500">High End</th>
-                <th class="text-left py-3 px-4 font-heading font-bold">Unit</th>
+                <th class="text-left py-3 px-4 font-heading font-bold uppercase">Category</th>
+                <th class="text-left py-3 px-4 font-heading font-bold uppercase text-green-600">Low End</th>
+                <th class="text-left py-3 px-4 font-heading font-bold uppercase text-primary">Average</th>
+                <th class="text-left py-3 px-4 font-heading font-bold uppercase text-red-500">High End</th>
+                <th class="text-left py-3 px-4 font-heading font-bold uppercase">Unit</th>
               </tr>
             </thead>
             <tbody>
@@ -78,10 +78,10 @@ const faqSchema = {
     <!-- Factors -->
     <section class="py-16 bg-muted">
       <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-heading font-bold mb-8">Factors That Affect Cost</h2>
+        <h2 class="text-3xl font-heading font-bold uppercase mb-8">Factors That Affect Cost</h2>
         <div class="grid md:grid-cols-2 gap-6">
           {data.factorsAffectingCost?.map(f => (
-            <div class="bg-white rounded-xl p-6 border border-secondary/5">
+            <div class="card-light p-6">
               <h3 class="font-bold mb-2 font-heading">{f.factor}</h3>
               <p class="text-secondary/70 text-sm">{f.explanation}</p>
             </div>
@@ -93,10 +93,10 @@ const faqSchema = {
     <!-- Saving Tips -->
     <section class="py-16">
       <div class="container mx-auto px-6 max-w-3xl">
-        <h2 class="text-3xl font-heading font-bold mb-8">💡 Money-Saving Tips</h2>
+        <h2 class="text-3xl font-heading font-bold uppercase mb-8">💡 Money-Saving Tips</h2>
         <div class="space-y-4">
           {data.savingTips?.map((tip, i) => (
-            <div class="flex items-start gap-4 bg-primary/5 rounded-xl p-5 border border-primary/10">
+            <div class="flex items-start gap-4 bg-primary/5 rounded-sm p-5 border border-primary/10">
               <div class="w-8 h-8 rounded-full bg-primary text-secondary font-bold flex items-center justify-center flex-shrink-0">{i+1}</div>
               <p class="text-secondary/80">{tip}</p>
             </div>
@@ -108,10 +108,10 @@ const faqSchema = {
     <!-- FAQs -->
     <section class="py-16 bg-muted">
       <div class="container mx-auto px-6 max-w-3xl">
-        <h2 class="text-3xl font-heading font-bold mb-10">Frequently Asked Questions</h2>
+        <h2 class="text-3xl font-heading font-bold uppercase mb-10">Frequently Asked Questions</h2>
         <div class="space-y-4">
           {data.faqs?.map(faq => (
-            <details class="group bg-white rounded-xl overflow-hidden border border-secondary/5">
+            <details class="group card-light overflow-hidden">
               <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-muted/50 transition-colors">
                 <span class="font-bold pr-4 font-heading">{faq.question}</span>
                 <svg class="w-5 h-5 text-secondary/40 transition-transform group-open:rotate-180 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
@@ -126,9 +126,9 @@ const faqSchema = {
     <!-- CTA -->
     <section class="py-20 bg-secondary text-white text-center">
       <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-heading font-bold mb-4">Get an Exact Quote for Your Project</h2>
+        <h2 class="text-3xl font-heading font-bold uppercase mb-4">Get an Exact Quote for Your Project</h2>
         <p class="text-white/60 mb-8 max-w-2xl mx-auto">These are estimates — your project is unique. Contact us for a free, detailed quote.</p>
-        <a href="/get-a-quote" class="inline-flex px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-lg hover:bg-primary/90">Get a Free Quote →</a>
+        <a href="/get-a-quote" class="inline-flex px-10 py-4 bg-primary text-secondary font-bold text-xl rounded-sm hover:bg-primary/90">Get a Free Quote →</a>
       </div>
     </section>
   </main>

@@ -29,7 +29,7 @@ export default function Header() {
   const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#1a1a1a]/95 backdrop-blur-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#111111]/92 backdrop-blur-md border-b border-white/10 shadow-2xl">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="/" className="flex-shrink-0">
@@ -41,8 +41,8 @@ export default function Header() {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
-            <a href="/" className="text-white hover:text-[#c4d931] transition font-medium">
+          <div className="hidden lg:flex items-center space-x-7">
+            <a href="/" className="text-white hover:text-[#c4d931] transition font-[Rajdhani] uppercase tracking-wide font-bold text-sm">
               Home
             </a>
             
@@ -52,19 +52,19 @@ export default function Header() {
               onMouseEnter={() => setServicesOpen(true)}
               onMouseLeave={() => setServicesOpen(false)}
             >
-              <button className="flex items-center text-white hover:text-[#c4d931] transition font-medium">
+              <button className="flex items-center text-white hover:text-[#c4d931] transition font-[Rajdhani] uppercase tracking-wide font-bold text-sm">
                 Services
                 <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
               </button>
               
               {servicesOpen && (
                 <div className="absolute top-full left-0 pt-2 w-[500px]">
-                  <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-3 px-2 border border-gray-700 grid grid-cols-2 gap-0">
+                  <div className="bg-[#111111] rounded-sm shadow-2xl py-3 px-2 border border-white/10 grid grid-cols-2 gap-0">
                     {services.map((service) => (
                       <a
                         key={service.href}
                         href={service.href}
-                        className="block px-3 py-1.5 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition rounded text-sm"
+                        className="block px-3 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-white/5 transition rounded-sm text-sm"
                       >
                         {service.name}
                       </a>
@@ -80,28 +80,28 @@ export default function Header() {
               onMouseEnter={() => setAboutOpen(true)}
               onMouseLeave={() => setAboutOpen(false)}
             >
-              <a href="/about" className="flex items-center text-white hover:text-[#c4d931] transition font-medium">
+              <a href="/about" className="flex items-center text-white hover:text-[#c4d931] transition font-[Rajdhani] uppercase tracking-wide font-bold text-sm">
                 About
                 <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${aboutOpen ? 'rotate-180' : ''}`} />
               </a>
               
               {aboutOpen && (
                 <div className="absolute top-full left-0 pt-2 w-48">
-                  <div className="bg-[#1a1a1a] rounded-lg shadow-xl py-2 border border-gray-700">
-                    <a href="/about" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">Our Story</a>
-                    <a href="/reviews" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">Reviews</a>
-                    <a href="/faq" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">FAQ</a>
-                    <a href="/careers" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-gray-800 transition">Careers</a>
+                  <div className="bg-[#111111] rounded-sm shadow-2xl py-2 border border-white/10">
+                    <a href="/about" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-white/5 transition">Our Story</a>
+                    <a href="/reviews" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-white/5 transition">Reviews</a>
+                    <a href="/faq" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-white/5 transition">FAQ</a>
+                    <a href="/careers" className="block px-4 py-2 text-gray-300 hover:text-[#c4d931] hover:bg-white/5 transition">Careers</a>
                   </div>
                 </div>
               )}
             </div>
 
-            <a href="/portfolio" className="text-white hover:text-[#c4d931] transition font-medium">
+            <a href="/portfolio" className="text-white hover:text-[#c4d931] transition font-[Rajdhani] uppercase tracking-wide font-bold text-sm">
               Our Work
             </a>
 
-            <a href="/contact" className="text-white hover:text-[#c4d931] transition font-medium">
+            <a href="/contact" className="text-white hover:text-[#c4d931] transition font-[Rajdhani] uppercase tracking-wide font-bold text-sm">
               Contact
             </a>
           </div>
@@ -114,7 +114,7 @@ export default function Header() {
             </a>
             <a 
               href="/get-a-quote" 
-              className="bg-[#c4d931] text-[#1a1a1a] px-5 py-2.5 rounded font-semibold hover:bg-[#b5ca2d] transition font-[Rajdhani]"
+              className="bg-[#c4d931] text-[#111111] px-5 py-2.5 rounded-sm font-bold hover:bg-[#d8ef39] transition font-[Rajdhani] uppercase tracking-wide"
             >
               Get a Quote
             </a>
@@ -123,7 +123,7 @@ export default function Header() {
           <div className="flex lg:hidden items-center gap-2">
             <a 
               href="/get-a-quote" 
-              className="bg-[#c4d931] text-[#1a1a1a] px-4 py-2 rounded font-semibold text-sm font-[Rajdhani]"
+              className="bg-[#c4d931] text-[#111111] px-4 py-2 rounded-sm font-bold text-sm font-[Rajdhani] uppercase"
             >
               Free Quote
             </a>

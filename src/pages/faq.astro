@@ -125,9 +125,9 @@ const schema = {
   
   <main class="pt-20">
     <!-- Hero Section -->
-    <section class="py-16 bg-[#1a1a1a]">
+    <section class="py-16 bg-[#111111]">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold text-white mb-4">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold uppercase text-white mb-4">
           Frequently Asked <span class="text-[#c4d931]">Questions</span>
         </h1>
         <p class="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -142,7 +142,7 @@ const schema = {
         <div class="max-w-3xl mx-auto space-y-12">
           {faqCategories.map((category) => (
             <div>
-              <h2 class="text-2xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-6 pb-2 border-b-2 border-[#c4d931]">
+              <h2 class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6 pb-2 border-b-2 border-[#c4d931]">
                 {category.title}
               </h2>
               <FAQ items={category.items} client:load />
@@ -155,7 +155,7 @@ const schema = {
     <!-- Still Have Questions -->
     <section class="py-16 bg-[#f5f5f0]">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl font-[Rajdhani] font-bold text-[#1a1a1a] mb-4">
+        <h2 class="text-3xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-4">
           Still Have Questions?
         </h2>
         <p class="text-gray-600 mb-8 max-w-xl mx-auto">
@@ -165,7 +165,7 @@ const schema = {
           <a href="/contact" class="btn-primary">
             Contact Us
           </a>
-          <a href="tel:5139279675" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold rounded hover:bg-[#1a1a1a] hover:text-white transition">
+          <a href="tel:5139279675" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold rounded hover:bg-[#111111] hover:text-white transition">
             Call (513) 927-9675
           </a>
         </div>
