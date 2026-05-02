@@ -19,6 +19,82 @@ interface Props {
 
 const { service } = Astro.props;
 
+const serviceEnhancements: Record<string, {
+  eyebrow: string;
+  promise: string;
+  proof: string[];
+  bestFor: string[];
+  watchOuts: string[];
+  outcome: string;
+}> = {
+  "site-preparation": {
+    eyebrow: "Build-ready ground, not just cleared land",
+    promise: "We turn raw or messy property into a clean, accessible site your builder can actually start on.",
+    proof: ["Clearing + grubbing", "Rough grading", "Access planning", "Construction-ready handoff"],
+    bestFor: ["New homes, pole barns, garages, and additions", "Lots with brush, stumps, debris, or uneven ground", "Owners who need the site ready before builders arrive", "Projects where access, drainage, and staging matter"],
+    watchOuts: ["Leaving roots and organics under future building areas", "Clearing without thinking about water flow", "No clean access path for concrete, deliveries, or trades", "Hauling surprises that blow up the schedule"],
+    outcome: "A clean, shaped, build-ready site with fewer surprises for the next trade."
+  },
+  excavation: {
+    eyebrow: "Dig it right the first time",
+    promise: "Precise excavation for foundations, basements, pools, ponds, utilities, and site work where depth, slope, and access actually matter.",
+    proof: ["Plan-based digging", "Utility locate coordination", "Spoil handling", "Clean handoff"],
+    bestFor: ["Foundation and basement excavation", "Pool, pond, and drainage cuts", "Tight residential access where control matters", "Projects that need clean dimensions and safe slopes"],
+    watchOuts: ["Overdigging and creating expensive backfill problems", "Poor spoil placement that blocks the jobsite", "Ignoring utilities or access limits", "Leaving the next contractor with a messy hole"],
+    outcome: "A clean excavation to the right depth, with material handled and the next phase ready to move."
+  },
+  grading: {
+    eyebrow: "Water goes where you tell it to",
+    promise: "We shape yards, pads, and drive areas so they drain correctly, look right, and hold up through Cincinnati clay and heavy rain.",
+    proof: ["Drainage-first grades", "Cut/fill shaping", "Finish grading", "Topsoil readiness"],
+    bestFor: ["Yards holding water after rain", "New lawns, additions, and hardscape prep", "Sloped lots that need usable space", "Driveway, pad, and building prep"],
+    watchOuts: ["Flat yards that send water toward the house", "Pretty finish grading over bad subgrade", "Working wet clay at the wrong time", "No plan for where runoff exits the property"],
+    outcome: "A usable, better-draining surface that is ready for lawn, construction, gravel, or hardscape."
+  },
+  "land-clearing": {
+    eyebrow: "Reclaim the property without wrecking it",
+    promise: "We clear overgrowth, brush, small trees, and fence lines with equipment that leaves usable ground instead of a torn-up mess.",
+    proof: ["Forestry mulching", "Selective clearing", "Trail + fence-line work", "Low-haul debris handling"],
+    bestFor: ["Overgrown lots, acreage, and back property lines", "Fence rows, trails, and pasture edges", "Pre-build clearing before site prep", "Owners who want selective clearing, not a moonscape"],
+    watchOuts: ["Cut-and-leave piles that create a bigger cleanup problem", "Removing trees you meant to keep", "Rutting wet ground with the wrong machine", "Clearing without a plan for the final use"],
+    outcome: "Open, usable ground with the right trees preserved and brush reduced to manageable mulch."
+  },
+  demolition: {
+    eyebrow: "Remove the obstacle, clean up the mess",
+    promise: "Controlled demolition for sheds, garages, barns, concrete, patios, pools, and old structures that need to disappear before the next project starts.",
+    proof: ["Controlled teardown", "Concrete removal", "Sorting + hauling", "Clean site finish"],
+    bestFor: ["Old sheds, garages, barns, and outbuildings", "Concrete patios, driveways, pads, and foundations", "Pool removal and backyard resets", "Projects that need debris gone, not just knocked down"],
+    watchOuts: ["Hidden utilities and disconnected services", "Disposal costs that were not quoted honestly", "Leaving rebar, nails, concrete, or trash behind", "Demolishing without thinking about final grade"],
+    outcome: "The structure or concrete is gone, debris is handled, and the area is ready for what comes next."
+  },
+  drainage: {
+    eyebrow: "Fix the source, not just the puddle",
+    promise: "We diagnose where water is coming from, where it needs to go, and install drainage that works with the grade instead of fighting it.",
+    proof: ["French drains", "Swales + grading", "Downspout routing", "Erosion control"],
+    bestFor: ["Standing water in the yard", "Water pooling near the foundation", "Basement seepage or soggy low spots", "Runoff from neighbors, hillsides, or driveways"],
+    watchOuts: ["Installing pipe without correcting grade", "Sending water to a place it cannot legally or safely go", "Using the wrong stone, fabric, or outlet", "Treating symptoms while the source keeps flowing"],
+    outcome: "A drainage path that moves water away from structures and keeps the yard usable after rain."
+  },
+  trenching: {
+    eyebrow: "Straight, safe utility trenches",
+    promise: "Clean trenching for water, sewer, electric, gas, and communications lines with utility locates, correct depth, and proper backfill planning.",
+    proof: ["OUPS / 811 coordination", "Depth control", "Utility contractor handoff", "Backfill + restoration"],
+    bestFor: ["New utility runs to homes, barns, shops, or additions", "Water, sewer, electric, gas, conduit, and fiber trenches", "Long runs across acreage or driveways", "Projects involving plumbers, electricians, or utility contractors"],
+    watchOuts: ["Digging before utilities are marked", "Wrong trench depth or slope", "Backfill that settles later", "Poor access planning for long runs"],
+    outcome: "A trench that is ready for the utility contractor, then backfilled and restored cleanly."
+  },
+  driveway: {
+    eyebrow: "A driveway is only as good as the base",
+    promise: "We build gravel driveways, access roads, and turnarounds with the base, crown, and drainage needed to survive real weather and real traffic.",
+    proof: ["Subgrade prep", "Compacted base", "Drainage crown", "Culverts + turnarounds"],
+    bestFor: ["New gravel driveways and long access roads", "Washed-out or muddy existing drives", "Rural properties, barns, shops, and jobsite access", "Turnarounds, parking pads, and construction entrances"],
+    watchOuts: ["Thin gravel over mud", "No crown or ditch line", "Skipping geotextile where subgrade is weak", "Ignoring culverts and water crossings"],
+    outcome: "A cleaner, stronger access surface that drains instead of rutting, washing out, or turning to soup."
+  }
+};
+
+const enhancement = serviceEnhancements[service.slug];
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -83,12 +159,25 @@ const schema = {
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold uppercase text-white mb-4 drop-shadow-lg">
           {service.title}
         </h1>
-        <p class="text-lg text-gray-200 max-w-2xl drop-shadow">
-          {service.description}
+        {enhancement && <p class="kicker mb-3">{enhancement.eyebrow}</p>}
+        <p class="text-lg md:text-xl text-gray-200 max-w-3xl drop-shadow leading-relaxed">
+          {enhancement?.promise || service.description}
         </p>
-        <div class="mt-6">
+        {enhancement && (
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-7 max-w-4xl">
+            {enhancement.proof.map((item) => (
+              <div class="border border-white/15 bg-white/10 backdrop-blur-sm px-4 py-3 text-sm text-white font-semibold">
+                <span class="text-[#c4d931]">✓</span> {item}
+              </div>
+            ))}
+          </div>
+        )}
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
           <a href="/get-a-quote" class="btn-primary text-base">
             Get a Free Quote
+          </a>
+          <a href="tel:5139279675" class="btn-secondary text-base">
+            Call (513) 927-9675
           </a>
         </div>
       </div>
@@ -97,18 +186,71 @@ const schema = {
     <!-- Full Description -->
     <section class="py-20 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
-          <div class="prose prose-lg">
-            {service.fullDescription.map((paragraph) => (
-              <p class="text-gray-600 mb-6 text-lg leading-relaxed">{paragraph}</p>
-            ))}
+        <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-start">
+          <div>
+            <p class="kicker mb-4">Why it matters</p>
+            <div class="prose prose-lg prose-lite">
+              {service.fullDescription.map((paragraph) => (
+                <p class="text-gray-600 mb-6 text-lg leading-relaxed">{paragraph}</p>
+              ))}
+            </div>
           </div>
+          {enhancement && (
+            <aside class="card-dark p-8 sticky top-28">
+              <p class="kicker mb-3">The outcome</p>
+              <h2 class="text-3xl font-[Rajdhani] font-bold uppercase text-white mb-4">What good looks like</h2>
+              <p class="text-gray-300 text-lg leading-relaxed mb-6">{enhancement.outcome}</p>
+              <div class="border-t border-white/10 pt-6">
+                <p class="text-sm uppercase tracking-[0.22em] text-[#c4d931] font-bold mb-3">Fast quote checklist</p>
+                <ul class="space-y-2 text-gray-300 text-sm">
+                  <li>• Property address</li>
+                  <li>• Photos or rough dimensions</li>
+                  <li>• Desired final use</li>
+                  <li>• Access or obstacle notes</li>
+                </ul>
+              </div>
+              <a href="/get-a-quote" class="btn-primary w-full mt-7">Start the Quote</a>
+            </aside>
+          )}
         </div>
       </div>
     </section>
 
+    {enhancement && (
+      <section class="py-20 bg-[#f5f5f0] liteworks-grid-dark">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-2 gap-8">
+            <div class="card-light p-8 md:p-10">
+              <p class="kicker mb-3">Best fit</p>
+              <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#111111] mb-6">When this is the right move</h2>
+              <div class="space-y-4">
+                {enhancement.bestFor.map((item) => (
+                  <div class="flex gap-3">
+                    <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-1" />
+                    <p class="text-gray-700 leading-relaxed">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div class="bg-[#111111] text-white p-8 md:p-10 border border-black/10 shadow-2xl">
+              <p class="kicker mb-3">Watch-outs</p>
+              <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase mb-6">Where cheap work gets expensive</h2>
+              <div class="space-y-4">
+                {enhancement.watchOuts.map((item) => (
+                  <div class="flex gap-3">
+                    <span class="text-[#c4d931] font-bold mt-0.5">!</span>
+                    <p class="text-gray-300 leading-relaxed">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+
     <!-- What's Included -->
-    <section class="py-20 bg-[#f5f5f0]">
+    <section class="py-20 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
           What's Included
@@ -119,9 +261,9 @@ const schema = {
         
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
           {service.included.map((item) => (
-            <div class="flex items-start gap-3 bg-white p-4 rounded-sm">
+            <div class="flex items-start gap-3 card-light p-5 hover:-translate-y-1 transition-transform">
               <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-0.5" />
-              <span class="text-gray-700">{item}</span>
+              <span class="text-gray-700 font-medium">{item}</span>
             </div>
           ))}
         </div>
@@ -129,7 +271,7 @@ const schema = {
     </section>
 
     <!-- Our Process -->
-    <section class="py-20 bg-[#111111]">
+    <section class="py-20 bg-[#111111] liteworks-topo">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-white mb-4">
           Our Process
@@ -182,7 +324,7 @@ const schema = {
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-[#c4d931]">
+    <section class="py-20 bg-[#c4d931] liteworks-grid-dark">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6">
           Ready to Get Started?
@@ -191,10 +333,10 @@ const schema = {
           Let's discuss your {service.shortTitle.toLowerCase()} project. Get a free quote today.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#111111] text-white font-[Rajdhani] font-semibold text-lg rounded hover:bg-black transition">
+          <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#111111] text-white font-[Rajdhani] font-bold uppercase tracking-wide text-lg rounded-sm hover:bg-black transition">
             Get Your Free Quote
           </a>
-          <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-lg rounded hover:bg-[#111111] hover:text-white transition">
+          <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-bold uppercase tracking-wide text-lg rounded-sm hover:bg-[#111111] hover:text-white transition">
             Call (513) 927-9675
           </a>
         </div>
