@@ -174,6 +174,128 @@ const hasGallery = service.galleryImages && service.galleryImages.length > 0;
 const hasExpectations = service.expectations;
 const hasTestimonial = service.testimonial;
 const isExcavation = service.slug === 'excavation';
+const isPremiumResidential = true;
+
+const premiumCopyBySlug: Record<string, { fieldCopy: string; sidebar: string[]; finalVerb: string; quoteLabel: string }> = {
+  excavation: {
+    fieldCopy: 'The photos are not decoration. They should show clean access, clean edges, manageable spoil, and a site that still looks like someone cared about the property.',
+    sidebar: ['Access route and matting needs', 'Utility locate and keep-out zones', 'Spoil stockpile or haul-off plan', 'Depth, slope, and wall stability', 'Clean handoff to builder or pool crew'],
+    finalVerb: 'dig it right',
+    quoteLabel: 'Start My Excavation Quote'
+  },
+  'land-clearing': {
+    fieldCopy: 'Good clearing should look intentional: boundaries opened, usable ground exposed, debris handled, and keeper trees protected.',
+    sidebar: ['Boundary and keeper-tree plan', 'Brush processing and debris handling', 'Access route and rut prevention', 'Stump, grade, and cleanup expectations', 'Ready path for the next use'],
+    finalVerb: 'clear it right',
+    quoteLabel: 'Start My Land Clearing Quote'
+  },
+  demolition: {
+    fieldCopy: 'Demo proof is not just the thing coming down. It is the debris gone, hazards controlled, and the site ready afterward.',
+    sidebar: ['Utility disconnect and safety checks', 'Debris loading and disposal plan', 'Concrete, footer, or slab removal scope', 'Dust, access, and neighbor constraints', 'Final grade and clean handoff'],
+    finalVerb: 'take it down cleanly',
+    quoteLabel: 'Start My Demo Quote'
+  },
+  drainage: {
+    fieldCopy: 'Drainage work should show a clear water path: correct slope, clean outlets, protected soil, and no mystery wet spots left behind.',
+    sidebar: ['Source of water, not just symptom', 'Pipe slope and outlet path', 'Grade correction where needed', 'Stone, fabric, and backfill details', 'Foundation and yard protection'],
+    finalVerb: 'move water the right way',
+    quoteLabel: 'Start My Drainage Quote'
+  },
+  utilities: {
+    fieldCopy: 'Utility trenching should look straight, safe, properly staged, and ready for licensed trades to do their work without chaos.',
+    sidebar: ['811/OUPS locate coordination', 'Depth and trench path planning', 'Trade handoff requirements', 'Backfill and compaction expectations', 'Driveway/lawn restoration plan'],
+    finalVerb: 'trench it right',
+    quoteLabel: 'Start My Utility Quote'
+  },
+  driveways: {
+    fieldCopy: 'Driveway work should show structure under the surface: base, crown, drainage, compaction, and edges that do not wash out.',
+    sidebar: ['Subgrade and soft spot correction', 'Base stone depth and compaction', 'Crown, pitch, and drainage path', 'Culvert or ditch needs', 'Traffic and delivery requirements'],
+    finalVerb: 'build access that lasts',
+    quoteLabel: 'Start My Driveway Quote'
+  },
+  grading: {
+    fieldCopy: 'Good grading is visible after the rain: water moves where it should, surfaces are usable, and the next phase is easier.',
+    sidebar: ['High/low points and water flow', 'Cut, fill, and compaction needs', 'Tie-ins to existing grade', 'Seed, sod, gravel, or concrete prep', 'Drainage and erosion risk'],
+    finalVerb: 'shape the ground right',
+    quoteLabel: 'Start My Grading Quote'
+  },
+  'retaining-walls': {
+    fieldCopy: 'Retaining wall work should show the hidden structure: base, drainage, backfill, alignment, and a slope that finally behaves.',
+    sidebar: ['Wall height and surcharge loads', 'Base prep and buried block', 'Drainage stone and pipe', 'Geogrid or reinforcement needs', 'Finished grade and usable space'],
+    finalVerb: 'hold the grade right',
+    quoteLabel: 'Start My Wall Quote'
+  },
+  'pool-removal': {
+    fieldCopy: 'Pool removal should prove the yard was reclaimed properly: debris gone, drainage addressed, fill placed, and grade restored.',
+    sidebar: ['Partial vs full removal scope', 'Concrete and liner disposal', 'Drainage and weep holes', 'Backfill material and compaction', 'Final yard use after removal'],
+    finalVerb: 'get your yard back',
+    quoteLabel: 'Start My Pool Removal Quote'
+  },
+  pond: {
+    fieldCopy: 'Pond work should show planned shape, slopes, shelves, overflow, and a dig that belongs on the property.',
+    sidebar: ['Water source and runoff path', 'Clay, soil, and sealing conditions', 'Depth, shelves, and side slopes', 'Spoil placement and access', 'Overflow and maintenance planning'],
+    finalVerb: 'shape the water right',
+    quoteLabel: 'Start My Pond Quote'
+  },
+  'concrete-removal': {
+    fieldCopy: 'Concrete removal should leave a clean base for what comes next, not rebar, chunks, and a grade problem.',
+    sidebar: ['Concrete thickness and reinforcement', 'Break/load/haul disposal plan', 'Base and subgrade condition', 'Access for equipment and dumpsters', 'Ready state for replacement surface'],
+    finalVerb: 'remove it cleanly',
+    quoteLabel: 'Start My Concrete Removal Quote'
+  },
+  septic: {
+    fieldCopy: 'Septic excavation should look controlled because inspection, slope, soil, and backfill all matter.',
+    sidebar: ['Septic contractor coordination', 'Trench depth and layout', 'Soil and slope conditions', 'Inspection timing', 'Backfill and restoration plan'],
+    finalVerb: 'support the system right',
+    quoteLabel: 'Start My Septic Quote'
+  },
+  foundation: {
+    fieldCopy: 'Foundation work should look precise before concrete ever shows up: stable subgrade, clean dimensions, and controlled water.',
+    sidebar: ['Plan dimensions and elevations', 'Subgrade stability', 'Footer and wall access', 'Drainage and waterproofing coordination', 'Backfill sequence and compaction'],
+    finalVerb: 'start on solid ground',
+    quoteLabel: 'Start My Foundation Quote'
+  },
+  'lot-prep': {
+    fieldCopy: 'Lot prep should make the site easier for every crew after us: open access, clean staging, drainage, and organized ground.',
+    sidebar: ['Clearing and access plan', 'Drive/staging area needs', 'Drainage and rough grade', 'Debris and spoil management', 'Builder-ready handoff'],
+    finalVerb: 'prep the lot right',
+    quoteLabel: 'Start My Lot Prep Quote'
+  },
+  'snow-removal': {
+    fieldCopy: 'Snow removal proof is simple: safe access, smart pile placement, and no unnecessary damage waiting for spring.',
+    sidebar: ['Priority access areas', 'Push/pile locations', 'Gravel and surface protection', 'Storm response expectations', 'Ice and refreeze risk'],
+    finalVerb: 'keep access open',
+    quoteLabel: 'Start My Snow Plan'
+  },
+  'stump-removal': {
+    fieldCopy: 'Stump work should leave usable ground, not a shallow grind, mound of chips, or hidden trip hazard.',
+    sidebar: ['Stump size and root flare', 'Grind depth requirements', 'Chip handling and haul-off', 'Backfill and grade needs', 'Next use: lawn, gravel, or landscape'],
+    finalVerb: 'get the stump gone',
+    quoteLabel: 'Start My Stump Quote'
+  },
+  'erosion-control': {
+    fieldCopy: 'Erosion control should show slowed water, protected soil, and a path that survives the next hard rain.',
+    sidebar: ['Water source and flow speed', 'Slope stabilization needs', 'Rock, fabric, or drain path', 'Outlet and tie-in details', 'Long-term maintenance risk'],
+    finalVerb: 'stop losing ground',
+    quoteLabel: 'Start My Erosion Quote'
+  }
+};
+
+const premiumCopy = premiumCopyBySlug[service.slug] || {
+  fieldCopy: `Good ${service.shortTitle.toLowerCase()} work should look controlled, clean, and ready for the next phase.`,
+  sidebar: ['Access and staging plan', 'Drainage and grade details', 'Material handling', 'Cleanup expectations', 'Clean handoff'],
+  finalVerb: `handle ${service.shortTitle.toLowerCase()} right`,
+  quoteLabel: `Start My ${service.shortTitle} Quote`
+};
+
+const servicePathCards = (service.situations && service.situations.length ? service.situations : service.included.map((item) => ({ title: item, description: `Handled cleanly as part of a professional ${service.shortTitle.toLowerCase()} project.`, icon: 'wrench' }))).slice(0, 4).map((item, index) => ({
+  title: item.title,
+  copy: item.description,
+  image: service.galleryImages?.[index % service.galleryImages.length] || service.image,
+  stat: ['Access planned', 'Water managed', 'Site protected', 'Clean handoff'][index] || 'Done right'
+}));
+
+const serviceQuoteFactors = premiumCopy.sidebar;
 
 const excavationProjectTypes = [
   {
@@ -351,25 +473,25 @@ const excavationQuoteFactors = [
       </div>
     </section>
 
-    <!-- ═══════════ EXCAVATION FLAGSHIP SECTION ═══════════ -->
-    {isExcavation && (
+    <!-- ═══════════ SERVICE FLAGSHIP SECTION ═══════════ -->
+    {isPremiumResidential && (
       <>
         <section class="py-18 md:py-24 bg-white overflow-hidden">
           <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-[0.9fr_1.1fr] gap-10 items-end mb-12">
               <div>
-                <p class="kicker mb-3">Residential excavation paths</p>
+                <p class="kicker mb-3">Residential {service.shortTitle.toLowerCase()} paths</p>
                 <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none">
-                  Different dig. Same standard.
+                  Different problem. Same standard.
                 </h2>
               </div>
               <p class="text-lg text-gray-600 leading-relaxed max-w-2xl">
-                A pool dig, foundation dig, and pond dig all fail in different ways. We separate the work by outcome because homeowners are not buying “excavation.” They are buying the next phase going smoothly.
+                Homeowners are not buying “{service.shortTitle.toLowerCase()}.” They are buying a property that works better afterward. We separate the work by outcome so access, water, grade, cleanup, and the next phase are handled before equipment shows up.
               </p>
             </div>
 
             <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-5">
-              {excavationProjectTypes.map((item) => (
+              {servicePathCards.map((item) => (
                 <article class="group relative min-h-[410px] overflow-hidden bg-[#111111] border border-black/10 shadow-2xl">
                   <img src={item.image} alt={item.title} class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   <div class="absolute inset-0 bg-gradient-to-t from-[#111111] via-[#111111]/52 to-transparent"></div>
@@ -392,13 +514,13 @@ const excavationQuoteFactors = [
               <div>
                 <p class="kicker mb-3">The part homeowners do not see</p>
                 <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase leading-none mb-6">
-                  The dig is easy. The plan is where the money is.
+                  The machine is easy. The plan is where the money is.
                 </h2>
                 <p class="text-xl text-gray-300 leading-relaxed mb-8">
-                  Before a machine touches the yard, Liteworks is thinking through access, underground utilities, spoil placement, drainage, and how the site gets handed off. That is what keeps a one-day dig from becoming a two-week mess.
+                  Before work starts, Liteworks is thinking through access, utilities, drainage, materials, cleanup, and how the site gets handed off. That is what keeps a straightforward {service.shortTitle.toLowerCase()} project from becoming an expensive mess.
                 </p>
                 <div class="grid sm:grid-cols-2 gap-3">
-                  {excavationQuoteFactors.map((factor) => (
+                  {serviceQuoteFactors.map((factor) => (
                     <div class="flex items-start gap-3 border border-white/10 bg-white/5 p-4">
                       <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-0.5" />
                       <span class="text-gray-200 font-medium">{factor}</span>
@@ -408,7 +530,25 @@ const excavationQuoteFactors = [
               </div>
               <div class="relative">
                 <div class="absolute -inset-6 bg-[#c4d931]/20 blur-3xl"></div>
-                <img src="/images/residential/excavation-site-plan.svg" alt="Excavation planning diagram showing access, utility locate, excavation zone, drainage path, and spoil area" class="relative w-full border border-[#c4d931]/40 shadow-2xl" loading="lazy" />
+                {isExcavation ? (
+                  <img src="/images/residential/excavation-site-plan.svg" alt="Excavation planning diagram showing access, utility locate, excavation zone, drainage path, and spoil area" class="relative w-full border border-[#c4d931]/40 shadow-2xl" loading="lazy" />
+                ) : (
+                  <div class="relative bg-[#f5f5f0] text-[#111111] border border-[#c4d931]/40 shadow-2xl p-8 md:p-10 min-h-[430px] flex flex-col justify-between">
+                    <div>
+                      <p class="kicker mb-3">Site plan</p>
+                      <h3 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase leading-none mb-6">Every job has constraints.</h3>
+                      <div class="space-y-4">
+                        {serviceQuoteFactors.slice(0, 5).map((factor, i) => (
+                          <div class="flex items-center gap-4 border-b border-black/10 pb-4">
+                            <span class="w-10 h-10 bg-[#111111] text-[#c4d931] flex items-center justify-center font-[Rajdhani] font-bold">{String(i + 1).padStart(2, '0')}</span>
+                            <span class="font-semibold text-gray-800">{factor}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <p class="mt-8 text-gray-600 leading-relaxed">We price the work around the constraints, not a generic menu item.</p>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -420,20 +560,20 @@ const excavationQuoteFactors = [
               <div>
                 <p class="kicker mb-3">Before we quote it</p>
                 <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6">
-                  Send plans if you have them. If not, we will walk it.
+                  Send photos, plans, or the problem. We will find the constraints.
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                  The best excavation quote comes from knowing the constraints. For a foundation or pool, plans help. For a pond, tight backyard, or acreage project, the site visit matters more. Either way, the goal is a clear scope before equipment shows up.
+                  The best quote comes from knowing what can go wrong before work starts. For some projects, plans help. For others, photos and a site visit tell the real story. Either way, the goal is a clear scope before equipment shows up.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-3">
-                  <a href="/get-a-quote" class="btn-primary">Start My Excavation Quote →</a>
+                  <a href="/get-a-quote" class="btn-primary">{premiumCopy.quoteLabel} →</a>
                   <a href="tel:5139279675" class="btn-secondary">Call (513) 927-9675</a>
                 </div>
               </div>
               <div class="bg-[#111111] p-7 shadow-2xl">
                 <h3 class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-5">Good quote inputs</h3>
                 <ul class="space-y-4">
-                  {['Address and access photos', 'Plans, pool dig sheet, or rough dimensions', 'Where dirt can stay or whether it needs hauled', 'Any known utilities, septic, or drainage issues', 'Timeline for builders, pool crews, or concrete crews'].map((item) => (
+                  {['Address and access photos', 'What you want the property to do afterward', 'Any plans, dimensions, or known problem areas', 'Where material can stay or whether it needs hauled', 'Timeline for builders, trades, weather, or access needs'].map((item) => (
                     <li class="flex items-start gap-3 text-gray-200">
                       <span class="text-[#c4d931] font-bold">✓</span>
                       <span>{item}</span>
@@ -504,17 +644,17 @@ const excavationQuoteFactors = [
 
     <!-- ═══════════ PROJECT GALLERY ═══════════ -->
     {hasGallery && (
-      <section class={isExcavation ? "py-18 md:py-24 bg-[#111111] text-white liteworks-topo" : "py-16 md:py-20 bg-[#f5f5f0]"}>
+      <section class={isPremiumResidential ? "py-18 md:py-24 bg-[#111111] text-white liteworks-topo" : "py-16 md:py-20 bg-[#f5f5f0]"}>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          {isExcavation ? (
+          {isPremiumResidential ? (
             <div class="grid lg:grid-cols-[0.72fr_1.28fr] gap-10 items-start">
               <div class="lg:sticky lg:top-28">
                 <p class="kicker mb-3">Field proof</p>
                 <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase leading-none mb-5">
-                  Excavation work should look controlled.
+                  {service.shortTitle} work should look controlled.
                 </h2>
                 <p class="text-lg text-gray-300 leading-relaxed mb-6">
-                  The photos are not decoration. They should show clean access, clean edges, manageable spoil, and a site that still looks like someone cared about the property.
+                  {premiumCopy.fieldCopy}
                 </p>
                 <a href="/portfolio" class="inline-flex bg-[#c4d931] text-[#111111] px-6 py-4 font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-white transition">
                   View More Projects →
@@ -534,7 +674,7 @@ const excavationQuoteFactors = [
                       <span class="inline-block bg-[#c4d931] text-[#111111] px-3 py-1 font-[Rajdhani] font-bold uppercase text-sm mb-3">
                         Project {String(i + 1).padStart(2, '0')}
                       </span>
-                      <p class="text-white font-semibold">Clean excavation, controlled access, ready for the next phase.</p>
+                      <p class="text-white font-semibold">{service.shortTitle} handled cleanly, controlled, and ready for the next phase.</p>
                     </figcaption>
                   </figure>
                 ))}
@@ -572,31 +712,31 @@ const excavationQuoteFactors = [
     )}
 
     <!-- ═══════════ SEO CONTENT — Detailed service description ═══════════ -->
-    <section class={isExcavation ? "py-18 md:py-24 bg-white liteworks-grid-dark" : "py-16 md:py-24 bg-white"}>
+    <section class={isPremiumResidential ? "py-18 md:py-24 bg-white liteworks-grid-dark" : "py-16 md:py-24 bg-white"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto">
           <div class="grid md:grid-cols-3 gap-12">
             <!-- Main content column -->
             <div class="md:col-span-2">
-              {isExcavation && <p class="kicker mb-3">Cincinnati clay, tight yards, real constraints</p>}
-              <h2 class={isExcavation ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6"}>
-                {isExcavation ? 'Residential excavation that does not wreck the rest of the project.' : `${service.title} in Cincinnati`}
+              {isPremiumResidential && <p class="kicker mb-3">Cincinnati clay, tight yards, real constraints</p>}
+              <h2 class={isPremiumResidential ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6"}>
+                {isPremiumResidential ? `${service.title} that does not create the next problem.` : `${service.title} in Cincinnati`}
               </h2>
-              <div class={isExcavation ? "space-y-5 text-lg leading-relaxed text-gray-700" : "prose prose-lg max-w-none"}>
+              <div class={isPremiumResidential ? "space-y-5 text-lg leading-relaxed text-gray-700" : "prose prose-lg max-w-none"}>
                 {service.fullDescription.map((paragraph, index) => (
-                  <p class={isExcavation && index === 0 ? "text-xl text-[#111111] font-medium leading-relaxed" : "text-gray-600 mb-5 leading-relaxed"}>{paragraph}</p>
+                  <p class={isPremiumResidential && index === 0 ? "text-xl text-[#111111] font-medium leading-relaxed" : "text-gray-600 mb-5 leading-relaxed"}>{paragraph}</p>
                 ))}
               </div>
             </div>
             
             <!-- Sidebar — Why Liteworks -->
             <div class="md:col-span-1">
-              <div class={isExcavation ? "bg-[#111111] p-7 sticky top-24 shadow-2xl border border-[#c4d931]/30" : "bg-[#111111] rounded-sm p-7 sticky top-24 shadow-2xl border border-white/10"}>
+              <div class={isPremiumResidential ? "bg-[#111111] p-7 sticky top-24 shadow-2xl border border-[#c4d931]/30" : "bg-[#111111] rounded-sm p-7 sticky top-24 shadow-2xl border border-white/10"}>
                 <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-white mb-4">
-                  {isExcavation ? 'What we control before digging' : 'Why Choose Liteworks'}
+                  {isPremiumResidential ? 'What we control before starting' : 'Why Choose Liteworks'}
                 </h3>
                 <ul class="space-y-3">
-                  {(isExcavation ? ['Access route and matting needs', 'Utility locate and keep-out zones', 'Spoil stockpile or haul-off plan', 'Depth, slope, and wall stability', 'Clean handoff to builder or pool crew'] : ['Right-sized equipment for every project', "Experienced with Cincinnati's clay soils", 'Transparent, upfront pricing', 'Same-week scheduling available', 'Licensed, insured & OUPS compliant']).map((item) => (
+                  {(isPremiumResidential ? premiumCopy.sidebar : ['Right-sized equipment for every project', "Experienced with Cincinnati's clay soils", 'Transparent, upfront pricing', 'Same-week scheduling available', 'Licensed, insured & OUPS compliant']).map((item) => (
                     <li class="flex items-start gap-3">
                       <SituationIcon client:visible icon="wrench" size={18} className="text-[#c4d931] flex-shrink-0 mt-1" />
                       <span class="text-gray-300 text-sm">{item}</span>
@@ -604,7 +744,7 @@ const excavationQuoteFactors = [
                   ))}
                 </ul>
                 <a href="/get-a-quote" class="block mt-6 text-center bg-[#c4d931] text-[#1a1a1a] font-[Rajdhani] font-semibold py-3 rounded hover:bg-[#b5ca2d] transition">
-                  {isExcavation ? 'Quote My Dig' : 'Get a Free Quote'}
+                  {isPremiumResidential ? premiumCopy.quoteLabel : 'Get a Free Quote'}
                 </a>
               </div>
             </div>
@@ -615,14 +755,14 @@ const excavationQuoteFactors = [
 
     <!-- ═══════════ WHAT TO EXPECT ═══════════ -->
     {hasExpectations ? (
-      <section class={isExcavation ? "py-18 md:py-24 bg-[#f5f5f0]" : "py-16 md:py-20 bg-white"}>
+      <section class={isPremiumResidential ? "py-18 md:py-24 bg-[#f5f5f0]" : "py-16 md:py-20 bg-white"}>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          {isExcavation && <p class="kicker text-center mb-3">Numbers homeowners ask for</p>}
-          <h2 class={isExcavation ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-center text-[#111111] leading-none mb-12" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-12"}>
-            {isExcavation ? 'Timeline, cost, and what is included' : 'What to Expect'}
+          {isPremiumResidential && <p class="kicker text-center mb-3">Numbers homeowners ask for</p>}
+          <h2 class={isPremiumResidential ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-center text-[#111111] leading-none mb-12" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-12"}>
+            {isPremiumResidential ? 'Timeline, cost, and what is included' : 'What to Expect'}
           </h2>
           
-          {isExcavation ? (
+          {isPremiumResidential ? (
             <div class="max-w-6xl mx-auto grid lg:grid-cols-[0.78fr_1.22fr] gap-6 items-stretch">
               <div class="grid sm:grid-cols-2 lg:grid-cols-1 gap-6">
                 <AnimateOnScroll client:visible delay={0}>
@@ -645,7 +785,7 @@ const excavationQuoteFactors = [
                 <div class="h-full bg-white rounded-sm border border-black/10 p-8 md:p-10 shadow-2xl">
                   <div class="flex items-start justify-between gap-6 mb-7">
                     <div>
-                      <p class="kicker mb-2">Included in a clean dig</p>
+                      <p class="kicker mb-2">Included in clean work</p>
                       <h3 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none">The handoff checklist</h3>
                     </div>
                     <div class="hidden sm:flex w-16 h-16 bg-[#111111] items-center justify-center flex-shrink-0">
@@ -717,13 +857,13 @@ const excavationQuoteFactors = [
     )}
 
     <!-- ═══════════ OUR PROCESS ═══════════ -->
-    <section class={isExcavation ? "py-18 md:py-24 bg-[#111111] liteworks-topo" : "py-16 md:py-20 bg-[#111111]"}>
+    <section class={isPremiumResidential ? "py-18 md:py-24 bg-[#111111] liteworks-topo" : "py-16 md:py-20 bg-[#111111]"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-white mb-4">
-          {isExcavation ? 'How the dig actually happens' : 'Simple Process, Professional Results'}
+          {isPremiumResidential ? 'How the work actually happens' : 'Simple Process, Professional Results'}
         </h2>
         <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          {isExcavation ? 'From site walk to clean handoff, the process should feel boring in the best way.' : `How we approach every ${service.shortTitle.toLowerCase()} project`}
+          {isPremiumResidential ? 'From site walk to clean handoff, the process should feel boring in the best way.' : `How we approach every ${service.shortTitle.toLowerCase()} project`}
         </p>
         
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
@@ -755,20 +895,20 @@ const excavationQuoteFactors = [
 
     <!-- ═══════════ TESTIMONIAL ═══════════ -->
     {hasTestimonial && (
-      <section class={isExcavation ? "py-18 md:py-24 bg-[#111111] text-white" : "py-16 md:py-20 bg-[#f5f5f0]"}>
+      <section class={isPremiumResidential ? "py-18 md:py-24 bg-[#111111] text-white" : "py-16 md:py-20 bg-[#f5f5f0]"}>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div class={isExcavation ? "max-w-4xl mx-auto text-center border border-white/10 bg-white/5 p-8 md:p-12 shadow-2xl" : "max-w-3xl mx-auto text-center"}>
+          <div class={isPremiumResidential ? "max-w-4xl mx-auto text-center border border-white/10 bg-white/5 p-8 md:p-12 shadow-2xl" : "max-w-3xl mx-auto text-center"}>
             <div class="flex justify-center mb-4">
               {[1,2,3,4,5].map(() => (
                 <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
               ))}
             </div>
-            <blockquote class={isExcavation ? "text-2xl md:text-3xl text-white leading-relaxed italic mb-6" : "text-xl md:text-2xl text-gray-700 leading-relaxed italic mb-6"}>
+            <blockquote class={isPremiumResidential ? "text-2xl md:text-3xl text-white leading-relaxed italic mb-6" : "text-xl md:text-2xl text-gray-700 leading-relaxed italic mb-6"}>
               "{service.testimonial!.quote}"
             </blockquote>
             <div>
-              <p class={isExcavation ? "font-[Rajdhani] font-bold uppercase text-[#c4d931] text-lg" : "font-[Rajdhani] font-bold uppercase text-[#1a1a1a] text-lg"}>{service.testimonial!.name}</p>
-              <p class={isExcavation ? "text-gray-300 flex items-center justify-center gap-1" : "text-gray-500 flex items-center justify-center gap-1"}>
+              <p class={isPremiumResidential ? "font-[Rajdhani] font-bold uppercase text-[#c4d931] text-lg" : "font-[Rajdhani] font-bold uppercase text-[#1a1a1a] text-lg"}>{service.testimonial!.name}</p>
+              <p class={isPremiumResidential ? "text-gray-300 flex items-center justify-center gap-1" : "text-gray-500 flex items-center justify-center gap-1"}>
                 <MapPin className="w-4 h-4" />
                 {service.testimonial!.location} — {service.testimonial!.project}
               </p>
@@ -779,14 +919,14 @@ const excavationQuoteFactors = [
     )}
 
     <!-- ═══════════ FAQ ═══════════ -->
-    <section class={isExcavation ? "py-18 md:py-24 bg-white" : "py-16 md:py-20 bg-white"}>
+    <section class={isPremiumResidential ? "py-18 md:py-24 bg-white" : "py-16 md:py-20 bg-white"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        {isExcavation && <p class="kicker text-center mb-3">No surprises</p>}
-        <h2 class={isExcavation ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-center text-[#111111] leading-none mb-4" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4"}>
-          {isExcavation ? 'Excavation questions worth asking' : 'Common Questions'}
+        {isPremiumResidential && <p class="kicker text-center mb-3">No surprises</p>}
+        <h2 class={isPremiumResidential ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-center text-[#111111] leading-none mb-4" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4"}>
+          {isPremiumResidential ? `${service.shortTitle} questions worth asking` : 'Common Questions'}
         </h2>
         <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          {isExcavation ? 'The answers that separate a clean dig from an expensive mess.' : `Everything you need to know about our ${service.shortTitle.toLowerCase()} services`}
+          {isPremiumResidential ? 'The answers that separate clean work from an expensive mess.' : `Everything you need to know about our ${service.shortTitle.toLowerCase()} services`}
         </p>
         
         <div class="max-w-3xl mx-auto">
@@ -796,32 +936,32 @@ const excavationQuoteFactors = [
     </section>
 
     <!-- ═══════════ SERVICE AREA ═══════════ -->
-    <section class={isExcavation ? "py-12 bg-[#111111] text-white border-y border-white/10" : "py-10 bg-[#f5f5f0]"}>
+    <section class={isPremiumResidential ? "py-12 bg-[#111111] text-white border-y border-white/10" : "py-10 bg-[#f5f5f0]"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class={isExcavation ? "text-2xl font-[Rajdhani] font-bold uppercase text-center text-white mb-4" : "text-xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4"}>
+        <h2 class={isPremiumResidential ? "text-2xl font-[Rajdhani] font-bold uppercase text-center text-white mb-4" : "text-xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4"}>
           Serving Greater Cincinnati & Northern Kentucky
         </h2>
-        <p class={isExcavation ? "text-center text-gray-300 max-w-3xl mx-auto text-sm leading-relaxed" : "text-center text-gray-500 max-w-3xl mx-auto text-sm leading-relaxed"}>
+        <p class={isPremiumResidential ? "text-center text-gray-300 max-w-3xl mx-auto text-sm leading-relaxed" : "text-center text-gray-500 max-w-3xl mx-auto text-sm leading-relaxed"}>
           Loveland • Milford • Anderson Township • Mason • West Chester • Liberty Township • Lebanon • Indian Hill • Hyde Park • Madeira • Blue Ash • Montgomery • Batavia • Goshen • Bethel • Amelia • Florence, KY • Erlanger, KY • Burlington, KY
         </p>
       </div>
     </section>
 
     <!-- ═══════════ FINAL CTA ═══════════ -->
-    <section class={isExcavation ? "py-18 md:py-24 bg-[#c4d931] liteworks-grid-dark" : "py-16 md:py-20 bg-[#c4d931]"}>
+    <section class={isPremiumResidential ? "py-18 md:py-24 bg-[#c4d931] liteworks-grid-dark" : "py-16 md:py-20 bg-[#c4d931]"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-4">
-          {isExcavation ? 'Ready to dig it right?' : 'Ready to Get Started?'}
+          {isPremiumResidential ? `Ready to ${premiumCopy.finalVerb}?` : 'Ready to Get Started?'}
         </h2>
         <p class="text-xl text-[#1a1a1a]/80 mb-2 max-w-2xl mx-auto">
-          {isExcavation ? 'Tell us what you are building, installing, or trying to reclaim. We will help you figure out the cleanest way to excavate it.' : `Tell us about your ${service.shortTitle.toLowerCase()} project. Free quote within 24 hours.`}
+          {isPremiumResidential ? `Tell us what you are trying to fix, build, remove, or reclaim. We will help you figure out the cleanest way to handle the ${service.shortTitle.toLowerCase()} work.` : `Tell us about your ${service.shortTitle.toLowerCase()} project. Free quote within 24 hours.`}
         </p>
         <p class="text-[#1a1a1a]/60 mb-8">
           No obligation. No pressure. Just a straight answer.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
           <a href="/get-a-quote" class="inline-flex items-center justify-center px-10 py-5 bg-[#111111] text-white font-[Rajdhani] font-semibold text-xl rounded hover:bg-black transition">
-            {isExcavation ? 'Start My Excavation Quote' : 'Get Your Free Quote'}
+            {isPremiumResidential ? premiumCopy.quoteLabel : 'Get Your Free Quote'}
           </a>
           <a href="tel:5139279675" class="inline-flex items-center justify-center px-10 py-5 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-xl rounded hover:bg-[#111111] hover:text-white transition">
             <Phone className="w-5 h-5 mr-2" />
