@@ -504,82 +504,107 @@ const excavationQuoteFactors = [
 
     <!-- ═══════════ PROJECT GALLERY ═══════════ -->
     {hasGallery && (
-      <section class="py-16 md:py-20 bg-[#f5f5f0]">
+      <section class={isExcavation ? "py-18 md:py-24 bg-[#111111] text-white liteworks-topo" : "py-16 md:py-20 bg-[#f5f5f0]"}>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
-            Our {service.shortTitle} Work
-          </h2>
-          <p class="text-center text-gray-600 mb-10">
-            Recent projects across Greater Cincinnati
-          </p>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
-            {service.galleryImages!.map((img, i) => (
-              <div class="rounded-sm overflow-hidden aspect-[4/3]">
-                <img 
-                  src={img} 
-                  alt={`${service.shortTitle} project ${i + 1}`}
-                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
+          {isExcavation ? (
+            <div class="grid lg:grid-cols-[0.72fr_1.28fr] gap-10 items-start">
+              <div class="lg:sticky lg:top-28">
+                <p class="kicker mb-3">Field proof</p>
+                <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase leading-none mb-5">
+                  Excavation work should look controlled.
+                </h2>
+                <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                  The photos are not decoration. They should show clean access, clean edges, manageable spoil, and a site that still looks like someone cared about the property.
+                </p>
+                <a href="/portfolio" class="inline-flex bg-[#c4d931] text-[#111111] px-6 py-4 font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-white transition">
+                  View More Projects →
+                </a>
               </div>
-            ))}
-          </div>
-          <div class="text-center mt-8">
-            <a href="/portfolio" class="text-[#1a1a1a] font-[Rajdhani] font-semibold hover:text-[#c4d931] transition underline text-lg">
-              View All Projects →
-            </a>
-          </div>
+              <div class="grid sm:grid-cols-2 gap-5">
+                {service.galleryImages!.map((img, i) => (
+                  <figure class={i === 0 ? "sm:col-span-2 group relative min-h-[420px] overflow-hidden border border-white/10 bg-black" : "group relative min-h-[280px] overflow-hidden border border-white/10 bg-black"}>
+                    <img 
+                      src={img} 
+                      alt={`${service.shortTitle} project ${i + 1}`}
+                      class="absolute inset-0 w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-transparent"></div>
+                    <figcaption class="absolute bottom-0 left-0 right-0 p-5">
+                      <span class="inline-block bg-[#c4d931] text-[#111111] px-3 py-1 font-[Rajdhani] font-bold uppercase text-sm mb-3">
+                        Project {String(i + 1).padStart(2, '0')}
+                      </span>
+                      <p class="text-white font-semibold">Clean excavation, controlled access, ready for the next phase.</p>
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <>
+              <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
+                Our {service.shortTitle} Work
+              </h2>
+              <p class="text-center text-gray-600 mb-10">
+                Recent projects across Greater Cincinnati
+              </p>
+              <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+                {service.galleryImages!.map((img, i) => (
+                  <div class="rounded-sm overflow-hidden aspect-[4/3]">
+                    <img 
+                      src={img} 
+                      alt={`${service.shortTitle} project ${i + 1}`}
+                      class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
+              </div>
+              <div class="text-center mt-8">
+                <a href="/portfolio" class="text-[#1a1a1a] font-[Rajdhani] font-semibold hover:text-[#c4d931] transition underline text-lg">
+                  View All Projects →
+                </a>
+              </div>
+            </>
+          )}
         </div>
       </section>
     )}
 
     <!-- ═══════════ SEO CONTENT — Detailed service description ═══════════ -->
-    <section class="py-16 md:py-24 bg-white">
+    <section class={isExcavation ? "py-18 md:py-24 bg-white liteworks-grid-dark" : "py-16 md:py-24 bg-white"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto">
           <div class="grid md:grid-cols-3 gap-12">
             <!-- Main content column -->
             <div class="md:col-span-2">
-              <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6">
-                {service.title} in Cincinnati
+              {isExcavation && <p class="kicker mb-3">Cincinnati clay, tight yards, real constraints</p>}
+              <h2 class={isExcavation ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6"}>
+                {isExcavation ? 'Residential excavation that does not wreck the rest of the project.' : `${service.title} in Cincinnati`}
               </h2>
-              <div class="prose prose-lg max-w-none">
-                {service.fullDescription.map((paragraph) => (
-                  <p class="text-gray-600 mb-5 leading-relaxed">{paragraph}</p>
+              <div class={isExcavation ? "space-y-5 text-lg leading-relaxed text-gray-700" : "prose prose-lg max-w-none"}>
+                {service.fullDescription.map((paragraph, index) => (
+                  <p class={isExcavation && index === 0 ? "text-xl text-[#111111] font-medium leading-relaxed" : "text-gray-600 mb-5 leading-relaxed"}>{paragraph}</p>
                 ))}
               </div>
             </div>
             
             <!-- Sidebar — Why Liteworks -->
             <div class="md:col-span-1">
-              <div class="bg-[#111111] rounded-sm p-7 sticky top-24 shadow-2xl border border-white/10">
+              <div class={isExcavation ? "bg-[#111111] p-7 sticky top-24 shadow-2xl border border-[#c4d931]/30" : "bg-[#111111] rounded-sm p-7 sticky top-24 shadow-2xl border border-white/10"}>
                 <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-white mb-4">
-                  Why Choose Liteworks
+                  {isExcavation ? 'What we control before digging' : 'Why Choose Liteworks'}
                 </h3>
                 <ul class="space-y-3">
-                  <li class="flex items-start gap-3">
-                    <SituationIcon client:visible icon="wrench" size={18} className="text-[#c4d931] flex-shrink-0 mt-1" />
-                    <span class="text-gray-300 text-sm">Right-sized equipment for every project</span>
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <SituationIcon client:visible icon="home" size={18} className="text-[#c4d931] flex-shrink-0 mt-1" />
-                    <span class="text-gray-300 text-sm">Experienced with Cincinnati's clay soils</span>
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <SituationIcon client:visible icon="scale" size={18} className="text-[#c4d931] flex-shrink-0 mt-1" />
-                    <span class="text-gray-300 text-sm">Transparent, upfront pricing</span>
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <SituationIcon client:visible icon="zap" size={18} className="text-[#c4d931] flex-shrink-0 mt-1" />
-                    <span class="text-gray-300 text-sm">Same-week scheduling available</span>
-                  </li>
-                  <li class="flex items-start gap-3">
-                    <SituationIcon client:visible icon="hard-hat" size={18} className="text-[#c4d931] flex-shrink-0 mt-1" />
-                    <span class="text-gray-300 text-sm">Licensed, insured & OUPS compliant</span>
-                  </li>
+                  {(isExcavation ? ['Access route and matting needs', 'Utility locate and keep-out zones', 'Spoil stockpile or haul-off plan', 'Depth, slope, and wall stability', 'Clean handoff to builder or pool crew'] : ['Right-sized equipment for every project', "Experienced with Cincinnati's clay soils", 'Transparent, upfront pricing', 'Same-week scheduling available', 'Licensed, insured & OUPS compliant']).map((item) => (
+                    <li class="flex items-start gap-3">
+                      <SituationIcon client:visible icon="wrench" size={18} className="text-[#c4d931] flex-shrink-0 mt-1" />
+                      <span class="text-gray-300 text-sm">{item}</span>
+                    </li>
+                  ))}
                 </ul>
                 <a href="/get-a-quote" class="block mt-6 text-center bg-[#c4d931] text-[#1a1a1a] font-[Rajdhani] font-semibold py-3 rounded hover:bg-[#b5ca2d] transition">
-                  Get a Free Quote
+                  {isExcavation ? 'Quote My Dig' : 'Get a Free Quote'}
                 </a>
               </div>
             </div>
@@ -590,29 +615,30 @@ const excavationQuoteFactors = [
 
     <!-- ═══════════ WHAT TO EXPECT ═══════════ -->
     {hasExpectations ? (
-      <section class="py-16 md:py-20 bg-white">
+      <section class={isExcavation ? "py-18 md:py-24 bg-[#f5f5f0]" : "py-16 md:py-20 bg-white"}>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-12">
-            What to Expect
+          {isExcavation && <p class="kicker text-center mb-3">Numbers homeowners ask for</p>}
+          <h2 class={isExcavation ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-center text-[#111111] leading-none mb-12" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-12"}>
+            {isExcavation ? 'Timeline, cost, and what is included' : 'What to Expect'}
           </h2>
           
           <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <AnimateOnScroll client:visible delay={0}>
-              <div class="text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8">
+              <div class={isExcavation ? "text-center bg-white rounded-sm border border-black/10 p-8 shadow-xl" : "text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8"}>
                 <SituationIcon client:visible icon="wrench" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
                 <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Timeline</div>
                 <p class="text-gray-600">{service.expectations!.timeline}</p>
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll client:visible delay={0.1}>
-              <div class="text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8">
+              <div class={isExcavation ? "text-center bg-[#111111] text-white rounded-sm border border-black/10 p-8 shadow-xl" : "text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8"}>
                 <SituationIcon client:visible icon="scale" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
-                <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Typical Cost</div>
-                <p class="text-gray-600">{service.expectations!.priceRange}</p>
+                <div class={isExcavation ? "text-2xl font-[Rajdhani] font-bold uppercase text-white mb-1" : "text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1"}>Typical Cost</div>
+                <p class={isExcavation ? "text-gray-300" : "text-gray-600"}>{service.expectations!.priceRange}</p>
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll client:visible delay={0.2}>
-              <div class="text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8">
+              <div class={isExcavation ? "text-center bg-white rounded-sm border border-black/10 p-8 shadow-xl" : "text-center bg-[#f5f5f0] rounded-sm border border-black/10 p-8"}>
                 <SituationIcon client:visible icon="home" size={32} className="text-[#c4d931] mx-auto mb-3 flex justify-center" />
                 <div class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Included</div>
                 <ul class="text-gray-600 text-sm text-left space-y-1">
@@ -648,13 +674,13 @@ const excavationQuoteFactors = [
     )}
 
     <!-- ═══════════ OUR PROCESS ═══════════ -->
-    <section class="py-16 md:py-20 bg-[#111111]">
+    <section class={isExcavation ? "py-18 md:py-24 bg-[#111111] liteworks-topo" : "py-16 md:py-20 bg-[#111111]"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-white mb-4">
-          Simple Process, Professional Results
+          {isExcavation ? 'How the dig actually happens' : 'Simple Process, Professional Results'}
         </h2>
         <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          How we approach every {service.shortTitle.toLowerCase()} project
+          {isExcavation ? 'From site walk to clean handoff, the process should feel boring in the best way.' : `How we approach every ${service.shortTitle.toLowerCase()} project`}
         </p>
         
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
@@ -686,20 +712,20 @@ const excavationQuoteFactors = [
 
     <!-- ═══════════ TESTIMONIAL ═══════════ -->
     {hasTestimonial && (
-      <section class="py-16 md:py-20 bg-[#f5f5f0]">
+      <section class={isExcavation ? "py-18 md:py-24 bg-[#111111] text-white" : "py-16 md:py-20 bg-[#f5f5f0]"}>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="max-w-3xl mx-auto text-center">
+          <div class={isExcavation ? "max-w-4xl mx-auto text-center border border-white/10 bg-white/5 p-8 md:p-12 shadow-2xl" : "max-w-3xl mx-auto text-center"}>
             <div class="flex justify-center mb-4">
               {[1,2,3,4,5].map(() => (
                 <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
               ))}
             </div>
-            <blockquote class="text-xl md:text-2xl text-gray-700 leading-relaxed italic mb-6">
+            <blockquote class={isExcavation ? "text-2xl md:text-3xl text-white leading-relaxed italic mb-6" : "text-xl md:text-2xl text-gray-700 leading-relaxed italic mb-6"}>
               "{service.testimonial!.quote}"
             </blockquote>
             <div>
-              <p class="font-[Rajdhani] font-bold uppercase text-[#1a1a1a] text-lg">{service.testimonial!.name}</p>
-              <p class="text-gray-500 flex items-center justify-center gap-1">
+              <p class={isExcavation ? "font-[Rajdhani] font-bold uppercase text-[#c4d931] text-lg" : "font-[Rajdhani] font-bold uppercase text-[#1a1a1a] text-lg"}>{service.testimonial!.name}</p>
+              <p class={isExcavation ? "text-gray-300 flex items-center justify-center gap-1" : "text-gray-500 flex items-center justify-center gap-1"}>
                 <MapPin className="w-4 h-4" />
                 {service.testimonial!.location} — {service.testimonial!.project}
               </p>
@@ -710,13 +736,14 @@ const excavationQuoteFactors = [
     )}
 
     <!-- ═══════════ FAQ ═══════════ -->
-    <section class="py-16 md:py-20 bg-white">
+    <section class={isExcavation ? "py-18 md:py-24 bg-white" : "py-16 md:py-20 bg-white"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
-          Common Questions
+        {isExcavation && <p class="kicker text-center mb-3">No surprises</p>}
+        <h2 class={isExcavation ? "text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-center text-[#111111] leading-none mb-4" : "text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4"}>
+          {isExcavation ? 'Excavation questions worth asking' : 'Common Questions'}
         </h2>
         <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Everything you need to know about our {service.shortTitle.toLowerCase()} services
+          {isExcavation ? 'The answers that separate a clean dig from an expensive mess.' : `Everything you need to know about our ${service.shortTitle.toLowerCase()} services`}
         </p>
         
         <div class="max-w-3xl mx-auto">
@@ -726,32 +753,32 @@ const excavationQuoteFactors = [
     </section>
 
     <!-- ═══════════ SERVICE AREA ═══════════ -->
-    <section class="py-10 bg-[#f5f5f0]">
+    <section class={isExcavation ? "py-12 bg-[#111111] text-white border-y border-white/10" : "py-10 bg-[#f5f5f0]"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
+        <h2 class={isExcavation ? "text-2xl font-[Rajdhani] font-bold uppercase text-center text-white mb-4" : "text-xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4"}>
           Serving Greater Cincinnati & Northern Kentucky
         </h2>
-        <p class="text-center text-gray-500 max-w-3xl mx-auto text-sm leading-relaxed">
+        <p class={isExcavation ? "text-center text-gray-300 max-w-3xl mx-auto text-sm leading-relaxed" : "text-center text-gray-500 max-w-3xl mx-auto text-sm leading-relaxed"}>
           Loveland • Milford • Anderson Township • Mason • West Chester • Liberty Township • Lebanon • Indian Hill • Hyde Park • Madeira • Blue Ash • Montgomery • Batavia • Goshen • Bethel • Amelia • Florence, KY • Erlanger, KY • Burlington, KY
         </p>
       </div>
     </section>
 
     <!-- ═══════════ FINAL CTA ═══════════ -->
-    <section class="py-16 md:py-20 bg-[#c4d931]">
+    <section class={isExcavation ? "py-18 md:py-24 bg-[#c4d931] liteworks-grid-dark" : "py-16 md:py-20 bg-[#c4d931]"}>
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-4">
-          Ready to Get Started?
+          {isExcavation ? 'Ready to dig it right?' : 'Ready to Get Started?'}
         </h2>
         <p class="text-xl text-[#1a1a1a]/80 mb-2 max-w-2xl mx-auto">
-          Tell us about your {service.shortTitle.toLowerCase()} project. Free quote within 24 hours.
+          {isExcavation ? 'Tell us what you are building, installing, or trying to reclaim. We will help you figure out the cleanest way to excavate it.' : `Tell us about your ${service.shortTitle.toLowerCase()} project. Free quote within 24 hours.`}
         </p>
         <p class="text-[#1a1a1a]/60 mb-8">
           No obligation. No pressure. Just a straight answer.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
           <a href="/get-a-quote" class="inline-flex items-center justify-center px-10 py-5 bg-[#111111] text-white font-[Rajdhani] font-semibold text-xl rounded hover:bg-black transition">
-            Get Your Free Quote
+            {isExcavation ? 'Start My Excavation Quote' : 'Get Your Free Quote'}
           </a>
           <a href="tel:5139279675" class="inline-flex items-center justify-center px-10 py-5 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-xl rounded hover:bg-[#111111] hover:text-white transition">
             <Phone className="w-5 h-5 mr-2" />
