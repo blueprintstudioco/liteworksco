@@ -2,171 +2,311 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header';
 import Footer from '../components/Footer.astro';
-import { Star, MessageSquare, ExternalLink } from 'lucide-react';
+import { ArrowRight, CheckCircle, ExternalLink, MapPin, MessageSquare, Phone, Shield, Star } from 'lucide-react';
 
 const reviews = [
   {
-    name: "Kevin M.",
-    location: "Anderson Township, OH",
+    name: 'Kevin M.',
+    location: 'Anderson Township, OH',
     rating: 5,
-    date: "November 2024",
-    project: "Basement Excavation",
-    text: "We brought Liteworks in to excavate for a full basement addition on the back of our house in Anderson Township. Tight access, clay soil, and a neighbor's fence about six feet from the dig — the kind of job that makes a lot of contractors nervous. These guys showed up with the right machine, took their time along the property line, and nailed it. Our GC said it was one of the cleaner excavations he'd worked with. The addition is framed now. Couldn't be happier."
+    date: 'November 2024',
+    project: 'Basement Excavation',
+    pullQuote: 'Our GC said it was one of the cleaner excavations he had worked with.',
+    proof: 'Tight access, clay soil, neighbor fence nearby, clean basement dig.',
+    text: "We brought Liteworks in to excavate for a full basement addition on the back of our house in Anderson Township. Tight access, clay soil, and a neighbor's fence about six feet from the dig - the kind of job that makes a lot of contractors nervous. These guys showed up with the right machine, took their time along the property line, and nailed it. Our GC said it was one of the cleaner excavations he'd worked with. The addition is framed now. Couldn't be happier."
   },
   {
-    name: "Greg P.",
-    location: "Blue Ash, OH",
+    name: 'Greg P.',
+    location: 'Blue Ash, OH',
     rating: 5,
-    date: "September 2024",
-    project: "Commercial Site Excavation",
-    text: "I'm a GC and I've subbed Liteworks on two commercial projects now — most recently a new retail build off Kenwood Road. They coordinated directly with my super, hit their schedule, and the excavation came in clean to grade. No change orders, no surprises. That's all I ask for. Already have them penciled in for our next job in Mason."
+    date: 'September 2024',
+    project: 'Commercial Site Excavation',
+    pullQuote: 'No change orders, no surprises. That is all I ask for.',
+    proof: 'Coordinated with superintendent, hit schedule, clean to grade.',
+    text: "I'm a GC and I've subbed Liteworks on two commercial projects now, most recently a new retail build off Kenwood Road. They coordinated directly with my super, hit their schedule, and the excavation came in clean to grade. No change orders, no surprises. That's all I ask for. Already have them penciled in for our next job in Mason."
   },
   {
-    name: "Northstar Church — Facilities Team",
-    location: "West Chester Township, OH",
+    name: 'Northstar Church - Facilities Team',
+    location: 'West Chester Township, OH',
     rating: 5,
-    date: "August 2024",
-    project: "Parking Lot Expansion",
+    date: 'August 2024',
+    project: 'Parking Lot Expansion',
+    pullQuote: 'Professional from start to finish.',
+    proof: 'Clearing, rough grading, sub-base, and schedule coordination.',
     text: "We needed to expand our main parking lot before the fall program season and had a tight window to get it done. Liteworks handled the clearing, rough grading, and sub-base work for the new section. They worked around our weekend services without complaint and wrapped up the earthwork phase on time. Professional from start to finish. We'll be calling them again when we break ground on the new wing."
   },
   {
-    name: "Rachel & Tom F.",
-    location: "Milford, OH",
+    name: 'Rachel & Tom F.',
+    location: 'Milford, OH',
     rating: 5,
-    date: "June 2024",
-    project: "Land Clearing — New Home Build",
-    text: "We bought a wooded lot in Milford and needed it cleared and rough-graded before our builder could start. The property was steep in the back with a lot of mature trees and thick underbrush — not a light job. Liteworks walked it with us, gave us a fair quote, and had a crew out within two weeks. By the time they were done, our builder actually commented on how well the site was prepped. We're framing now. Highly recommend."
+    date: 'June 2024',
+    project: 'Land Clearing - New Home Build',
+    pullQuote: 'Our builder commented on how well the site was prepped.',
+    proof: 'Steep wooded lot, mature tree protection, build-ready finish.',
+    text: "We bought a wooded lot in Milford and needed it cleared and rough-graded before our builder could start. The property was steep in the back with a lot of mature trees and thick underbrush, not a light job. Liteworks walked it with us, gave us a fair quote, and had a crew out within two weeks. By the time they were done, our builder actually commented on how well the site was prepped. We're framing now. Highly recommend."
   },
   {
-    name: "Dana W.",
-    location: "Loveland, OH",
+    name: 'Dana W.',
+    location: 'Loveland, OH',
     rating: 5,
-    date: "May 2024",
-    project: "Structure Demolition",
-    text: "Managed a commercial property in Loveland with an old warehouse structure that needed to come down — asbestos already abated, just needed the shell demolished and the slab broken up. Liteworks gave me a clear scope, stuck to the timeline, and hauled everything off clean. The pad is ready for the next tenant's build-out. Exactly what I needed, no hassle."
+    date: 'May 2024',
+    project: 'Structure Demolition',
+    pullQuote: 'Exactly what I needed, no hassle.',
+    proof: 'Clear scope, timeline held, demolition debris hauled off clean.',
+    text: "Managed a commercial property in Loveland with an old warehouse structure that needed to come down. Asbestos already abated, just needed the shell demolished and the slab broken up. Liteworks gave me a clear scope, stuck to the timeline, and hauled everything off clean. The pad is ready for the next tenant's build-out. Exactly what I needed, no hassle."
   },
   {
-    name: "Brian S.",
-    location: "West Chester, OH",
+    name: 'Brian S.',
+    location: 'West Chester, OH',
     rating: 5,
-    date: "April 2024",
-    project: "Drainage — French Drain System",
-    text: "We had a serious water problem in the lower corner of our backyard — standing water for days after any decent rain. I'd had two other companies tell me it would just 'always be wet back there.' Liteworks actually looked at the grade, figured out where the water was coming from, and designed a French drain system that redirected it properly. They were in and out in a day and a half, restored the lawn grade, and you'd barely know they were there. First heavy rain came through and the yard drained completely. Finally."
+    date: 'April 2024',
+    project: 'Drainage - French Drain System',
+    pullQuote: 'First heavy rain came through and the yard drained completely.',
+    proof: 'Water source diagnosed, French drain installed, grade restored.',
+    text: "We had a serious water problem in the lower corner of our backyard, standing water for days after any decent rain. I'd had two other companies tell me it would just 'always be wet back there.' Liteworks actually looked at the grade, figured out where the water was coming from, and designed a French drain system that redirected it properly. They were in and out in a day and a half, restored the lawn grade, and you'd barely know they were there. First heavy rain came through and the yard drained completely. Finally."
   }
+];
+
+const proofStats = [
+  { value: '5.0', label: 'average rating' },
+  { value: '50+', label: '5-star reviews' },
+  { value: '150+', label: 'projects completed' },
+  { value: '10+', label: 'years around equipment' }
+];
+
+const trustSignals = [
+  'Clean handoffs other contractors can build from',
+  'Clear communication before equipment hits the property',
+  'Respect for access, neighbors, fences, turf, and utilities',
+  'Problem-solving when water, slope, clay, or tight access complicate the job'
 ];
 ---
 
 <Layout 
   title="Reviews | Liteworks Co. | Cincinnati Excavation & Sitework"
-  description="Read reviews from Liteworks Co. customers. See why Greater Cincinnati trusts us for excavation, land clearing, and sitework projects."
+  description="Read Liteworks Co. reviews from excavation, drainage, land clearing, demolition, and sitework customers across Greater Cincinnati."
 >
   <Header client:load />
   
-  <main class="pt-20">
-    <!-- Hero Section -->
-    <section class="py-16 bg-[#111111]">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold uppercase text-white mb-4">
-          Customer <span class="text-[#c4d931]">Reviews</span>
-        </h1>
-        <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-          See what our customers are saying about working with Liteworks Co.
-        </p>
+  <main class="pt-20 bg-[#f5f5f0]">
+    <!-- Hero -->
+    <section class="relative min-h-[74vh] bg-[#111111] text-white overflow-hidden flex items-center">
+      <div class="absolute inset-0">
+        <img src="/images/portfolio/drainage-after-1.png" alt="Finished Liteworks drainage and sitework project" class="w-full h-full object-cover opacity-38" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#111111] via-[#111111]/86 to-[#111111]/35"></div>
+        <div class="absolute inset-0 liteworks-grid opacity-70"></div>
       </div>
-    </section>
 
-    <!-- Overall Rating Banner -->
-    <section class="py-12 bg-[#f5f5f0]">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-6 text-center">
+      <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div class="grid lg:grid-cols-[1.05fr_0.95fr] gap-12 items-end">
           <div>
-            <div class="text-6xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a]">5.0</div>
-            <div class="flex items-center justify-center gap-1 mt-1">
-              {[1, 2, 3, 4, 5].map(() => (
-                <Star className="w-5 h-5 text-[#c4d931] fill-current" />
+            <div class="flex items-center gap-3 mb-5">
+              <div class="flex text-yellow-400">
+                {[1,2,3,4,5].map(() => <Star className="w-5 h-5 fill-current" />)}
+              </div>
+              <span class="text-gray-300 text-sm font-medium">5.0 from 50+ reviews</span>
+            </div>
+            <p class="kicker mb-4">Liteworks customer reviews</p>
+            <h1 class="text-6xl md:text-8xl lg:text-9xl font-[Rajdhani] font-bold uppercase leading-[0.85] tracking-tight mb-7">
+              Trust Is<br /><span class="text-[#c4d931]">Earned Dirt First.</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 max-w-3xl leading-relaxed mb-8">
+              Homeowners, builders, churches, and property managers call Liteworks when the ground problem has to be handled cleanly, clearly, and without surprises.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/get-a-quote" class="btn-primary text-base">Get a Quote <ArrowRight className="w-5 h-5 ml-2" /></a>
+              <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white font-[Rajdhani] font-semibold uppercase tracking-wide hover:border-[#c4d931] hover:text-[#c4d931] transition">
+                <Phone className="w-5 h-5 mr-2" /> (513) 927-9675
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-white/8 backdrop-blur border border-white/15 p-6 md:p-8 shadow-2xl">
+            <p class="text-[#c4d931] font-[Rajdhani] font-bold uppercase tracking-widest text-sm mb-4">What the reviews prove</p>
+            <p class="text-2xl md:text-3xl font-[Rajdhani] font-bold uppercase leading-tight mb-5">
+              The pattern matters more than the stars.
+            </p>
+            <div class="space-y-4">
+              {trustSignals.map((item) => (
+                <div class="flex items-start gap-3 text-gray-200">
+                  <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-0.5" />
+                  <span>{item}</span>
+                </div>
               ))}
             </div>
-            <p class="text-gray-500 text-sm mt-1">Average Rating</p>
-          </div>
-          <div class="hidden sm:block w-px h-16 bg-gray-300"></div>
-          <div>
-            <div class="text-6xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a]">150+</div>
-            <p class="text-gray-500 text-sm mt-1">Projects Completed</p>
-          </div>
-          <div class="hidden sm:block w-px h-16 bg-gray-300"></div>
-          <div>
-            <div class="text-6xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a]">100%</div>
-            <p class="text-gray-500 text-sm mt-1">Client Satisfaction</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Reviews Grid -->
-    <section class="py-20 bg-white">
+    <!-- Proof Stats -->
+    <section class="bg-[#111111] border-y border-white/10 py-8">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {reviews.map((review) => (
-            <div class="bg-[#f5f5f0] rounded-sm border border-black/10 p-6 flex flex-col">
-              <div class="flex items-center gap-1 mb-3">
-                {Array.from({ length: review.rating }).map(() => (
-                  <Star className="w-4 h-4 text-[#c4d931] fill-current" />
-                ))}
-                {Array.from({ length: 5 - review.rating }).map(() => (
-                  <Star className="w-4 h-4 text-gray-300 fill-current" />
-                ))}
-              </div>
-              <p class="text-gray-700 mb-4 flex-1">"{review.text}"</p>
-              <div class="border-t border-gray-200 pt-4 mt-auto">
-                <p class="font-[Rajdhani] font-bold uppercase text-[#1a1a1a]">{review.name}</p>
-                <p class="text-sm text-gray-500">{review.location}</p>
-                {review.date && <p class="text-xs text-gray-400 mt-0.5">{review.date}</p>}
-                <span class="inline-block mt-2 text-xs bg-[#c4d931] text-[#1a1a1a] font-semibold px-2 py-0.5 rounded">{review.project}</span>
-              </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          {proofStats.map((stat) => (
+            <div class="border border-white/10 bg-white/5 p-5 text-center">
+              <div class="text-4xl md:text-5xl font-[Rajdhani] font-bold text-[#c4d931] leading-none">{stat.value}</div>
+              <p class="text-gray-300 text-sm mt-2 uppercase tracking-wide">{stat.label}</p>
             </div>
           ))}
         </div>
+      </div>
+    </section>
 
-        <!-- Google CTA -->
-        <div class="mt-16 max-w-2xl mx-auto text-center bg-[#111111] rounded-sm p-8">
-          <div class="w-14 h-14 rounded-full bg-[#c4d931] flex items-center justify-center mx-auto mb-4">
-            <MessageSquare className="w-7 h-7 text-[#1a1a1a]" />
+    <!-- Review Feature -->
+    <section class="py-18 md:py-24 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[0.85fr_1.15fr] gap-10 items-end mb-14">
+          <div>
+            <p class="kicker mb-3">Proof from the field</p>
+            <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none">
+              What people say after the machine leaves.
+            </h2>
           </div>
-          <h3 class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-3">
-            Worked With Us? Leave a Review!
-          </h3>
-          <p class="text-gray-400 mb-6">
-            Your feedback helps other Greater Cincinnati homeowners find a contractor they can trust. It takes less than 2 minutes on Google.
+          <p class="text-lg text-gray-600 leading-relaxed max-w-3xl">
+            Good sitework does not just look better. It makes the next phase easier. These reviews are about clean digs, dry yards, ready pads, protected property, and fewer headaches for everyone involved.
           </p>
-          <a
-            href="https://g.page/r/liteworksco/review"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 px-8 py-4 bg-[#c4d931] text-[#1a1a1a] font-[Rajdhani] font-semibold text-lg rounded hover:bg-[#d4e941] transition"
-          >
-            Leave Us a Review on Google
-            <ExternalLink className="w-5 h-5" />
+        </div>
+
+        <div class="grid lg:grid-cols-[1.15fr_0.85fr] gap-6 max-w-7xl mx-auto mb-16">
+          <article class="relative bg-[#111111] text-white p-7 md:p-10 overflow-hidden shadow-2xl liteworks-grid">
+            <div class="absolute top-0 right-0 text-[16rem] font-[Rajdhani] font-bold text-white/5 leading-none">“</div>
+            <div class="relative z-10">
+              <div class="flex items-center gap-1 mb-6">
+                {[1,2,3,4,5].map(() => <Star className="w-5 h-5 text-yellow-400 fill-current" />)}
+              </div>
+              <p class="text-3xl md:text-5xl font-[Rajdhani] font-bold uppercase leading-tight mb-8">
+                “{reviews[0].pullQuote}”
+              </p>
+              <p class="text-lg text-gray-300 leading-relaxed mb-8 max-w-3xl">{reviews[0].text}</p>
+              <div class="flex flex-wrap items-center gap-4 pt-6 border-t border-white/10">
+                <div>
+                  <p class="font-[Rajdhani] font-bold uppercase text-2xl">{reviews[0].name}</p>
+                  <p class="text-gray-400 flex items-center gap-1"><MapPin className="w-4 h-4 text-[#c4d931]" /> {reviews[0].location}</p>
+                </div>
+                <span class="bg-[#c4d931] text-[#111111] px-3 py-1 font-[Rajdhani] font-bold uppercase tracking-wide text-sm">{reviews[0].project}</span>
+              </div>
+            </div>
+          </article>
+
+          <aside class="bg-[#f5f5f0] border border-black/10 p-7 md:p-9 shadow-xl">
+            <p class="text-[#647000] font-[Rajdhani] font-bold uppercase tracking-widest text-sm mb-3">Why this one matters</p>
+            <h3 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-5">
+              It was not just excavation. It was risk control.
+            </h3>
+            <p class="text-gray-700 leading-relaxed mb-7">
+              Tight access, clay soil, a neighbor fence, and another contractor waiting on the result. That is where the right plan matters as much as the right machine.
+            </p>
+            <div class="space-y-3">
+              {['Property line protected', 'Foundation crew got a clean handoff', 'Site stayed controlled under tight conditions'].map((item) => (
+                <div class="flex items-center gap-3 bg-white border border-black/10 p-4">
+                  <Shield className="w-5 h-5 text-[#647000] flex-shrink-0" />
+                  <span class="text-gray-800 font-medium">{item}</span>
+                </div>
+              ))}
+            </div>
+          </aside>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-7xl mx-auto">
+          {reviews.slice(1).map((review) => (
+            <article class="group bg-[#f5f5f0] border border-black/10 p-6 md:p-7 flex flex-col hover:bg-[#111111] hover:text-white transition duration-300">
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="flex items-center gap-1">
+                  {Array.from({ length: review.rating }).map(() => (
+                    <Star className="w-4 h-4 text-yellow-400 fill-current" />
+                  ))}
+                </div>
+                <span class="text-xs font-[Rajdhani] font-bold uppercase tracking-widest text-[#647000] group-hover:text-[#c4d931]">{review.date}</span>
+              </div>
+              <p class="text-2xl font-[Rajdhani] font-bold uppercase leading-tight text-[#111111] group-hover:text-white mb-4">
+                “{review.pullQuote}”
+              </p>
+              <p class="text-gray-600 group-hover:text-gray-300 leading-relaxed mb-6 flex-1">{review.text}</p>
+              <div class="border-t border-black/10 group-hover:border-white/10 pt-5 mt-auto">
+                <p class="font-[Rajdhani] font-bold uppercase text-[#111111] group-hover:text-white text-xl">{review.name}</p>
+                <p class="text-sm text-gray-500 group-hover:text-gray-400 flex items-center gap-1 mt-1"><MapPin className="w-4 h-4" /> {review.location}</p>
+                <div class="mt-4 grid gap-2">
+                  <span class="inline-block w-fit bg-[#c4d931] text-[#111111] font-[Rajdhani] font-bold uppercase tracking-wide px-3 py-1 text-xs">{review.project}</span>
+                  <p class="text-sm text-gray-500 group-hover:text-gray-400">{review.proof}</p>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Pattern -->
+    <section class="py-18 md:py-24 bg-[#111111] text-white liteworks-topo">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[0.95fr_1.05fr] gap-12 items-center">
+          <div>
+            <p class="kicker mb-3">The pattern</p>
+            <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase leading-none mb-6">
+              Customers remember the parts that did not become problems.
+            </h2>
+            <p class="text-xl text-gray-300 leading-relaxed">
+              A dry yard after the first rain. A builder who can start framing. A pad ready for the next tenant. A schedule that did not blow up. That is the Liteworks difference.
+            </p>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-3">
+            {trustSignals.map((item, index) => (
+              <div class="border border-white/10 bg-white/5 p-5">
+                <span class="w-10 h-10 bg-[#c4d931] text-[#111111] flex items-center justify-center font-[Rajdhani] font-bold mb-5">{String(index + 1).padStart(2, '0')}</span>
+                <p class="text-lg font-medium text-gray-200">{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review CTA -->
+    <section class="py-18 md:py-24 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto bg-[#f5f5f0] border border-black/10 p-8 md:p-12 text-center shadow-xl">
+          <div class="w-16 h-16 bg-[#c4d931] text-[#111111] flex items-center justify-center mx-auto mb-6">
+            <MessageSquare className="w-8 h-8" />
+          </div>
+          <p class="kicker mb-3">Worked with Liteworks?</p>
+          <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-5">
+            Leave a review for the next homeowner.
+          </h2>
+          <p class="text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl mx-auto">
+            Your feedback helps people figure out who they can trust before there is a machine in the yard and a project on the line.
+          </p>
+          <a href="https://g.page/r/liteworksco/review" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 bg-[#111111] text-white font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-black transition">
+            Leave a Google Review <ExternalLink className="w-5 h-5 ml-2" />
           </a>
         </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-16 bg-[#c4d931]">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6">
-          Ready to Experience the Liteworks Difference?
-        </h2>
-        <p class="text-lg text-[#1a1a1a]/80 mb-8 max-w-2xl mx-auto">
-          Join our growing list of satisfied customers. Get your free quote today.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#111111] text-white font-[Rajdhani] font-semibold text-lg rounded hover:bg-black transition">
-            Get Your Free Quote
-          </a>
-          <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-[#1a1a1a] text-[#1a1a1a] font-[Rajdhani] font-semibold text-lg rounded hover:bg-[#111111] hover:text-white transition">
-            Call (513) 927-9675
-          </a>
+    <!-- Final CTA -->
+    <section class="py-18 md:py-24 bg-[#c4d931] liteworks-grid-dark">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[1fr_0.8fr] gap-10 items-center">
+          <div>
+            <p class="font-[Rajdhani] font-bold uppercase tracking-widest text-[#111111]/70 mb-3">Your project next</p>
+            <h2 class="text-5xl md:text-7xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-5">
+              Get the kind of sitework people recommend.
+            </h2>
+            <p class="text-xl text-[#111111]/75 max-w-2xl leading-relaxed">
+              Tell us what needs fixed, cleared, dug, drained, removed, or made ready. We will give you a clear next step.
+            </p>
+          </div>
+          <div class="bg-[#111111] text-white p-7 md:p-8 shadow-2xl">
+            <p class="text-2xl font-[Rajdhani] font-bold uppercase mb-5">Free quote. Straight answer. Clean handoff.</p>
+            <div class="flex flex-col gap-3">
+              <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#c4d931] text-[#111111] font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-white transition">
+                Get Your Free Quote <ArrowRight className="w-5 h-5 ml-2" />
+              </a>
+              <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/20 text-white font-[Rajdhani] font-bold uppercase tracking-wide hover:border-[#c4d931] hover:text-[#c4d931] transition">
+                <Phone className="w-5 h-5 mr-2" /> Call (513) 927-9675
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
