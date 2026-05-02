@@ -2,228 +2,281 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header';
 import Footer from '../components/Footer.astro';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { ArrowRight, CheckCircle, Clock, Mail, MapPin, Phone, Shield, Star, Upload } from 'lucide-react';
+
+const contactMethods = [
+  {
+    icon: Phone,
+    label: 'Call or text',
+    value: '(513) 927-9675',
+    href: 'tel:5139279675',
+    note: 'Fastest path for active projects, access questions, or site visit scheduling.'
+  },
+  {
+    icon: Mail,
+    label: 'Email',
+    value: 'team@liteworksco.com',
+    href: 'mailto:team@liteworksco.com',
+    note: 'Good for photos, drawings, addresses, and project notes.'
+  },
+  {
+    icon: MapPin,
+    label: 'Office',
+    value: 'Loveland, OH',
+    href: 'https://maps.google.com/?q=1481+SR+28+Suite+901+Loveland+OH+45140',
+    note: 'Serving Greater Cincinnati, Northern Kentucky, and Southeast Indiana.'
+  }
+];
+
+const quotePrep = [
+  'Project address and best contact info',
+  'What needs fixed, removed, cleared, dug, or made ready',
+  'A few photos or videos of the site if you have them',
+  'Any access limits, gates, slopes, utilities, or wet areas',
+  'What the site needs to be ready for next'
+];
+
+const responseSteps = [
+  {
+    title: 'Send the basics',
+    copy: 'Call, text, email, or use the quote form. Photos help, but a rough description is enough to start.'
+  },
+  {
+    title: 'We ask the site questions',
+    copy: 'Access, water, grade, utilities, spoil, debris, and finish condition matter more than a generic square-foot price.'
+  },
+  {
+    title: 'You get a clear next step',
+    copy: 'If it is straightforward, we can quote it. If it needs eyes on site, we will schedule the visit and tell you what to expect.'
+  }
+];
+
+const serviceAreas = [
+  'Hamilton County',
+  'Butler County',
+  'Warren County',
+  'Clermont County',
+  'Northern Kentucky',
+  'Southeast Indiana'
+];
 ---
 
 <Layout 
   title="Contact Us | Liteworks Co. | Cincinnati Excavation & Sitework"
-  description="Contact Liteworks Co. for excavation, land clearing, and sitework services in Greater Cincinnati. Call, email, or send us a message."
+  description="Contact Liteworks Co. for excavation, drainage, grading, land clearing, demolition, and residential sitework services in Greater Cincinnati."
 >
   <Header client:load />
   
-  <main class="pt-20">
-    <!-- Hero Section -->
-    <section class="page-hero py-20 md:py-28">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold uppercase text-white mb-4">
-          Contact <span class="text-[#c4d931]">Us</span>
-        </h1>
-        <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-          We'd love to hear from you. Reach out anytime.
-        </p>
+  <main class="pt-20 bg-[#f5f5f0]">
+    <!-- Hero -->
+    <section class="relative min-h-[74vh] bg-[#111111] text-white overflow-hidden flex items-center">
+      <div class="absolute inset-0">
+        <img src="/images/residential/excavation.png" alt="Liteworks residential excavation and sitework" class="w-full h-full object-cover opacity-40" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#111111] via-[#111111]/86 to-[#111111]/35"></div>
+        <div class="absolute inset-0 liteworks-grid opacity-70"></div>
+      </div>
+
+      <div class="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div class="grid lg:grid-cols-[1.05fr_0.95fr] gap-12 items-end">
+          <div>
+            <div class="flex items-center gap-3 mb-5">
+              <div class="flex text-yellow-400">
+                {[1,2,3,4,5].map(() => <Star className="w-5 h-5 fill-current" />)}
+              </div>
+              <span class="text-gray-300 text-sm font-medium">5.0 reputation built on clean work</span>
+            </div>
+            <p class="kicker mb-4">Contact Liteworks Co.</p>
+            <h1 class="text-6xl md:text-8xl lg:text-9xl font-[Rajdhani] font-bold uppercase leading-[0.85] tracking-tight mb-7">
+              Start With<br /><span class="text-[#c4d931]">The Site.</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 max-w-3xl leading-relaxed mb-8">
+              Tell us what is going wrong, what needs built next, or what the property needs to become. We will help you turn the messy ground problem into a clear plan.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/get-a-quote" class="btn-primary text-base">Get a Sitework Quote <ArrowRight className="w-5 h-5 ml-2" /></a>
+              <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white font-[Rajdhani] font-semibold uppercase tracking-wide hover:border-[#c4d931] hover:text-[#c4d931] transition">
+                <Phone className="w-5 h-5 mr-2" /> (513) 927-9675
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-white/8 backdrop-blur border border-white/15 p-6 md:p-8 shadow-2xl">
+            <p class="text-[#c4d931] font-[Rajdhani] font-bold uppercase tracking-widest text-sm mb-4">Fastest way to get a useful answer</p>
+            <p class="text-2xl md:text-3xl font-[Rajdhani] font-bold uppercase leading-tight mb-5">
+              Send the address, a few photos, and what you need the site ready for.
+            </p>
+            <div class="space-y-4">
+              {quotePrep.map((item) => (
+                <div class="flex items-start gap-3 text-gray-200">
+                  <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-0.5" />
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="py-16 bg-white">
+    <!-- Contact Methods -->
+    <section class="bg-[#111111] border-y border-white/10 py-8">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-12">
-          <!-- Contact Info -->
+        <div class="grid md:grid-cols-3 gap-4">
+          {contactMethods.map((method) => {
+            const Icon = method.icon;
+            return (
+              <a href={method.href} class="group border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition block">
+                <div class="w-12 h-12 bg-[#c4d931] text-[#111111] flex items-center justify-center mb-5 group-hover:scale-105 transition">
+                  <Icon className="w-6 h-6" />
+                </div>
+                <p class="font-[Rajdhani] font-bold uppercase tracking-widest text-[#c4d931] text-sm mb-1">{method.label}</p>
+                <p class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-3">{method.value}</p>
+                <p class="text-gray-400 leading-relaxed">{method.note}</p>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Contact / Conversion -->
+    <section class="py-18 md:py-24 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[0.92fr_1.08fr] gap-12 items-start">
           <div>
-            <h2 class="text-3xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-8">
-              Get in Touch
+            <p class="kicker mb-3">Before we quote it</p>
+            <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6">
+              A better conversation makes a cleaner job.
             </h2>
-            
-            <div class="space-y-8">
-              <div class="flex items-start gap-5">
-                <div class="w-14 h-14 rounded-full bg-[#c4d931] flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-6 h-6 text-[#1a1a1a]" />
+            <p class="text-xl text-gray-700 leading-relaxed mb-8">
+              Excavation, drainage, clearing, demolition, and site prep all look simple from the road. The expensive parts are usually hidden: access, utilities, wet ground, slope, spoil, and what has to happen after we leave.
+            </p>
+
+            <div class="space-y-5 mb-10">
+              {responseSteps.map((step, index) => (
+                <div class="flex gap-4 border-l-4 border-[#c4d931] bg-[#f5f5f0] p-5">
+                  <span class="w-10 h-10 bg-[#111111] text-[#c4d931] flex items-center justify-center font-[Rajdhani] font-bold flex-shrink-0">{String(index + 1).padStart(2, '0')}</span>
+                  <div>
+                    <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-[#111111] mb-1">{step.title}</h3>
+                    <p class="text-gray-600 leading-relaxed">{step.copy}</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Phone</h3>
-                  <a href="tel:5139279675" class="text-lg text-gray-600 hover:text-[#c4d931] transition">
-                    (513) 927-9675
-                  </a>
-                  <p class="text-gray-500 text-sm mt-1">Call or text anytime</p>
-                </div>
-              </div>
-              
-              <div class="flex items-start gap-5">
-                <div class="w-14 h-14 rounded-full bg-[#c4d931] flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-6 h-6 text-[#1a1a1a]" />
-                </div>
-                <div>
-                  <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Email</h3>
-                  <a href="mailto:team@liteworksco.com" class="text-lg text-gray-600 hover:text-[#c4d931] transition">
-                    team@liteworksco.com
-                  </a>
-                  <p class="text-gray-500 text-sm mt-1">We typically respond within 24 hours</p>
-                </div>
-              </div>
-              
-              <div class="flex items-start gap-5">
-                <div class="w-14 h-14 rounded-full bg-[#c4d931] flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-[#1a1a1a]" />
-                </div>
-                <div>
-                  <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Office</h3>
-                  <p class="text-lg text-gray-600">
-                    1481 SR 28, Suite 901<br />
-                    Loveland, OH 45140
-                  </p>
-                </div>
-              </div>
-              
-              <div class="flex items-start gap-5">
-                <div class="w-14 h-14 rounded-full bg-[#c4d931] flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-6 h-6 text-[#1a1a1a]" />
-                </div>
-                <div>
-                  <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-1">Hours</h3>
-                  <p class="text-lg text-gray-600">
-                    Monday - Friday: 7am - 6pm<br />
-                    Saturday: 8am - 4pm<br />
-                    Sunday: Closed
-                  </p>
-                </div>
-              </div>
+              ))}
             </div>
-            
-            <!-- Service Area -->
-            <div class="mt-12 p-6 bg-[#f5f5f0] rounded-sm border border-black/10">
-              <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-4">Service Area</h3>
-              <p class="text-gray-600 mb-4">
-                We proudly serve Greater Cincinnati and the surrounding areas:
-              </p>
-              <div class="grid grid-cols-2 gap-2 text-gray-600">
+
+            <div class="bg-[#111111] text-white p-7 md:p-8 liteworks-grid">
+              <p class="text-[#c4d931] font-[Rajdhani] font-bold uppercase tracking-widest text-sm mb-3">Office + hours</p>
+              <div class="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <strong class="text-[#1a1a1a]">Ohio</strong>
-                  <ul class="mt-1 space-y-1 text-sm">
-                    <li>Hamilton County</li>
-                    <li>Butler County</li>
-                    <li>Warren County</li>
-                    <li>Clermont County</li>
-                  </ul>
+                  <div class="flex items-center gap-2 mb-2">
+                    <MapPin className="w-5 h-5 text-[#c4d931]" />
+                    <h3 class="font-[Rajdhani] font-bold uppercase text-xl">Loveland Office</h3>
+                  </div>
+                  <p class="text-gray-300 leading-relaxed">1481 SR 28, Suite 901<br />Loveland, OH 45140</p>
                 </div>
                 <div>
-                  <strong class="text-[#1a1a1a]">Kentucky & Indiana</strong>
-                  <ul class="mt-1 space-y-1 text-sm">
-                    <li>Boone County, KY</li>
-                    <li>Kenton County, KY</li>
-                    <li>Campbell County, KY</li>
-                    <li>Southeast Indiana</li>
-                  </ul>
+                  <div class="flex items-center gap-2 mb-2">
+                    <Clock className="w-5 h-5 text-[#c4d931]" />
+                    <h3 class="font-[Rajdhani] font-bold uppercase text-xl">Working Hours</h3>
+                  </div>
+                  <p class="text-gray-300 leading-relaxed">Mon-Fri: 7am-6pm<br />Saturday: 8am-4pm<br />Sunday: Closed</p>
                 </div>
               </div>
             </div>
           </div>
-          
-          <!-- Contact Form -->
-          <div>
-            <div class="bg-[#f5f5f0] rounded-sm border border-black/10 p-8">
-              <h2 class="text-2xl font-[Rajdhani] font-bold uppercase text-[#1a1a1a] mb-6">
-                Send Us a Message
-              </h2>
-              
-              <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
-                <div class="grid md:grid-cols-2 gap-6">
-                  <!-- Name -->
-                  <div>
-                    <label for="name" class="block text-sm font-medium text-gray-700 mb-2">
-                      Your Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-[#c4d931] focus:border-[#c4d931] outline-none transition bg-white"
-                      placeholder="John Smith"
-                    />
-                  </div>
-                  
-                  <!-- Email -->
-                  <div>
-                    <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-[#c4d931] focus:border-[#c4d931] outline-none transition bg-white"
-                      placeholder="john@example.com"
-                    />
-                  </div>
+
+          <div class="lg:sticky lg:top-28">
+            <div class="bg-[#f5f5f0] border border-black/10 shadow-2xl p-6 md:p-8">
+              <div class="flex items-start gap-4 mb-7">
+                <div class="w-14 h-14 bg-[#c4d931] text-[#111111] flex items-center justify-center flex-shrink-0">
+                  <Upload className="w-7 h-7" />
                 </div>
-                
-                <!-- Phone -->
                 <div>
-                  <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-[#c4d931] focus:border-[#c4d931] outline-none transition bg-white"
-                    placeholder="(555) 123-4567"
-                  />
+                  <p class="font-[Rajdhani] font-bold uppercase tracking-widest text-[#647000] text-sm mb-1">Best next step</p>
+                  <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none">
+                    Use the quote form for project estimates.
+                  </h2>
                 </div>
-                
-                <!-- Subject -->
-                <div>
-                  <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">
-                    Subject *
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    required
-                    class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-[#c4d931] focus:border-[#c4d931] outline-none transition bg-white"
-                    placeholder="How can we help?"
-                  />
-                </div>
-                
-                <!-- Message -->
-                <div>
-                  <label for="message" class="block text-sm font-medium text-gray-700 mb-2">
-                    Message *
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    required
-                    rows="5"
-                    class="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-[#c4d931] focus:border-[#c4d931] outline-none transition resize-none bg-white"
-                    placeholder="Tell us more..."
-                  ></textarea>
-                </div>
-                
-                <!-- Submit Button -->
-                <div>
-                  <button
-                    type="submit"
-                    class="w-full bg-[#c4d931] text-[#1a1a1a] px-8 py-4 rounded-sm font-[Rajdhani] font-bold uppercase text-lg hover:bg-[#b5ca2d] transition"
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-            
-            <!-- Quick Quote CTA -->
-            <div class="mt-8 p-6 bg-[#111111] rounded-sm text-center">
-              <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-white mb-3">
-                Need a Quote?
-              </h3>
-              <p class="text-gray-400 mb-4">
-                For project estimates, use our dedicated quote form.
+              </div>
+
+              <p class="text-gray-700 leading-relaxed mb-7">
+                The dedicated quote form is better than a generic contact box because it collects the site details we actually need to price the work correctly.
               </p>
-              <a href="/get-a-quote" class="btn-primary inline-block">
-                Request a Quote
+
+              <div class="grid gap-3 mb-8">
+                {quotePrep.map((item) => (
+                  <div class="flex items-start gap-3 bg-white border border-black/10 p-4">
+                    <CheckCircle className="w-5 h-5 text-[#647000] flex-shrink-0 mt-0.5" />
+                    <span class="text-gray-700">{item}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div class="flex flex-col gap-3">
+                <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-5 bg-[#111111] text-white font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-black transition text-lg">
+                  Start My Quote <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
+                <a href="mailto:team@liteworksco.com?subject=Liteworks%20Project%20Question" class="inline-flex items-center justify-center px-8 py-4 border-2 border-[#111111] text-[#111111] font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-[#111111] hover:text-white transition">
+                  Email Project Details
+                </a>
+              </div>
+
+              <div class="mt-6 pt-6 border-t border-black/10 flex flex-wrap gap-4 text-sm text-gray-600">
+                <span class="flex items-center gap-1"><Shield className="w-4 h-4 text-[#647000]" /> Licensed & insured</span>
+                <span class="flex items-center gap-1"><Clock className="w-4 h-4 text-[#647000]" /> Clear next step</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Area -->
+    <section class="py-18 md:py-24 bg-[#111111] text-white liteworks-topo">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
+          <div>
+            <p class="kicker mb-3">Where we work</p>
+            <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase leading-none mb-6">
+              Greater Cincinnati sitework, without the runaround.
+            </h2>
+            <p class="text-xl text-gray-300 leading-relaxed">
+              We handle residential excavation, drainage, grading, land clearing, demolition, utilities, driveways, ponds, and prep work across Southwest Ohio, Northern Kentucky, and Southeast Indiana.
+            </p>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-3">
+            {serviceAreas.map((area) => (
+              <div class="border border-white/10 bg-white/5 p-5 flex items-center gap-3">
+                <MapPin className="w-5 h-5 text-[#c4d931] flex-shrink-0" />
+                <span class="text-lg font-medium">{area}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-18 md:py-24 bg-[#c4d931] liteworks-grid-dark">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[1fr_0.8fr] gap-10 items-center">
+          <div>
+            <p class="font-[Rajdhani] font-bold uppercase tracking-widest text-[#111111]/70 mb-3">Ready when you are</p>
+            <h2 class="text-5xl md:text-7xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-5">
+              Send the site. We will help make sense of it.
+            </h2>
+            <p class="text-xl text-[#111111]/75 max-w-2xl leading-relaxed">
+              Photos, address, rough scope, next phase. That is enough to start the conversation.
+            </p>
+          </div>
+          <div class="bg-[#111111] text-white p-7 md:p-8 shadow-2xl">
+            <p class="text-2xl font-[Rajdhani] font-bold uppercase mb-5">Get a quote or talk it through.</p>
+            <div class="flex flex-col gap-3">
+              <a href="/get-a-quote" class="inline-flex items-center justify-center px-8 py-4 bg-[#c4d931] text-[#111111] font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-white transition">
+                Get a Free Quote <ArrowRight className="w-5 h-5 ml-2" />
+              </a>
+              <a href="tel:5139279675" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/20 text-white font-[Rajdhani] font-bold uppercase tracking-wide hover:border-[#c4d931] hover:text-[#c4d931] transition">
+                <Phone className="w-5 h-5 mr-2" /> Call (513) 927-9675
               </a>
             </div>
           </div>
