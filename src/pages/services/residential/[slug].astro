@@ -173,6 +173,43 @@ const hasSituations = service.situations && service.situations.length > 0;
 const hasGallery = service.galleryImages && service.galleryImages.length > 0;
 const hasExpectations = service.expectations;
 const hasTestimonial = service.testimonial;
+const isExcavation = service.slug === 'excavation';
+
+const excavationProjectTypes = [
+  {
+    title: 'Foundation digs',
+    copy: 'Builder-ready excavation for new homes, additions, crawlspaces, and basement walls where depth and dimensions matter.',
+    image: '/images/gallery/residential/foundation-1.png',
+    stat: 'Exact depth'
+  },
+  {
+    title: 'Pool excavation',
+    copy: 'Clean access, spec-driven digging, and spoil planning so the pool crew is not fighting a rough hole.',
+    image: '/images/gallery/residential/excavation-1.png',
+    stat: 'Clean handoff'
+  },
+  {
+    title: 'Ponds & acreage',
+    copy: 'Shape, shelf, slope, and overflow planning for rural properties that need more than a hole in the ground.',
+    image: '/images/gallery/residential/pond-2.png',
+    stat: 'Water planned'
+  },
+  {
+    title: 'Tight-access yard work',
+    copy: 'Right-sized equipment, matting when needed, and a plan for protecting lawn, gates, drives, and neighbors.',
+    image: '/images/residential/excavation.png',
+    stat: 'Yard protected'
+  }
+];
+
+const excavationQuoteFactors = [
+  'Access width and equipment path',
+  'Dig depth, dimensions, and plan requirements',
+  'Clay, rock, moisture, and soil stability',
+  'Where excavated material goes',
+  'Utility locates and keep-out zones',
+  'Final grade and next-contractor handoff'
+];
 ---
 
 <Layout 
@@ -313,6 +350,102 @@ const hasTestimonial = service.testimonial;
         </div>
       </div>
     </section>
+
+    <!-- ═══════════ EXCAVATION FLAGSHIP SECTION ═══════════ -->
+    {isExcavation && (
+      <>
+        <section class="py-18 md:py-24 bg-white overflow-hidden">
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-[0.9fr_1.1fr] gap-10 items-end mb-12">
+              <div>
+                <p class="kicker mb-3">Residential excavation paths</p>
+                <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none">
+                  Different dig. Same standard.
+                </h2>
+              </div>
+              <p class="text-lg text-gray-600 leading-relaxed max-w-2xl">
+                A pool dig, foundation dig, and pond dig all fail in different ways. We separate the work by outcome because homeowners are not buying “excavation.” They are buying the next phase going smoothly.
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-5">
+              {excavationProjectTypes.map((item) => (
+                <article class="group relative min-h-[410px] overflow-hidden bg-[#111111] border border-black/10 shadow-2xl">
+                  <img src={item.image} alt={item.title} class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#111111] via-[#111111]/52 to-transparent"></div>
+                  <div class="absolute top-4 left-4 bg-[#c4d931] text-[#111111] px-3 py-2 font-[Rajdhani] font-bold uppercase tracking-wide text-sm">
+                    {item.stat}
+                  </div>
+                  <div class="relative z-10 h-full flex flex-col justify-end p-6">
+                    <h3 class="text-3xl font-[Rajdhani] font-bold uppercase text-white mb-3">{item.title}</h3>
+                    <p class="text-gray-200 leading-relaxed">{item.copy}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section class="py-18 md:py-24 bg-[#111111] text-white liteworks-grid overflow-hidden">
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <p class="kicker mb-3">The part homeowners do not see</p>
+                <h2 class="text-4xl md:text-6xl font-[Rajdhani] font-bold uppercase leading-none mb-6">
+                  The dig is easy. The plan is where the money is.
+                </h2>
+                <p class="text-xl text-gray-300 leading-relaxed mb-8">
+                  Before a machine touches the yard, Liteworks is thinking through access, underground utilities, spoil placement, drainage, and how the site gets handed off. That is what keeps a one-day dig from becoming a two-week mess.
+                </p>
+                <div class="grid sm:grid-cols-2 gap-3">
+                  {excavationQuoteFactors.map((factor) => (
+                    <div class="flex items-start gap-3 border border-white/10 bg-white/5 p-4">
+                      <CheckCircle className="w-5 h-5 text-[#c4d931] flex-shrink-0 mt-0.5" />
+                      <span class="text-gray-200 font-medium">{factor}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div class="relative">
+                <div class="absolute -inset-6 bg-[#c4d931]/20 blur-3xl"></div>
+                <img src="/images/residential/excavation-site-plan.svg" alt="Excavation planning diagram showing access, utility locate, excavation zone, drainage path, and spoil area" class="relative w-full border border-[#c4d931]/40 shadow-2xl" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-16 md:py-20 bg-[#f5f5f0]">
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-[1fr_0.8fr] gap-10 items-center">
+              <div>
+                <p class="kicker mb-3">Before we quote it</p>
+                <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase text-[#111111] leading-none mb-6">
+                  Send plans if you have them. If not, we will walk it.
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                  The best excavation quote comes from knowing the constraints. For a foundation or pool, plans help. For a pond, tight backyard, or acreage project, the site visit matters more. Either way, the goal is a clear scope before equipment shows up.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3">
+                  <a href="/get-a-quote" class="btn-primary">Start My Excavation Quote →</a>
+                  <a href="tel:5139279675" class="btn-secondary">Call (513) 927-9675</a>
+                </div>
+              </div>
+              <div class="bg-[#111111] p-7 shadow-2xl">
+                <h3 class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-5">Good quote inputs</h3>
+                <ul class="space-y-4">
+                  {['Address and access photos', 'Plans, pool dig sheet, or rough dimensions', 'Where dirt can stay or whether it needs hauled', 'Any known utilities, septic, or drainage issues', 'Timeline for builders, pool crews, or concrete crews'].map((item) => (
+                    <li class="flex items-start gap-3 text-gray-200">
+                      <span class="text-[#c4d931] font-bold">✓</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
+    )}
 
     <!-- ═══════════ COMMON SITUATIONS — "Is this right for you?" ═══════════ -->
     {hasSituations ? (
