@@ -31,6 +31,118 @@ const calculatorMap: Record<string, string> = {
 };
 const calculatorUrl = calculatorMap[service.slug];
 
+const residentialEnhancements: Record<string, { sharpAngle: string; costlyMistake: string; finishLine: string; homeownerWin: string }> = {
+  excavation: {
+    sharpAngle: "A clean dig is the difference between a smooth build and weeks of expensive rework.",
+    costlyMistake: "Overdigging, bad spoil placement, and sloppy access planning can make the foundation, pool, or pond crew fight the site before they even start.",
+    finishLine: "A precise hole, protected access, and a clean handoff to the next contractor.",
+    homeownerWin: "You know where the dirt goes, how long the job takes, and what the next crew is getting."
+  },
+  "land-clearing": {
+    sharpAngle: "Clearing should make the property more usable, not leave you with piles, ruts, and regret.",
+    costlyMistake: "Cheap clearing usually means cut brush, debris piles, damaged keeper trees, and a property that still needs a second cleanup pass.",
+    finishLine: "Open, walkable ground with brush processed, boundaries respected, and the good trees still standing.",
+    homeownerWin: "You get your property back without turning it into a construction dump."
+  },
+  demolition: {
+    sharpAngle: "Demo is not just knocking something down. The value is in making it disappear cleanly.",
+    costlyMistake: "Low-bid demo often leaves concrete chunks, nails, bad grade, disposal surprises, or utility issues for you to clean up later.",
+    finishLine: "The structure, concrete, or pool is gone, debris is hauled, and the site is usable again.",
+    homeownerWin: "One crew handles teardown, hauling, cleanup, and final grade."
+  },
+  drainage: {
+    sharpAngle: "Water problems do not get solved by guessing where to bury pipe.",
+    costlyMistake: "A French drain without a real outlet, wrong slope, or no grade correction just moves the wet spot somewhere else.",
+    finishLine: "Water has a path away from the house, out of the yard, and toward a legal outlet.",
+    homeownerWin: "You understand the source of the water before anyone starts digging."
+  },
+  utilities: {
+    sharpAngle: "Underground utility work needs clean trenching, correct depth, and careful backfill.",
+    costlyMistake: "Shallow lines, poor compaction, missed locates, or bad coordination with plumbers and electricians can create expensive failures later.",
+    finishLine: "A safe trench ready for the licensed utility contractor, then properly backfilled and restored.",
+    homeownerWin: "The job is coordinated, marked, dug, and closed without chaos in your yard."
+  },
+  driveways: {
+    sharpAngle: "A driveway fails from the bottom up, not the top down.",
+    costlyMistake: "Thin gravel over weak soil, no crown, no culverts, and poor drainage turn a new driveway into ruts and mud fast.",
+    finishLine: "A compacted base, shaped surface, and drainage that sheds water instead of holding it.",
+    homeownerWin: "You get access that works in rain, freeze-thaw, delivery traffic, and everyday use."
+  },
+  grading: {
+    sharpAngle: "The right grade makes the whole property work better.",
+    costlyMistake: "Pretty dirt work that ignores runoff can send water toward the house, create soggy spots, or ruin the next phase of work.",
+    finishLine: "A shaped surface that drains, supports the final use, and is ready for lawn, gravel, concrete, or construction.",
+    homeownerWin: "You get usable ground instead of a yard that fights every rainstorm."
+  },
+  "retaining-walls": {
+    sharpAngle: "A retaining wall is a drainage system with a face on it.",
+    costlyMistake: "Walls fail when contractors skip base prep, geogrid, backfill stone, and water relief behind the wall.",
+    finishLine: "A wall that holds grade, manages water, and creates usable space without leaning in three years.",
+    homeownerWin: "You get the structure behind the wall, not just blocks stacked in a line."
+  },
+  "pool-removal": {
+    sharpAngle: "Removing a pool is really a drainage, backfill, and compaction job.",
+    costlyMistake: "Bad pool fill can settle, hold water, or create a dangerous soft spot where the pool used to be.",
+    finishLine: "Pool gone, debris handled, fill placed properly, and the yard shaped for its next use.",
+    homeownerWin: "You reclaim the space without inheriting a sinking backyard."
+  },
+  pond: {
+    sharpAngle: "A good pond starts with the right shape, depth, outlet, and soil plan.",
+    costlyMistake: "Digging a hole without thinking about clay, slopes, spillways, or runoff creates a muddy basin instead of a pond.",
+    finishLine: "A pond excavation shaped for water, maintenance, and the property around it.",
+    homeownerWin: "You know what the pond will do before the machine starts digging."
+  },
+  "concrete-removal": {
+    sharpAngle: "Concrete removal should leave you ready for the next surface, not stuck with a busted-up mess.",
+    costlyMistake: "Leaving base issues, bad grade, rebar, or chunks behind makes the replacement driveway, patio, or slab harder and more expensive.",
+    finishLine: "Concrete broken, loaded, hauled, and the area cleaned up for what comes next.",
+    homeownerWin: "You are not renting a dumpster, fighting rubble, or wondering what is under the slab."
+  },
+  septic: {
+    sharpAngle: "Septic excavation has to respect slope, code, access, and soil conditions.",
+    costlyMistake: "Wrong trench depth, poor coordination, or careless backfill can create inspection issues and future system problems.",
+    finishLine: "Clean excavation support for the septic contractor, with safe access and proper restoration.",
+    homeownerWin: "The dirt work helps the system pass and perform, instead of becoming the bottleneck."
+  },
+  foundation: {
+    sharpAngle: "Foundation work rewards precision and punishes shortcuts.",
+    costlyMistake: "Bad depth, bad drainage, or unstable subgrade causes headaches for footers, walls, waterproofing, and backfill.",
+    finishLine: "A foundation area excavated, shaped, and prepared for the structure going on it.",
+    homeownerWin: "The most important part of the project starts on solid ground."
+  },
+  "lot-prep": {
+    sharpAngle: "A buildable lot is planned, cleared, graded, and accessible before the real work begins.",
+    costlyMistake: "Clearing without staging, access, drainage, or debris planning slows every contractor after us.",
+    finishLine: "A clean, accessible lot ready for builders, deliveries, and the next phase.",
+    homeownerWin: "Your project starts organized instead of stuck in mud and brush."
+  },
+  "snow-removal": {
+    sharpAngle: "Snow removal is about keeping access open without damaging the property underneath.",
+    costlyMistake: "Poor plow planning damages gravel, landscaping, curbs, and drainage features that cost money in spring.",
+    finishLine: "Clear, usable access with snow pushed where it belongs.",
+    homeownerWin: "Your drive, access road, or site stays functional when weather hits."
+  },
+  "stump-removal": {
+    sharpAngle: "A stump is not gone until the roots, grade, and cleanup are handled.",
+    costlyMistake: "Grinding too shallow or leaving chips and voids creates settlement, mower hazards, and another cleanup project.",
+    finishLine: "The stump is ground, chips handled, and the area ready for lawn, gravel, or landscaping.",
+    homeownerWin: "You get the space back without a leftover crater."
+  },
+  "erosion-control": {
+    sharpAngle: "Erosion control has to slow water down before it steals your yard.",
+    costlyMistake: "Throwing rock at the symptom without fixing flow path, slope, or outlet usually fails after the next hard rain.",
+    finishLine: "Water moves through a controlled path that protects soil, slopes, and structures.",
+    homeownerWin: "You stop losing ground every time it storms."
+  }
+};
+
+const residentialEnhancement = residentialEnhancements[service.slug] || {
+  sharpAngle: `Good ${service.shortTitle.toLowerCase()} work is about the final result, not just running equipment.`,
+  costlyMistake: "The cheap version usually skips access, drainage, cleanup, and the details that decide whether the project holds up.",
+  finishLine: `A clean ${service.shortTitle.toLowerCase()} project with the site ready for whatever comes next.`,
+  homeownerWin: "You get a clear plan, careful work, and fewer surprises."
+};
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -108,7 +220,8 @@ const hasTestimonial = service.testimonial;
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-[Rajdhani] font-bold uppercase text-white mb-4 drop-shadow-lg">
           {service.title}
         </h1>
-        <p class="text-lg text-gray-200 max-w-2xl drop-shadow">
+        <p class="kicker mb-3">{residentialEnhancement.sharpAngle}</p>
+        <p class="text-lg md:text-xl text-gray-200 max-w-3xl drop-shadow leading-relaxed">
           {service.description}
         </p>
         
@@ -152,11 +265,60 @@ const hasTestimonial = service.testimonial;
       </section>
     )}
 
+    <!-- ═══════════ STRONG CONVERSION POSITIONING ═══════════ -->
+    <section class="bg-[#111111] text-white py-16 md:py-20 liteworks-topo border-y border-white/10">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[0.85fr_1.15fr] gap-10 items-stretch">
+          <div class="border border-[#c4d931]/40 bg-[#c4d931] text-[#111111] p-8 md:p-10 flex flex-col justify-between">
+            <div>
+              <p class="text-sm uppercase tracking-[0.25em] font-bold mb-4">The Liteworks standard</p>
+              <h2 class="text-4xl md:text-5xl font-[Rajdhani] font-bold uppercase leading-none mb-5">
+                Not just dirt work. Outcome work.
+              </h2>
+              <p class="text-lg text-[#111111]/80 leading-relaxed">
+                {residentialEnhancement.homeownerWin}
+              </p>
+            </div>
+            <a href="/get-a-quote" class="mt-8 inline-flex justify-center bg-[#111111] text-white px-6 py-4 font-[Rajdhani] font-bold uppercase tracking-wide hover:bg-black transition">
+              Get a Site Visit
+            </a>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="card-dark p-7">
+              <p class="kicker mb-3">What goes wrong</p>
+              <h3 class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-4">Cheap work gets expensive fast</h3>
+              <p class="text-gray-300 leading-relaxed">{residentialEnhancement.costlyMistake}</p>
+            </div>
+            <div class="card-dark p-7">
+              <p class="kicker mb-3">What we leave behind</p>
+              <h3 class="text-2xl font-[Rajdhani] font-bold uppercase text-white mb-4">A site that is actually ready</h3>
+              <p class="text-gray-300 leading-relaxed">{residentialEnhancement.finishLine}</p>
+            </div>
+            <div class="md:col-span-2 grid sm:grid-cols-3 gap-4">
+              <div class="border border-white/10 bg-white/5 p-5">
+                <div class="text-3xl font-[Rajdhani] font-bold text-[#c4d931] mb-1">01</div>
+                <p class="font-semibold">Walk the site and find the constraint.</p>
+              </div>
+              <div class="border border-white/10 bg-white/5 p-5">
+                <div class="text-3xl font-[Rajdhani] font-bold text-[#c4d931] mb-1">02</div>
+                <p class="font-semibold">Plan access, water, spoil, and cleanup.</p>
+              </div>
+              <div class="border border-white/10 bg-white/5 p-5">
+                <div class="text-3xl font-[Rajdhani] font-bold text-[#c4d931] mb-1">03</div>
+                <p class="font-semibold">Do the work and leave it ready.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ═══════════ COMMON SITUATIONS — "Is this right for you?" ═══════════ -->
     {hasSituations ? (
-      <section class="py-16 md:py-20 bg-white">
+      <section class="py-16 md:py-20 bg-[#f5f5f0] liteworks-grid-dark">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 class="text-3xl md:text-4xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
+          <h2 class="text-3xl md:text-5xl font-[Rajdhani] font-bold uppercase text-center text-[#1a1a1a] mb-4">
             Sound Like Your Situation?
           </h2>
           <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -166,9 +328,11 @@ const hasTestimonial = service.testimonial;
           <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
             {service.situations!.map((situation, i) => (
               <AnimateOnScroll client:visible delay={i * 0.1}>
-                <div class="bg-[#f5f5f0] rounded-sm border border-black/10 p-6 border border-gray-100 h-full">
-                  <SituationIcon client:visible icon={situation.icon} size={32} className="text-[#c4d931] mb-3" />
-                  <h3 class="font-[Rajdhani] font-bold uppercase text-lg text-[#1a1a1a] mb-2">{situation.title}</h3>
+                <div class="bg-white rounded-sm border border-black/10 p-7 h-full shadow-xl hover:-translate-y-1 hover:shadow-2xl transition-all">
+                  <div class="w-14 h-14 bg-[#111111] flex items-center justify-center mb-4">
+                    <SituationIcon client:visible icon={situation.icon} size={30} className="text-[#c4d931]" />
+                  </div>
+                  <h3 class="font-[Rajdhani] font-bold uppercase text-xl text-[#1a1a1a] mb-3">{situation.title}</h3>
                   <p class="text-gray-600 text-sm leading-relaxed">{situation.description}</p>
                 </div>
               </AnimateOnScroll>
@@ -237,9 +401,9 @@ const hasTestimonial = service.testimonial;
     )}
 
     <!-- ═══════════ SEO CONTENT — Detailed service description ═══════════ -->
-    <section class="py-16 md:py-20 bg-white">
+    <section class="py-16 md:py-24 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-6xl mx-auto">
           <div class="grid md:grid-cols-3 gap-12">
             <!-- Main content column -->
             <div class="md:col-span-2">
@@ -255,7 +419,7 @@ const hasTestimonial = service.testimonial;
             
             <!-- Sidebar — Why Liteworks -->
             <div class="md:col-span-1">
-              <div class="bg-[#111111] rounded-sm p-6 sticky top-24">
+              <div class="bg-[#111111] rounded-sm p-7 sticky top-24 shadow-2xl border border-white/10">
                 <h3 class="text-xl font-[Rajdhani] font-bold uppercase text-white mb-4">
                   Why Choose Liteworks
                 </h3>
