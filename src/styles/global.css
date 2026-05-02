@@ -82,6 +82,45 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-secondary);
 }
 
+/* Visual texture utilities */
+.liteworks-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.liteworks-grid-dark {
+  background-image:
+    linear-gradient(rgba(0,0,0,0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.16) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.liteworks-topo {
+  background-image:
+    radial-gradient(ellipse at 20% 20%, rgba(196,217,49,0.18), transparent 32%),
+    radial-gradient(ellipse at 82% 60%, rgba(196,217,49,0.12), transparent 28%);
+}
+
+.video-rail {
+  scrollbar-width: thin;
+  scrollbar-color: #c4d931 #27272a;
+}
+
+.video-rail::-webkit-scrollbar {
+  height: 10px;
+}
+
+.video-rail::-webkit-scrollbar-track {
+  background: #27272a;
+}
+
+.video-rail::-webkit-scrollbar-thumb {
+  background: #c4d931;
+  border-radius: 999px;
+}
+
 /* Accordion styles */
 .accordion-content {
   max-height: 0;
